@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+
+  <p>
+    In this book, interactive code blocks are an intuitive way to introduce the matrix to readers. Part of the reason is because matrices are ubiquitous in programming and computer science, especially artificial intelligence (AI). Therefore, a basic understanding of matrices in programming specifically is an invaluable skill in today's world.
+  </p>
+
+  <p>
+    This appendix will introduce only the fundamental concepts of programming and try to make them <em>as simple as possible</em>. However, if you are interested in the vast world of programming, then the Internet is all that you need to start your adventure!
+  </p>
+
+  <p>
+    Concepts will be introduced in the following structure:
+    <ol>
+      <li>
+        <p>
+          Definition
+        </p>
+      </li>
+      <li>
+        <p>
+          Example code blocks
+        </p>
+      </li>
+      <li>
+        <p>
+          Explanations for examples
+        </p>
+      </li>
+    </ol>
+
+    <em>When running coding examples</em>, you should <term>simultaneously</term> read the corresponding explanations for the best learning experience.
+  </p>
+
+  <p>
+    The majority of concepts are presented with specific examples making it easier for beginners and, at the same time, reduce the contents of this appendix. Having finished it, you should be able to <em>understand</em> most interactive code blocks available in the book.
+  </p>
+
+  <p>
+    However, understand that you will likely <em>not</em> be able to write code from scratch, and you are not expected to. If that is your wish, then again, the Internet is the perfect place to begin.
+  </p>
+
+  <p>
+    Let's get started, shall we?
+  </p>
+
+</section>

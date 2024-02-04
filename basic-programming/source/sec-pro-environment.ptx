@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-pro-environment" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Our Programming Environment</title>
+
+  <objectives>
+    <ol>
+      <li>Các mục tiêu của section.</li>
+      <li></li>
+      <li></li>
+    </ol>
+  </objectives>
+  
+  <p>
+    To code, you need a suitable working environment. You would most likely not code in Word, would you? Instead, you would use a <term>code editor and compiler</term>.
+  </p>
+
+  <p>
+    In the online version of the book, our code editor and compiler is as follows:
+  </p>
+
+  <sage language="python">
+    <input>
+      a = 3
+      b = 5
+      print(a + b)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      8
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      The command <c>print()</c> has a simple job<mdash></mdash>putting data, which is located in between its parentheses, into the terminal. Here, that data is the outcome of <c>a + b</c>.
+    </p>
+  </investigation>
+
+  <p>
+    The environment above has these components:
+
+    <ol>
+      <li>
+        <p>
+          <term>Cell</term>: Where to write code. In the online version, you can modify and experiment with the code.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term><q>Run Code</q> Button</term> (Online): Press to run the code cell or, in other words, compile the code.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Terminal</term> (Online): Where outputs or errors, if any, are shown when running the code.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Output</term>: Where <term>static</term> outputs are shown. It is mostly intended for the hard copy or PDF, but online users can also benefit, for example, when their devices are not connected to the Internet and therefore cannot run the code.
+        </p>
+      </li>
+    </ol>
+  </p>
+
+  <note>
+    <title>Update code in the online version</title>
+    <p>
+      If you update the code in the editor and re-run it, new outcomes will be shown only in the terminal. The static output section retains the outcomes of the original code.
+    </p>
+  </note>
+
+  <p>
+    In this book, our environment is limited to those components for the sake of simplicity. More sophisticated environments have many more features helping programmers to create.
+  </p>
+
+  <p>
+    All provided code examples can be compiled and run in external coding environments, but this book will not instruct you in that.
+  </p>
+
+  <note>
+    <title>Continuing code</title>
+    <p>
+      Code cells can be a continuation of previous cells. This feature helps make some examples shorter and their explanations easier to follow. 
+    </p>
+  </note>
+
+  <convention>
+    <p>
+      If a code cell extends another, its first line is as follows:
+    </p>
+  </convention>
+
+  <sage language="python">
+    <input>
+      # ... 
+
+      print(a - b)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      -2
+    </pre>
+  </problem>
+
+  <investigation>
+    <p></p>
+    <p>
+      Why does <c>a - b</c> result in <c>-2</c>? If you take another look at the first cell, you can see that <c>a = 3</c> and <c>b = 5</c>. So, this cell is a continuation of the first one.
+    </p>
+  </investigation>
+    
+  <note>
+    <p>
+      If you run a cell starting with <c># ...</c>, and unwanted results or errors show up, then it is likely that you have not run necessary preceding cell(s).
+    </p>
+  </note>
+
+</section>

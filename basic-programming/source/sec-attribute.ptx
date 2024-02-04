@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-attribute" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Attributes</title>
+
+  <objectives>
+    <ol>
+      <li>Các mục tiêu của section.</li>
+      <li></li>
+      <li></li>
+    </ol>
+  </objectives>
+  
+  <definition xml:id="def-attribute">
+    <statement>
+      <p>
+        An <term>attribute</term> is a built-in variable storing <em>descriptive information</em> regarding another piece of data.
+      </p>
+      <p>
+        Every data type has its own set of built-in attributes.
+      </p>
+      <p>
+        The attributes of a piece of data are <em>automatically updated</em> when that data is updated.
+      </p>
+    </statement>
+  </definition>
+
+  <technology>
+    <title>Accessing an attribute</title>
+    <p>
+      <me>\text{data.} {\color{blue} \text{attribute's name}}</me>
+    </p>
+  </technology>
+
+  <p>For example:</p>
+
+  <sage language="python">
+    <input>
+      import numpy as np # Use library Numpy
+
+      mat = np.matrix([
+        [1, 2, 3],
+        [2, 4, 6]
+      ])
+
+      print(mat.size)
+      print(mat.shape)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      6
+      (2, 3)
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      <c>mat.size</c> returns the number of elements of <c>mat</c>.
+    </p>
+    <p>
+      <c>mat.shape</c> returns the number of rows and columns of <c>mat</c>.
+    </p>
+  </investigation>
+
+  <p>
+    However, the data type <c>int</c> does not have such attributes.
+  </p>
+
+  <sage language="python">
+    <input>
+      a = 5
+      print(a.size)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      AttributeError
+      Cell In [1], line 2
+
+      ...
+
+      AttributeError: 'int' object has no attribute 'size'
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      As the error states.
+    </p>
+  </investigation>
+  
+</section>

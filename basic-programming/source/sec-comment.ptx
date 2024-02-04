@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-comment" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Comments</title>
+
+  <objectives>
+    <ol>
+      <li>Các mục tiêu của section.</li>
+      <li></li>
+      <li></li>
+    </ol>
+  </objectives>
+  
+  <p>
+    When coding, you might want to leave comments. They can be notes, explanations for some algorithm, or your stream of thoughts in the moment. Thus as the code expands and gets more complicated, comments provide you with sufficient context.
+  </p>
+
+  <definition xml:id="def-comment">
+    <statement>
+      <p>
+        To write a comment in Python or SageMath, use the number sign / hash <c>#</c>.
+      </p>
+      <p>
+        What is written after a <c>#</c> (on the same line) will be regarded as plain text and not code by the compiler.
+      </p>
+    </statement>
+  </definition>
+
+  <remark>
+    <p>
+      Comments are also used to temporarily <term>disable</term> lines of code. For example:
+    </p>
+  </remark>
+
+  <sage language="python">
+    <input>
+      # This is a comment
+
+      print("This is code")
+
+      #print("This code will not run")
+
+      print("More code")
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      This is code
+      More code
+    </pre>
+  </problem>
+
+  <investigation>
+    <p></p>
+    <p>
+      Line 1 is a comment used to leave notes.
+    </p>
+    <p>
+      Lines 3 and 7 are normal code.
+    </p>
+    <p>
+      Line 5 is a comment used to <q>disable</q> code.
+    </p>
+  </investigation>
+
+</section>

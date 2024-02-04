@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-data-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data Structures</title>
+
+  <introduction>
+    <objectives>
+      <ol>
+        <li>Các mục tiêu của section.</li>
+        <li></li>
+        <li></li>
+      </ol>
+    </objectives>
+
+    <p>
+      Up until now, variables have been storing only one value. Suppose we have a program that stores perfect square numbers. It might look like this:
+    </p>
+
+    <program language="python">
+      <input>
+        ps1 = 0
+        ps2 = 1
+        ps3 = 4
+        ps4 = 9
+        # ...
+        ps100 = 9801
+      </input>
+    </program>
+
+    <p>
+      In order to reduce the number of variables, we can make use of a new object<mdash></mdash><term>data structures</term>.
+    </p>
+
+    <definition xml:id="def-data-structure">
+      <statement>
+        <p>
+          <term>A data structure</term> is a special data that acts as a storage for multiple other pieces of data.
+        </p>
+        <p>
+          Each piece of <q>sub-data</q> stored by a data structure is called an <term>element</term>.
+        </p>
+        <p>
+          Data structures are <em>built on top of</em> data types, meaning concepts in <xref ref="sec-data-type"/> can be applied to them.
+        </p>
+      </statement>
+    </definition>
+    
+    <p>
+      Then, we can re-implement our program as follows:
+    </p>
+    
+    <program language="python">
+      <input>
+        import numpy as np # Use library Numpy
+        ps = np.array([0, 1, 4, 9, ..., 9801])
+      </input>
+    </program>
+
+    <p>
+      Instead of creating 100 different variables, we can now create just one, which holds 100 values. (You don't have to care about the syntax yet.)
+    </p>
+
+    <p>
+      Every programming language has its own set of built-in data structures, all of which are different in some way.
+    </p>
+
+    <p>
+      For this book, the two most important data structures have got to be <term>arrays</term> and <term>matrices</term>.
+    </p>
+
+    <p>
+      The following sub-sections will only <em>briefly introduce</em> these two objects. If you are interested in their syntax or how to work with them, please refer to <xref provisional="sec-lap-trinh-mo-rong"/>.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-array">
+    <title>Arrays</title>
+
+    <definition xml:id="def-array">
+      <statement>
+        <p>
+          An <term>array</term> can store multiple values at once.
+        </p>
+        <p>
+          All elements of an array must have <em>the same data type</em>.
+        </p>
+      </statement>
+    </definition>
+
+    <p>
+      For example:
+    </p>
+
+    <sage language="python">
+      <input>
+        import numpy as np # Use library Numpy
+
+        arr = np.array([1, 2, 3])
+        print(arr, type(arr))
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        [1 2 3] &lt;class 'numpy.ndarray'&gt;
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        We declare an array with 3 elements, all of which are integers.
+      </p>
+      <p>
+        The command <c>type()</c> lets us know its data type is <c>numpy.ndarray</c>, which can be understood as <q>array of Numpy</q>.
+      </p>
+    </investigation>
+    
+    <p>
+      If we gives an array a mixed collection of <c>int</c> and <c>float</c>, then it <em>automatically</em> converts its elements so that their data types match.
+    </p>
+    
+    <sage language="python">
+      <input>
+        import numpy as np # Use library Numpy
+
+        arr1 = np.array([1, 2.5, 3])
+        print(arr1)
+
+        arr2 = np.array([1, "test", 3])
+        print(arr2)
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        [1.  2.5 3. ]
+        ['1' 'test' '3']
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        The array <c>arr1</c> realizes the floating-point element <c>2.5</c>, so it converts all the integers into <c>float</c>.
+      </p>
+      <p>
+        Similarly, the array <c>arr2</c> automatically converts all of its elements into <c>str</c>.
+      </p>
+    </investigation>
+
+  </subsection>
+
+  <subsection xml:id="subsec-matrix">
+    <title>Matrices</title>
+
+    <definition xml:id="def-matrix">
+      <statement>
+        <p>
+          A <term>matrix</term> can store multiple values at once.
+        </p>
+        <p>
+          A matrix is <term>two-dimensional</term>, meaning its elements are organized into <term>rows</term> and <term>columns</term>. 
+        </p>
+        <p>
+          All elements of a matrix must have <em>the same data type</em>.
+        </p>
+      </statement>
+    </definition>
+
+    <p>For example:</p>
+
+    <sage language="python">
+      <input>
+        import numpy as np # Use library Numpy
+
+        mat = np.matrix([[1, 2, 3], [2, 4, 6]])
+        print(mat, type(mat))
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        [[1 2 3]
+         [2 4 6]] &lt;class 'numpy.matrix'&gt;
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        We declare a matrix with 6 integer elements. Row 1 has 3 elements <c>1 2 3</c>, and row 2 has 3 elements <c>2 4 6</c>. (So, this is a 2-by-3 matrix.)
+      </p>
+      <p>
+        The command <c>type()</c> lets us know its data type is <c>numpy.matrix</c>, which can be understood as <q>matrix of Numpy</q>.
+      </p>
+    </investigation>
+    
+    <p>
+      To improve readability, a matrix can be declared as follows:
+    </p>
+
+    <sage language="python">
+      <input>
+        import numpy as np # Use library Numpy
+
+        mat = np.matrix(
+          [
+            [1, 2, 3],
+            [2, 4, 6]
+          ]
+        )
+        print(mat, type(mat))
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        [[1 2 3]
+         [2 4 6]] &lt;class 'numpy.matrix'&gt;
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        This code runs completely the same as before.
+      </p>
+      <p>
+        With this representation, we can easily see the number of rows and columns.
+      </p>
+      <p>
+        It also shows an interesting fact<mdash></mdash>a matrix is a big array whose elements are smaller arrays.
+      </p>
+    </investigation>
+
+    <p>
+      And similar to arrays, a matrix automatically converts its elements so that their data types match.
+    </p>
+    
+    <sage language="python">
+      <input>
+        import numpy as np # Use library Numpy
+
+        mat = np.matrix(
+          [
+            [1, 2.5, 3],
+            [2, 4, 6]
+          ]
+        )
+        print(mat)
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        [[1.  2.5 3. ]
+         [2.  4.  6. ]]
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        The matrix sees the floating-point element <c>2.5</c>, so it converts all the other integers into <c>float</c>.
+      </p>
+    </investigation>
+
+  </subsection>
+
+</section>

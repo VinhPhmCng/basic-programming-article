@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-operator" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Operators</title>
+
+  <introduction>
+    <objectives>
+      <ol>
+        <li>Các mục tiêu của section.</li>
+        <li></li>
+        <li></li>
+      </ol>
+    </objectives>
+
+    <definition xml:id="def-operator">
+      <statement>
+        <p>
+          In programming, an <term>operator</term> is a symbol that describes a specific assignment or a mathematical, relational, or logical operation.
+        </p>
+        <p>
+          In other words, an operator describes an interaction between data.
+        </p>
+      </statement>
+    </definition>
+    
+    <p>
+      Previously, the two operators <c>=</c> and <c>+</c> often show up in examples. Let's take a look at the most basic operators.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-op-arithmetic">
+    <title>Arithmetic Operators</title>
+
+    <p>
+      The four most basic arithmetic operators are:
+    </p>
+
+    <sage language="python">
+      <input>
+        print(5 + 3) # Addition
+        print(5 - 3) # Subtraction
+        print(5 * 3) # Multiplication
+        print(5 / 3) # Division
+
+        # Concatenation
+        print("string 1 " + "string 2")
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        8
+        2
+        15
+        1.6666666666666667
+        string 1 string 2
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        The first four lines are the same as mathematical operations.
+      </p>
+      <p>
+        In line 7, the operator <c>+</c> represents string concatenation.
+      </p>
+    </investigation>
+    
+    <p>
+      Some less popular operators are:
+    </p>
+
+    <sage language="python">
+      <input>        
+        print(5 // 3) # Floor division
+        print(5 ** 3) # Exponentiation
+        print(5 % 3) # Modulus
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        1
+        125
+        2
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        You can look them up on the Internet if you wish.
+      </p>
+    </investigation>
+
+    <!-- Translate ref and xml:id too -->
+    <p>
+      And you should always keep in mind <xref ref="def-dtype-interaction"/>.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-op-assignment">
+    <title>Assignment Operators</title>
+
+    <p>
+      Previously, you've been shown that <c>=</c> is used frequently. This is the most important <term>assignment operator</term> that you need to know.
+    </p>
+
+    <definition xml:id="def-op-assignment">
+      <statement>
+        <p>
+          An <term>assignment operator</term> is used to declare or update a variable.
+        </p>
+        <p>
+          The value of a variable changes <em>if and only if</em> an assignment operator is used.
+        </p>
+      </statement>
+    </definition>
+    
+    <note>
+      <p>
+        In programming, the assignment operator <c>=</c> should never be associated with equality.
+      </p>
+    </note>
+
+    <p>For example:</p>
+
+    <sage language="python">
+      <input>
+        a = 5
+        print(a)
+
+        a + 1
+        print(a)
+
+        a = a + 1
+        print(a)
+      </input>
+    </sage>
+    <problem>
+      <pre>
+        5
+        5
+        6
+      </pre>
+    </problem>
+    <investigation>
+      <p></p>
+      <p>
+        Firstly, we declare <c>a</c> and gives it the value <c>5</c>.
+      </p>
+      <p>
+        In line 4, we have <c>a + 1</c>, but when we access the value of <c>a</c> in line 5, we still get <c>5</c>.
+      </p>
+      <p>
+        In line 7, we <em>update</em> the variable with <c>a = a + 1</c>. Therefore, in line 8 <c>a</c> has a value of <c>6</c>.
+      </p>
+    </investigation>
+    
+    <p>
+      Theoretically, <c>=</c> is the only assignment operator you need to know. But we also have others that serve as a short-hand:
+    </p>
+
+    <p>
+      <dl>
+        <li>
+          <title><c>x += 5</c></title>
+          <p>
+            Is equivalent to <c>x = x + 5</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x -= 5</c></title>
+          <p>
+            Is equivalent to <c>x = x - 5</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x *= 5</c></title>
+          <p>
+            Is equivalent to <c>x = x * 5</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x /= 5</c></title>
+          <p>
+            Is equivalent to <c>x = x / 5</c> 
+          </p>
+        </li>
+      </dl>
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-op-relational">
+    <title>Relational Operators</title>
+
+    <p>
+      <term>A relational operator</term> are mostly used in conditional statements, so it will be described in more details in <xref provisional="cau-lenh-dieu-kien"/>.
+    </p>
+
+    <p>
+      To summarize:
+
+      <dl>
+        <li>
+          <title><c>x == y</c></title>
+          <p>
+            Returns <c>True</c> if x equals y
+          </p>
+          <p>
+            Returns <c>False</c> if x does <em>not</em> equal y
+          </p>
+        </li>
+        <li>
+          <title><c>x != y</c></title>
+          <p>
+            Opposite to <c>x == y</c>
+          </p>
+        </li>
+        <li>
+          <title><c>x &lt; y</c></title>
+          <p>
+            Returns <c>True</c> if x is less than y
+          </p>
+          <p>
+            Returns <c>False</c> if x is greater than or equal to y
+          </p>
+        </li>
+        <li>
+          <title><c>x &gt; y </c></title>
+          <p>
+            Returns <c>True</c> if x is greater than y
+          </p>
+          <p>
+            Returns <c>False</c> if x is less than or equal to y
+          </p>
+        </li>
+        <li>
+          <title><c>x &lt;= y </c></title>
+          <p>
+            Opposite to <c>x &gt; y</c> 
+          </p>
+        </li>
+        <li>
+          <title><c>x &gt;= y</c></title>
+          <p>
+            Opposite to <c>x &lt; y</c> 
+          </p>
+        </li>
+      </dl>
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-op-logical">
+    <title>Logical Operators</title>
+    
+    <p>
+      <term>Logical operators</term> are mostly used in conditional statements, so it will be described in more details in <xref provisional="cau-lenh-dieu-kien"/>.
+    </p>
+
+    <p>
+      To summarize:
+      <dl>
+        <li>
+          <title><c>x and y</c></title>
+          <p>
+            Returns <c>True</c> if both statements are <c>True</c>
+          </p>
+          <p>
+            Returns <c>False</c> if at least one statement is <c>False</c>
+          </p>
+        </li>
+        <li>
+          <title><c>x or y</c></title>
+          <p>
+            Returns <c>True</c> if at least one statement is <c>True</c>
+          </p>
+          <p>
+            Returns <c>False</c> if both statements are <c>False</c>
+          </p>
+        </li>
+        <li>
+          <title><c>not x</c></title>
+          <p>
+            Reverses the Boolean
+          </p>
+          <p>
+            Returns <c>True</c> if x is equal to <c>False</c> and vice-versa.
+          </p>
+        </li>
+      </dl>
+    </p>
+    
+  </subsection>
+
+</section>

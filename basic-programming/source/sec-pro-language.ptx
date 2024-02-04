@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-pro-language" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Programming Languages</title>
+
+  <objectives>
+    <ol>
+      <li>Các mục tiêu của section.</li>
+      <li></li>
+      <li></li>
+    </ol>
+  </objectives>
+
+  <p>
+    <term>A programming language</term> is a system of notation that helps human to create computer programs or, in other words, give instructions to computers. These <q>instructions</q> range from calculating additions and subtractions to data manipulations, <etc></etc>
+  </p>
+
+  <p>
+    The code cell below is written in <term>Python</term><mdash></mdash>one of the most popular programming languages in the recent years. You can run the code and see the results.
+  </p>
+
+  <sage language="python">
+    <input>
+      print("Hello World!")
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      Hello World!
+    </pre>
+  </problem>
+  
+  <investigation>
+    <p></p>
+    <p>
+      The command <c>print()</c> have a simple job of putting data into the terminal. In this case, that data is the words <q>Hello World!</q>.
+    </p>
+  </investigation>
+
+  <p>
+    Here is another code block written in Python. (You don't have to understand what the code is doing.)
+  </p>
+
+  <program language="python">
+    <input>
+      a = 0
+      while a &lt; 10:
+          print(a, end=" ")
+          if a % 2 == 0:
+              print("is even")
+          else:
+              print("is odd")
+          a += 1
+    </input>
+  </program>
+
+  <p>
+    You can easily see that there are <term>keywords</term> such as <c>while</c>, <c>print</c> <c>end</c>, <c>if</c>, and <c>else</c>. This means Python's syntax includes keywords and features that closely resemble the English language.
+  </p>
+
+  <definition xml:id="def-prolang-high-level">
+    <statement>
+      <p>
+        Python is called a <term>high-level</term> programming language because its syntax closely resembles human languages.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Therefore, Python is usually recommended to beginners, which is also why it is one of the most well-known programming languages.
+  </p>
+
+  <p>
+    The following example is written in <term>Assembly</term>. The code when compiled will also output the words <q>Hello World!</q>.
+  </p>
+
+  <program language="assy">
+    <input>
+      org  0x100 
+      mov  dx, msg
+      mov  ah, 9
+      int  0x21
+
+      mov  ah, 0x4c
+      int  0x21
+
+      msg  db 'Hello World!', 0x0d, 0x0a, '$'
+    </input>
+  </program>
+
+  <p>
+    As you can see, this is almost fully computer language. Assembly needs 7 lines of code to do what Python can do with one.
+  </p>
+
+  <definition xml:id="def-prolang-low-level">
+    <statement>
+      <p>
+        So, Assembly is called a <term>low-level</term> programming language, since its syntax is closer to computer languages.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    In conclusion, the syntax of high-level languages are most likely easier to understand than that of low-level ones. Maybe you would ask <q>When or why should we use low-level languages then?</q>
+  </p>
+
+  <p>
+    There can be many reasons for that, some of which are speed, potential, or specialization, <etc></etc>
+  </p>
+  
+  <insight>
+    <p>
+      You can imagine a high-level programming language as a 4-seat family car, which is user-friendly and can be driven by most people. Then, a low-level one would be a F1 racing car that only the most skillful professionals can drive.
+    </p>
+    <p>
+      And in return, the <q>low-level</q> F1 racing car will be significantly faster than the <q>high-level</q> family car.
+    </p>
+  </insight>
+
+  <convention>
+    <p>
+      In this book, coding examples are written in high-level languages<mdash></mdash>mostly <term>Python</term> and <term>SageMath</term>, making it easier for you to follow and experiment.
+    </p>
+    <p>
+      Each programming language has its own set of notations, which is developed in consideration of its purpose. Python is a high-level multi-purpose language.
+    </p>
+  </convention>
+
+  <p>
+    Some additional information:
+    <ul>
+      <li>
+        <p>
+          <term>Python</term> is a high-level multi-purpose programming language. It is used by mathematicians, data scientists, software developers, game developers, <etc></etc>
+        </p>
+      </li>
+      <li>
+        <p>
+          The book often uses <term>Numpy</term><mdash />an <term>extending library</term> that provides additional mathematical features, including matrices, for Python.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>SageMath</term> is a high-level language built on top of Numpy and other mathematical packages.
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <insight>
+    <title>Choosing A Programming Language</title>
+    <p>
+      When getting started with programming, a beginner often comes across certain topics:
+      <ul>
+        <li>
+          <p>
+            Which programming language should I start with?
+          </p>
+        </li>
+        <li>
+          <p>
+            Which programming language should I learn in 2024?
+          </p>
+        </li>
+        <li>
+          <p>
+            Which programming language to learn for high-paying jobs?
+          </p>
+        </li>
+        <li>
+          <p>
+            <etc></etc>
+          </p>
+        </li>
+      </ul>
+
+      I think these are impractical questions, and I would advise you against that mindset. Instead, you should ask questions such as:
+
+      <ul>
+        <li>
+          <p>
+            What is my purpose to learn a new programming language?
+          </p>
+        </li>
+        <li>
+          <p>
+            For that purpose, which programming language is suitable?
+          </p>
+        </li>
+        <li>
+          <p>
+            Do I want to learn a high-level or low-level language?
+          </p>
+        </li>
+        <li>
+          <p>
+            <etc></etc>
+          </p>
+        </li>
+      </ul>
+
+      Currently there are an ever-growing number of programming languages, and each of them has its own <em>purposes, pros, and cons</em>.
+    </p>
+  </insight>
+
+</section>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<section xml:id="sec-data-type" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Data Types</title>
+
+  <objectives>
+    <ol>
+      <li>Các mục tiêu của section.</li>
+      <li></li>
+      <li></li>
+    </ol>
+  </objectives>
+  
+  <p>
+    Pretty much everything in existence can be stored as data<mdash></mdash>from numbers and letters to information about a student or a car model.
+  </p>
+
+  <definition xml:id="def-data-type">
+    <statement>
+      <p>
+        And to <term>categorize</term> data, we make use of <term>data types</term>.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    Most modern programming languages have the following data types:
+    <dl>
+      <li>
+        <title>str</title>
+        <p>
+          <term>A sequence of characters</term> enclosed in quotation marks <c>""</c> or single quotation marks <c>''</c>.
+        </p>
+      </li>
+
+      <li>
+        <title>int</title>
+        <p>
+          <term>An integer</term>, which is a whole number (without a decimal point).
+        </p>
+      </li>
+
+      <li>
+        <title>float</title>
+        <p>
+          <term>A floating-point number</term> (with a decimal point).
+        </p>
+      </li>
+
+      <li>
+        <title>bool</title>
+        <p>
+          <term>A Boolean value</term>, which can only equate to either <c>True</c> or <c>False</c>. It's frequently used in conditional statements.
+        </p>
+      </li>
+
+    </dl>
+  </p>
+
+  <note>
+    <p>
+      In Python and SageMath, when we declare or update a variable, it will <em>automatically</em> determine or re-determine its data type. For example:
+    </p>
+  </note>
+
+  <sage language="python">
+    <input>
+      a = 5
+      print(type(a))
+
+      a = "5"
+      print(type(a)) 
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      &lt;class 'int'&gt;
+      &lt;class 'str'&gt;
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      The command <c>type(a)</c> returns the data type of <c>a</c> written in single quotation marks. (You don't have to care about <c>class</c> here. In this context it can be understood as <q>classify</q>.)
+    </p>
+    <p>
+      So, when we declare <c>a = 5</c>, the variable <c>a</c> is of type <c>int</c>.
+    </p>
+    <p>
+      But when we assign <c>a</c> the value <c>"5"</c> (<alert>notice</alert> the quotation marks), it automatically updates to <c>str</c>.
+    </p>
+  </investigation>
+
+  <p>
+    To conclude, <c>a = "5"</c> differs from <c>a = 5</c>. If data is surrounded by (single) quotation marks, then it is of type <c>str</c>. From that, we have the following definition:
+  </p>
+
+  <definition xml:id="def-dtype-syntax">
+    <statement>
+      <p>
+        Different data types have their own representation when declared, in other words different <term>syntax</term>.
+      </p>
+    </statement>
+  </definition>
+  
+  <p>Some examples of the main data types:</p>
+
+  <sage language="python">
+    <input>
+      a = 3
+      b = 3.0
+      c = "3.0"
+      d = True
+      
+      print(type(a))
+      print(type(b))
+      print(type(c))
+      print(type(d))
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      &lt;class 'int'&gt;
+      &lt;class 'float'&gt;
+      &lt;class 'str'&gt;
+      &lt;class 'bool'&gt;
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      Same as above.
+    </p>
+    <p>
+      Again, you don't have to care about <c>class</c> yet. You can understand it as <q>classify</q>.
+    </p>
+    <p>
+      But to be accurate, it stands for <term>Class</term>. This is a big topic, so you can do some research on the Internet if you wish.
+    </p>
+  </investigation>
+
+  <p>
+    Tiếp theo, ta có
+    Next, we have: 
+  </p>
+
+  <definition xml:id="def-dtype-interaction">
+    <statement>
+      <p>
+        Data type determine possible <term>interactions</term> between data.
+      </p>
+      <p>
+        In other words, there are many possible interactions between data (mathematical calculations, string concatenation, <etc></etc>), and what they are depends on the data type.
+      </p>
+    </statement>
+  </definition>
+
+  <p>
+    For example:
+  </p>
+
+  <sage language="python">
+    <input>
+      a = 5
+      b = -2
+      print(a + b)
+
+      c = 3.5
+      d = 5.6
+      print(c + d)
+
+      print(a + c)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      3
+      9.1
+      8.5
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      We know both <c>a</c> and <c>b</c> are of type <c>int</c>. So, adding them together makes sense and is allowed.
+    </p>
+    <p>
+      Similarly, <c>c</c> and <c>d</c> are of type <c>float</c>, so addition is valid.
+    </p>
+    <p>
+      The last line is a bit more interesting since we can still perform an addition between <c>int</c> and <c>float</c>.
+    </p>
+  </investigation>
+
+  <p>
+    However, we <em>cannot</em> add <c>int</c> and <c>str</c>, which will result in an <term>error</term>.
+  </p>
+
+  <sage language="python">
+    <input>
+      a = 5
+      s = "string"
+      print(a + s)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      TypeError
+      Cell In [1], line 3
+
+      ...
+
+      TypeError: unsupported operand type(s) for +: 'int' and 'str'
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      The operator <c>+</c> is an <em>invalid</em> interaction between <c>int</c> và <c>str</c>.
+    </p>
+  </investigation>
+
+  <p>
+    But we can <q>add</q> two or more strings together, which results in a new string that is the concatenation of the component strings.
+  </p>  
+
+  <p>
+    For example:
+  </p>
+
+  <sage language="python">
+    <input>
+      s1 = "Hello"
+      s2 = "Jack"
+      s3 = " Jane"
+      
+      print(s1 + s2)
+      print(s1 + s3)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      HelloJack
+      Hello Jane
+    </pre>
+  </problem>
+  <investigation>
+    <p></p>
+    <p>
+      <c>s1 + s2</c> is valid and concatenates the strings, same with <c>s1 + s3</c>.
+    </p>
+    <p>
+      Notice the difference between <c>s1</c> and <c>s3</c> as the latter has a preceding white-space, which is better seen after the concatenation.
+    </p>
+  </investigation>
+  
+</section>
