@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<appendix xml:id="appendix-playground" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Playground</title>
+
+  <introduction>
+    <p>
+      This appendix provides you with some code cells of different programming languages, made possible by <pretext />. By playing around with them, you can have a better understanding of the idea that <em>though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there</em>.
+    </p>
+
+    <p>
+      A good way to do so is by looking up code examples. For instance, you can search for <q>javascript code examples</q> on Google.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-python-play">
+    <title>Python</title>
+
+    <sage language="python">
+      <input>
+        # This is a Python cell
+        # Write and run your Python code here
+
+        print("Hello world!")
+      </input>
+    </sage>
+
+    <p>
+      Below is a more complex Python environment, allowing you to work on code through repeated edit-compile-test cycles. There is also a <q>CodeLens</q> button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).
+    </p>
+
+    <program language="python" interactive="activecode">
+      <input>
+        # This is a Python cell
+        # Write and run your Python code here
+
+        print("Hello world!")
+      </input>
+    </program>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-javascript-play">
+    <title>Javascript</title>
+
+    <program language="javascript" interactive="activecode">
+      <input>
+        // This is a Javascript cell
+        // Write and run your Javascript code here
+
+        alert("Hello world!");
+      </input>
+    </program>
+
+    <p>
+      Outputs of Javascript code might not appear right below. To see them, open the <q>Element Inspect</q> panel by right-clicking on the page and select <q>Inspect</q>. Then, go to the <q>Console</q> tab. Run the code and you should see the outputs appear there.
+    </p>
+    
+  </subsection>
+
+  <subsection xml:id="subsec-sage-play">
+    <title>Sage</title>
+    
+    <sage>
+      <input>
+        # This is a Sage cell
+        # Write and run your Sage code here
+
+        show("Hello world!")
+      </input>
+    </sage>
+
+  </subsection>
+
+</appendix>

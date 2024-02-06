@@ -2,11 +2,11 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <docinfo>
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
-      <rename element='abstract'>License</rename> <!-- (tentative) -->
-      <rename element='problem'>Output</rename> <!-- (tentative) -->
-      <rename element='technology'>Syntax</rename> <!-- (tentative) -->
-      <rename element='investigation'>Explanation</rename> <!-- (tentative) --> 
-      <rename element='evaluate'>Run Code</rename>
+    <rename element='abstract'>License</rename> <!-- (tentative) -->
+    <rename element='problem'>Output</rename> <!-- (tentative) -->
+    <rename element='technology'>Syntax</rename> <!-- (tentative) -->
+    <rename element='investigation'>Explanation</rename> <!-- (tentative) --> 
+    <rename element='evaluate'>Run Code</rename>
   </docinfo>
 
   <article xml:id="basic-programming">
@@ -28,6 +28,11 @@
     <xi:include href="./sec-attribute.ptx" />
     <xi:include href="./sec-function.ptx" />
     <xi:include href="./sec-error.ptx" />
+    <xi:include href="./sec-conditional.ptx" />
+    <xi:include href="./sec-loop.ptx" />
+    <xi:include href="./sec-scope.ptx" />
+    <xi:include href="./sec-declare-function.ptx" />
+    <xi:include href="./sec-whats-next.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

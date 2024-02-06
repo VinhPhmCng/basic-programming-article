@@ -10,6 +10,7 @@ See the file COPYING for copying conditions.
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Appendices</title>
 
+  <xi:include href="./appendix-playground.ptx"/>
   <xi:include href="./appendix-gfdl.ptx"/>
 
   <colophon>
