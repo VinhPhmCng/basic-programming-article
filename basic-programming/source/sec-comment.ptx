@@ -45,7 +45,7 @@ See the file COPYING for copying conditions.
 
       #print("This code will not run")
 
-      print("More code")
+      print("More code") # A comment can be after code
     </input>
   </sage>
   <problem>
@@ -68,4 +68,7 @@ See the file COPYING for copying conditions.
     </p>
   </investigation>
 
+  <p>
+    Try removing the <c>#</c> in line 5, run the code, and see what happens.
+  </p>
 </section>

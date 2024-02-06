@@ -70,6 +70,36 @@ See the file COPYING for copying conditions.
     </ol>
   </p>
 
+  <p>
+    A different and slightly more complex version of the code cell is as follows:
+  </p>
+
+  <program language="python" interactive="activecode">
+    <input>
+      a = 3
+      b = 5
+      print(a + b)
+    </input>
+  </program>
+  <problem>
+    <pre>
+      8
+    </pre>
+  </problem>
+  <investigation>
+    <p>Same as above.</p>
+  </investigation>
+
+  <p>
+    This runs similarly, but it also provides additional functionality. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a <q>CodeLens</q> button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).
+  </p>
+
+  <remark>
+    <p>
+      Depending on the concept, the better-suited version to demonstrate it is chosen.
+    </p>
+  </remark>
+
   <note>
     <title>Update code in the online version</title>
     <p>

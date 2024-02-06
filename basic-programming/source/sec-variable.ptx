@@ -33,7 +33,7 @@ See the file COPYING for copying conditions.
       </p>
 
       <p>
-        The data stored inside a variable is called <term>value</term>, and it is <em>often updated</em> as new data need to be stored.
+        The data stored inside a variable is called <term>value</term>, which is <em>often updated</em> as new data need to be stored.
       </p>
 
       <p>
@@ -57,10 +57,10 @@ See the file COPYING for copying conditions.
   </technology>
   
   <p>
-    For example:
+    For example (using CodeLens is recommended):
   </p>
 
-  <sage>
+  <program language="python" interactive="activecode">
     <input>
       a = 1
       b = a
@@ -72,7 +72,7 @@ See the file COPYING for copying conditions.
       print(a)
       print(b)
     </input>
-  </sage>
+  </program>
   <problem>
     <pre>
       1
@@ -87,7 +87,6 @@ See the file COPYING for copying conditions.
     <p>
       Firstly, we declare the variable <c>a</c> and assign it the value <c>1</c>.
     </p>
-    <!-- ThiS -->
     <p>
       Next, we declare and assign <c>b</c> the current value of <c>a</c>, thus <c>b</c> also has the value <c>1</c>. 
     </p>
@@ -113,7 +112,7 @@ See the file COPYING for copying conditions.
 
   <insight>
     <p>
-      The above example, though simple, has confused many beginners, especially those with a mathematical brain. Because they see <c>b = a</c>, they think it is an equality that holds true throughout the program's lifecycle. That mindset does <em>not</em> apply to programming.
+      The above example, though simple, confuses many beginners, especially those with a mathematical brain. Because they see <c>b = a</c>, they think it is an equality that holds true throughout the program's lifecycle. That mindset does <em>not</em> apply to programming.
     </p>
   </insight>
 
@@ -152,7 +151,7 @@ See the file COPYING for copying conditions.
       In the programming community, there are different conventions for naming a variable.
     </p>
     <p>
-      This book will not instruct you in that. Variables in our coding examples are named in a <em>short and simple</em> manner.
+      This article will not instruct you in that. Variables in our coding examples are named in a <em>short and simple</em> manner.
     </p>
   </note>
 
