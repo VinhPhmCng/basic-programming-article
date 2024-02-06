@@ -12,16 +12,14 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ol>
-      <li>Các mục tiêu của section.</li>
-      <li></li>
-      <li></li>
+      <li>Learn about attributes.</li>
     </ol>
   </objectives>
   
   <definition xml:id="def-attribute">
     <statement>
       <p>
-        An <term>attribute</term> is a built-in variable storing <em>descriptive information</em> regarding another piece of data.
+        An <term>attribute</term> is a built-in variable storing <em>descriptive information</em> regarding another piece of data (or metadata, if you will).
       </p>
       <p>
         Every data type has its own set of built-in attributes.
@@ -35,11 +33,11 @@ See the file COPYING for copying conditions.
   <technology>
     <title>Accessing an attribute</title>
     <p>
-      <me>\text{data.} {\color{blue} \text{attribute's name}}</me>
+      <me>\text{data} . \! {\color{blue} \text{attribute's name}}</me>
     </p>
   </technology>
 
-  <p>For example:</p>
+  <p>The following example makes use of a Numpy matrix (which you don't have to fully understand) to demonstrate attributes:</p>
 
   <sage language="python">
     <input>
@@ -63,15 +61,15 @@ See the file COPYING for copying conditions.
   <investigation>
     <p></p>
     <p>
-      <c>mat.size</c> returns the number of elements of <c>mat</c>.
+      <c>mat.size</c> returns the total number of elements of the matrix <c>mat</c>.
     </p>
     <p>
-      <c>mat.shape</c> returns the number of rows and columns of <c>mat</c>.
+      <c>mat.shape</c> returns the number of rows and columns of the matrix <c>mat</c>.
     </p>
   </investigation>
 
   <p>
-    However, the data type <c>int</c> does not have such attributes.
+    However, the data type <c>int</c> does not have such attributes:
   </p>
 
   <sage language="python">

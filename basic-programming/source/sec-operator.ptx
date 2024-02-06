@@ -10,14 +10,14 @@ See the file COPYING for copying conditions.
 <section xml:id="sec-operator" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Operators</title>
 
+  <objectives>
+    <ol>
+      <li>Learn about four main types of operators.</li>
+      <li>Understand assignment operators better through an example.</li>
+    </ol>
+  </objectives>
+
   <introduction>
-    <objectives>
-      <ol>
-        <li>Các mục tiêu của section.</li>
-        <li></li>
-        <li></li>
-      </ol>
-    </objectives>
 
     <definition xml:id="def-operator">
       <statement>
@@ -93,7 +93,7 @@ See the file COPYING for copying conditions.
     <investigation>
       <p></p>
       <p>
-        You can look them up on the Internet if you wish.
+        You can look them up on the Internet to see how they work.
       </p>
     </investigation>
 
@@ -108,7 +108,7 @@ See the file COPYING for copying conditions.
     <title>Assignment Operators</title>
 
     <p>
-      Previously, you've been shown that <c>=</c> is used frequently. This is the most important <term>assignment operator</term> that you need to know.
+      As you already know <c>=</c> is used frequently. This is the most important <term>assignment operator</term> that you need to understand.
     </p>
 
     <definition xml:id="def-op-assignment">
@@ -128,9 +128,9 @@ See the file COPYING for copying conditions.
       </p>
     </note>
 
-    <p>For example:</p>
+    <p>For example (using CodeLens is recommended):</p>
 
-    <sage language="python">
+    <program language="python" interactive="activecode">
       <input>
         a = 5
         print(a)
@@ -141,7 +141,7 @@ See the file COPYING for copying conditions.
         a = a + 1
         print(a)
       </input>
-    </sage>
+    </program>
     <problem>
       <pre>
         5
@@ -201,11 +201,11 @@ See the file COPYING for copying conditions.
     <title>Relational Operators</title>
 
     <p>
-      <term>A relational operator</term> are mostly used in conditional statements, so it will be described in more details in <xref provisional="cau-lenh-dieu-kien"/>.
+      <term>Relational operators</term> are mostly used in conditional statements, so they will be described in more details in <xref ref="sec-conditional"/>.
     </p>
 
     <p>
-      To summarize:
+      As an overview:
 
       <dl>
         <li>
@@ -262,11 +262,11 @@ See the file COPYING for copying conditions.
     <title>Logical Operators</title>
     
     <p>
-      <term>Logical operators</term> are mostly used in conditional statements, so it will be described in more details in <xref provisional="cau-lenh-dieu-kien"/>.
+      <term>Logical operators</term> are mostly used in conditional statements, so they will be described in more details in <xref ref="sec-conditional"/>.
     </p>
 
     <p>
-      To summarize:
+      As an overview:
       <dl>
         <li>
           <title><c>x and y</c></title>

@@ -11,11 +11,10 @@ See the file COPYING for copying conditions.
   <title>Variables</title>
 
   <objectives>
-    <ol>
-      <li>Các mục tiêu của section.</li>
-      <li></li>
-      <li></li>
-    </ol>
+    <ul>
+      <li>Learn about variables and how to use them.</li>
+      <li>Understand the code example, which addresses how the equal sign <c>=</c> isn't associated with equality in programming.</li>
+    </ul>
   </objectives>
   
   <p>

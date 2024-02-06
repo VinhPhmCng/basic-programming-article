@@ -12,9 +12,8 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ol>
-      <li>Các mục tiêu của section.</li>
-      <li></li>
-      <li></li>
+      <li>Learn about data types and how to use them.</li>
+      <li>Understand how data <term>interact</term> with one another depends their data type.</li>
     </ol>
   </objectives>
   
@@ -142,12 +141,11 @@ See the file COPYING for copying conditions.
       Again, you don't have to care about <c>class</c> yet. You can understand it as <q>classify</q>.
     </p>
     <p>
-      But to be accurate, it stands for <term>Class</term>. This is a big topic, so you can do some research on the Internet if you wish.
+      But to be accurate, it stands for <term>Class</term>, which is a more advanced topic discussed in <xref ref="sec-class"/>.
     </p>
   </investigation>
 
   <p>
-    Tiếp theo, ta có
     Next, we have: 
   </p>
 
@@ -157,7 +155,7 @@ See the file COPYING for copying conditions.
         Data type determine possible <term>interactions</term> between data.
       </p>
       <p>
-        In other words, there are many possible interactions between data (mathematical calculations, string concatenation, <etc></etc>), and what they are depends on the data type.
+        In other words, there are many possible interactions between data (mathematical calculations, string concatenation, <etc></etc>), and what they are depends on the data type(s) involved.
       </p>
     </statement>
   </definition>

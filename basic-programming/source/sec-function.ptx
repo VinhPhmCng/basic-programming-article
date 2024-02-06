@@ -12,14 +12,12 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ol>
-      <li>Các mục tiêu của section.</li>
-      <li></li>
-      <li></li>
+      <li>Learn about functions and how to use them.</li>
     </ol>
   </objectives>
   
   <p>
-    Again we are met with a familiar concept in mathematics<mdash /><term>functions</term>, which also plays a big role in programming.
+    Again we are met with a familiar concept in mathematics<mdash /><term>functions</term>, which also play a big role in programming.
   </p>
 
   <p>
@@ -54,35 +52,33 @@ See the file COPYING for copying conditions.
         A <term>function</term> is a reusable block of code designed to perform a specific task.
       </p>
       <p>
-        Hàm có thể không nhận hoặc nhận một hay nhiều hơn dữ liệu <term>đầu vào</term>.
-        A function can accept zero, one, or more <term>inputs</term>, which is also called <term>parameters</term>.
+        A function can accept zero, one, or more <term>inputs</term>, which are also called <term>parameters</term>.
       </p>
       <p>
-        Hàm có thể không trả lại hoặc trả lại một hay nhiều hơn dữ liệu <term>đầu ra</term>.
-        A function can return zero, one, or more <term>outputs</term>, which is also called <term>return values</term>.
+        A function can return zero, one, or more <term>outputs</term>, which are also called <term>return values</term>.
       </p>
       <p>
         To <term>declare</term> a function is to create a new one.
       </p>
       <p>
-        To <term>call</term> a function is to use an existing function.
+        To <term>call</term> a function is to use an existing one.
       </p>
     </statement>
   </definition>
 
   <p>
-    In this section, we will not go into function declaration. Instead, we will focus on using functions that are built-in or provided by libraries. To read more about function declaration, refer to <xref provisional="sec-khai-bao-ham"/>.
+    In this section, we will not go into function declaration. Instead, we will focus on using functions that are built-in or provided by libraries. To read more about function declaration, refer to <xref ref="sec-declare-function"/>.
   </p>
 
   <technology>
     <title>Calling a function</title>
     <p>
-      <em>Depending on how a function is declared</em>, we have two ways to call it: <me>{\color{blue} \text{function's name}} \, \text{(input 1, input 2, ...)}</me> or <me>\text{input 1.} {\color{blue} \text{function's name}} \, \text{(input 2, input 3, ...)}</me>
+      <em>Depending on how a function is declared</em>, we have two ways to call it: <me>{\color{blue} \text{function's name}} \, \text{(input 1, input 2, ...)}</me> or <me>\text{input 1} . \! {\color{blue} \text{function's name}} \, \text{(input 2, input 3, ...)}</me>
     </p>
   </technology>
   
   <p>
-    A familiar example is the function <c>print()</c>, which can be called anywhere in the code and with any number of inputs.
+    A familiar example is the function <c>print()</c>, which can be called anywhere in the code and with any number of inputs. And it shows them in the terminal.
   </p>
 
   <sage language="python">
@@ -118,37 +114,35 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    Một ví dụ nữa là hàm <c>np.sqrt()</c> của Numpy. Nó có nhiệm vụ tính toán và trả lại căn bậc hai của dữ liệu đầu vào.
-    Another example is <c>np.sqrt()</c>, which is a Numpy function. It accepts only one input, then it calculates and returns the square root.
+    Another example is <c>len()</c>, which accepts exactly one input that is a data structure, and it returns the number of elements.
   </p>
 
   <sage language="python">
     <input>
-      import numpy as np # Use library Numpy 
-
-      print(np.sqrt(9))
+      arr = [1, 2, 3, 4]
+      print(len(arr))
     </input>
   </sage>
   <problem>
     <pre>
-      3.0
+      4
     </pre>
   </problem>
   <investigation>
     <p>
-      The function <c>np.sqrt()</c> receives one input and returns the square root.
+      The function <c>len()</c> receives one input and returns the number of elements.
     </p>
   </investigation>
   
   <p>
-    So, <c>np.sqrt()</c> has more specifications than <c>print()</c>. You have to call it with exactly one input, which must be <em>numeric</em>. The following examples will return errors:
+    So, <c>len()</c> has more specifications than <c>print()</c>. You have to call it with exactly one input, which must be a <em>data structure</em>. The following examples will return errors:
   </p>
 
   <sage language="python">
     <input>
-      import numpy as np # Use library Numpy 
-
-      print(np.sqrt(9, 10))
+      arr1 = [1, 2, 3]
+      arr2 = [4, 5, 6]
+      print(len(arr1, arr2))
     </input>
   </sage>
   <problem>
@@ -158,41 +152,34 @@ See the file COPYING for copying conditions.
 
       ...
 
-      TypeError: return arrays must be of ArrayType
+      TypeError: len() takes exactly one argument (2 given)
     </pre>
   </problem>
   <investigation>
     <p></p>
-    <p>The function <c>np.sqrt()</c> accepts exactly one input.</p>
-    <p>
-      We are giving it more than one inputs, so an error appears.
-    </p>
+    <p>The function <c>len()</c> accepts exactly one input, but two parameters were given.</p>
   </investigation>
 
   <sage language="python">
     <input>
-      import numpy as np # Use library Numpy 
-
-      print(np.sqrt("Hello World!"))
+      a = 5
+      print(len(a))
     </input>
   </sage>
   <problem>
     <pre>
       TypeError
-      Cell In [1], line 3
+      Cell In [1], line 2
 
       ...
 
-      TypeError: ufunc 'sqrt' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''
+      TypeError: object of type 'int' has no len()
     </pre>
   </problem>
   <investigation>
     <p></p>
     <p>
-      The input of <c>np.sqrt()</c> must be numeric.
-    </p>
-    <p>
-      We are calling it with a string, so it returns an error.
+      The input of <c>len()</c> must be a data structure, but we are calling it with an <c>int</c>.
     </p>
   </investigation>
 
@@ -239,11 +226,12 @@ See the file COPYING for copying conditions.
   <investigation>
     <p></p>
     <p>
-      The function <c>upper()</c> accepts exactly one input of type <c>str</c>.
-    </p>
-    <p>
-      We can understand the error's description as <q>int does not have the function upper</q>.
+      The function <c>upper()</c> accepts exactly one input of type <c>str</c>, but we are giving it an <c>int</c>.
     </p>
   </investigation>
+
+  <p>
+    Try to modify and fix the examples with errors.
+  </p>
 
 </section>

@@ -10,14 +10,14 @@ See the file COPYING for copying conditions.
 <section xml:id="sec-data-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Data Structures</title>
 
+  <objectives>
+    <ul>
+      <li>Learn about data structures.</li>
+      <li>See two examples<mdash /><term>lists</term> and <term>dictionaries</term>.</li>
+    </ul>
+  </objectives>
+
   <introduction>
-    <objectives>
-      <ol>
-        <li>Các mục tiêu của section.</li>
-        <li></li>
-        <li></li>
-      </ol>
-    </objectives>
 
     <p>
       Up until now, variables have been storing only one value. Suppose we have a program that stores perfect square numbers. It might look like this:
@@ -35,7 +35,7 @@ See the file COPYING for copying conditions.
     </program>
 
     <p>
-      In order to reduce the number of variables, we can make use of a new object<mdash></mdash><term>data structures</term>.
+      In order to reduce the number of variables, we can make use of a new object<mdash></mdash><term>a data structure</term>.
     </p>
 
     <definition xml:id="def-data-structure">
@@ -58,41 +58,54 @@ See the file COPYING for copying conditions.
     
     <program language="python">
       <input>
-        import numpy as np # Use library Numpy
-        ps = np.array([0, 1, 4, 9, ..., 9801])
+        perfect_squares = [0, 1, 4, 9, ..., 9801]
       </input>
     </program>
 
     <p>
-      Instead of creating 100 different variables, we can now create just one, which holds 100 values. (You don't have to care about the syntax yet.)
+      Even though this is definitely time-consuming (you're typing 100 numbers) and impractical, it's still significantly better than before. Instead of creating 100 different variables, we now create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
     </p>
 
     <p>
-      Every programming language has its own set of built-in data structures, all of which are different in some way.
+      Every programming language has its own set of built-in data structures, all of which are different in some way and have their own pros and cons.
     </p>
 
     <p>
-      For this book, the two most important data structures have got to be <term>arrays</term> and <term>matrices</term>.
+      For now, we will take a loot at two of the most used data structures<mdash /><term>lists (arrays)</term> and <term>dictionaries</term>.
     </p>
 
     <p>
-      The following sub-sections will only <em>briefly introduce</em> these two objects. If you are interested in their syntax or how to work with them, please refer to <xref provisional="sec-lap-trinh-mo-rong"/>.
+      The following sub-sections will only <em>briefly introduce</em> these two objects. If you are interested in their syntax or how to work with them, please refer to <xref ref="appendix-whats-next" text="title"/>.
     </p>
   </introduction>
 
-  <subsection xml:id="subsec-array">
-    <title>Arrays</title>
+  <subsection xml:id="subsec-list">
+    <title>Lists (Arrays)</title>
 
-    <definition xml:id="def-array">
+    <definition xml:id="def-list">
       <statement>
         <p>
-          An <term>array</term> can store multiple values at once.
+          A <term>list</term> can store multiple values at once.
         </p>
         <p>
-          All elements of an array must have <em>the same data type</em>.
+          Elements of a Pythonic list can be of <em>different</em> data types.
         </p>
       </statement>
     </definition>
+
+    <note>
+      <p>
+        A list is a built-in data structure in Python. It is different from <term>an array</term> in that the elements of a Pythonic array must all have the same data type (and it's not built-in).
+      </p>
+
+      <p>
+        In some other programming languages, an array works the same way as a list does in Python. This goes to show that in different languages, data structures can have the same name but different implementations.
+      </p>
+
+      <p>
+        Generally, the term <q>array</q> is more well-known than <q>list</q>.
+      </p>
+    </note>
 
     <p>
       For example:
@@ -100,73 +113,59 @@ See the file COPYING for copying conditions.
 
     <sage language="python">
       <input>
-        import numpy as np # Use library Numpy
+        li1 = [1, 2, 3]
+        li2 = [1, 2.5, 3]
+        li3 = [1, "test", 3]
 
-        arr = np.array([1, 2, 3])
-        print(arr, type(arr))
+        print(li1, type(li1))
+        print(li2, type(li2))
+        print(li3, type(li3))
       </input>
     </sage>
     <problem>
       <pre>
-        [1 2 3] &lt;class 'numpy.ndarray'&gt;
+        [1 2 3] &lt;class 'list'&gt;
+        [1 2.5 3] &lt;class 'list'&gt;
+        [1 'test' 3] &lt;class 'list'&gt;
       </pre>
     </problem>
     <investigation>
       <p></p>
       <p>
-        We declare an array with 3 elements, all of which are integers.
+        We declare three lists, each of which has 3 elements.
       </p>
       <p>
-        The command <c>type()</c> lets us know its data type is <c>numpy.ndarray</c>, which can be understood as <q>array of Numpy</q>.
-      </p>
-    </investigation>
-    
-    <p>
-      If we gives an array a mixed collection of <c>int</c> and <c>float</c>, then it <em>automatically</em> converts its elements so that their data types match.
-    </p>
-    
-    <sage language="python">
-      <input>
-        import numpy as np # Use library Numpy
-
-        arr1 = np.array([1, 2.5, 3])
-        print(arr1)
-
-        arr2 = np.array([1, "test", 3])
-        print(arr2)
-      </input>
-    </sage>
-    <problem>
-      <pre>
-        [1.  2.5 3. ]
-        ['1' 'test' '3']
-      </pre>
-    </problem>
-    <investigation>
-      <p></p>
-      <p>
-        The array <c>arr1</c> realizes the floating-point element <c>2.5</c>, so it converts all the integers into <c>float</c>.
+        The elements of <c>l1</c> are all integers.
       </p>
       <p>
-        Similarly, the array <c>arr2</c> automatically converts all of its elements into <c>str</c>.
+        The list <c>l2</c> stores two integers and a float.
+      </p>
+      <p>
+        The list <c>l3</c> has two integers and a string.
+      </p>
+      <p>
+        The command <c>type()</c> lets us know their data type is <c>list</c>.
       </p>
     </investigation>
 
+    <insight>
+      <p>
+        As you can already see, the list has a distinct syntax. But we won't go into its syntax and usage yet since this is supposed to be a brief introduction.
+      </p>
+    </insight>
+    
   </subsection>
 
-  <subsection xml:id="subsec-matrix">
-    <title>Matrices</title>
+  <subsection xml:id="subsec-dictionary">
+    <title>Dictionaries</title>
 
-    <definition xml:id="def-matrix">
+    <definition xml:id="def-dictionary">
       <statement>
         <p>
-          A <term>matrix</term> can store multiple values at once.
+          A <term>dictionaries</term> can store multiple pairs of <term>key:value</term>.
         </p>
         <p>
-          A matrix is <term>two-dimensional</term>, meaning its elements are organized into <term>rows</term> and <term>columns</term>. 
-        </p>
-        <p>
-          All elements of a matrix must have <em>the same data type</em>.
+          It's often used to store descriptive information.
         </p>
       </statement>
     </definition>
@@ -175,94 +174,42 @@ See the file COPYING for copying conditions.
 
     <sage language="python">
       <input>
-        import numpy as np # Use library Numpy
+        info_of_student = {
+          "name": "Steve",
+          "gender": "male",
+          "dob": 1980, 
+          "hobbies": ["apples", "swimming", "programming"],
+          5: "random",
+        }
 
-        mat = np.matrix([[1, 2, 3], [2, 4, 6]])
-        print(mat, type(mat))
+        print(info_of_student)
+        print(type(info_of_student))
       </input>
     </sage>
     <problem>
       <pre>
-        [[1 2 3]
-         [2 4 6]] &lt;class 'numpy.matrix'&gt;
+
       </pre>
     </problem>
     <investigation>
       <p></p>
       <p>
-        We declare a matrix with 6 integer elements. Row 1 has 3 elements <c>1 2 3</c>, and row 2 has 3 elements <c>2 4 6</c>. (So, this is a 2-by-3 matrix.)
+        We declare a dictionary with 5 elements which are pairs of key:value.
       </p>
       <p>
-        The command <c>type()</c> lets us know its data type is <c>numpy.matrix</c>, which can be understood as <q>matrix of Numpy</q>.
+        As you can see, the keys and values can be of many data types.
+      </p>
+      <p>
+        The command <c>type()</c> lets us know its data type is <c>dict</c>.
       </p>
     </investigation>
     
-    <p>
-      To improve readability, a matrix can be declared as follows:
-    </p>
-
-    <sage language="python">
-      <input>
-        import numpy as np # Use library Numpy
-
-        mat = np.matrix(
-          [
-            [1, 2, 3],
-            [2, 4, 6]
-          ]
-        )
-        print(mat, type(mat))
-      </input>
-    </sage>
-    <problem>
-      <pre>
-        [[1 2 3]
-         [2 4 6]] &lt;class 'numpy.matrix'&gt;
-      </pre>
-    </problem>
-    <investigation>
-      <p></p>
+    <insight>
       <p>
-        This code runs completely the same as before.
+        The dictionary has yet another distinct syntax. Again, we won't go into its syntax and usage yet.
       </p>
-      <p>
-        With this representation, we can easily see the number of rows and columns.
-      </p>
-      <p>
-        It also shows an interesting fact<mdash></mdash>a matrix is a big array whose elements are smaller arrays.
-      </p>
-    </investigation>
-
-    <p>
-      And similar to arrays, a matrix automatically converts its elements so that their data types match.
-    </p>
+    </insight>
     
-    <sage language="python">
-      <input>
-        import numpy as np # Use library Numpy
-
-        mat = np.matrix(
-          [
-            [1, 2.5, 3],
-            [2, 4, 6]
-          ]
-        )
-        print(mat)
-      </input>
-    </sage>
-    <problem>
-      <pre>
-        [[1.  2.5 3. ]
-         [2.  4.  6. ]]
-      </pre>
-    </problem>
-    <investigation>
-      <p></p>
-      <p>
-        The matrix sees the floating-point element <c>2.5</c>, so it converts all the other integers into <c>float</c>.
-      </p>
-    </investigation>
-
   </subsection>
 
 </section>

@@ -112,7 +112,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <p>
-    All provided code examples can be run directly or copy-pasted and run in code cells provided in <xref ref="appendix-playground" text="title"/>. They can also be compiled and run in external coding environments, but this book will not instruct you in that.
+    All provided code examples can be run directly or copy-pasted and run in code cells provided in <xref ref="appendix-playground" text="title"/>. They can also be compiled and run in external coding environments, but this article will not instruct you in that.
   </p>
 
   <note>

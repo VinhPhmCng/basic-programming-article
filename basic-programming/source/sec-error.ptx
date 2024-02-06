@@ -10,25 +10,24 @@ See the file COPYING for copying conditions.
 <section xml:id="sec-error" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Errors And How To Fix Them</title>
 
+  <objectives>
+    <ul>
+      <li>Learn about errors and ways to deal with them.</li>
+    </ul>
+  </objectives>
+
   <introduction>
-    <objectives>
-      <ol>
-        <li>Các mục tiêu của section.</li>
-        <li></li>
-        <li></li>
-      </ol>
-    </objectives>
     
     <p>
-      Congratulations! You have equipped yourself with programming fundamentals.
+      Congratulations! You have equipped yourself with quite a few programming fundamentals.
     </p>
 
     <p>
-      Finally, to improve your learning journey and experience, you should know how to deal with <term>errors</term>. For frequently seen errors, please refer to <xref provisional="frequent-errors"/>. We will now go into some basic knowledge.
+      Before we continue, to improve your learning journey and experience, you should know how to deal with <term>errors</term>.
     </p>
 
     <p>
-      As previously mentioned, errors, if any, will be shown in the <term>terminal</term>. Some additional pieces information about an error are:
+      Errors, if any, will be shown in the <term>terminal</term>. Some additional pieces information about an error are:
 
       <ul>
         <li>
@@ -52,7 +51,7 @@ See the file COPYING for copying conditions.
           </p>
         </li>
       </ul>
-      Here are some examples picked from previous sections:
+      Below are some examples:
     </p>
 
     <sage>
@@ -147,7 +146,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Coming up are some of my personal experiences in fixing errors. You can try out these approaches one after another:
+      Coming up are some of my personal experiences in fixing errors. You can try them out one after another:
 
       <ol>
         <li>
@@ -158,7 +157,7 @@ See the file COPYING for copying conditions.
         </li>
         <li>
           <p>
-            <term>Search on the Internet</term><mdash />You can look it up by copy-pasting its description onto Google.
+            <term>Search it on the Internet</term><mdash />You can look it up by copy-pasting its description onto Google.
           </p>
 
           <note>
@@ -177,17 +176,17 @@ See the file COPYING for copying conditions.
             The majority of errors you might run into have already been solved by others. Thus, we can quickly read online posts and discussions and learn their solutions. Some of the most popular forums are <term>Stack Overflow</term>, <term>Github</term>, <term>Stack Exchange</term>, <term>Reddit</term>.
           </p>
           <p>
-            Here, if you are still unable to fix it, or you run into another one, you can repeat the process, or proceed to step 3.
+            Here, if you run into another one, or if you are still unable to fix it, you can repeat the process, or proceed to step 3 respectively.
           </p>
         </li>
         <li>
           <p>
-            <term>Describe it yourself</term><mdash />It seems others' solutions don't apply to you when using the provided description. In that case, why don't you try to detail it using your own words? Describe what you are trying to achieve, with which data types, with which language, and maybe your suspicion of why the error occurs, <etc></etc>. Not working? Let's move to the next approach.
+            <term>Describe it yourself</term><mdash />It seems others' solutions don't apply to you when using the provided description. In that case, why don't you try to detail it using your own words? Describe what you are trying to achieve, with which data types, with which language, and maybe your suspicion of why the error occurs, <etc /> Not working? Let's move to the next approach.
           </p>
         </li>
         <li>
           <p>
-            <term>Using artificial intelligence (AI)</term><mdash />If possible, you should try taking advantage of AI models such as <term>ChatGPT</term> or <term>Github Copilot</term> to fix errors. This is becoming an increasingly popular and effective approach.
+            <term>Use artificial intelligence (AI)</term><mdash />If possible, you should try taking advantage of coding AIs such as <term>ChatGPT</term> or <term>Github Copilot</term> to fix errors. This is becoming an increasingly popular and effective approach.
           </p>
         </li>
         <li>

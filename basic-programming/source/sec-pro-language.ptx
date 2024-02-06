@@ -133,11 +133,14 @@ See the file COPYING for copying conditions.
     However, for <term>beginner-level</term> usage, this speed advantage doesn't really matter. So for you, high-level languages are definitely the way to go.
   </p>
 
-  <convention>
+  <note>
     <p>
-      In this book, coding examples are written in high-level languages<mdash></mdash>mostly <term>Python</term> and <term>SageMath</term>, making it easier for you to follow and experiment.
+      In this article, coding examples are written in the high-level language Python, making it easier for you to follow and experiment.
     </p>
-  </convention>
+    <p>
+      But there are also code cells in other programming languages, which can be found in <xref ref="appendix-playground" text="title"></xref>.
+    </p>
+  </note>
 
   <p>
     Each programming language has its own set of notations, which is developed in consideration of its purpose. Python is a high-level multi-purpose language used by mathematicians, data scientists, software/game developers and so many more.

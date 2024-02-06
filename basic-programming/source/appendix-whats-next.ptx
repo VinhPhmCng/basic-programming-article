@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--*****************************************
+This is part of Basic Programming
+Copyright (C) 2024
+Phạm Công Vinh
+See the file COPYING for copying conditions.
+******************************************-->
+
+<appendix xml:id="appendix-whats-next" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>What's Next?</title>
+
+  <p>
+    <ul>
+      <li>Classes</li>
+      <li>Modularity</li>
+      <li>Algorithms</li>
+    </ul>
+  </p>
+  
+
+</appendix>

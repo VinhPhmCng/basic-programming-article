@@ -23,6 +23,10 @@ See the file COPYING for copying conditions.
   <subsection xml:id="subsec-python-play">
     <title>Python</title>
 
+    <p>
+      Python is one of the most popular modern programming languages right now. It's high-level and multi-purpose.
+    </p>
+
     <sage language="python">
       <input>
         # This is a Python cell
@@ -50,6 +54,10 @@ See the file COPYING for copying conditions.
   <subsection xml:id="subsec-javascript-play">
     <title>Javascript</title>
 
+    <p>
+      Virtually every modern web-page has Javascript running under the hood.
+    </p>
+
     <program language="javascript" interactive="activecode">
       <input>
         // This is a Javascript cell
@@ -59,14 +67,20 @@ See the file COPYING for copying conditions.
       </input>
     </program>
 
-    <p>
-      Outputs of Javascript code might not appear right below. To see them, open the <q>Element Inspect</q> panel by right-clicking on the page and select <q>Inspect</q>. Then, go to the <q>Console</q> tab. Run the code and you should see the outputs appear there.
-    </p>
+    <note>
+      <p>
+        Outputs of Javascript code might not appear right below. To see them, open the <q>Element Inspect</q> panel by right-clicking on the page and select <q>Inspect</q>. Then, go to the <q>Console</q> tab. Run the code and you should see the outputs appear there.
+      </p>
+    </note>
     
   </subsection>
 
   <subsection xml:id="subsec-sage-play">
     <title>Sage</title>
+
+    <p>
+      Sage is part of SageMath, an open-source mathematics software system. It's based on Python, so their syntax is mostly similar.
+    </p>
     
     <sage>
       <input>

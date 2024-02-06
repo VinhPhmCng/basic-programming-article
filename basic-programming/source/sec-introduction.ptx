@@ -12,7 +12,7 @@ See the file COPYING for copying conditions.
 
   <introduction>
     <p>
-      Welcome my friend! This is an article on <term>programming</term> and its most <term>fundamental concepts</term>, as you can see in the Table of Contents to your left.
+      Welcome my friend! This is an article on <term>programming</term> and its most <term>fundamental concepts</term>, as you can see in the Table of Contents to your left. The knowledge is designed to be as beginner-friendly as possible, making each section a 5 to 10-minute read.
     </p>
     
     <p>
@@ -21,6 +21,33 @@ See the file COPYING for copying conditions.
 
     <p>
       That's it! Going forward I hope I can give you a good first impression of the wonderful world of programming. Despite the title, I hope this article will be useful and entertaining to both complete novices and those who have had some contact with programming.
+    </p>
+
+    <p>
+      An overview of the contents:
+
+      <ul>
+        <li>
+          <p>
+            <term>Sections 1 and 2</term>: An introduction to the article.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Sections 3 to 10</term>: Fundamental concepts of programming.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Sections 11 and 12</term>: Personal experiences to help improve your learning.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Sections 13 to 17?</term>: Slightly more advanced fundamental concepts.
+          </p>
+        </li>
+      </ul>
     </p>
   </introduction>
 
@@ -50,7 +77,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      You can also watch the <url href="https://www.youtube.com/" visual="youtube.com">Youtube series</url>, starting with the first video, which explains what programming is.
+      You can also watch the <url href="https://www.youtube.com/" visual="youtube.com">Youtube series</url> <xref provisional="youtube series"/>, starting with the first video, which explains what programming is.
     </p>
   </subsection>
 
@@ -74,13 +101,25 @@ See the file COPYING for copying conditions.
           <p><url href="https://motioncanvas.io/" visual="motioncanvas.io">Motion Canvas</url></p>
         </li>
         <li>
-          <p>Slidev</p>
+          <p>Slidev <xref provisional="links to tools"/></p> 
         </li>
         <li>
           <p>Kdenlive</p>
         </li>
         <li>
           <p>Animotion?</p>
+        </li>
+        <li>
+          <p>Resources (SFX, Images, <etc />)</p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      And the resources are from:
+      <ul>
+        <li>
+          <p>Resources (SFX, Images, <etc />)</p>
         </li>
       </ul>
     </p>

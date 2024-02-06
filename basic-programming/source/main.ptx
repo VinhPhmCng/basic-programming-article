@@ -27,12 +27,16 @@
     <xi:include href="./sec-operator.ptx" />
     <xi:include href="./sec-attribute.ptx" />
     <xi:include href="./sec-function.ptx" />
+
     <xi:include href="./sec-error.ptx" />
+    <xi:include href="./sec-personal-experience.ptx" />
+
     <xi:include href="./sec-conditional.ptx" />
     <xi:include href="./sec-loop.ptx" />
     <xi:include href="./sec-scope.ptx" />
     <xi:include href="./sec-declare-function.ptx" />
-    <xi:include href="./sec-whats-next.ptx" />
+    <xi:include href="./sec-class.ptx" />
+
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />

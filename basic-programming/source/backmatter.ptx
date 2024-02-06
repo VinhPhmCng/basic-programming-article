@@ -11,10 +11,11 @@ See the file COPYING for copying conditions.
   <title>Appendices</title>
 
   <xi:include href="./appendix-playground.ptx"/>
+  <xi:include href="./appendix-whats-next.ptx" />
   <xi:include href="./appendix-gfdl.ptx"/>
 
   <colophon>
-    <p> This book was authored in <pretext />. </p>
+    <p> This article was authored in <pretext />. </p>
   </colophon>
 </backmatter>
 
