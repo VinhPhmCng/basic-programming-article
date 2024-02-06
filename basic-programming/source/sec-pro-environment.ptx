@@ -11,19 +11,17 @@ See the file COPYING for copying conditions.
   <title>Our Programming Environment</title>
 
   <objectives>
-    <ol>
-      <li>Các mục tiêu của section.</li>
-      <li></li>
-      <li></li>
-    </ol>
+    <ul>
+      <li>Learn to use the basic components of our programming environment.</li>
+    </ul>
   </objectives>
   
   <p>
-    To code, you need a suitable working environment. You would most likely not code in Word, would you? Instead, you would use a <term>code editor and compiler</term>.
+    To code, you need a suitable working environment. You would most likely not code in Word the text editor, would you? Instead, you would use a <term>code editor and compiler</term>.
   </p>
 
   <p>
-    In the online version of the book, our code editor and compiler is as follows:
+    In the online version of the article, our code editor and compiler is as follows:
   </p>
 
   <sage language="python">
@@ -66,7 +64,7 @@ See the file COPYING for copying conditions.
       </li>
       <li>
         <p>
-          <term>Output</term>: Where <term>static</term> outputs are shown. It is mostly intended for the hard copy or PDF, but online users can also benefit, for example, when their devices are not connected to the Internet and therefore cannot run the code.
+          <term>Output</term>: Where <term>static</term> outputs are shown. It is mostly intended for the hard copy or PDF, but online users can also benefit, for example, when the code servers are down for some reason.
         </p>
       </li>
     </ol>
@@ -80,17 +78,17 @@ See the file COPYING for copying conditions.
   </note>
 
   <p>
-    In this book, our environment is limited to those components for the sake of simplicity. More sophisticated environments have many more features helping programmers to create.
+    In this article, our environment is limited to those components for the sake of simplicity. More sophisticated environments have many more features helping experienced programmers to create, but for beginners they are unnecessary.
   </p>
 
   <p>
-    All provided code examples can be compiled and run in external coding environments, but this book will not instruct you in that.
+    All provided code examples can be run directly or copy-pasted and run in code cells provided in <xref ref="appendix-playground" text="title"/>. They can also be compiled and run in external coding environments, but this book will not instruct you in that.
   </p>
 
   <note>
     <title>Continuing code</title>
     <p>
-      Code cells can be a continuation of previous cells. This feature helps make some examples shorter and their explanations easier to follow. 
+      Code cells can be a continuation of previous cell(s). This feature helps make some examples shorter and their explanations easier to follow. 
     </p>
   </note>
 
@@ -122,7 +120,7 @@ See the file COPYING for copying conditions.
     
   <note>
     <p>
-      If you run a cell starting with <c># ...</c>, and unwanted results or errors show up, then it is likely that you have not run necessary preceding cell(s).
+      If you run a cell starting with <c># ...</c>, and unwanted results or errors show up, then it's likely that you haven't run necessary preceding cell(s).
     </p>
   </note>
 

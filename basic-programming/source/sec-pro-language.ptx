@@ -11,11 +11,10 @@ See the file COPYING for copying conditions.
   <title>Programming Languages</title>
 
   <objectives>
-    <ol>
-      <li>Các mục tiêu của section.</li>
-      <li></li>
-      <li></li>
-    </ol>
+    <ul>
+      <li>See some examples of different programming languages.</li>
+      <li>Learn about <term>high-level</term> and <term>low-level</term> languages.</li>
+    </ul>
   </objectives>
 
   <p>
@@ -45,7 +44,7 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    Here is another code block written in Python. (You don't have to understand what the code is doing.)
+    Here is another code block written in Python. (You don't have to understand what the code is doing, though it's easy to guess its purpose.)
   </p>
 
   <program language="python">
@@ -68,7 +67,10 @@ See the file COPYING for copying conditions.
   <definition xml:id="def-prolang-high-level">
     <statement>
       <p>
-        Python is called a <term>high-level</term> programming language because its syntax closely resembles human languages.
+        Python is called a <term>high-level</term> programming language because its <term>syntax</term> closely resembles human languages.
+      </p>
+      <p>
+        <term>Syntax</term> simply means the <q>grammar</q> of a programming language. Like human languages, programming languages have their own set of grammatical rules, which are crucial for the computer, something that always follows orders exactly.
       </p>
     </statement>
   </definition>
@@ -78,7 +80,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <p>
-    The following example is written in <term>Assembly</term>. The code when compiled will also output the words <q>Hello World!</q>.
+    The following example is written in <term>Assembly</term>. The code when compiled will also output the words <q>Hello World!</q>. (Again, don't try to understand the code. This one is beyond even me.)
   </p>
 
   <program language="assy">
@@ -108,11 +110,14 @@ See the file COPYING for copying conditions.
   </definition>
 
   <p>
-    In conclusion, the syntax of high-level languages are most likely easier to understand than that of low-level ones. Maybe you would ask <q>When or why should we use low-level languages then?</q>
+    In conclusion, the syntax of high-level languages are easier to understand than that of low-level ones. Maybe you would ask <q>Then why should we use low-level languages?</q>
   </p>
 
   <p>
-    There can be many reasons for that, some of which are speed, potential, or specialization, <etc></etc>
+    There can be many reasons for that, and among them speed is the most obvious one. Basically, code written in high-level languages has to go through more intermediate steps to be translated into machine code (binary) than low-level ones, thus it's obvious that the latter often have a speed advantage.
+  </p>
+  <p>
+    Some other reasons are specialization, complex data manipulation, legacy code, <etc />
   </p>
   
   <insight>
@@ -124,54 +129,38 @@ See the file COPYING for copying conditions.
     </p>
   </insight>
 
+  <p>
+    However, for <term>beginner-level</term> usage, this speed advantage doesn't really matter. So for you, high-level languages are definitely the way to go.
+  </p>
+
   <convention>
     <p>
       In this book, coding examples are written in high-level languages<mdash></mdash>mostly <term>Python</term> and <term>SageMath</term>, making it easier for you to follow and experiment.
     </p>
-    <p>
-      Each programming language has its own set of notations, which is developed in consideration of its purpose. Python is a high-level multi-purpose language.
-    </p>
   </convention>
 
   <p>
-    Some additional information:
-    <ul>
-      <li>
-        <p>
-          <term>Python</term> is a high-level multi-purpose programming language. It is used by mathematicians, data scientists, software developers, game developers, <etc></etc>
-        </p>
-      </li>
-      <li>
-        <p>
-          The book often uses <term>Numpy</term><mdash />an <term>extending library</term> that provides additional mathematical features, including matrices, for Python.
-        </p>
-      </li>
-      <li>
-        <p>
-          <term>SageMath</term> is a high-level language built on top of Numpy and other mathematical packages.
-        </p>
-      </li>
-    </ul>
+    Each programming language has its own set of notations, which is developed in consideration of its purpose. Python is a high-level multi-purpose language used by mathematicians, data scientists, software/game developers and so many more.
   </p>
 
   <insight>
     <title>Choosing A Programming Language</title>
     <p>
-      When getting started with programming, a beginner often comes across certain topics:
+      When getting started with programming, a beginner often comes across certain topics on the Internet:
       <ul>
         <li>
           <p>
-            Which programming language should I start with?
+            <q>Which programming language should I start with?</q>
           </p>
         </li>
         <li>
           <p>
-            Which programming language should I learn in 2024?
+            <q>Which programming language should I learn in 2024?</q>
           </p>
         </li>
         <li>
           <p>
-            Which programming language to learn for high-paying jobs?
+            <q>Which programming language to learn for high-paying jobs?</q>
           </p>
         </li>
         <li>
@@ -186,17 +175,17 @@ See the file COPYING for copying conditions.
       <ul>
         <li>
           <p>
-            What is my purpose to learn a new programming language?
+            <q>What is my purpose in learning a new programming language?</q>
           </p>
         </li>
         <li>
           <p>
-            For that purpose, which programming language is suitable?
+            <q>For that purpose, which programming language is suitable?</q>
           </p>
         </li>
         <li>
           <p>
-            Do I want to learn a high-level or low-level language?
+            <q>For that purpose and considering my current level, do I want to learn a high-level or low-level language?</q>
           </p>
         </li>
         <li>

@@ -11,11 +11,9 @@ See the file COPYING for copying conditions.
   <title>Comments</title>
 
   <objectives>
-    <ol>
-      <li>Các mục tiêu của section.</li>
-      <li></li>
-      <li></li>
-    </ol>
+    <ul>
+      <li>Learn to recognize and use <term>comments</term> in code.</li>
+    </ul>
   </objectives>
   
   <p>

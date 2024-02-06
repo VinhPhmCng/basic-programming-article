@@ -10,47 +10,98 @@ See the file COPYING for copying conditions.
 <section xml:id="sec-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Introduction</title>
 
-  <p>
-    In this book, interactive code blocks are an intuitive way to introduce the matrix to readers. Part of the reason is because matrices are ubiquitous in programming and computer science, especially artificial intelligence (AI). Therefore, a basic understanding of matrices in programming specifically is an invaluable skill in today's world.
-  </p>
+  <introduction>
+    <p>
+      Welcome my friend! This is an article on <term>programming</term> and its most <term>fundamental concepts</term>, as you can see in the Table of Contents to your left.
+    </p>
+    
+    <p>
+      This article is also adapted into videos, which are available on Youtube and also embedded into their corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial.
+    </p>
 
-  <p>
-    This appendix will introduce only the fundamental concepts of programming and try to make them <em>as simple as possible</em>. However, if you are interested in the vast world of programming, then the Internet is all that you need to start your adventure!
-  </p>
+    <p>
+      That's it! Going forward I hope I can give you a good first impression of the wonderful world of programming. Despite the title, I hope this article will be useful and entertaining to both complete novices and those who have had some contact with programming.
+    </p>
+  </introduction>
 
-  <p>
-    Concepts will be introduced in the following structure:
-    <ol>
-      <li>
-        <p>
-          Definition
-        </p>
-      </li>
-      <li>
-        <p>
-          Example code blocks
-        </p>
-      </li>
-      <li>
-        <p>
-          Explanations for examples
-        </p>
-      </li>
-    </ol>
+  <subsection xml:id="subsec-how-to-follow-along">
+    <title>How To Follow Along</title>
+    <p>
+      Concepts will be introduced with the following structure:
+      <ol>
+        <li>
+          <p>
+            Definition
+          </p>
+        </li>
+        <li>
+          <p>
+            Example code blocks
+          </p>
+        </li>
+        <li>
+          <p>
+            Explanations for examples
+          </p>
+        </li>
+      </ol>
 
-    <em>When running coding examples</em>, you should <term>simultaneously</term> read the corresponding explanations for the best learning experience.
-  </p>
+      <em>When running coding examples</em>, you should <term>simultaneously</term> read the corresponding explanations for the best learning experience.
+    </p>
 
-  <p>
-    The majority of concepts are presented with specific examples making it easier for beginners and, at the same time, reduce the contents of this appendix. Having finished it, you should be able to <em>understand</em> most interactive code blocks available in the book.
-  </p>
+    <p>
+      You can also watch the <url href="https://www.youtube.com/" visual="youtube.com">Youtube series</url>, starting with the first video, which explains what programming is.
+    </p>
+  </subsection>
 
-  <p>
-    However, understand that you will likely <em>not</em> be able to write code from scratch, and you are not expected to. If that is your wish, then again, the Internet is the perfect place to begin.
-  </p>
+  <subsection xml:id="subsec-support">
+    <title>Support This Project</title>
+    <p>
+      This is an open-source project, meaning the source code for this article and the videos are all available on Github<mdash />here. Readers can make a free Github account and give feedback directly. If you're a programmer, and you'd like to help your community by translating this article into your language, then that's possible as well. Refer to Contributing for more details.
+    </p>
 
-  <p>
-    Let's get started, shall we?
-  </p>
+    <p>
+      This page is built with <pretext />, which also provides us with built-in interactive code cells.
+    </p>
+
+    <p>
+      The videos are animated with the following tools:
+      <ul>
+        <li>
+          <p><url href="https://www.manim.community/" visual="manim.community">Manim Community Edition</url>, the original version of which is created by <url href="https://3b1b.github.io/manim/" visual="3b1b.github.io/manim">3Blue1Brown</url></p>
+        </li>
+        <li>
+          <p><url href="https://motioncanvas.io/" visual="motioncanvas.io">Motion Canvas</url></p>
+        </li>
+        <li>
+          <p>Slidev</p>
+        </li>
+        <li>
+          <p>Kdenlive</p>
+        </li>
+        <li>
+          <p>Animotion?</p>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Please support these amazing open-source programs that are what made this article possible.
+    </p>
+
+    <p>
+      Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project.
+    </p>
+
+    <p>
+      And if you really appreciate the contents, you can leave a donation on <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq"></url>. Thanks a bunch!
+    </p>
+  </subsection>
+
+  <conclusion>
+    <p>
+      Now then, let's get started, shall we?
+    </p>
+  </conclusion>
 
 </section>
