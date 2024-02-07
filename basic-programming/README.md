@@ -45,8 +45,7 @@
   <summary>Table of Contents</summary>
   <ol>
 	<li><a href="#about-the-project">About The Project</a></li>
-	<li><a href="#tools">Tools</a></li>
-	<li><a href="#resources">Resources</a></li>
+	<li><a href="#tools-and-resources-used-for-videos">Tools And Resources</a></li>
 	<li><a href="#contribute">Contribute</a></li>
 	<li><a href="#license">License</a></li>
   </ol>
@@ -57,7 +56,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-An article authored in [PreTeXt](https://pretextbook.org/index.html).
+An article produced with the amazing authoring system [PreTeXt](https://pretextbook.org/index.html).
 
 Introduces you to fundamentals concepts of programming without going into all the details.
 
@@ -72,11 +71,9 @@ It's also adapted into videos: [Here]() (under development)
 
 
 <!-- TOOLS -->
-## Tools
+## Tools And Resources Used For Videos
 
-1. PreTeXt
-   - [Website](https://pretextbook.org/index.html)
-   - [Github](https://github.com/PreTeXtBook/pretext)
+(Under development)
 
 1. Manim Community Edition
    - [Website](https://www.manim.community/)
@@ -85,15 +82,6 @@ It's also adapted into videos: [Here]() (under development)
 1. More
    - [Website]()
    - [Github]()
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- RESOURCES -->
-## Resources
-
-Under development
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
