@@ -105,7 +105,8 @@
     <!-- @colors now implemented                               -->
     <!-- also @knowls, @toc, and @banner, although no          -->
     <!-- alternative styles exist yet for those.               -->
-    <css style="default" colors="blue_red" />
+<!--     <css style="default" colors="blue_red" /> -->
+    <css style="oscarlevin" colors="ruby_emerald" />
     <!-- Search can be default or none, or you can use a Google-cx number to use google's search
     feature (but then variant should be set to none to avoid conflict) -->
     <search variant="default" />
@@ -114,7 +115,7 @@
     javascript, etc).  -->
     <calculator model="none" activecode="none" />
     <!-- Set the base URL of where the online version is hosted to have links in other formats -->
-    <!-- <baseurl href="changetomywebsite.org"/> -->
+    <baseurl href="https://vinhphmcng.github.io/basic-programming-article/"/>
     <!-- Control behavior of online WeBWorK, per type: -->
     <webwork
       inline="dynamic"

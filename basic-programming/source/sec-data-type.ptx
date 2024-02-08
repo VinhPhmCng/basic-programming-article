@@ -11,10 +11,10 @@ See the file COPYING for copying conditions.
   <title>Data Types</title>
 
   <objectives>
-    <ol>
+    <ul>
       <li>Learn about data types and how to use them.</li>
       <li>Understand how data <term>interact</term> with one another depends their data type.</li>
-    </ol>
+    </ul>
   </objectives>
   
   <p>
@@ -22,6 +22,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <definition xml:id="def-data-type">
+    <idx><h>Definitions</h><h>data types</h></idx>
     <statement>
       <p>
         And to <term>categorize</term> data, we make use of <term>data types</term>.
@@ -30,6 +31,7 @@ See the file COPYING for copying conditions.
   </definition>
 
   <p>
+    <idx><h>Overviews</h><h>of data types</h></idx>
     Most modern programming languages have the following data types:
     <dl>
       <li>
@@ -64,6 +66,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <note>
+    <idx><h>Notes</h><h>on data type determination</h></idx>
     <p>
       In Python and SageMath, when we declare or update a variable, it will <em>automatically</em> determine or re-determine its data type.
     </p>
@@ -91,6 +94,8 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
+    <idx><h>Code examples</h><h>data types</h></idx>
+    <idx><h>Functions</h><h>type()</h></idx>
     <p></p>
     <p>
       The command <c>type(a)</c> returns the data type of <c>a</c> written in single quotation marks. (You don't have to care about <c>class</c> here. In this context it can be understood as <q>classify</q>.)
@@ -108,9 +113,10 @@ See the file COPYING for copying conditions.
   </p>
 
   <definition xml:id="def-dtype-syntax">
+    <idx><h>Definitions</h><h>of data type syntax</h></idx>
     <statement>
       <p>
-        Different data types have their own representation when declared, in other words different <term>syntax</term>.
+        Different data types have their own representation when declared, or in other words, different <term>syntax</term>.
       </p>
     </statement>
   </definition>
@@ -139,6 +145,7 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
+    <idx><h>Code examples</h><h>data types</h></idx>
     <p></p>
     <p>
       Same as above.
@@ -156,9 +163,10 @@ See the file COPYING for copying conditions.
   </p>
 
   <definition xml:id="def-dtype-interaction">
+    <idx><h>Definitions</h><h>of data interactions</h></idx>
     <statement>
       <p>
-        Data type determine possible <term>interactions</term> between data.
+        Data types determine possible <term>interactions</term> between data.
       </p>
       <p>
         In other words, there are many possible interactions between data (mathematical calculations, string concatenation, <etc></etc>), and what they are depends on the data type(s) involved.
@@ -191,6 +199,7 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
+    <idx><h>Code examples</h><h>data interactions</h></idx>
     <p></p>
     <p>
       We know both <c>a</c> and <c>b</c> are of type <c>int</c>. So, adding them together makes sense and is allowed.
@@ -225,6 +234,7 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
+    <idx><h>Code examples</h><h>invalid data interactions</h></idx>
     <p></p>
     <p>
       The operator <c>+</c> is an <em>invalid</em> interaction between <c>int</c> và <c>str</c>.
@@ -252,6 +262,7 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
+    <idx><h>Code examples</h><h>string concatenation</h></idx>
     <p></p>
     <p>
       <c>s1 + s2</c> is valid and concatenates the strings, same with <c>s1 + s3</c>.

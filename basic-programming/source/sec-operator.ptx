@@ -11,15 +11,16 @@ See the file COPYING for copying conditions.
   <title>Operators</title>
 
   <objectives>
-    <ol>
+    <ul>
       <li>Learn about four main types of operators.</li>
       <li>Understand assignment operators through an example.</li>
-    </ol>
+    </ul>
   </objectives>
 
   <introduction>
 
     <definition xml:id="def-operator">
+      <idx><h>Definitions</h><h>of operators</h></idx>
       <statement>
         <p>
           In programming, an <term>operator</term> is a symbol that describes a specific assignment or a mathematical, relational, or logical operation.
@@ -63,9 +64,11 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
+      <idx><h>Code examples</h><h>arithmetic operators</h></idx>
+      <idx><h>Code examples</h><h>string concatenation</h></idx>
       <p></p>
       <p>
-        The first four lines are the same as mathematical operations.
+        The first four lines are just the same as mathematical operations.
       </p>
       <p>
         In line 7, the operator <c>+</c> represents string concatenation.
@@ -91,13 +94,13 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
+      <idx><h>Code examples</h><h>arithmetic operations</h></idx>
       <p></p>
       <p>
         You can look them up on the Internet to see how they work.
       </p>
     </investigation>
 
-    <!-- Translate ref and xml:id too -->
     <p>
       And you should always keep in mind <xref ref="def-dtype-interaction"/>.
     </p>
@@ -112,6 +115,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <definition xml:id="def-op-assignment">
+      <idx><h>Definitions</h><h>of assignment operations</h></idx>
       <statement>
         <p>
           An <term>assignment operator</term> is used to declare or update a variable.
@@ -123,6 +127,7 @@ See the file COPYING for copying conditions.
     </definition>
     
     <note>
+      <idx><h>Notes</h><h>on equality</h></idx>
       <p>
         In programming, the assignment operator <c>=</c> should never be associated with equality.
       </p>
@@ -150,9 +155,12 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
+      <idx><h>Code examples</h><h>declaration</h></idx>
+      <idx><h>Code examples</h><h>assignment</h></idx>
+      <idx><h>Code examples</h><h>updating variables</h></idx>
       <p></p>
       <p>
-        Firstly, we declare <c>a</c> and gives it the value <c>5</c>.
+        Firstly, we declare <c>a</c> and give it the value <c>5</c>.
       </p>
       <p>
         In line 4, we have <c>a + 1</c>, but when we access the value of <c>a</c> in line 5, we still get <c>5</c>.
@@ -163,6 +171,7 @@ See the file COPYING for copying conditions.
     </investigation>
     
     <p>
+      <idx><h>Notes</h><h>on assignment operators</h></idx>
       Theoretically, <c>=</c> is the only assignment operator you need to know. But we also have others that serve as a short-hand:
     </p>
 
@@ -201,10 +210,11 @@ See the file COPYING for copying conditions.
     <title>Relational Operators</title>
 
     <p>
-      <term>Relational operators</term> are mostly used in conditional statements, so they will be described in more details in <xref ref="sec-conditional"/>.
+      <term>Relational operators</term> are mostly used in conditional statements, so they will be described in more detail in <xref ref="sec-conditional"/>.
     </p>
 
     <p>
+      <idx><h>Overviews</h><h>of relational operators</h></idx>
       As an overview:
 
       <dl>
@@ -262,10 +272,11 @@ See the file COPYING for copying conditions.
     <title>Logical Operators</title>
     
     <p>
-      <term>Logical operators</term> are mostly used in conditional statements, so they will be described in more details in <xref ref="sec-conditional"/>.
+      <term>Logical operators</term> are mostly used in conditional statements, so they will be described in more detail in <xref ref="sec-conditional"/>.
     </p>
 
     <p>
+      <idx><h>Overviews</h><h>of logical operators</h></idx>
       As an overview:
       <dl>
         <li>

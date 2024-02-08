@@ -23,7 +23,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Honestly, if I could restart my journey as a programmer, I'd still do things all the same. It is thanks to the lessons I've learned from being inexperienced that I am who I am today. Others I learned by reading about others' mistakes on the Internet and avoid making them, which is why I thought this section's a good idea.
+      Honestly, if I could restart my journey as a programmer, I'd still do things all the same. It is thanks to the lessons I've learned from being inexperienced that I am who I am today. Others I learned by reading about people's mistakes on the Internet and avoiding making them, which is why I thought this section's a good idea.
     </p>
 
     <p>
@@ -31,11 +31,11 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Truthfully though, I'd like you to make a lot of mistakes still, which is why I won't write about step-by-step guides on how to avoid them, but instead my personal opinions. This is actually how my parents raise me, for which I'm extremely grateful. Basically, they don't keep me away from making mistakes, which would mean I'm not learning anything. Instead, they teach me how to get the most learning out of one and to not repeat it. 
+      Truthfully though, I'd like you to make a lot of mistakes still, which is why I won't write about step-by-step guides on how to avoid them, but instead my personal opinions. This is actually how my parents raised me, for which I'm extremely grateful. Basically, they didn't keep me away from making mistakes, which would mean I wasn't learning anything. Instead, they taught me about self-reflection and how to get the most learning out of mistakes. 
     </p>
 
     <p>
-      Okay then, I hope this will be useful for you!
+      Okay then, I hope this section will be useful for you!
     </p>
 
   </introduction>
@@ -70,7 +70,7 @@ See the file COPYING for copying conditions.
           <q>Okay. I wanna make a game, so I'm gonna look up <sq>game engines for beginners</sq> on Google.</q>
         </li>
         <li>
-          After a few articles and videos, I ended up with Godot<mdash />an open-source game engine that's been gaining popularity, has a big and supporting community and sufficient documentation.
+          After a few articles and videos, I ended up with Godot<mdash />an open-source game engine that's been gaining popularity, has a big and supportive community, and sufficient documentation.
         </li>
         <li>
           <q>Okay, now do I wanna use GDScript (Godot's built-in language which has beginner-friendly syntax), or C# (supported by Godot for advanced customization which requires more skill).</q>
@@ -84,7 +84,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Because I already had some ideas in mind, I got straight into making them and learning necessary concepts as I go, but never more than I need. If I got stuck, it'd mean I have some online researching to do. Otherwise, I was doing just fine with whatever knowledge I had, even if my solutions weren't the most effective or beautiful.
+      Because I already had some ideas in mind, I got straight into making them and learning necessary concepts as I went, but never more than I needed. If I got stuck, it'd mean I had some online research to do. Otherwise, I was doing just fine with whatever knowledge I had, even if my solutions weren't the most effective or beautiful.
     </p>
 
     <p>
@@ -92,7 +92,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      <sq>Starting simple</sq> can also be applied to choosing a code editor or IDE (integrated development environment). I chose the Godot engine also because it comes with its own coding environment. Until now, I think I've tried 5 IDEs at most, and I've been sticking with VSCode for a while because, again, it's beginner-friendly.
+      <sq>Starting simple</sq> can also be applied to choosing a code editor or IDE (integrated development environment). I chose the Godot engine also because it comes with a built-in coding environment. Until now, I think I've tried 5 IDEs at most, and I've been sticking with VSCode for a while because, again, it's beginner-friendly.
     </p>
 
     <p>
@@ -115,7 +115,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      The reason for this phenomenon could be a lack of motivation or idea, procrastination, poor social media management, <etc /> It's also because there's an abundance of online resources and contents about coding, which can be excessive sometimes.
+      The reason for this phenomenon could be a lack of motivation or ideas, procrastination, poor social media management, <etc /> It's also because there's an abundance of online resources and contents about coding, which can be excessive sometimes.
     </p>
 
     <p>
@@ -124,7 +124,7 @@ See the file COPYING for copying conditions.
 
     <warning>
       <p>
-        Just do something. You learn by doing, not by mindlessly consuming contents.
+        Just do something. You learn by doing, not by mindlessly consuming content.
       </p>
     </warning>
     
@@ -133,15 +133,15 @@ See the file COPYING for copying conditions.
   <subsection xml:id="subsec-pe-have-fun">
     <title>Have Fun</title>
     <p>
-      I think it's incredibly important to always have fun with the process, since stress and burn-outs are gonna be unavoidable sometimes. The cause can be annoying error messages showing up one after another, following step-by-step installation guides but getting stuck or messing up somewhere, learning something new and not understanding anything, and so on. And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not for you.
+      Since stress and burn-outs are gonna be unavoidable sometimes, I think it's incredibly important to always have fun with the process. There're always annoying error messages showing up one after another, getting stuck while following step-by-step installation guides, understanding nothing about a new concept, and so on. And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not for you.
     </p>
 
     <p>
-      Honestly, these kinds of stress occur in every creative discipline and to everybody. Some days are good, some days are bad. So, why not just have fun along the way and enjoy the process?
+      Honestly, these kinds of stress occur in every creative discipline and to everybody. Some days are good, some days are bad. So, why not just enjoy the process and have fun along the way?
     </p>
 
     <p>
-      Know that even if you think you're not making any progress, you definitely are. The author of <sq>Atomic Habits</sq><mdash />James Clear<mdash />associates this feeling with the <term>Value of Disappointment</term>. Basically, your progress is <em>not</em> a linear line always going up that you can feel everyday. Instead, it's more of a exponential curve that starts slow and gradually picks up the speed. Though there are days where you feel like it's not going anywhere, there are also days where something just clicks, and you're on a roll.
+      Know that even if you think you're not making any progress, you definitely are. The author of <sq>Atomic Habits</sq><mdash />James Clear<mdash />associates this feeling with the <term>Value of Disappointment</term>. Basically, your progress is <em>not</em> a linear line always going up that you can feel every day. Instead, it's more of an exponential curve that starts slow and gradually picks up the speed. Though there are days when you feel like it's not going anywhere, there are also days when something just clicks, and you're on a roll.
     </p>
 
     <p>
@@ -167,7 +167,7 @@ See the file COPYING for copying conditions.
     </p>
     
     <p>
-      In coding communities, there are often these conventions and rules of thumb such as how to name variables, how to format your code, how to organize your files, <etc /> So people learn them to improve efficiency and cooperation. And depending on the community, purpose, and choice of programming language, standards are gonna vary. Thus, you have to be objective and neutral when entering new environments and meeting new people, and you have to learn their game.
+      In coding communities, there are often these conventions and rules of thumb such as how to name variables, how to format code, how to organize files, <etc /> So people learn them to improve efficiency and cooperation. And depending on the community, purpose, and choice of programming language, standards are gonna vary. Thus, you should be objective and neutral when entering new environments and meeting new people, since you have to learn their game.
     </p>
 
     <p>
@@ -175,7 +175,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Experienced programmers often share rules of thumb. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to different situations, not make you a close-minded coder who always do things the same way.
+      Experienced programmers often share rules of thumb. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to different situations, not make you a close-minded coder who always does things the same way.
     </p>
 
     <warning>
@@ -192,11 +192,6 @@ See the file COPYING for copying conditions.
   <subsection xml:id="subsec-pe-tech-pointer">
     <title>Some Technical Pointers</title>
     
-<!--       start easy
-      learn to use a virtual environment 
-      learn to use command-line interfaces (CLI), just basics will do
-      help you to work with package managers
-    -->
     <introduction>
       <p>
         I'll try my best to make this short and easy to understand.
@@ -215,11 +210,11 @@ See the file COPYING for copying conditions.
       </p>
 
       <p>
-        However, when you go back to your Pygame projects, which was running just fine before, there's an error. Looking it up, you find out that Pygame doesn't work with Python version 3.12.1 yet. So do you downgrade Python to be able to work with it and cast Manim aside, or do you forsake the fun games you've made?
+        However, when you go back to your Pygame projects, which were running just fine before, there are errors. Looking them up, you find out that Pygame doesn't work with Python version 3.12.1 yet. So do you downgrade Python to continue developing games at the expense of Manim, or do you forsake the games you've been so passionate about?
       </p>
 
       <p>
-        An even worse case is when you actually install both version of Python on your machine and have them run simultaneously. Now this is really gonna mess you and your PC up as conflicts upon conflicts show up.
+        An even worse case is when you accidentally install both versions of Python on your machine and have them run simultaneously. Now this is really gonna mess you and your PC up as conflicts upon conflicts show up.
       </p>
 
       <p>
@@ -238,11 +233,11 @@ See the file COPYING for copying conditions.
       <title>Learn To Use Command-Line Interfaces</title>
       
       <p>
-        When the time comes for you to start exploring different languages and tools on your own, you will have to deal with command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are basically just the <sq>lower-level</sq> counterpart of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
+        When the time comes for you to start exploring different languages and tools on your own, you will have to deal with command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the <sq>lower-level</sq> counterpart of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
       </p>
 
       <p>
-        But don't worry, you don't have to look for a course on this. You can gradually learn the common commands as you go. Detailed installation guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key.
+        But don't worry, you don't have to take a course on this. You can gradually learn the common commands as you go. Detailed guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key anyways.
       </p>
 
       <p>

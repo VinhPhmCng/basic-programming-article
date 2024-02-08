@@ -13,7 +13,7 @@ See the file COPYING for copying conditions.
   <objectives>
     <ul>
       <li>Learn about variables and how to use them.</li>
-      <li>Understand the code example, which addresses how the equal sign <c>=</c> isn't associated with equality in programming.</li>
+      <li>Understand how the equal sign <c>=</c> isn't associated with equality in programming.</li>
     </ul>
   </objectives>
   
@@ -26,13 +26,14 @@ See the file COPYING for copying conditions.
   </p>
 
   <definition xml:id="def-variable">
+    <idx><h>Definitions</h><h>of variables</h></idx>
     <statement>
       <p>
         In programming, <term>variables</term> are used to store data.
       </p>
 
       <p>
-        The data stored inside a variable is called <term>value</term>, which is <em>often updated</em> as new data need to be stored.
+        The data stored inside a variable is called <term>value</term>, which is <em>often updated</em> as new data needs to be stored.
       </p>
 
       <p>
@@ -47,6 +48,8 @@ See the file COPYING for copying conditions.
 
   <technology>
     <title>Declaring and assigning</title>
+    <idx><h>Syntax</h><h>of declaration</h></idx>
+    <idx><h>Syntax</h><h>of assignment</h></idx>
     <p>
       To declare or assign values to a variable, we use the equal sign <c>=</c>: <me>{\color{blue} \text{name}} = \text{value}</me>
     </p>
@@ -80,8 +83,9 @@ See the file COPYING for copying conditions.
       1
     </pre>
   </problem>
-  
   <investigation>
+    <idx><h>Code examples</h><h>declaration</h></idx>
+    <idx><h>Code examples</h><h>assignment</h></idx>
     <p></p>
     <p>
       Firstly, we declare the variable <c>a</c> and assign it the value <c>1</c>.
@@ -93,10 +97,11 @@ See the file COPYING for copying conditions.
       We then use the command <c>print()</c> to access and display their current values in the terminal.
     </p>
     <p>
-      Next, we assign <c>a</c> a new value of <c>2</c>, in other words update its value to <c>2</c>, but we do not touch <c>b</c>.
+      Next, we assign <c>a</c> a new value of <c>2</c>, but we do not touch <c>b</c>.
     </p>
 
     <p>
+      <idx><h>Notes</h><h>on equality</h></idx>
       <alert>Note</alert>: If at this step you think that the values of <c>a</c> and <c>b</c> should both be <c>2</c>, then you are still associating <c>=</c> with equality, which is not the case for programming.
     </p>
 
@@ -110,6 +115,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <insight>
+    <idx><h>Insights</h><h>equality</h></idx>
     <p>
       The above example, though simple, confuses many beginners, especially those with a mathematical brain. Because they see <c>b = a</c>, they think it is an equality that holds true throughout the program's lifecycle. That mindset does <em>not</em> apply to programming.
     </p>
@@ -117,6 +123,7 @@ See the file COPYING for copying conditions.
 
   <note>
     <title>Naming a variable</title>
+    <idx><h>Notes</h><h>on variable name</h></idx>
     
     <p>
       A variable's name has some specifications such as <em>not</em> containing white-spaces or some other special characters.
@@ -151,7 +158,7 @@ See the file COPYING for copying conditions.
       In the programming community, there are different conventions for naming a variable.
     </p>
     <p>
-      It's a skill to know how to nicely name a variable, but this article will not instruct you in that. Variables in our coding examples are named in a <em>short and simple</em> manner.
+      It's a skill to know how to nicely name a variable, but this article will not instruct you in that. Variables in our coding examples are named in a <em>short and simple</em> fashion.
     </p>
   </note>
 

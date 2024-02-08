@@ -12,17 +12,17 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ul>
-      <li>See some examples of different programming languages.</li>
+      <li>See some examples in different programming languages.</li>
       <li>Learn about <term>high-level</term> and <term>low-level</term> languages.</li>
     </ul>
   </objectives>
 
   <p>
-    <term>A programming language</term> is a system of notation that helps human to create computer programs or, in other words, give instructions to computers. These <q>instructions</q> range from calculating additions and subtractions to complex data manipulations, <etc></etc>
+    <term>A programming language</term> is a system of notation that helps humans create computer programs or, in other words, give instructions to computers. These <q>instructions</q> range from calculating additions and subtractions to complex data manipulations, <etc></etc>
   </p>
 
   <p>
-    The code cell below is written in <term>Python</term><mdash></mdash>one of the most popular programming languages in the recent years. You can run the code and see the results.
+    The code cell below is written in <term>Python</term><mdash></mdash>one of the most popular programming languages in recent years. You can run the code and see the results.
   </p>
 
   <sage language="python">
@@ -37,13 +37,16 @@ See the file COPYING for copying conditions.
   </problem>
   
   <investigation>
+    <idx><h>Code examples</h><h>high-level</h></idx>
+    <idx><h>Functions</h><h>print()</h></idx>
     <p></p>
     <p>
-      The command <c>print()</c> have a simple job of putting data into the terminal. In this case, that data is the words <q>Hello World!</q>.
+      The command <c>print()</c> simply puts data into the terminal. In this case, it's the words <q>Hello World!</q>.
     </p>
   </investigation>
 
   <p>
+    <idx><h>Code examples</h><h>high-level</h></idx>
     Here is another code block written in Python. (You don't have to understand what the code is doing, though it's easy to guess its purpose.)
   </p>
 
@@ -65,6 +68,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <definition xml:id="def-prolang-high-level">
+    <idx><h>Definitions</h><h>of high-level languages</h></idx>
     <statement>
       <p>
         Python is called a <term>high-level</term> programming language because its <term>syntax</term> closely resembles human languages.
@@ -80,6 +84,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <p>
+    <idx><h>Code examples</h><h>low-level</h></idx>
     The following example is written in <term>Assembly</term>. The code when compiled will also output the words <q>Hello World!</q>. (Again, don't try to understand the code. This one is beyond even me.)
   </p>
 
@@ -102,6 +107,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <definition xml:id="def-prolang-low-level">
+    <idx><h>Definitions</h><h>of low-level languages</h></idx>
     <statement>
       <p>
         So, Assembly is called a <term>low-level</term> programming language, since its syntax is closer to computer languages.
@@ -110,19 +116,20 @@ See the file COPYING for copying conditions.
   </definition>
 
   <p>
-    In conclusion, the syntax of high-level languages are easier to understand than that of low-level ones. Maybe you would ask <q>Then why should we use low-level languages?</q>
+    In conclusion, the syntax of high-level languages is easier to understand than that of low-level ones. Maybe you would ask <q>Then why should we use low-level languages?</q>
   </p>
 
   <p>
-    There can be many reasons for that, and among them speed is the most obvious one. Basically, code written in high-level languages has to go through more intermediate steps to be translated into machine code (binary) than low-level ones, thus it's obvious that the latter often have a speed advantage.
+    There can be many reasons for that, and among them, speed is the most obvious one. Basically, code written in high-level languages has to go through more intermediate steps to be translated into machine code (binary) than low-level ones, thus it's obvious that the latter often have a speed advantage.
   </p>
   <p>
     Some other reasons are specialization, complex data manipulation, legacy code, <etc />
   </p>
   
   <insight>
+    <idx><h>Insights</h><h>high- versus low-level</h></idx>
     <p>
-      You can imagine a high-level programming language as a 4-seat family car, which is user-friendly and can be driven by most people. Then, a low-level one would be a F1 racing car that only the most skillful professionals can drive.
+      You can imagine a high-level programming language as a 4-seat family car, which is user-friendly and can be driven by most people. Then, a low-level one would be an F1 racing car that only the most skillful professionals can drive.
     </p>
     <p>
       And in return, the <q>low-level</q> F1 racing car will be significantly faster than the <q>high-level</q> family car.
@@ -134,6 +141,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <note>
+    <idx><h>Notes</h><h>on coding examples</h></idx>
     <p>
       In this article, coding examples are written in the high-level language Python, making it easier for you to follow and experiment.
     </p>
@@ -148,6 +156,7 @@ See the file COPYING for copying conditions.
 
   <insight xml:id="insight-choose-pro-language">
     <title>Choosing A Programming Language</title>
+    <idx><h>Insights</h><h>choosing a language</h></idx>
     <p>
       When getting started with programming, a beginner often comes across certain topics on the Internet:
       <ul>

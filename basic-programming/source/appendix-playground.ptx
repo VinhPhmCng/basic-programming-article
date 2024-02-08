@@ -12,7 +12,7 @@ See the file COPYING for copying conditions.
 
   <introduction>
     <p>
-      This appendix provides you with some code cells of different programming languages, made possible by <pretext />. By playing around with them, you can have a better understanding of the idea that <em>though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there</em>.
+      This appendix provides you with some code cells in different programming languages, made possible by <pretext />. By playing around with them, you can have a better understanding of the idea that <em>though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there</em>.
     </p>
 
     <p>
@@ -55,7 +55,7 @@ See the file COPYING for copying conditions.
     <title>Javascript</title>
 
     <p>
-      Virtually every modern web-page has Javascript running under the hood.
+      Virtually every modern web page has Javascript running under the hood.
     </p>
 
     <program language="javascript" interactive="activecode">

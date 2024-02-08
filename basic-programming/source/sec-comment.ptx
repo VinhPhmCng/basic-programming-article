@@ -17,13 +17,14 @@ See the file COPYING for copying conditions.
   </objectives>
   
   <p>
-    When coding, you might want to leave comments. They can be notes, explanations for some algorithm, or your stream of thoughts in the moment. Thus as the code expands and gets more complicated, comments provide you with sufficient context.
+    When coding, you might want to leave comments. They can be notes, explanations for some algorithm, or your stream of thoughts at that moment. Thus as the code expands and gets more complicated, comments provide you with sufficient context.
   </p>
 
   <definition xml:id="def-comment">
+    <idx><h>Definitions</h><h>of comments</h></idx>
     <statement>
       <p>
-        To write a comment in Python or SageMath, use the number sign / hash <c>#</c>.
+        To write a comment in Python or SageMath, use the number sign (hash) <c>#</c>.
       </p>
       <p>
         What is written after a <c>#</c> (on the same line) will be regarded as plain text and not code by the compiler.
@@ -32,6 +33,7 @@ See the file COPYING for copying conditions.
   </definition>
 
   <remark>
+    <idx><h>Remarks</h><h>on disabling code</h></idx>
     <p>
       Comments are also used to temporarily <term>disable</term> lines of code. For example:
     </p>
@@ -56,6 +58,7 @@ See the file COPYING for copying conditions.
   </problem>
 
   <investigation>
+    <idx><h>Code examples</h><h>comments</h></idx>
     <p></p>
     <p>
       Line 1 is a comment used to leave notes.

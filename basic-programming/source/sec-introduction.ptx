@@ -24,6 +24,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
+      <idx><h>Overviews</h><h>of contents</h></idx>
       An overview of the contents:
 
       <ul>
@@ -44,7 +45,7 @@ See the file COPYING for copying conditions.
         </li>
         <li>
           <p>
-            <term>Sections 13 to 17?</term>: Slightly more advanced fundamental concepts.
+            <term>Sections 13 to 17 (under development)</term>: Slightly more advanced fundamental concepts.
           </p>
         </li>
       </ul>
@@ -53,6 +54,7 @@ See the file COPYING for copying conditions.
 
   <subsection xml:id="subsec-how-to-follow-along">
     <title>How To Follow Along</title>
+    <idx><h>Overviews</h><h>of structure</h></idx>
     <p>
       Concepts will be introduced with the following structure:
       <ol>
@@ -83,23 +85,28 @@ See the file COPYING for copying conditions.
 
   <subsection xml:id="subsec-support">
     <title>Support This Project</title>
+    <idx><h>Support</h></idx>
     <p>
       This is an open-source project, meaning the source code for this article and the videos are all available on Github<mdash /><url href="https://github.com/VinhPhmCng/basic-programming-article" visual="github.com/VinhPhmCng/basic-programming-article">here</url>.
     </p>
 
     <p>
+      <idx><h>Support</h><h>directly</h></idx>
       Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details.
     </p>
 
     <p>
+      <idx><h>Support</h><h>the tools used</h></idx>
       This page is built with <pretext />, which comes with built-in interactive code cells, enhancing your experience.
     </p>
 
     <p>
+      <idx><h>Support</h><h>the videos</h></idx>
       Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project. More details on the tools and resources used to create the videos can be found <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos">here</url>.
     </p>
 
     <p>
+      <idx><h>Support</h><h>by donating</h></idx>
       And if you really appreciate the contents, consider leaving a donation <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq">here</url>. Thanks a bunch!
     </p>
   </subsection>
@@ -108,6 +115,15 @@ See the file COPYING for copying conditions.
     <p>
       Now then, let's get started, shall we?
     </p>
+
+    <figure xml:id="figure-test-video">
+      <caption>Test Video With Caption</caption>
+      <idx><h>Video</h><h>test</h></idx>
+
+      <video youtube="iMXToAm9a0c"/>
+    </figure>
+
+
   </conclusion>
 
 </section>

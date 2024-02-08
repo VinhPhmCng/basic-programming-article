@@ -10,12 +10,16 @@ See the file COPYING for copying conditions.
 <appendix xml:id="appendix-whats-next" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>What's Next?</title>
 
-  <p>
+<!--   <p>
     <ul>
       <li>Classes</li>
       <li>Modularity</li>
       <li>Algorithms</li>
     </ul>
+  </p> -->
+
+  <p>
+    Coming soon.
   </p>
   
 

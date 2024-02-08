@@ -11,12 +11,13 @@ See the file COPYING for copying conditions.
   <title>Attributes</title>
 
   <objectives>
-    <ol>
-      <li>Learn about attributes.</li>
-    </ol>
+    <ul>
+      <li>Learn to access data's attributes.</li>
+    </ul>
   </objectives>
   
   <definition xml:id="def-attribute">
+    <idx><h>Definitions</h><h>of attributes</h></idx>
     <statement>
       <p>
         An <term>attribute</term> is a built-in variable storing <em>descriptive information</em> regarding another piece of data (or metadata, if you will).
@@ -32,12 +33,13 @@ See the file COPYING for copying conditions.
 
   <technology>
     <title>Accessing an attribute</title>
+    <idx><h>Syntax</h><h>of accessing attributes</h></idx>
     <p>
       <me>\text{data} . \! {\color{blue} \text{attribute's name}}</me>
     </p>
   </technology>
 
-  <p>The following example makes use of an external data structure<mdash />a Numpy matrix (which you don't have to fully understand)<mdash />to demonstrate attributes:</p>
+  <p>To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the external library Numpy (which you don't have to fully understand):</p>
 
   <sage language="python">
     <input>
@@ -59,6 +61,7 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
+    <idx><h>Code examples</h><h>accessing attributes</h></idx>
     <p></p>
     <p>
       <c>mat.size</c> returns the total number of elements of the matrix.
@@ -89,6 +92,7 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
+    <idx><h>Code examples</h><h>accessing invalid attribute</h></idx>
     <p></p>
     <p>
       As the error states.
