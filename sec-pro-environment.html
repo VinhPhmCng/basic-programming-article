@@ -115,8 +115,8 @@ sagecell.makeSagecell({
 <link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/style_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/colors_blue_red.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="https://pretextbook.org/css/0.83/colors_ruby_emerald.css" rel="stylesheet" type="text/css">
 <link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
 <!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
@@ -156,7 +156,7 @@ eBookConfig.enable_chatcodes =  false;
 <h1 class="heading"><a href="basic-programming.html"><span class="title">Basic Programming:</span> <span class="subtitle">For Complete Beginners</span></a></h1>
 <p class="byline">Phạm Công Vinh</p>
 </div>
-</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
+</div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><a class="index-button button" href="backmatter-5.html" title="Index"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe88e;</span><span class="name">Index</span></a><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
 <div class="search-results-controls">
@@ -214,7 +214,22 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-error.html" class="internal"><span class="codenumber">11</span> <span class="title">Errors And How To Fix Them</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-error.html#subsec-fix-error" class="internal"><span class="codenumber">11.1</span> <span class="title">How To Fix Errors</span></a></div></li></ul>
 </li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-personal-experience.html" class="internal"><span class="codenumber">12</span> <span class="title">Personal Experiences</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-personal-experience.html" class="internal"><span class="codenumber">12</span> <span class="title">Personal Experiences</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-start-simple" class="internal"><span class="codenumber">12.1</span> <span class="title">Start Simple</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-tutorial-hell" class="internal"><span class="codenumber">12.2</span> <span class="title">The Tutorial Hell</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-have-fun" class="internal"><span class="codenumber">12.3</span> <span class="title">Have Fun</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-open-minded" class="internal"><span class="codenumber">12.4</span> <span class="title">Be Open-Minded</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-tech-pointer" class="internal"><span class="codenumber">12.5</span> <span class="title">Some Technical Pointers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-virtual-environment" class="internal"><span class="codenumber">12.5.1</span> <span class="title">Use A Simple Virtual Environment</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-cli" class="internal"><span class="codenumber">12.5.2</span> <span class="title">Learn To Use Command-Line Interfaces</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conditional.html" class="internal"><span class="codenumber">13</span> <span class="title">Conditional Statements</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-loop.html" class="internal"><span class="codenumber">14</span> <span class="title">Loops</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scope.html" class="internal"><span class="codenumber">15</span> <span class="title">Scope</span></a></div></li>
@@ -233,77 +248,74 @@ eBookConfig.enable_chatcodes =  false;
 </li>
 <li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-whats-next.html" class="internal"><span class="codenumber">B</span> <span class="title">What’s Next?</span></a></div></li>
 <li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-gfdl.html" class="internal"><span class="codenumber">C</span> <span class="title">GNU Free Documentation License</span></a></div></li>
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="sec-pro-environment"><h2 class="heading hide-type">
 <span class="type">Section</span><span class="space"> </span><span class="codenumber">2</span><span class="space"> </span><span class="title">Our Programming Environment</span>
 </h2>
-<article class="objectives goal-like" id="sec-pro-environment-2"><h3 class="heading"><span class="type">Objectives</span></h3>
-<ul class="disc"><li id="sec-pro-environment-2-1-1"><div class="para" id="p-derived-sec-pro-environment-2-1-1">Learn to use the basic components of our programming environment.</div></li></ul></article><div class="para" id="sec-pro-environment-3">To code, you need a suitable working environment. You would most likely not code in Word the text editor, would you? Instead, you would use a <dfn class="terminology">code editor and compiler</dfn>.</div>
-<div class="para" id="sec-pro-environment-4">In the online version of the article, our code editor and compiler is as follows:</div>
-<pre id="sec-pro-environment-5" class="ptx-sagecell sagecell-python"><script type="text/x-sage">a = 3
+<article class="objectives goal-like" id="sec-pro-environment-3"><h3 class="heading"><span class="type">Objectives</span></h3>
+<ul class="disc"><li id="sec-pro-environment-3-1-1"><div class="para" id="p-derived-sec-pro-environment-3-1-1">Learn to use the basic components of our programming environment.</div></li></ul></article><div class="para" id="sec-pro-environment-4">To code, you need a suitable working environment. You would most likely not code in Word the text editor, would you? Instead, you would use a <dfn class="terminology">code editor and compiler</dfn>.</div>
+<div class="para" id="sec-pro-environment-5"> In the online version of the article, our code editor and compiler are as follows:</div>
+<pre id="sec-pro-environment-6" class="ptx-sagecell sagecell-python"><script type="text/x-sage">a = 3
 b = 5
 print(a + b)
 </script></pre>
-<details id="sec-pro-environment-6" class="problem example-like born-hidden-knowl"><summary><h3 class="heading">
+<details id="sec-pro-environment-7" class="problem example-like born-hidden-knowl"><summary><h3 class="heading">
 <span class="type">Output</span><span class="space"> </span><span class="codenumber">2.1</span><span class="period">.</span>
 </h3></summary><article class="problem example-like"><pre class="code-block tex2jax_ignore">8
-</pre></article></details><article class="investigation project-like" id="sec-pro-environment-7"><h3 class="heading">
+</pre></article></details><article class="investigation project-like" id="sec-pro-environment-8"><h3 class="heading">
 <span class="type">Explanation</span><span class="space"> </span><span class="codenumber">2.1</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-pro-environment-7-1"></div> <div class="para" id="sec-pro-environment-7-2">The command <code class="code-inline tex2jax_ignore">print()</code> has a simple job—putting data, which is located in between its parentheses, into the terminal. Here, that data is the outcome of <code class="code-inline tex2jax_ignore">a + b</code>.</div></article><div class="para logical" id="sec-pro-environment-8">
-<div class="para">The environment above has these components:</div>
+</h3> <div class="para" id="sec-pro-environment-8-3"></div> <div class="para" id="sec-pro-environment-8-4">The command <code class="code-inline tex2jax_ignore">print()</code> has a simple job—putting data, which is located in between its parentheses, into the terminal. Here, that data is the outcome of <code class="code-inline tex2jax_ignore">a + b</code>.</div></article><div class="para logical" id="sec-pro-environment-9">
+<div class="para">The environment above has these components: </div>
 <ol class="decimal">
-<li id="sec-pro-environment-8-1-1"><div class="para" id="sec-pro-environment-8-1-1-1">
-<dfn class="terminology">Cell</dfn>: Where to write code. In the online version, you can modify and experiment with the code.</div></li>
-<li id="sec-pro-environment-8-1-2"><div class="para" id="sec-pro-environment-8-1-2-1">
-<dfn class="terminology">“Run Code” Button</dfn> (Online): Press to run the code cell or, in other words, compile the code.</div></li>
-<li id="sec-pro-environment-8-1-3"><div class="para" id="sec-pro-environment-8-1-3-1">
-<dfn class="terminology">Terminal</dfn> (Online): Where outputs or errors, if any, are shown when running the code.</div></li>
-<li id="sec-pro-environment-8-1-4"><div class="para" id="sec-pro-environment-8-1-4-1">
-<dfn class="terminology">Output</dfn>: Where <dfn class="terminology">static</dfn> outputs are shown. It is mostly intended for the hard copy or PDF, but online users can also benefit, for example, when the code servers are down for some reason.</div></li>
+<li id="sec-pro-environment-9-2-1"><div class="para" id="sec-pro-environment-9-2-1-1">
+<dfn class="terminology">Cell</dfn>: Where code is written. In the online version, you can modify and experiment with the code.</div></li>
+<li id="sec-pro-environment-9-2-2"><div class="para" id="sec-pro-environment-9-2-2-1">
+<dfn class="terminology">“Run Code” Button</dfn> (Online): Press to run the code cell.</div></li>
+<li id="sec-pro-environment-9-2-3"><div class="para" id="sec-pro-environment-9-2-3-1">
+<dfn class="terminology">Terminal</dfn> (Online): Where output and errors, if any, are shown when running the code.</div></li>
+<li id="sec-pro-environment-9-2-4"><div class="para" id="sec-pro-environment-9-2-4-1">
+<dfn class="terminology">Output</dfn>: Where <dfn class="terminology">static</dfn> output is shown. It’s mostly intended for the hard copy or PDF, but online users can also benefit, for example, when code servers are down for some reason.</div></li>
+<li id="sec-pro-environment-9-2-5"><div class="para" id="sec-pro-environment-9-2-5-1">
+<dfn class="terminology">Explanation</dfn>: Where an explanation for the code example is given.</div></li>
 </ol>
 </div>
-<div class="para" id="sec-pro-environment-9">A different and slightly more complex version of the code cell is as follows:</div>
+<div class="para" id="sec-pro-environment-10"> A slightly more complex version of the code cell is as follows:</div>
 <div class="ptx-runestone-container"><div class="runestone explainer ac_section "><div data-component="activecode" id=""><textarea data-lang="python" data-timelimit="25000" data-audio="" data-coach="true" style="visibility: hidden;" id="_editor" data-question_label="" data-codelens="true">a = 3
 b = 5
 print(a + b)
 </textarea></div></div></div>
-<details id="sec-pro-environment-11" class="problem example-like born-hidden-knowl"><summary><h3 class="heading">
+<details id="sec-pro-environment-12" class="problem example-like born-hidden-knowl"><summary><h3 class="heading">
 <span class="type">Output</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span>
 </h3></summary><article class="problem example-like"><pre class="code-block tex2jax_ignore">8
-</pre></article></details><article class="investigation project-like" id="sec-pro-environment-12"><h3 class="heading">
+</pre></article></details><article class="investigation project-like" id="sec-pro-environment-13"><h3 class="heading">
 <span class="type">Explanation</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-pro-environment-12-1">Same as above.</div></article><div class="para" id="sec-pro-environment-13">This runs similarly, but it also provides additional functionality. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a “CodeLens” button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).</div>
-<article class="remark remark-like" id="sec-pro-environment-14"><h3 class="heading">
+</h3> <div class="para" id="sec-pro-environment-13-2">Same as above.</div></article><div class="para" id="sec-pro-environment-14">This runs similarly, but it also provides additional functionality. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a “CodeLens” button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).</div>
+<article class="remark remark-like" id="sec-pro-environment-15"><h3 class="heading">
 <span class="type">Remark</span><span class="space"> </span><span class="codenumber">2.3</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-pro-environment-14-1">Depending on the concept, the better-suited version to demonstrate it is chosen.</div></article><article class="note remark-like" id="sec-pro-environment-15"><h3 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.4</span><span class="period">.</span><span class="space"> </span><span class="title">Update code in the online version.</span>
-</h3> <div class="para" id="sec-pro-environment-15-2">If you update the code in the editor and re-run it, new outcomes will be shown only in the terminal. The static output section retains the outcomes of the original code.</div></article><div class="para" id="sec-pro-environment-16">In this article, our environment is limited to those components for the sake of simplicity. More sophisticated environments have many more features helping experienced programmers to create, but for beginners they are unnecessary.</div>
-<div class="para" id="sec-pro-environment-17">All provided code examples can be run directly or copy-pasted and run in code cells provided in <a href="appendix-playground.html" class="internal" title="Appendix A: Playground">Playground</a>. They can also be compiled and run in external coding environments, but this article will not instruct you in that.</div>
-<article class="note remark-like" id="sec-pro-environment-18"><h3 class="heading">
-<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Continuing code.</span>
-</h3> <div class="para" id="sec-pro-environment-18-2">Code cells can be a continuation of previous cell(s). This feature helps make some examples shorter and their explanations easier to follow.</div></article><article class="convention remark-like" id="sec-pro-environment-19"><h3 class="heading">
+</h3> <div class="para" id="sec-pro-environment-15-2">Depending on the concept, the better-suited version to demonstrate it is chosen.</div></article><article class="note remark-like" id="sec-pro-environment-16"><h3 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.4</span><span class="period">.</span><span class="space"> </span><span class="title">Updating code in the online version.</span>
+</h3>  <div class="para" id="sec-pro-environment-16-3">If you update the code in the editor and re-run it, new output will be shown only in the terminal. The static output section retains the outcomes of the original code.</div></article><div class="para" id="sec-pro-environment-17">In this article, our environment is limited to those components for the sake of simplicity. More sophisticated environments have many more features helping experienced programmers to create, but for beginners they are unnecessary.</div>
+<div class="para" id="sec-pro-environment-18">All provided code examples can be run directly or copy-pasted and run in code cells provided in <a href="appendix-playground.html" class="internal" title="Appendix A: Playground">Playground</a>. They can also be compiled and run in external coding environments, but this article will not instruct you in that.</div>
+<article class="note remark-like" id="sec-pro-environment-19"><h3 class="heading">
+<span class="type">Note</span><span class="space"> </span><span class="codenumber">2.5</span><span class="period">.</span><span class="space"> </span><span class="title">Continuation code.</span>
+</h3>  <div class="para" id="sec-pro-environment-19-3">Code cells can be a continuation of previous cell(s). This feature helps make some examples shorter and their explanations easier to follow.</div></article><article class="convention remark-like" id="sec-pro-environment-20"><h3 class="heading">
 <span class="type">Convention</span><span class="space"> </span><span class="codenumber">2.6</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-pro-environment-19-1">If a code cell extends another, its first line is as follows:</div></article><pre id="sec-pro-environment-20" class="ptx-sagecell sagecell-python"><script type="text/x-sage"># ... 
+</h3> <div class="para" id="sec-pro-environment-20-2">If a code cell extends another, its first line is as follows:</div></article><pre id="sec-pro-environment-21" class="ptx-sagecell sagecell-python"><script type="text/x-sage"># ... 
 
 print(a - b)
 </script></pre>
-<details id="sec-pro-environment-21" class="problem example-like born-hidden-knowl"><summary><h3 class="heading">
+<details id="sec-pro-environment-22" class="problem example-like born-hidden-knowl"><summary><h3 class="heading">
 <span class="type">Output</span><span class="space"> </span><span class="codenumber">2.7</span><span class="period">.</span>
 </h3></summary><article class="problem example-like"><pre class="code-block tex2jax_ignore">-2
-</pre></article></details><article class="investigation project-like" id="sec-pro-environment-22"><h3 class="heading">
+</pre></article></details><article class="investigation project-like" id="sec-pro-environment-23"><h3 class="heading">
 <span class="type">Explanation</span><span class="space"> </span><span class="codenumber">2.3</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-pro-environment-22-1"></div> <div class="para" id="sec-pro-environment-22-2">Why does <code class="code-inline tex2jax_ignore">a - b</code> result in <code class="code-inline tex2jax_ignore">-2</code>? If you take another look at the first cell, you can see that <code class="code-inline tex2jax_ignore">a = 3</code> and <code class="code-inline tex2jax_ignore">b = 5</code>. So, this cell is a continuation of the first one.</div></article><article class="note remark-like" id="sec-pro-environment-23"><h3 class="heading">
+</h3> <div class="para" id="sec-pro-environment-23-2"></div> <div class="para" id="sec-pro-environment-23-3">Why does <code class="code-inline tex2jax_ignore">a - b</code> result in <code class="code-inline tex2jax_ignore">-2</code>? If you take another look at the first cell, you can see that <code class="code-inline tex2jax_ignore">a = 3</code> and <code class="code-inline tex2jax_ignore">b = 5</code>. So, this cell is a continuation of the first one.</div></article><article class="note remark-like" id="sec-pro-environment-24"><h3 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">2.8</span><span class="period">.</span>
-</h3>
-<div class="para" id="sec-pro-environment-23-1">If you run a cell starting with <code class="code-inline tex2jax_ignore"># ...</code>, and unwanted results or errors show up, then it’s likely that you haven’t run necessary preceding cell(s).</div></article></section></div>
+</h3> <div class="para" id="sec-pro-environment-24-2">If you run a cell starting with <code class="code-inline tex2jax_ignore"># ...</code>, and unexpected results or errors show up, then it’s likely you haven’t run the preceding cell(s).</div></article></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="sec-introduction.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-pro-language.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
