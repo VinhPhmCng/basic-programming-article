@@ -79,6 +79,10 @@ See the file COPYING for copying conditions.
       </p>
     </investigation>
 
+    <p>
+      Another example:
+    </p>
+
     <sage language="python">
       <input>
         a = 5
@@ -105,6 +109,10 @@ See the file COPYING for copying conditions.
         The description simply means that addition between an integer and a string is unsupported.
       </p>
     </investigation>
+
+    <p>
+      The final example uses an external function from the library Numpy, which simply calculates the square root.
+    </p>
 
     <sage language="python">
       <input>

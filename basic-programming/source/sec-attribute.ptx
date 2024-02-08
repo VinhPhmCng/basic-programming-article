@@ -37,7 +37,7 @@ See the file COPYING for copying conditions.
     </p>
   </technology>
 
-  <p>The following example makes use of a Numpy matrix (which you don't have to fully understand) to demonstrate attributes:</p>
+  <p>The following example makes use of an external data structure<mdash />a Numpy matrix (which you don't have to fully understand)<mdash />to demonstrate attributes:</p>
 
   <sage language="python">
     <input>
@@ -61,15 +61,15 @@ See the file COPYING for copying conditions.
   <investigation>
     <p></p>
     <p>
-      <c>mat.size</c> returns the total number of elements of the matrix <c>mat</c>.
+      <c>mat.size</c> returns the total number of elements of the matrix.
     </p>
     <p>
-      <c>mat.shape</c> returns the number of rows and columns of the matrix <c>mat</c>.
+      <c>mat.shape</c> returns the number of rows and columns of the matrix.
     </p>
   </investigation>
 
   <p>
-    However, the data type <c>int</c> does not have such attributes:
+    However, the data type <c>int</c>, for example, does not have such attributes:
   </p>
 
   <sage language="python">

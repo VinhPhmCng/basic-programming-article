@@ -69,7 +69,7 @@ See the file COPYING for copying conditions.
 
     <note>
       <p>
-        Outputs of Javascript code might not appear right below. To see them, open the <q>Element Inspect</q> panel by right-clicking on the page and select <q>Inspect</q>. Then, go to the <q>Console</q> tab. Run the code and you should see the outputs appear there.
+        Output of Javascript code might not appear right below. To see them, open the <q>Element Inspect</q> panel by right-clicking on the page and select <q>Inspect</q>. Then, go to the <q>Console</q> tab. Run the code and you should see the output appear there.
       </p>
     </note>
     

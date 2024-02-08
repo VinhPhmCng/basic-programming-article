@@ -65,23 +65,29 @@ See the file COPYING for copying conditions.
 
   <note>
     <p>
-      In Python and SageMath, when we declare or update a variable, it will <em>automatically</em> determine or re-determine its data type. For example:
+      In Python and SageMath, when we declare or update a variable, it will <em>automatically</em> determine or re-determine its data type.
     </p>
   </note>
 
-  <sage language="python">
+  <p>
+    For example (it's recommended to use CodeLens):
+  </p>
+
+  <program language="python" interactive="activecode">
     <input>
       a = 5
-      print(type(a))
+      b = type(a)
+      print(a, b)
 
       a = "5"
-      print(type(a)) 
+      b = type(a)
+      print(a, b) 
     </input>
-  </sage>
+  </program>
   <problem>
     <pre>
-      &lt;class 'int'&gt;
-      &lt;class 'str'&gt;
+      5 &lt;class 'int'&gt;
+      5 &lt;class 'str'&gt;
     </pre>
   </problem>
   <investigation>
@@ -93,7 +99,7 @@ See the file COPYING for copying conditions.
       So, when we declare <c>a = 5</c>, the variable <c>a</c> is of type <c>int</c>.
     </p>
     <p>
-      But when we assign <c>a</c> the value <c>"5"</c> (<alert>notice</alert> the quotation marks), it automatically updates to <c>str</c>.
+      But when we assign <c>a</c> the value <c>"5"</c>, it automatically updates to <c>str</c>.
     </p>
   </investigation>
 
@@ -198,7 +204,7 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    However, we <em>cannot</em> add <c>int</c> and <c>str</c>, which will result in an <term>error</term>.
+    However, we <em>cannot</em> add <c>int</c> and <c>str</c>, which will result in an <term>error</term>:
   </p>
 
   <sage language="python">
@@ -226,12 +232,8 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    But we can <q>add</q> two or more strings together, which results in a new string that is the concatenation of the component strings.
+    But we can <q>add</q> two or more strings together, which results in a new string that is the concatenation of the component strings. For example:
   </p>  
-
-  <p>
-    For example:
-  </p>
 
   <sage language="python">
     <input>

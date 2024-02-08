@@ -48,7 +48,7 @@ See the file COPYING for copying conditions.
   <technology>
     <title>Declaring and assigning</title>
     <p>
-      To declare or assign values to a variable, we use the equal sign <c>=</c>: <me>{\color{blue} \text{name}} = \text{value}</me>.
+      To declare or assign values to a variable, we use the equal sign <c>=</c>: <me>{\color{blue} \text{name}} = \text{value}</me>
     </p>
     <p>
       Therefore, the equal sign <c>=</c> in programming should <em>never</em> be used for equality.
@@ -125,24 +125,25 @@ See the file COPYING for copying conditions.
       Adhering to those, you can name a variable whatever you'd like. Thus, depending on the individual a variable's name can vary.
       <ul>
         <li>
-          <p>
-            house_address
-          </p>
+          house_address
         </li>
         <li>
-          <p>
-            houseAddress
-          </p>
+          houseAddress
         </li>
         <li>
-          <p>
-            HouseAddress
-          </p>
+          HouseAddress
         </li>
         <li>
-          <p>
-            <etc></etc>
-          </p>
+          ha
+        </li>
+        <li>
+          hAddress
+        </li>
+        <li>
+          house_add
+        </li>
+        <li>
+          <etc></etc>
         </li>
       </ul>
     </p>
@@ -150,7 +151,7 @@ See the file COPYING for copying conditions.
       In the programming community, there are different conventions for naming a variable.
     </p>
     <p>
-      This article will not instruct you in that. Variables in our coding examples are named in a <em>short and simple</em> manner.
+      It's a skill to know how to nicely name a variable, but this article will not instruct you in that. Variables in our coding examples are named in a <em>short and simple</em> manner.
     </p>
   </note>
 

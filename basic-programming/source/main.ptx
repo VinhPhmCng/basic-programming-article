@@ -2,7 +2,10 @@
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <docinfo>
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+
+    <!-- Renaming elements -->
     <rename element='abstract'>License</rename> <!-- (tentative) -->
+    <rename element='warning'>TL;DR</rename> <!-- (tentative) -->
     <rename element='problem'>Output</rename> <!-- (tentative) -->
     <rename element='technology'>Syntax</rename> <!-- (tentative) -->
     <rename element='investigation'>Explanation</rename> <!-- (tentative) --> 

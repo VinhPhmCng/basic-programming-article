@@ -100,13 +100,13 @@ See the file COPYING for copying conditions.
   <investigation>
     <p></p>
     <p>
-      Line 1: We call the function <c>print()</c> with the input <c>5</c>.
+      Line 1: We call the function <c>print()</c> with one input <c>5</c>.
     </p>
     <p>
       Line 2: We provide no inputs, so <c>print()</c> outputs an empty line into the terminal.
     </p>
     <p>
-      Line 3: We give it two inputs <c>2</c> and <c>-2</c>.
+      Line 3: We give it two integer inputs <c>2</c> and <c>-2</c>.
     </p>
     <p>
       Line 4: We give it multiple inputs of different data types.
@@ -160,6 +160,10 @@ See the file COPYING for copying conditions.
     <p>The function <c>len()</c> accepts exactly one input, but two parameters were given.</p>
   </investigation>
 
+  <p>
+    Another example:
+  </p>
+
   <sage language="python">
     <input>
       a = 5
@@ -204,7 +208,7 @@ See the file COPYING for copying conditions.
   </investigation>
  
   <p>
-    The following example produces an error:
+    The following produces an error:
   </p>
 
   <sage language="python">

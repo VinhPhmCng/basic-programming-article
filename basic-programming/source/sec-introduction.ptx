@@ -77,63 +77,30 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      You can also watch the <url href="https://www.youtube.com/" visual="youtube.com">Youtube series</url> <xref provisional="youtube series"/>, starting with the first video, which explains what programming is.
+      You can also watch the <url href="https://www.youtube.com/" visual="youtube.com">Youtube videos</url>, before or after reading each section<xref provisional="youtube series"/>.
     </p>
   </subsection>
 
   <subsection xml:id="subsec-support">
     <title>Support This Project</title>
     <p>
-      This is an open-source project, meaning the source code for this article and the videos are all available on Github<mdash />here. Readers can make a free Github account and give feedback directly. If you're a programmer, and you'd like to help your community by translating this article into your language, then that's possible as well. Refer to Contributing for more details.
+      This is an open-source project, meaning the source code for this article and the videos are all available on Github<mdash /><url href="https://github.com/VinhPhmCng/basic-programming-article" visual="github.com/VinhPhmCng/basic-programming-article">here</url>.
     </p>
 
     <p>
-      This page is built with <pretext />, which also provides us with built-in interactive code cells.
+      Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details.
     </p>
 
     <p>
-      The videos are animated with the following tools:
-      <ul>
-        <li>
-          <p><url href="https://www.manim.community/" visual="manim.community">Manim Community Edition</url>, the original version of which is created by <url href="https://3b1b.github.io/manim/" visual="3b1b.github.io/manim">3Blue1Brown</url></p>
-        </li>
-        <li>
-          <p><url href="https://motioncanvas.io/" visual="motioncanvas.io">Motion Canvas</url></p>
-        </li>
-        <li>
-          <p>Slidev <xref provisional="links to tools"/></p> 
-        </li>
-        <li>
-          <p>Kdenlive</p>
-        </li>
-        <li>
-          <p>Animotion?</p>
-        </li>
-        <li>
-          <p>Resources (SFX, Images, <etc />)</p>
-        </li>
-      </ul>
+      This page is built with <pretext />, which comes with built-in interactive code cells, enhancing your experience.
     </p>
 
     <p>
-      And the resources are from:
-      <ul>
-        <li>
-          <p>Resources (SFX, Images, <etc />)</p>
-        </li>
-      </ul>
+      Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project. More details on the tools and resources used to create the videos can be found <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos">here</url>.
     </p>
 
     <p>
-      Please support these amazing open-source programs that are what made this article possible.
-    </p>
-
-    <p>
-      Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project.
-    </p>
-
-    <p>
-      And if you really appreciate the contents, you can leave a donation on <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq"></url>. Thanks a bunch!
+      And if you really appreciate the contents, consider leaving a donation <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq">here</url>. Thanks a bunch!
     </p>
   </subsection>
 

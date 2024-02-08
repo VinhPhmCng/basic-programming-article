@@ -18,7 +18,7 @@ See the file COPYING for copying conditions.
   </objectives>
 
   <p>
-    <term>A programming language</term> is a system of notation that helps human to create computer programs or, in other words, give instructions to computers. These <q>instructions</q> range from calculating additions and subtractions to data manipulations, <etc></etc>
+    <term>A programming language</term> is a system of notation that helps human to create computer programs or, in other words, give instructions to computers. These <q>instructions</q> range from calculating additions and subtractions to complex data manipulations, <etc></etc>
   </p>
 
   <p>
@@ -146,7 +146,7 @@ See the file COPYING for copying conditions.
     Each programming language has its own set of notations, which is developed in consideration of its purpose. Python is a high-level multi-purpose language used by mathematicians, data scientists, software/game developers and so many more.
   </p>
 
-  <insight>
+  <insight xml:id="insight-choose-pro-language">
     <title>Choosing A Programming Language</title>
     <p>
       When getting started with programming, a beginner often comes across certain topics on the Internet:

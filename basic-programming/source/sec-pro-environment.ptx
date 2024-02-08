@@ -49,29 +49,34 @@ See the file COPYING for copying conditions.
     <ol>
       <li>
         <p>
-          <term>Cell</term>: Where to write code. In the online version, you can modify and experiment with the code.
+          <term>Cell</term>: Where code is written. In the online version, you can modify and experiment with the code.
         </p>
       </li>
       <li>
         <p>
-          <term><q>Run Code</q> Button</term> (Online): Press to run the code cell or, in other words, compile the code.
+          <term><q>Run Code</q> Button</term> (Online): Press to run the code cell.
         </p>
       </li>
       <li>
         <p>
-          <term>Terminal</term> (Online): Where outputs or errors, if any, are shown when running the code.
+          <term>Terminal</term> (Online): Where output and errors, if any, are shown when running the code.
         </p>
       </li>
       <li>
         <p>
-          <term>Output</term>: Where <term>static</term> outputs are shown. It is mostly intended for the hard copy or PDF, but online users can also benefit, for example, when the code servers are down for some reason.
+          <term>Output</term>: Where <term>static</term> output is shown. It's mostly intended for the hard copy or PDF, but online users can also benefit, for example, when code servers are down for some reason.
+        </p>
+      </li>
+      <li>
+        <p>
+          <term>Explanation</term>: Where an explanation for the code example is given.
         </p>
       </li>
     </ol>
   </p>
 
   <p>
-    A different and slightly more complex version of the code cell is as follows:
+    A slightly more complex version of the code cell is as follows:
   </p>
 
   <program language="python" interactive="activecode">
@@ -103,7 +108,7 @@ See the file COPYING for copying conditions.
   <note>
     <title>Update code in the online version</title>
     <p>
-      If you update the code in the editor and re-run it, new outcomes will be shown only in the terminal. The static output section retains the outcomes of the original code.
+      If you update the code in the editor and re-run it, new output will be shown only in the terminal. The static output section retains the outcomes of the original code.
     </p>
   </note>
 

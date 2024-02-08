@@ -58,12 +58,12 @@ See the file COPYING for copying conditions.
     
     <program language="python">
       <input>
-        perfect_squares = [0, 1, 4, 9, ..., 9801]
+        pa = [0, 1, 4, 9, ..., 9801]
       </input>
     </program>
 
     <p>
-      Even though this is definitely time-consuming (you're typing 100 numbers) and impractical, it's still significantly better than before. Instead of creating 100 different variables, we now create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
+      Even though this is still time-consuming (you're typing 100 numbers), it's significantly better than before. Instead of creating 100 different variables, we create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
     </p>
 
     <p>
@@ -148,11 +148,11 @@ See the file COPYING for copying conditions.
       </p>
     </investigation>
 
-    <insight>
+    <note>
       <p>
         As you can already see, the list has a distinct syntax. But we won't go into its syntax and usage yet since this is supposed to be a brief introduction.
       </p>
-    </insight>
+    </note>
     
   </subsection>
 
@@ -204,11 +204,11 @@ See the file COPYING for copying conditions.
       </p>
     </investigation>
     
-    <insight>
+    <note>
       <p>
         The dictionary has yet another distinct syntax. Again, we won't go into its syntax and usage yet.
       </p>
-    </insight>
+    </note>
     
   </subsection>
 
