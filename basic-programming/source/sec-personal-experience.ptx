@@ -13,7 +13,7 @@ See the file COPYING for copying conditions.
   <objectives>
     <ul>
       <li>I'll bring up some insights and interesting topics that are worth knowing before you go into more advanced fundamentals.</li>
-      <li>This section is a bit longer than usual, so you don't have to read it all in one go.</li>
+      <li>This section is a bit longer than usual, so you don't have to read it all in one go. You can even skip the text and just watch the video.</li>
     </ul>
   </objectives>
 
@@ -133,7 +133,7 @@ See the file COPYING for copying conditions.
   <subsection xml:id="subsec-pe-have-fun">
     <title>Have Fun</title>
     <p>
-      Since stress and burn-outs are gonna be unavoidable sometimes, I think it's incredibly important to always have fun with the process. There're always annoying error messages showing up one after another, getting stuck while following step-by-step installation guides, understanding nothing about a new concept, and so on. And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not for you.
+      Since stress and burn-outs are gonna be unavoidable sometimes, I think it's incredibly important to always have fun with the process. There are always annoying error messages showing up one after another, getting stuck while following step-by-step installation guides, understanding nothing about a new concept, and so on. And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not for you.
     </p>
 
     <p>
@@ -175,7 +175,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Experienced programmers often share rules of thumb. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to different situations, not make you a close-minded coder who always does things the same way.
+      Experienced programmers often share best practices. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to different situations, not make you a close-minded coder who always does things the same way.
     </p>
 
     <warning>
@@ -202,11 +202,11 @@ See the file COPYING for copying conditions.
       <title>Use A Simple Virtual Environment</title>
       
       <p>
-        Let's say you decide to install Python on your machine to make a game. So you do just that<mdash />download and install Python version 3.11.6 and Pygame (the Python library for making games). And everything works just fine.
+        Let's say you decide to install Python on your machine to make a game. So you do just that<mdash />you download and install Python version 3.11.6 and Pygame (the Python library for making games). And everything works just fine.
       </p>
 
       <p>
-        Fast forward, now you wanna make some cool animations with Python. So you ask the Internet and Manim shows up. And you follow its installation guide and are very eager to get started. At one point, it says something along the lines of <q>Manim needs Python version 3.12.1 to work...</q> Not a problem? All you have to do is update Python and everything's right again.
+        Fast forward, now you wanna make some cool animations with Python. So you ask the Internet and Manim shows up. And you follow its installation guide and are very eager to get started. At one point, it says something along the lines of <q>Manim needs Python version 3.12.1 to work...</q> Not a problem? All you have to do is update Python and everything's good to go again.
       </p>
 
       <p>
@@ -214,7 +214,7 @@ See the file COPYING for copying conditions.
       </p>
 
       <p>
-        An even worse case is when you accidentally install both versions of Python on your machine and have them run simultaneously. Now this is really gonna mess you and your PC up as conflicts upon conflicts show up.
+        A worse case is when you accidentally install both versions of Python on your machine and have them run simultaneously. Now this is really gonna mess you and your PC up as conflicts upon conflicts show up.
       </p>
 
       <p>
@@ -233,19 +233,19 @@ See the file COPYING for copying conditions.
       <title>Learn To Use Command-Line Interfaces</title>
       
       <p>
-        When the time comes for you to start exploring different languages and tools on your own, you will have to deal with command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the <sq>lower-level</sq> counterpart of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
+        When the time comes for you to explore different languages and tools on your own, you will have to use command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the <sq>lower-level</sq> counterparts of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
       </p>
 
       <p>
-        But don't worry, you don't have to take a course on this. You can gradually learn the common commands as you go. Detailed guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key anyways.
+        But don't worry, you don't have to take a course on this. You will gradually learn the common commands as you go. Detailed guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key anyways.
       </p>
 
       <p>
-        Honestly, when I use PyPI (or PIP, which is a package manager for Python) all I know is how to install, update, uninstall stuff. And I use the CMD for navigating files, switching between administration modes, and using virtual environments. That's it, nothing else really.
+        Honestly, when I use PyPI (or PIP, which is a package manager for Python) all I know is how to install, update, and uninstall stuff. And I use the CMD for navigating files, switching between administration modes, and using virtual environments. That's it, nothing else really.
       </p>
       
       <p>
-        Finally, if errors show up, you just need to apply exactly what you've learned in the previous section.
+        Finally, if errors show up when using CLIs, you just need to apply exactly what you've learned in the previous section.
       </p>
 
       <warning>
@@ -257,5 +257,21 @@ See the file COPYING for copying conditions.
     </subsubsection>
 
   </subsection>
+
+  <conclusion>
+    <p>
+      <cd>
+      </cd>
+    </p>
+
+    <exploration>
+      <title>Basic Programming <mdash /> Part 12: My Experiences</title>
+      <idx><h>Videos</h><h>part 12</h></idx>
+    
+      <video youtube="iMXToAm9a0c"/>
+      
+    </exploration>
+
+  </conclusion>
 
 </section>

@@ -9,6 +9,7 @@
     <rename element='problem'>Output</rename> <!-- (tentative) -->
     <rename element='technology'>Syntax</rename> <!-- (tentative) -->
     <rename element='investigation'>Explanation</rename> <!-- (tentative) --> 
+    <rename element='exploration'>Video</rename> <!-- (tentative) --> 
     <rename element='evaluate'>Run Code</rename>
   </docinfo>
 

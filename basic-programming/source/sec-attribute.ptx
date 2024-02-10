@@ -62,6 +62,7 @@ See the file COPYING for copying conditions.
   </problem>
   <investigation>
     <idx><h>Code examples</h><h>accessing attributes</h></idx>
+    <idx><h>Functions</h><h>np.matrix()</h></idx>
     <p></p>
     <p>
       <c>mat.size</c> returns the total number of elements of the matrix.
@@ -99,4 +100,17 @@ See the file COPYING for copying conditions.
     </p>
   </investigation>
   
+  <p>
+    <cd>
+    </cd>
+  </p>
+
+  <exploration>
+    <title>Basic Programming <mdash /> Part 9: Attributes</title>
+    <idx><h>Videos</h><h>part 09</h></idx>
+  
+    <video youtube="iMXToAm9a0c"/>
+    
+  </exploration>
+
 </section>

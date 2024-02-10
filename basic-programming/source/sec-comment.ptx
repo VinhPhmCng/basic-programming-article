@@ -74,4 +74,18 @@ See the file COPYING for copying conditions.
   <p>
     Try removing the <c>#</c> in line 5, run the code, and see what happens.
   </p>
+
+  <p>
+    <cd>
+    </cd>
+  </p>
+
+  <exploration>
+    <title>Basic Programming <mdash /> Part 4: Comments</title>
+    <idx><h>Videos</h><h>part 04</h></idx>
+    
+    <video youtube="iMXToAm9a0c"/>
+      
+  </exploration>
+
 </section>

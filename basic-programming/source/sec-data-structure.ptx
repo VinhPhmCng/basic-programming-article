@@ -98,7 +98,7 @@ See the file COPYING for copying conditions.
     </definition>
 
     <note>
-      <idx><h>Note</h><h>on lists versus arrays</h></idx>
+      <idx><h>Notes</h><h>on lists versus arrays</h></idx>
       <p>
         A list is a built-in data structure in Python. It is different from <term>an array</term> in that the elements of a Pythonic array must all have the same data type (and it's not built-in).
       </p>
@@ -222,5 +222,21 @@ See the file COPYING for copying conditions.
     </note>
     
   </subsection>
+
+  <conclusion>
+    <p>
+      <cd>
+      </cd>
+    </p>
+
+    <exploration>
+      <title>Basic Programming <mdash /> Part 7: Data Structures</title>
+      <idx><h>Videos</h><h>part 07</h></idx>
+    
+      <video youtube="iMXToAm9a0c"/>
+      
+    </exploration>
+
+  </conclusion>
 
 </section>

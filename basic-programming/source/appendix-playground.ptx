@@ -12,11 +12,11 @@ See the file COPYING for copying conditions.
 
   <introduction>
     <p>
-      This appendix provides you with some code cells in different programming languages, made possible by <pretext />. By playing around with them, you can have a better understanding of the idea that <em>though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there</em>.
+      This appendix provides you with some code cells in different programming languages, made possible by <pretext />. By playing around with them, you can have a better understanding of the idea that <q>though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there</q>.
     </p>
 
     <p>
-      A good way to do so is by looking up code examples. For instance, you can search for <q>javascript code examples</q> on Google.
+      A fun way to try a language out is by looking up its code examples. For instance, you can search for <q>python code examples</q> on Google. Nowadays most programming sites have their own coding environments, so you can just use theirs, or you can copy-paste and run the examples here.
     </p>
   </introduction>
 
@@ -25,6 +25,11 @@ See the file COPYING for copying conditions.
 
     <p>
       Python is one of the most popular modern programming languages right now. It's high-level and multi-purpose.
+    </p>
+
+    <p>
+      <idx><h>Links</h><h>Python examples</h></idx>
+      <url href="https://www.google.com/search?q=Python+code+examples" visual="google.com/search?q=Python+code+examples">Search for Python code examples.</url>
     </p>
 
     <sage language="python">
@@ -58,6 +63,11 @@ See the file COPYING for copying conditions.
       Virtually every modern web page has Javascript running under the hood.
     </p>
 
+    <p>
+      <idx><h>Links</h><h>Javascript examples</h></idx>
+      <url href="https://www.google.com/search?q=Javascript+code+examples" visual="google.com/search?q=Javascript+code+examples">Search for Javascript code examples.</url>
+    </p>
+
     <program language="javascript" interactive="activecode">
       <input>
         // This is a Javascript cell
@@ -75,6 +85,40 @@ See the file COPYING for copying conditions.
     
   </subsection>
 
+  <subsection xml:id="subsec-html-play">
+    <title>HTML</title>
+
+    <p>
+      Technically speaking, HTML (HyperText Markup Language) is <em>not</em> a programming language, but instead a markup language. Despite that, playing around with HTML can be very beneficial, especially for beginners, for many reasons.
+    </p>
+
+    <p>
+      <idx><h>Links</h><h>HTML examples</h></idx>
+      <url href="https://www.google.com/search?q=html+code+examples" visual="google.com/search?q=html+code+examples">Search for HTML code examples.</url>
+    </p>
+
+    <sage language="html">
+      <input>
+        <![CDATA[<!DOCTYPE html>
+        <html>
+        <body>
+
+        <h1 style="text-align:center;">Centered Heading</h1>
+        <p style="text-align:center;">Centered paragraph.</p>
+
+        </body>
+        </html>]]>
+      </input>
+    </sage>
+
+    <note>
+      <p>
+        Output of Javascript code might not appear right below. To see them, open the <q>Element Inspect</q> panel by right-clicking on the page and select <q>Inspect</q>. Then, go to the <q>Console</q> tab. Run the code and you should see the output appear there.
+      </p>
+    </note>
+    
+  </subsection>
+
   <subsection xml:id="subsec-sage-play">
     <title>Sage</title>
 
@@ -82,12 +126,17 @@ See the file COPYING for copying conditions.
       Sage is part of SageMath, an open-source mathematics software system. It's based on Python, so their syntax is mostly similar.
     </p>
     
+    <p>
+      <idx><h>Links</h><h>SageMath examples</h></idx>
+      <url href="https://www.google.com/search?q=SageMath+code+examples" visual="google.com/search?q=SageMath+code+examples">Search for SageMath code examples.</url>
+    </p>
+
     <sage>
       <input>
         # This is a Sage cell
         # Write and run your Sage code here
 
-        show("Hello world!")
+        show(sqrt(2))
       </input>
     </sage>
 

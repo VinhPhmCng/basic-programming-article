@@ -272,4 +272,17 @@ See the file COPYING for copying conditions.
     </p>
   </investigation>
   
+  <p>
+    <cd>
+    </cd>
+  </p>
+
+  <exploration>
+    <title>Basic Programming <mdash /> Part 6: Data Types</title>
+    <idx><h>Videos</h><h>part 06</h></idx>
+    
+    <video youtube="iMXToAm9a0c"/>
+      
+  </exploration>
+
 </section>
