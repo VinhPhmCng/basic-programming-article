@@ -125,6 +125,15 @@ See the file COPYING for copying conditions.
     <p>
       (You don't have to care about the word <c>class</c> yet. Here it can be understood as <q>classify</q>. But to be accurate, it's refering to <term>Class</term>, which is a more advanced topic discussed in <xref ref="sec-class"/>.)
     </p>
+
+    <aside>
+      <title>Try It Out</title>
+      
+      <p>
+        Is <c>5</c> different from <c>5.0</c>?
+      </p> 
+    </aside>
+
     <p>
       So, when we declare <c>a = 5</c>, the variable <c>a</c> is of type <c>int</c>.
     </p>

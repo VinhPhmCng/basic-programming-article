@@ -127,6 +127,14 @@ See the file COPYING for copying conditions.
     Another example is <c>len()</c>, which accepts exactly one input that is a data structure, and it returns the number of elements.
   </p>
 
+  <aside>
+    <title>Try It Out</title>
+    
+    <p>
+      Does <c>len()</c> work with a string?
+    </p> 
+  </aside>
+
   <sage language="python">
     <input>
       arr = [1, 2, 3, 4]
@@ -149,6 +157,14 @@ See the file COPYING for copying conditions.
   <p>
     So, <c>len()</c> has more specifications than <c>print()</c>. You have to call it with exactly one input, which must be a <em>data structure</em>. The following examples will return errors:
   </p>
+
+  <aside>
+    <title>Try It Out</title>
+    
+    <p>
+      Can you fix this example?
+    </p>
+  </aside>
 
   <sage language="python">
     <input>
@@ -261,10 +277,6 @@ See the file COPYING for copying conditions.
       The function <c>upper()</c> accepts exactly one input of type <c>str</c>, but we are giving it an <c>int</c>.
     </p>
   </investigation>
-
-  <p>
-    Try to modify and fix the examples with errors.
-  </p>
 
   <p>
     <cd>

@@ -63,6 +63,14 @@ See the file COPYING for copying conditions.
     Here is another code block written in Python. (You don't have to understand what the code is doing, though it's easy to guess.)
   </p>
 
+  <aside>
+    <title>Try It Out</title>
+    
+    <p>
+      Copy and paste the code into a code cell and run it.   
+    </p>
+  </aside>
+
   <program language="python">
     <input>
       a = 0
@@ -98,22 +106,38 @@ See the file COPYING for copying conditions.
     The following example is written in <term>Assembly</term>. When compiled it also outputs the words <q>Hello World!</q>. (Again, don't try to understand the code. This one is beyond even me.)
   </p>
 
+  <aside>
+    <title>Try It Out</title>
+    
+    <p>
+      Here's an <url href="https://onecompiler.com/assembly" visual="onecompiler.com/assembly">Assembly compiler</url> if you want to see it run.  
+    </p>
+  </aside>
+
   <program language="assy">
     <input>
-      org  0x100 
-      mov  dx, msg
-      mov  ah, 9
-      int  0x21
+      section .data
+        hello: db 'Hello World!',10
+        helloLen: equ $-hello
 
-      mov  ah, 0x4c
-      int  0x21
+      section .text
+        global _start
 
-      msg  db 'Hello World!', 0x0d, 0x0a, '$'
+      _start:
+        mov eax,4
+        mov ebx,1
+        mov ecx,hello
+        mov edx,helloLen
+
+        int 80h
+        mov eax,1
+        mov ebx,0
+        int 80h;
     </input>
   </program>
 
   <p>
-    As you can see, this is very close to computer language. And Assembly needs 7 lines of code to do what Python can do with one.
+    As you can see, this is very close to computer language. And Assembly needs 14 lines of code to do what Python can do with one.
   </p>
 
   <definition xml:id="def-prolang-low-level">

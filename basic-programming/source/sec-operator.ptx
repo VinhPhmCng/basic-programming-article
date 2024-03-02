@@ -43,6 +43,14 @@ See the file COPYING for copying conditions.
       The four most basic arithmetic operators are:
     </p>
 
+    <aside>
+      <title>Try It Out</title>
+      
+      <p>
+        Of these four operators, which do you think work with a <xref ref="subsec-list" text="custom">list</xref>?
+      </p> 
+    </aside>
+
     <sage language="python">
       <input>
         print(5 + 3) # Addition
@@ -68,7 +76,7 @@ See the file COPYING for copying conditions.
       <idx><h>Code examples</h><h>string concatenation</h></idx>
       <p></p>
       <p>
-        The first four lines are just the same as mathematical operations.
+        The first four lines work just the same as mathematical operations.
       </p>
       <p>
         In line 7, the operator <c>+</c> represents string concatenation (technically not arithmetic but I don't know where else to put it lol).
@@ -174,6 +182,14 @@ See the file COPYING for copying conditions.
       <idx><h>Notes</h><h>on assignment operators</h></idx>
       Theoretically, <c>=</c> is the only assignment operator you need to know. But we also have others that serve as shorthands:
     </p>
+
+    <aside>
+      <title>Try It Out</title>
+      
+      <p>
+        Try using these.
+      </p>
+    </aside>
 
     <p>
       <dl>

@@ -74,6 +74,15 @@ See the file COPYING for copying conditions.
       print("More code") # A comment can be after code
     </input>
   </sage>
+
+  <aside>
+    <title>Try It Out</title>
+    
+    <p>
+      Try removing the <c>#</c> in line 5 and re-run the code.
+    </p>
+  </aside>
+
   <problem>
     <pre>
       This is code
@@ -94,10 +103,6 @@ See the file COPYING for copying conditions.
       Line 5 is a comment used to <q>disable</q> code.
     </p>
   </investigation>
-
-  <p>
-    Try removing the <c>#</c> in line 5, run the code, and see what happens.
-  </p>
 
   <p>
     <cd>

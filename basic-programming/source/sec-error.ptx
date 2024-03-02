@@ -26,34 +26,36 @@ See the file COPYING for copying conditions.
       Before we continue, to improve your learning journey and experience, you should know how to deal with <term>errors</term>.
     </p>
 
-    <p>
+    <note>
       <idx><h>Overviews</h><h>of errors</h></idx>
-      Errors, if any, will be shown in the <term>terminal</term>. Some additional pieces of information about an error are:
+      <p>
+        Errors, if any, will be shown in the <term>terminal</term>. Some additional pieces of information about an error are:
 
-      <ul>
-        <li>
-          <p>
-            The line on which the error is spotted
-          </p>
-        </li>
-        <li>
-          <p>
-            The type of error
-          </p>
-        </li>
-        <li>
-          <p>
-            A description of the error
-          </p>
-        </li>
-        <li>
-          <p>
-            <etc></etc>
-          </p>
-        </li>
-      </ul>
-      Below are some examples:
-    </p>
+        <ul>
+          <li>
+            <p>
+              The line on which the error is spotted
+            </p>
+          </li>
+          <li>
+            <p>
+              The type of error
+            </p>
+          </li>
+          <li>
+            <p>
+              A description of the error
+            </p>
+          </li>
+          <li>
+            <p>
+              <etc></etc>
+            </p>
+          </li>
+        </ul>
+        Below are some examples:
+      </p>
+    </note>
 
     <sage>
       <input>

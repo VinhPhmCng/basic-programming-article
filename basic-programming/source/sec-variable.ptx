@@ -100,6 +100,14 @@ See the file COPYING for copying conditions.
       Next, we assign <c>a</c> a new value of <c>2</c>, but we do not touch <c>b</c>.
     </p>
 
+    <aside>
+      <title>Try It Out</title>
+      
+      <p>
+        If after updating <c>a</c>, we want <c>b</c> to again have the same value as <c>a</c>, then we have to update <c>b</c> accordingly.
+      </p> 
+    </aside>
+
     <p>
       <idx><h>Notes</h><h>on equality</h></idx>
       <alert>Note</alert>: If at this step you think that the values of <c>a</c> and <c>b</c> should both be <c>2</c>, then you are still associating <c>=</c> with equality, which is not the case for programming.
@@ -109,10 +117,6 @@ See the file COPYING for copying conditions.
       Finally, we use <c>print()</c> again to see the difference. 
     </p>
   </investigation>
-
-  <p>
-    If after updating <c>a</c>, we want <c>b</c> to again have the same value as <c>a</c>, then we have to update <c>b</c> accordingly. You can try to add <c>b = a</c> after line 7 and re-run the code to see if this is true.
-  </p>
 
   <insight>
     <idx><h>Insights</h><h>equality</h></idx>
@@ -166,7 +170,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Avoid those, and you can name a variable whatever you'd like. That's why depending on the individual variable names can vary.
+      Avoid those, and you can name a variable whatever you'd like. That's why, depending on the individual, variable names can vary.
       <ul>
         <li>
           house_address
@@ -192,7 +196,7 @@ See the file COPYING for copying conditions.
       </ul>
     </p>
     <p>
-      In the programming community, there are different conventions for naming a variable.
+      In the world of programming, there are different conventions for naming a variable.
     </p>
     <p>
       It's a skill to know how to name a variable appropriately, but this article will not instruct you in that. Variables in our code examples are named in a <em>short and simple</em> fashion.

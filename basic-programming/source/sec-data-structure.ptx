@@ -133,6 +133,14 @@ See the file COPYING for copying conditions.
       For example:
     </p>
 
+    <aside>
+      <title>Try It Out</title>
+      
+      <p>
+        Try adding more elements to the lists.
+      </p> 
+    </aside>
+
     <sage language="python">
       <input>
         li1 = [1, 2, 3]
@@ -196,6 +204,14 @@ See the file COPYING for copying conditions.
     </definition>
 
     <p>For example:</p>
+
+    <aside>
+      <title>Try It Out</title>
+      
+      <p>
+        Try adding more information about Steve.
+      </p> 
+    </aside>
 
     <sage language="python">
       <input>
