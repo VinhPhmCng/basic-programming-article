@@ -17,27 +17,51 @@ See the file COPYING for copying conditions.
   </objectives>
   
   <p>
-    When coding, you might want to leave comments. They can be notes, explanations for some algorithm, or your stream of thoughts at that moment. Thus as the code expands and gets more complicated, comments provide you with sufficient context.
+    When coding, sometimes you want to write <term>plain text</term> instead of code. It can be notes, explanations for algorithms, or your stream of thoughts at that moment, <etc /> As the code expands and gets more complicated, these <q>comments</q> provide you with sufficient context.
   </p>
 
   <definition xml:id="def-comment">
     <idx><h>Definitions</h><h>of comments</h></idx>
     <statement>
       <p>
-        To write a comment in Python or SageMath, use the number sign (hash) <c>#</c>.
+        <term>Comments</term> are pieces of plain text that will not be executed.
       </p>
       <p>
-        What is written after a <c>#</c> (on the same line) will be regarded as plain text and not code by the compiler.
+        To write a comment in Python, use the number sign (hash) <c>#</c>. What follows it (on the same line) will be regarded as plain text by the compiler.
       </p>
     </statement>
   </definition>
 
-  <remark>
-    <idx><h>Remarks</h><h>on disabling code</h></idx>
+  <aside>
+    <title>Topic(s) you might be interested in:</title>
     <p>
-      Comments are also used to temporarily <term>disable</term> lines of code. For example:
+      <ul>
+        <li>
+          <p>
+            <idx><h>Links</h><h>different comment syntax</h></idx>
+            <url href="https://www.google.com/search?q=comments+in+different+programming+language" visual="google.com/search?q=comments+in+different+programming+language">"comments in different programming languages"</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            <idx><h>Links</h><h>multiline comments</h></idx>
+            <url href="https://www.google.com/search?q=multiline+comments" visual="google.com/search?q=multiline+comments">"multiline comments"</url>
+          </p>
+        </li>
+      </ul>
     </p>
-  </remark>
+  </aside>
+
+  <insight>
+    <idx><h>Insights</h><h>disabling code</h></idx>
+    <p>
+      Comments are also used to temporarily <term>disable</term> lines of code.
+    </p>
+  </insight>
+
+  <p>
+    For example:
+  </p>
 
   <sage language="python">
     <input>

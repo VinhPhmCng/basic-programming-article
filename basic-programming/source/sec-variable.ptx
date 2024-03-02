@@ -51,7 +51,7 @@ See the file COPYING for copying conditions.
     <idx><h>Syntax</h><h>of declaration</h></idx>
     <idx><h>Syntax</h><h>of assignment</h></idx>
     <p>
-      To declare or assign values to a variable, we use the equal sign <c>=</c>: <me>{\color{blue} \text{name}} = \text{value}</me>
+      In Python, to declare or assign values to a variable, we use the equal sign <c>=</c>: <me>{\color{blue} \text{name}} = \text{value}</me>
     </p>
     <p>
       Therefore, the equal sign <c>=</c> in programming should <em>never</em> be used for equality.
@@ -106,7 +106,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Now when we use <c>print()</c>, the outcomes are <c>2</c> and <c>1</c>, not <c>2</c> and <c>2</c>.
+      Finally, we use <c>print()</c> again to see the difference. 
     </p>
   </investigation>
 
@@ -117,19 +117,56 @@ See the file COPYING for copying conditions.
   <insight>
     <idx><h>Insights</h><h>equality</h></idx>
     <p>
-      The above example, though simple, confuses many beginners, especially those with a mathematical brain. Because they see <c>b = a</c>, they think it is an equality that holds true throughout the program's lifecycle. That mindset does <em>not</em> apply to programming.
+      The above example, though simple, confuses many beginners, especially those with a mathematical brain. Because they see <c>b = a</c>, they think it's an equality that holds true throughout the program's lifecycle. That mindset does <em>not</em> apply to programming.
     </p>
   </insight>
 
   <note>
     <title>Naming a variable</title>
-    <idx><h>Notes</h><h>on variable name</h></idx>
+    <idx><h>Notes</h><h>on variable names</h></idx>
+    <idx><h>Conventions</h><h>of variable names</h></idx>
+
+    <aside>
+      <title>Topic(s) you might be interested in:</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <idx><h>Links</h><h>legal variable names</h></idx>
+              <url href="https://www.google.com/search?q=what+variable+names+are+allowed+in+Python" visual="google.com/search?q=what+variable+names+are+allowed+in+Python">"what variable names are allowed in Python"</url>
+            </p>
+          </li>
+          <li>
+            <p>
+              <idx><h>Links</h><h>Python naming conventions</h></idx>
+              <url href="https://www.google.com/search?q=variable+naming+conventions+in+Python" visual="google.com/search?q=variable+naming+conventions+in+Python">"variable naming conventions in Python"</url>
+            </p>
+          </li>
+        </ul>
+      </p>
+    </aside>
     
     <p>
-      A variable's name has some specifications such as <em>not</em> containing white-spaces or some other special characters.
+      A variable's name has some specifications. The following names will raise a syntax error:
+
+      <ul>
+        <li>
+          <c>my var = 5</c> (contains white-spaces)
+        </li>
+        <li>
+          <c>#my_var = 5</c> (contains a special character)
+        </li>
+        <li>
+          <c>1st_var = 5</c> (starts with a number)
+        </li>
+        <li>
+          <c>print = 5</c> (matches a reserved keyword)
+        </li>
+      </ul>
     </p>
+
     <p>
-      Adhering to those, you can name a variable whatever you'd like. Thus, depending on the individual a variable's name can vary.
+      Avoid those, and you can name a variable whatever you'd like. That's why depending on the individual variable names can vary.
       <ul>
         <li>
           house_address
@@ -158,7 +195,7 @@ See the file COPYING for copying conditions.
       In the programming community, there are different conventions for naming a variable.
     </p>
     <p>
-      It's a skill to know how to nicely name a variable, but this article will not instruct you in that. Variables in our coding examples are named in a <em>short and simple</em> fashion.
+      It's a skill to know how to name a variable appropriately, but this article will not instruct you in that. Variables in our code examples are named in a <em>short and simple</em> fashion.
     </p>
   </note>
 

@@ -16,12 +16,19 @@ See the file COPYING for copying conditions.
     </p>
     
     <p>
-      This article is also adapted into videos, which are available on Youtube and also embedded into their corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial.
+      <idx><h>Links</h><h>Youtube series</h></idx>
+      This article is also adapted into videos, which are <url href="https://www.youtube.com/" visual="youtube.com">available on Youtube</url> and also embedded into the corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial. (P.S. The videos are short and quite silly because I'm new to editing.)
     </p>
 
     <p>
-      That's it! Going forward I hope I can give you a good first impression of the wonderful world of programming. Despite the title, I hope this article will be useful and entertaining to both complete novices and those who have had some contact with programming.
+      That's it! Going forward I hope I can give you a good first impression of the wonderful world of programming. Despite the title, I hope this article will be useful and entertaining to both complete novices and those who've had minimal contact with programming.
     </p>
+
+  </introduction>
+
+  <subsection xml:id="subsec-how-to-follow-along">
+    <title>How To Follow Along</title>
+    <idx><h>Overviews</h></idx>
 
     <p>
       <idx><h>Overviews</h><h>of contents</h></idx>
@@ -29,58 +36,39 @@ See the file COPYING for copying conditions.
 
       <ul>
         <li>
-          <p>
-            <term>Sections 1 and 2</term>: An introduction to the article.
-          </p>
+          <term>Sections 1 and 2</term>: An introduction to the article.
         </li>
         <li>
-          <p>
-            <term>Sections 3 to 10</term>: Fundamental concepts of programming.
-          </p>
+          <term>Sections 3 to 10</term>: Fundamental concepts of programming.
         </li>
         <li>
-          <p>
-            <term>Sections 11 and 12</term>: Personal experiences to help improve your learning.
-          </p>
+          <term>Sections 11 and 12</term>: My personal experiences.
         </li>
         <li>
-          <p>
-            <term>Sections 13 to 17 (under development)</term>: Slightly more advanced fundamental concepts.
-          </p>
+          <term>Sections 13 to 17 (under development)</term>: Slightly more advanced fundamental concepts.
         </li>
       </ul>
     </p>
-  </introduction>
 
-  <subsection xml:id="subsec-how-to-follow-along">
-    <title>How To Follow Along</title>
-    <idx><h>Overviews</h><h>of structure</h></idx>
     <p>
-      Concepts will be introduced with the following structure:
+      New concepts will be introduced with the following structure:
       <ol>
         <li>
-          <p>
-            Definition
-          </p>
+          Definition
         </li>
         <li>
-          <p>
-            Example code blocks
-          </p>
+          Code examples
         </li>
         <li>
-          <p>
-            Explanations for examples
-          </p>
+          Explanations for examples
         </li>
       </ol>
 
-      <em>When running coding examples</em>, you should <term>simultaneously</term> read the corresponding explanations for the best learning experience.
+      When running <em>code examples</em>, you should <term>simultaneously</term> read the corresponding explanations for the best learning experience.
     </p>
 
     <p>
-      <idx><h>Links</h><h>Youtube series</h></idx>
-      You can also watch the <url href="https://www.youtube.com/" visual="youtube.com">Youtube videos</url>, before or after reading each section<xref provisional="youtube series"/>.
+      You can also watch the videos, before or after reading each section. They have cool visuals and present ideas in a different way.
     </p>
   </subsection>
 
@@ -89,7 +77,7 @@ See the file COPYING for copying conditions.
     <idx><h>Support</h></idx>
     <p>
       <idx><h>Links</h><h>source code</h></idx>
-      This is an open-source project, meaning the source code for this article and the videos are all available on Github<mdash /><url href="https://github.com/VinhPhmCng/basic-programming-article" visual="github.com/VinhPhmCng/basic-programming-article">here</url>.
+      This is an open-source project, meaning its source code is available on Github<mdash /><url href="https://github.com/VinhPhmCng/basic-programming-article" visual="github.com/VinhPhmCng/basic-programming-article">here</url>.
     </p>
 
     <p>
@@ -100,7 +88,7 @@ See the file COPYING for copying conditions.
 
     <p>
       <idx><h>Support</h><h>the tools used</h></idx>
-      This page is built with <pretext />, which comes with built-in interactive code cells, enhancing your experience.
+      This page is built with <pretext />, which features built-in interactive code cells, enhancing your experience. Please support them as well!
     </p>
 
     <p>
@@ -114,18 +102,21 @@ See the file COPYING for copying conditions.
       <idx><h>Links</h><h>donation</h></idx>
       And if you really appreciate the contents, consider leaving a donation <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq">here</url>. Thanks a bunch!
     </p>
-  </subsection>
 
-  <conclusion>
     <p>
       Now then, let's get started, shall we?
     </p>
+  </subsection>
+
+  <subsection xml:id="subsec-what-is-programming">
+    <title>What Is Programming?</title>
+    <idx><h>Definitions</h><h>of programming</h></idx>
 
     <p>
       <cd>
       </cd>
     </p>
-
+    
     <exploration>
       <title>Basic Programming <mdash /> Part 1: Introduction</title>
       <idx><h>Videos</h><h>part 01</h></idx>
@@ -133,7 +124,6 @@ See the file COPYING for copying conditions.
       <video youtube="iMXToAm9a0c"/>
        
     </exploration>
-
-  </conclusion>
+  </subsection>
 
 </section>

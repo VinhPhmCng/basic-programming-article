@@ -179,12 +179,12 @@ See the file COPYING for copying conditions.
             </p>
           </note>
 
-          <remark>
-            <idx><h>Remarks</h><h>on documentation</h></idx>
+          <insight>
+            <idx><h>Insights</h><h>documentation</h></idx>
             <p>
               You can refer to documentation in your language of choice. But it is commonly the case that English resources are the best in terms of availability and being up-to-date.
             </p>
-          </remark>
+          </insight>
 
           <p>
             The majority of errors you might run into have already been solved by others. Thus, we can quickly read online posts and discussions and learn their solutions. Some of the most popular forums are <term>Stack Overflow</term>, <term>Github</term>, <term>Stack Exchange</term>, <term>Reddit</term>.

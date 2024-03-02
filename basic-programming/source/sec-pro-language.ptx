@@ -12,14 +12,27 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ul>
-      <li>See some examples in different programming languages.</li>
+      <li>See some examples of different programming languages.</li>
       <li>Learn about <term>high-level</term> and <term>low-level</term> languages.</li>
     </ul>
   </objectives>
 
-  <p>
-    <term>A programming language</term> is a system of notation that helps humans create computer programs or, in other words, give instructions to computers. These <q>instructions</q> range from calculating additions and subtractions to complex data manipulations, <etc></etc>
-  </p>
+  <definition xml:id="def-">
+    <idx><h>Definitions</h><h>of programming languages</h></idx>
+    <statement>
+      <p>
+        <term>A programming language</term> is a system of notation that helps humans create computer programs or, in other words, give instructions to computers.
+      </p>
+
+      <p>
+        Each programming language has its own set of <term>syntax</term>.
+      </p>
+
+      <p>
+        <term>Syntax</term> is simply the <q>grammar</q> of a programming language, which is crucial for the computer to understand and execute code.
+      </p>
+    </statement>
+  </definition>
 
   <p>
     The code cell below is written in <term>Python</term><mdash></mdash>one of the most popular programming languages in recent years. You can run the code and see the results.
@@ -47,7 +60,7 @@ See the file COPYING for copying conditions.
 
   <p>
     <idx><h>Code examples</h><h>high-level</h></idx>
-    Here is another code block written in Python. (You don't have to understand what the code is doing, though it's easy to guess its purpose.)
+    Here is another code block written in Python. (You don't have to understand what the code is doing, though it's easy to guess.)
   </p>
 
   <program language="python">
@@ -64,17 +77,14 @@ See the file COPYING for copying conditions.
   </program>
 
   <p>
-    You can easily see that there are <term>keywords</term> such as <c>while</c>, <c>print</c> <c>end</c>, <c>if</c>, and <c>else</c>. This means Python's syntax includes keywords and features that closely resemble the English language.
+    You can easily see that there are <term>keywords</term> such as <c>while</c>, <c>print</c> <c>end</c>, <c>if</c>, and <c>else</c>. Besides those, Python's syntax includes many keywords and features that closely resemble the English language.
   </p>
 
   <definition xml:id="def-prolang-high-level">
     <idx><h>Definitions</h><h>of high-level languages</h></idx>
     <statement>
       <p>
-        Python is called a <term>high-level</term> programming language because its <term>syntax</term> closely resembles human languages.
-      </p>
-      <p>
-        <term>Syntax</term> simply means the <q>grammar</q> of a programming language. Like human languages, programming languages have their own set of grammatical rules, which are crucial for the computer, something that always follows orders exactly.
+        Python is considered a <term>high-level</term> programming language because its <term>syntax</term> closely resembles English.
       </p>
     </statement>
   </definition>
@@ -85,7 +95,7 @@ See the file COPYING for copying conditions.
 
   <p>
     <idx><h>Code examples</h><h>low-level</h></idx>
-    The following example is written in <term>Assembly</term>. The code when compiled will also output the words <q>Hello World!</q>. (Again, don't try to understand the code. This one is beyond even me.)
+    The following example is written in <term>Assembly</term>. When compiled it also outputs the words <q>Hello World!</q>. (Again, don't try to understand the code. This one is beyond even me.)
   </p>
 
   <program language="assy">
@@ -103,27 +113,27 @@ See the file COPYING for copying conditions.
   </program>
 
   <p>
-    As you can see, this is almost fully computer language. Assembly needs 7 lines of code to do what Python can do with one.
+    As you can see, this is very close to computer language. And Assembly needs 7 lines of code to do what Python can do with one.
   </p>
 
   <definition xml:id="def-prolang-low-level">
     <idx><h>Definitions</h><h>of low-level languages</h></idx>
     <statement>
       <p>
-        So, Assembly is called a <term>low-level</term> programming language, since its syntax is closer to computer languages.
+        Assembly is considered a <term>low-level</term> programming language since its syntax is closer to machine code.
       </p>
     </statement>
   </definition>
 
   <p>
-    In conclusion, the syntax of high-level languages is easier to understand than that of low-level ones. Maybe you would ask <q>Then why should we use low-level languages?</q>
+    In conclusion, the syntax of high-level languages is easier to understand than that of low-level ones. Maybe you'd ask <q>Then why should we use low-level languages?</q>
   </p>
 
   <p>
-    There can be many reasons for that, and among them, speed is the most obvious one. Basically, code written in high-level languages has to go through more intermediate steps to be translated into machine code (binary) than low-level ones, thus it's obvious that the latter often have a speed advantage.
+    There're many reasons for that, and among them, speed is the most obvious. Basically, code written in high-level languages has to go through more intermediate steps to be translated into machine code (binary) than low-level ones, thus it's obvious that the latter often have a speed advantage.
   </p>
   <p>
-    Some other reasons are specialization, complex data manipulation, legacy code, <etc />
+    Some other reasons are specialization, precise data manipulation, legacy code, <etc />
   </p>
   
   <insight>
@@ -137,21 +147,35 @@ See the file COPYING for copying conditions.
   </insight>
 
   <p>
-    However, for <term>beginner-level</term> usage, this speed advantage doesn't really matter. So for you, high-level languages are definitely the way to go.
+    However, for <term>beginner-level</term> usage, this speed advantage doesn't really matter. So, for you, high-level languages are definitely the way to go.
   </p>
 
   <note>
-    <idx><h>Notes</h><h>on coding examples</h></idx>
+    <idx><h>Notes</h><h>on code examples</h></idx>
     <p>
-      In this article, coding examples are written in the high-level language Python, making it easier for you to follow and experiment.
+      In this article, code examples are written in <term>Python</term>, making it easier for you to follow and experiment.
     </p>
     <p>
-      But there are also code cells in other programming languages, which can be found in <xref ref="appendix-playground" text="title"></xref>.
+      But you can also play with other programming languages in the <xref ref="appendix-playground" text="title"></xref>.
     </p>
   </note>
 
+  <aside>
+    <title>Topic(s) you might be interested in:</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <idx><h>Links</h><h>2023 survey on popular languages</h></idx>
+            <url href="https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages" visual="survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages">stackoverflow's 2023 survey on the most popular languages</url>
+          </p>
+        </li>
+      </ul>
+    </p>
+  </aside>
+
   <p>
-    Each programming language has its own set of notations, which is developed in consideration of its purpose. Python is a high-level multi-purpose language used by mathematicians, data scientists, software/game developers and so many more.
+    A language's syntax is developed in consideration of its purpose(s). For instance, Guido van Rossum greatly prioritized readability and ease of use when he created Python. Therefore, its syntax aims to enable developers to write clear and expressive code.
   </p>
 
   <insight xml:id="insight-choose-pro-language">

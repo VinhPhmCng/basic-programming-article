@@ -39,7 +39,7 @@ See the file COPYING for copying conditions.
     </p>
   </technology>
 
-  <p>To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the external library Numpy (which you don't have to fully understand):</p>
+  <p>To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the library Numpy, which extends Python with mathematical features:</p>
 
   <sage language="python">
     <input>
@@ -65,10 +65,10 @@ See the file COPYING for copying conditions.
     <idx><h>Functions</h><h>np.matrix()</h></idx>
     <p></p>
     <p>
-      <c>mat.size</c> returns the total number of elements of the matrix.
+      <c>mat.size</c> returns the total number of elements of the matrix named <c>mat</c>.
     </p>
     <p>
-      <c>mat.shape</c> returns the number of rows and columns of the matrix.
+      <c>mat.shape</c> returns the number of rows and columns of the matrix named <c>mat</c>.
     </p>
   </investigation>
 

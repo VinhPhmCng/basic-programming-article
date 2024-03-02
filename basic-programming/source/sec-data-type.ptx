@@ -22,7 +22,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <definition xml:id="def-data-type">
-    <idx><h>Definitions</h><h>data types</h></idx>
+    <idx><h>Definitions</h><h>of data types</h></idx>
     <statement>
       <p>
         And to <term>categorize</term> data, we make use of <term>data types</term>.

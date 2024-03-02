@@ -43,7 +43,7 @@ See the file COPYING for copying conditions.
     <idx><h>Functions</h><h>print()</h></idx>
     <p></p>
     <p>
-      The command <c>print()</c> has a simple job<mdash></mdash>putting data, which is located in between its parentheses, into the terminal. Here, that data is the outcome of <c>a + b</c>.
+      The command <c>print()</c> has a simple job<mdash></mdash>putting data, which is located in between the parentheses, into the terminal. Here, that data is the outcome of <c>a + b</c>.
     </p>
   </investigation>
 
@@ -54,27 +54,27 @@ See the file COPYING for copying conditions.
     <ol>
       <li>
         <p>
-          <term>Cell</term>: Where code is written. In the online version, you can modify and experiment with the code.
+          <term>Cell / Editor</term><mdash />Where code is written. In the online version, you can modify and experiment with the code.
         </p>
       </li>
       <li>
         <p>
-          <term><q>Run Code</q> Button</term> (Online): Press to run the code cell.
+          <term><q>Run Code</q> Button</term> (Online)<mdash />Press to execute the code.
         </p>
       </li>
       <li>
         <p>
-          <term>Terminal</term> (Online): Where output and errors, if any, are shown when running the code.
+          <term>Terminal</term> (Online)<mdash />Where output and errors, if any, are shown when running the code.
         </p>
       </li>
       <li>
         <p>
-          <term>Output</term>: Where <term>static</term> output is shown. It's mostly intended for the hard copy or PDF, but online users can also benefit, for example, when code servers are down for some reason.
+          <term>Output</term><mdash />Where <term>static</term> output is shown. It's mostly intended for the hard copy or PDF, but online users can also benefit, for example, when code servers are down for some reason.
         </p>
       </li>
       <li>
         <p>
-          <term>Explanation</term>: Where an explanation for the code example is given.
+          <term>Explanation</term><mdash />Where an explanation for the code example is given.
         </p>
       </li>
     </ol>
@@ -82,7 +82,7 @@ See the file COPYING for copying conditions.
 
   <p>
     <idx><h>Programming environment</h><h>version 2</h></idx>
-    A slightly more complex version of the code cell is as follows:
+    A slightly different version of the code cell is as follows:
   </p>
 
   <program language="python" interactive="activecode">
@@ -106,27 +106,41 @@ See the file COPYING for copying conditions.
     This runs similarly, but it also provides additional functionality. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a <q>CodeLens</q> button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).
   </p>
 
-  <remark>
-    <idx><h>Remarks</h><h>on which programming environment</h></idx>
+  <insight>
+    <idx><h>Insights</h><h>which programming environment</h></idx>
     <p>
       Depending on the concept, the better-suited version to demonstrate it is chosen.
     </p>
-  </remark>
+  </insight>
+
+  <aside>
+    <title>Topic(s) you might be interested in:</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <idx><h>Links</h><h>2023 survey on popular IDEs</h></idx>
+            <url href="https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment" visual="survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment">stackoverflow's 2023 survey on the most popular IDEs</url>
+          </p>
+        </li>
+      </ul>
+    </p>
+  </aside>
 
   <note>
     <title>Updating code in the online version</title>
     <idx><h>Notes</h><h>on updating code</h></idx>
     <p>
-      If you update the code in the editor and re-run it, new output will be shown only in the terminal. The static output section retains the outcomes of the original code.
+      If you update the code in a cell and re-run it, new output will be shown only in the terminal. The static output section retains the outcomes of the original code.
     </p>
   </note>
 
   <p>
-    In this article, our environment is limited to those components for the sake of simplicity. More sophisticated environments have many more features helping experienced programmers to create, but for beginners they are unnecessary.
+    In this article, our environment is limited to those components for the sake of <term>simplicity</term>. Sophisticated environments have many more features helping experienced programmers to create, but for beginners they are unnecessary. Besides, the installation of necessary tools can sometimes be quite complicated, thus discouraging you from actually learning programming.
   </p>
 
   <p>
-    All provided code examples can be run directly or copy-pasted and run in code cells provided in <xref ref="appendix-playground" text="title"/>. They can also be compiled and run in external coding environments, but this article will not instruct you in that.
+    All provided code examples can be run directly or copy-pasted and run in code cells provided in the <xref ref="appendix-playground" text="title"/>. They can also be compiled and run in external coding environments, but this article will not instruct you in that.
   </p>
 
   <note>
@@ -168,7 +182,7 @@ See the file COPYING for copying conditions.
   <note>
     <idx><h>Notes</h><h>on unexpected results</h></idx>
     <p>
-      If you run a cell starting with <c># ...</c>, and unexpected results or errors show up, then it's likely you haven't run the preceding cell(s).
+      If you run a cell starting with <c># ...</c> and unexpected results or errors show up, then it's likely you haven't run the preceding cell(s).
     </p>
   </note>
 
