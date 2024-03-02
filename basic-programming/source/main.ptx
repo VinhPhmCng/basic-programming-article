@@ -40,6 +40,8 @@
     <xi:include href="./sec-scope.ptx" />
     <xi:include href="./sec-declare-function.ptx" />
     <xi:include href="./sec-class.ptx" />
+    <xi:include href="./sec-using-list.ptx" />
+    <xi:include href="./sec-using-dictionary.ptx" />
 
 
     <!-- Include backmatter -->

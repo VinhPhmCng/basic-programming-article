@@ -13,7 +13,7 @@ See the file COPYING for copying conditions.
   <objectives>
     <ul>
       <li>Learn about data types and how to use them.</li>
-      <li>Understand how data <term>interact</term> with one another depends their data type.</li>
+      <li>Understand <term>interactions</term> between data types.</li>
     </ul>
   </objectives>
   
@@ -37,14 +37,14 @@ See the file COPYING for copying conditions.
       <li>
         <title>str</title>
         <p>
-          <term>A sequence of characters</term> enclosed in quotation marks <c>""</c> or single quotation marks <c>''</c>.
+          <term>A sequence of characters</term>, enclosed in quotation marks <c>""</c> or single quotation marks <c>''</c>.
         </p>
       </li>
 
       <li>
         <title>int</title>
         <p>
-          <term>An integer</term>, which is a whole number (without a decimal point).
+          <term>An integer</term>, or a whole number (without a decimal point).
         </p>
       </li>
 
@@ -65,10 +65,32 @@ See the file COPYING for copying conditions.
     </dl>
   </p>
 
+  <aside>
+    <title>Topic(s) you might be interested in</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <idx><h>Links</h><h>Python is dynamically typed</h></idx>
+            <url href="https://www.google.com/search?q=Python+is+dynamically+typed" visual="google.com/search?q=Python+is+dynamically+typed">"Python is dynamically typed"</url>
+          </p>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <p>
+            <idx><h>Links</h><h>static vs dynamic typing</h></idx>
+            <url href="https://stackoverflow.com/a/27791387/19779259" visual="stackoverflow.com/a/27791387/19779259">example of static vs dynamic typing</url>
+          </p>
+        </li>
+      </ul>
+    </p> 
+  </aside>
+
   <note>
     <idx><h>Notes</h><h>on data type determination</h></idx>
     <p>
-      In Python and SageMath, when we declare or update a variable, it will <em>automatically</em> determine or re-determine its data type.
+      Python is a dynamically typed language. This means when a variable is declared or updated, its data type is <em>automatically</em> determined or re-determined respectively.
     </p>
   </note>
 
@@ -98,7 +120,10 @@ See the file COPYING for copying conditions.
     <idx><h>Functions</h><h>type()</h></idx>
     <p></p>
     <p>
-      The command <c>type(a)</c> returns the data type of <c>a</c> written in single quotation marks. (You don't have to care about <c>class</c> here. In this context it can be understood as <q>classify</q>.)
+      The command <c>type(a)</c> returns the data type of <c>a</c> written in single quotation marks.
+    </p>
+    <p>
+      (You don't have to care about the word <c>class</c> yet. Here it can be understood as <q>classify</q>. But to be accurate, it's refering to <term>Class</term>, which is a more advanced topic discussed in <xref ref="sec-class"/>.)
     </p>
     <p>
       So, when we declare <c>a = 5</c>, the variable <c>a</c> is of type <c>int</c>.
@@ -109,14 +134,14 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    To conclude, <c>a = "5"</c> differs from <c>a = 5</c>. If data is surrounded by (single) quotation marks, then it is of type <c>str</c>. From that, we have the following definition:
+    To conclude, <c>a = "5"</c> differs from <c>a = 5</c>. If data is surrounded by (single) quotation marks, then it is of type <c>str</c>. From that, we have the following:
   </p>
 
   <definition xml:id="def-dtype-syntax">
     <idx><h>Definitions</h><h>of data type syntax</h></idx>
     <statement>
       <p>
-        Different data types have their own representation when declared, or in other words, different <term>syntax</term>.
+        Different data types have different <term>syntax</term>.
       </p>
     </statement>
   </definition>
@@ -151,10 +176,7 @@ See the file COPYING for copying conditions.
       Same as above.
     </p>
     <p>
-      Again, you don't have to care about <c>class</c> yet. You can understand it as <q>classify</q>.
-    </p>
-    <p>
-      But to be accurate, it stands for <term>Class</term>, which is a more advanced topic discussed in <xref ref="sec-class"/>.
+      Again, you don't have to care about <c>class</c> yet.
     </p>
   </investigation>
 
@@ -169,7 +191,7 @@ See the file COPYING for copying conditions.
         Data types determine possible <term>interactions</term> between data.
       </p>
       <p>
-        In other words, there are many possible interactions between data (mathematical calculations, string concatenation, <etc></etc>), and what they are depends on the data type(s) involved.
+        In other words, there are many possible interactions between data (mathematical calculations, string concatenation, <etc></etc>), and what they are <em>depends on</em> the data type(s) involved.
       </p>
     </statement>
   </definition>
@@ -205,7 +227,7 @@ See the file COPYING for copying conditions.
       We know both <c>a</c> and <c>b</c> are of type <c>int</c>. So, adding them together makes sense and is allowed.
     </p>
     <p>
-      Similarly, <c>c</c> and <c>d</c> are of type <c>float</c>, so addition is valid.
+      Similarly, <c>c</c> and <c>d</c> are both <c>float</c>, so addition is valid.
     </p>
     <p>
       The last line is a bit more interesting since we can still perform an addition between <c>int</c> and <c>float</c>.
@@ -213,8 +235,53 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    However, we <em>cannot</em> add <c>int</c> and <c>str</c>, which will result in an <term>error</term>:
+    We can also <q>add</q> two or more strings together, resulting in a new string that is the concatenation of the component strings. For example:
+  </p>  
+
+  <sage language="python">
+    <input>
+      s1 = "Hello"
+      s2 = "Jack"
+      s3 = " Jane"
+      
+      print(s1 + s2)
+      print(s1 + s3)
+    </input>
+  </sage>
+  <problem>
+    <pre>
+      HelloJack
+      Hello Jane
+    </pre>
+  </problem>
+  <investigation>
+    <idx><h>Code examples</h><h>string concatenation</h></idx>
+    <p></p>
+    <p>
+      <c>s1 + s2</c> is valid and concatenates the strings, same with <c>s1 + s3</c>.
+    </p>
+    <p>
+      Notice the difference between <c>s2</c> and <c>s3</c> and how it's reflected in the concatenated strings.
+    </p>
+  </investigation>
+  
+  <p>
+    However, we <em>cannot</em> add <c>int</c> and <c>str</c> together, which will result in an <term>error</term>:
   </p>
+
+  <aside>
+    <title>Topic(s) you might be interested in</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <idx><h>Links</h><h>Python add int to string</h></idx>
+            <url href="https://www.google.com/search?q=Python+how+to+add+int+to+string" visual="google.com/search?q=Python+how+to+add+int+to+string">"Python how to add int to string"</url>
+          </p>
+        </li>
+      </ul>
+    </p> 
+  </aside>
 
   <sage language="python">
     <input>
@@ -241,37 +308,6 @@ See the file COPYING for copying conditions.
     </p>
   </investigation>
 
-  <p>
-    But we can <q>add</q> two or more strings together, which results in a new string that is the concatenation of the component strings. For example:
-  </p>  
-
-  <sage language="python">
-    <input>
-      s1 = "Hello"
-      s2 = "Jack"
-      s3 = " Jane"
-      
-      print(s1 + s2)
-      print(s1 + s3)
-    </input>
-  </sage>
-  <problem>
-    <pre>
-      HelloJack
-      Hello Jane
-    </pre>
-  </problem>
-  <investigation>
-    <idx><h>Code examples</h><h>string concatenation</h></idx>
-    <p></p>
-    <p>
-      <c>s1 + s2</c> is valid and concatenates the strings, same with <c>s1 + s3</c>.
-    </p>
-    <p>
-      Notice the difference between <c>s1</c> and <c>s3</c> as the latter has a preceding white-space, which is better seen after the concatenation.
-    </p>
-  </investigation>
-  
   <p>
     <cd>
     </cd>

@@ -12,7 +12,7 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ul>
-      <li>Learn to access data's attributes.</li>
+      <li>Learn about attributes and how to access them.</li>
     </ul>
   </objectives>
   
@@ -20,13 +20,13 @@ See the file COPYING for copying conditions.
     <idx><h>Definitions</h><h>of attributes</h></idx>
     <statement>
       <p>
-        An <term>attribute</term> is a built-in variable storing <em>descriptive information</em> regarding another piece of data (or metadata, if you will).
+        An <term>attribute</term> is a built-in variable storing <em>descriptive information</em> regarding another piece of data. In other words, it's metadata.
       </p>
       <p>
-        Every data type has its own set of built-in attributes.
+        Every data type has its own set of attributes.
       </p>
       <p>
-        The attributes of a piece of data are <em>automatically updated</em> when that data is updated.
+        The attributes of a piece of data are <em>automatically updated</em> when said data is updated.
       </p>
     </statement>
   </definition>
@@ -39,7 +39,33 @@ See the file COPYING for copying conditions.
     </p>
   </technology>
 
-  <p>To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the library Numpy, which extends Python with mathematical features:</p>
+  <p>To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the external library Numpy (which you don't have to fully understand):</p>
+
+  <aside>
+    <title>Topic(s) you might be interested in</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <idx><h>Links</h><h>Python libraries</h></idx>
+            <url href="https://www.google.com/search?q=what+is+a+Python+library" visual="google.com/search?q=what+is+a+Python+library">"what is a Python library"</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            <idx><h>Links</h><h>Numpy</h></idx>
+            <url href="https://www.google.com/search?q=what+is+Numpy" visual="google.com/search?q=what+is+Numpy">"what is Numpy"</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            <idx><h>Links</h><h>matrices</h></idx>
+            <url href="https://www.google.com/search?q=what+is+a+matrix" visual="google.com/search?q=what+is+a+matrix">"what is a matrix"</url>
+          </p>
+        </li>
+      </ul>
+    </p> 
+  </aside>
 
   <sage language="python">
     <input>
@@ -68,7 +94,7 @@ See the file COPYING for copying conditions.
       <c>mat.size</c> returns the total number of elements of the matrix named <c>mat</c>.
     </p>
     <p>
-      <c>mat.shape</c> returns the number of rows and columns of the matrix named <c>mat</c>.
+      <c>mat.shape</c> returns the number of rows and columns of the matrix respectively.
     </p>
   </investigation>
 

@@ -23,7 +23,7 @@ See the file COPYING for copying conditions.
       <idx><h>Definitions</h><h>of operators</h></idx>
       <statement>
         <p>
-          In programming, an <term>operator</term> is a symbol that describes a specific assignment or a mathematical, relational, or logical operation.
+          In programming, an <term>operator</term> is a symbol or keyword that describes a specific assignment or a mathematical, relational, or logical operation.
         </p>
         <p>
           In other words, an operator describes an interaction between data.
@@ -50,7 +50,7 @@ See the file COPYING for copying conditions.
         print(5 * 3) # Multiplication
         print(5 / 3) # Division
 
-        # Concatenation
+        # String concatenation
         print("string 1 " + "string 2")
       </input>
     </sage>
@@ -71,7 +71,7 @@ See the file COPYING for copying conditions.
         The first four lines are just the same as mathematical operations.
       </p>
       <p>
-        In line 7, the operator <c>+</c> represents string concatenation.
+        In line 7, the operator <c>+</c> represents string concatenation (technically not arithmetic but I don't know where else to put it lol).
       </p>
     </investigation>
     
@@ -111,7 +111,7 @@ See the file COPYING for copying conditions.
     <title>Assignment Operators</title>
 
     <p>
-      As you already know <c>=</c> is used frequently. This is the most important <term>assignment operator</term> that you need to understand.
+      You've seen <c>=</c> being used very frequently. This is the most important <term>assignment operator</term> that you need to understand.
     </p>
 
     <definition xml:id="def-op-assignment">
@@ -172,7 +172,7 @@ See the file COPYING for copying conditions.
     
     <p>
       <idx><h>Notes</h><h>on assignment operators</h></idx>
-      Theoretically, <c>=</c> is the only assignment operator you need to know. But we also have others that serve as a short-hand:
+      Theoretically, <c>=</c> is the only assignment operator you need to know. But we also have others that serve as shorthands:
     </p>
 
     <p>
@@ -210,8 +210,22 @@ See the file COPYING for copying conditions.
     <title>Relational Operators</title>
 
     <p>
-      <term>Relational operators</term> are mostly used in conditional statements, so they will be described in more detail in <xref ref="sec-conditional"/>.
+      <term>Relational operators</term> are mostly used in conditional statements, so they will be described in more detail in <xref ref="sec-conditional" text="type-local"/>.
     </p>
+
+    <aside>
+      <title>Topic(s) you might be interested in</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <idx><h>Links</h><h>Python = vs ==</h></idx>
+              <url href="https://www.google.com/search?q=Python+=+vs+==" visual="google.com/search?q=Python+=+vs+==">"Python = vs =="</url>
+            </p>
+          </li>
+        </ul>
+      </p> 
+    </aside>
 
     <p>
       <idx><h>Overviews</h><h>of relational operators</h></idx>
@@ -272,7 +286,7 @@ See the file COPYING for copying conditions.
     <title>Logical Operators</title>
     
     <p>
-      <term>Logical operators</term> are mostly used in conditional statements, so they will be described in more detail in <xref ref="sec-conditional"/>.
+      <term>Logical operators</term> are mostly used in conditional statements, so they will be described in more detail in <xref ref="sec-conditional" text="type-local"/>.
     </p>
 
     <p>

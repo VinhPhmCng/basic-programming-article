@@ -21,7 +21,7 @@ See the file COPYING for copying conditions.
 
     <p>
       <idx><h>Code examples</h><h>without list</h></idx>
-      Up until now, variables have been storing only one value. Suppose we have a program that stores perfect square numbers. It might look like this:
+      Up until now, variables have been storing one singular value. Suppose we have a program that stores 100 perfect square numbers. It might look like this:
     </p>
 
     <program language="python">
@@ -36,7 +36,7 @@ See the file COPYING for copying conditions.
     </program>
 
     <p>
-      To reduce the number of variables, we can make use of a new object<mdash></mdash><term>a data structure</term>.
+      This is highly impractical. So, to reduce the number of variables, we can make use of a new object<mdash></mdash><term>a data structure</term>.
     </p>
 
     <definition xml:id="def-data-structure">
@@ -61,12 +61,12 @@ See the file COPYING for copying conditions.
     
     <program language="python">
       <input>
-        pa = [0, 1, 4, 9, ..., 9801]
+        ps = [0, 1, 4, 9, ..., 9801]
       </input>
     </program>
 
     <p>
-      Even though this is still time-consuming (you're typing 100 numbers), it's significantly better than before. Instead of creating 100 different variables, we create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
+      Even though this is still impractical (you're typing 100 numbers), it's significantly better than before. Instead of creating 100 different variables, we create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
     </p>
 
     <p>
@@ -77,9 +77,12 @@ See the file COPYING for copying conditions.
       For now, we will take a look at two of the most used data structures<mdash /><term>lists (arrays)</term> and <term>dictionaries</term>.
     </p>
 
-    <p>
-      The following sub-sections will only <em>briefly introduce</em> these two objects. If you are interested in their syntax or how to work with them, please refer to <xref ref="appendix-whats-next" text="title"/>.
-    </p>
+    <note>
+      <idx><h>Notes</h><h>on learning data structures</h></idx>
+      <p>
+        The following sub-sections will only <em>briefly introduce</em> these two objects. <!-- If you are interested in their syntax or how to work with them, please refer to <xref ref="appendix-whats-next" text="title"/>. -->
+      </p>
+    </note>
   </introduction>
 
   <subsection xml:id="subsec-list">
@@ -97,14 +100,28 @@ See the file COPYING for copying conditions.
       </statement>
     </definition>
 
+    <aside>
+      <title>Topic(s) you might be interested in</title>
+      <p>
+        <ul>
+          <li>
+            <p>
+              <idx><h>Links</h><h>Python lists vs arrays</h></idx>
+              <url href="https://www.google.com/search?q=Python+lists+vs+arrays" visual="google.com/search?q=Python+lists+vs+arrays">"Python lists vs arrays"</url>
+            </p>
+          </li>
+        </ul>
+      </p> 
+    </aside>
+
     <note>
       <idx><h>Notes</h><h>on lists versus arrays</h></idx>
       <p>
-        A list is a built-in data structure in Python. It is different from <term>an array</term> in that the elements of a Pythonic array must all have the same data type (and it's not built-in).
+        In some other programming languages, there's a data structure called <term>array</term>, which works the same as a list in Python.
       </p>
 
       <p>
-        In some other programming languages, an array works the same way as a list does in Python. This goes to show that in different languages, data structures can have the same name but different implementations.
+        Python also has arrays, though with a different implementation from some others'. This goes to show that in different languages, data structures can have the same name but different implementations, and vice versa.
       </p>
 
       <p>
@@ -157,7 +174,7 @@ See the file COPYING for copying conditions.
     <note>
       <idx><h>Notes</h><h>on using lists</h></idx>
       <p>
-        As you can already see, the list has a distinct syntax. But we won't go into its syntax and usage yet since this is supposed to be a brief introduction.
+        As you can already see, lists have yet another distinct syntax. But we won't go into their syntax and usage yet. Refer to <xref ref="sec-using-list" text="type-local"/> for further discussion about lists.
       </p>
     </note>
     
@@ -207,7 +224,7 @@ See the file COPYING for copying conditions.
         We declare a dictionary with 5 elements which are pairs of key:value.
       </p>
       <p>
-        As you can see, the keys and values can be of many data types.
+        As you can see, the keys and values can have different data types.
       </p>
       <p>
         The command <c>type()</c> lets us know its data type is <c>dict</c>.
@@ -217,7 +234,7 @@ See the file COPYING for copying conditions.
     <note>
       <idx><h>Notes</h><h>on using dictionaries</h></idx>
       <p>
-        The dictionary has yet another distinct syntax. Again, we won't go into its syntax and usage yet.
+        Dictionaries have yet another distinct syntax. Again, we won't go into their syntax and usage yet. Refer to <xref ref="sec-using-dictionary" text="type-local"/> for further discussion about dictionaries.
       </p>
     </note>
     

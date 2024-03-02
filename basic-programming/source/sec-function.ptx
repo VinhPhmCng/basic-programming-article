@@ -67,11 +67,17 @@ See the file COPYING for copying conditions.
     </statement>
   </definition>
 
-  <p>
-    In this section, we will not go into function declaration. Instead, we will focus on using functions that are built-in or provided by libraries. To read more about function declaration, refer to <xref ref="sec-declare-function"/>.
-  </p>
+  <note>
+    <idx><h>Notes</h><h>on using functions</h></idx> 
+    <p>
+      In this section, we will not go into function declaration. Instead, we'll focus on using functions that are built-in or provided by libraries.
+    </p>
+    <p>
+      To read more about function declaration, refer to <xref ref="sec-declare-function" text="type-local"/>.
+    </p>
+  </note>
 
-  <technology>
+  <technology xml:id="syntax-call-function">
     <title>Calling a function</title>
     <idx><h>Syntax</h><h>of calling functions</h></idx>
     <p>
@@ -198,8 +204,16 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    Our final example is <c>upper()</c>, which follows the second syntax for calling a function. In this case, <q>input 1</q> must be a string. And the function returns a new string with every character capitalized.
+    Our final example is <c>upper()</c>, which follows the second <xref ref="syntax-call-function" text="custom">syntax</xref> for calling a function. In this case, <q>input 1</q> must be a string. And the function returns a new string with every character in uppercase.
   </p>
+
+  <aside>
+    <title>Try It Out</title>
+    
+    <p>
+      Guess the function used to turn a string to all lowercase.   
+    </p>
+  </aside>
 
   <sage language="python">
     <input>
@@ -216,7 +230,7 @@ See the file COPYING for copying conditions.
   <investigation>
     <idx><h>Code examples</h><h>function upper()</h></idx>
     <idx><h>Functions</h><h>upper()</h></idx>
-    <p>The function <c>upper()</c> returns a new capitalized string.</p>
+    <p>The function <c>upper()</c> returns a new all-caps string.</p>
   </investigation>
  
   <p>
