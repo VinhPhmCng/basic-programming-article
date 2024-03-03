@@ -8,57 +8,57 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-data-type" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Data Types</title>
+  <title>Kiểu Dữ Liệu</title>
 
   <objectives>
     <ul>
-      <li>Learn about data types and how to use them.</li>
-      <li>Understand <term>interactions</term> between data types.</li>
+      <li>Tìm hiểu các kiểu dữ liệu và cách dùng chúng.</li>
+      <li>Tìm hiểu các <term>tương tác</term> giữa các kiểu dữ liệu.</li>
     </ul>
   </objectives>
   
   <p>
-    Pretty much everything in existence can be stored as data<mdash></mdash>from numbers and letters to information about a student or a car model.
+    Hầu hết mọi thứ trên thế giới này đều có thể được lưu trữ thành dữ liệu<mdash></mdash>từ số liệu và chữ cái đến thông tin về một mẫu xe ô tô.
   </p>
 
   <definition xml:id="def-data-type">
-    <idx><h>Definitions</h><h>of data types</h></idx>
+    <idx><h>Khái niệm</h><h>kiểu dữ liệu</h></idx>
     <statement>
       <p>
-        And to <term>categorize</term> data, we make use of <term>data types</term>.
+        Và để <term>phân loại</term> các dữ liệu đó, ta cần đến các <term>kiểu dữ liệu</term>.
       </p>
     </statement>
   </definition>
 
   <p>
-    <idx><h>Overviews</h><h>of data types</h></idx>
-    Most modern programming languages have the following data types:
+    <idx><h>Khái quát</h><h>kiểu dữ liệu</h></idx>
+    Hầu hết các ngôn ngữ lập trình hiện đại đều có các kiểu dữ liệu sau:
     <dl>
       <li>
         <title>str</title>
         <p>
-          <term>A sequence of characters</term>, enclosed in quotation marks <c>""</c> or single quotation marks <c>''</c>.
+          <term>Chuỗi ký tự</term>. Được bao quanh bởi dấu ngoặc kép <c>""</c> hoặc dấu ngoặc kép đơn <c>''</c>.
         </p>
       </li>
 
       <li>
         <title>int</title>
         <p>
-          <term>An integer</term>, or a whole number (without a decimal point).
+          <term>Số nguyên</term>. Là một số thực không có các chữ số thập phân.
         </p>
       </li>
 
       <li>
         <title>float</title>
         <p>
-          <term>A floating-point number</term> (with a decimal point).
+          <term>Số dấu phẩy động</term>. Là một số thực có một hoặc nhiều chữ số thập phân.
         </p>
       </li>
 
       <li>
         <title>bool</title>
         <p>
-          <term>A Boolean value</term>, which can only equate to either <c>True</c> or <c>False</c>. It's frequently used in conditional statements.
+          <term>Boolean</term> chỉ chứa một trong hai giá trị <c>True</c> hoặc <c>False</c>. Được dùng chủ yếu trong những câu lệnh điều kiện.
         </p>
       </li>
 
@@ -66,12 +66,12 @@ See the file COPYING for copying conditions.
   </p>
 
   <aside>
-    <title>Topic(s) you might be interested in</title>
+    <title>Có thể bạn sẽ hứng thú</title>
     <p>
       <ul>
         <li>
           <p>
-            <idx><h>Links</h><h>Python is dynamically typed</h></idx>
+            <idx><h>Liên kết</h><h>Python là dynamically typed</h></idx>
             <url href="https://www.google.com/search?q=Python+is+dynamically+typed" visual="google.com/search?q=Python+is+dynamically+typed">"Python is dynamically typed"</url>
           </p>
         </li>
@@ -79,7 +79,7 @@ See the file COPYING for copying conditions.
       <ul>
         <li>
           <p>
-            <idx><h>Links</h><h>static vs dynamic typing</h></idx>
+            <idx><h>Liên kết</h><h>static vs dynamic typing</h></idx>
             <url href="https://stackoverflow.com/a/27791387/19779259" visual="stackoverflow.com/a/27791387/19779259">example of static vs dynamic typing</url>
           </p>
         </li>
@@ -88,14 +88,14 @@ See the file COPYING for copying conditions.
   </aside>
 
   <note>
-    <idx><h>Notes</h><h>on data type determination</h></idx>
+    <idx><h>Chú ý</h><h>xác định kiểu dữ liệu</h></idx>
     <p>
-      Python is a dynamically typed language. This means when a variable is declared or updated, its data type is <em>automatically</em> determined or re-determined respectively.
+      Python là một ngôn ngữ dynamically typed. Điều này nghĩa là khi một biết được khai báo hoặc cập nhật, kiểu dữ liệu của nó được xác định, hoặc tái xác định, một cách <em>tự động</em>.
     </p>
   </note>
 
   <p>
-    For example (it's recommended to use CodeLens):
+    Ví dụ (nên dùng CodeLens):
   </p>
 
   <program language="python" interactive="activecode">
@@ -116,46 +116,46 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>data types</h></idx>
-    <idx><h>Functions</h><h>type()</h></idx>
+    <idx><h>Ví dụ code</h><h>kiểu dữ liệu</h></idx>
+    <idx><h>Hàm</h><h>type()</h></idx>
     <p></p>
     <p>
-      The command <c>type(a)</c> returns the data type of <c>a</c> written in single quotation marks.
+      Lệnh <c>type(a)</c> cho kết quả là kiểu dữ liệu của biến <c>a</c>, được ghi trong dấu ngoặc kép đơn.
     </p>
     <p>
-      (You don't have to care about the word <c>class</c> yet. Here it can be understood as <q>classify</q>. But to be accurate, it's refering to <term>Class</term>, which is a more advanced topic discussed in <xref ref="sec-class"/>.)
+      (Bạn không cần băn khoăn về từ khóa <c>class</c> ở đây. Bạn có thể hiểu nó đang viết tắt cho từ <q>classify</q>, nghĩa là <q>phân loại</q>. Nhưng chính xác hơn thì nó đang đề cập tới <term>Lớp</term>, một chủ đề nâng cao hơn được bàn bạc ở <xref ref="sec-class"/>.) 
     </p>
 
     <aside>
-      <title>Try It Out</title>
+      <title>Thí Nghiệm Vui</title>
       
       <p>
-        Is <c>5</c> different from <c>5.0</c>?
+        <c>5</c> có khác so với <c>5.0</c> không?
       </p> 
     </aside>
 
     <p>
-      So, when we declare <c>a = 5</c>, the variable <c>a</c> is of type <c>int</c>.
+      Vậy, khi khai báo <c>a = 5</c>, biến <c>a</c> có kiểu <c>int</c>.
     </p>
     <p>
-      But when we assign <c>a</c> the value <c>"5"</c>, it automatically updates to <c>str</c>.
+      Còn khi gán cho <c>a</c> giá trị mới là <c>"5"</c>, nó tự động cập nhật thành kiểu <c>str</c>.
     </p>
   </investigation>
 
   <p>
-    To conclude, <c>a = "5"</c> differs from <c>a = 5</c>. If data is surrounded by (single) quotation marks, then it is of type <c>str</c>. From that, we have the following:
+    Từ ví dụ trên, ta thấy <c>a = "5"</c> rất khác so với <c>a = 5</c>. Khi dữ liệu được bao quanh bởi hai dấu ngoặc kép (đơn), nó chắc chắn thuộc kiểu <c>str</c>. Từ đó, ta có định nghĩa sau:
   </p>
 
   <definition xml:id="def-dtype-syntax">
-    <idx><h>Definitions</h><h>of data type syntax</h></idx>
+    <idx><h>Khái niệm</h><h>cú pháp kiểu dữ liệu</h></idx>
     <statement>
       <p>
-        Different data types have different <term>syntax</term>.
+        Kiểu dữ liệu khác nhau có <term>cú pháp</term> khác nhau.
       </p>
     </statement>
   </definition>
   
-  <p>Some examples of the main data types:</p>
+  <p>Một vài ví dụ về các kiểu dữ liệu chính:</p>
 
   <sage language="python">
     <input>
@@ -179,34 +179,34 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>data types</h></idx>
+    <idx><h>Ví dụ code</h><h>kiểu dữ liệu</h></idx>
     <p></p>
     <p>
-      Same as above.
+      Giống như trên.
     </p>
     <p>
-      Again, you don't have to care about <c>class</c> yet.
+      Một lần nữa, bạn chưa cần quan tấm đến <c>class</c>.
     </p>
   </investigation>
 
   <p>
-    Next, we have: 
+    Tiếp theo, ta có:
   </p>
 
   <definition xml:id="def-dtype-interaction">
-    <idx><h>Definitions</h><h>of data interactions</h></idx>
+    <idx><h>Khái niệm</h><h>tương tác giữa dữ liệu</h></idx>
     <statement>
       <p>
-        Data types determine possible <term>interactions</term> between data.
+        Kiểu dữ liệu quyết định các <term>tương tác</term> có thể giữa dữ liệu.
       </p>
       <p>
-        In other words, there are many possible interactions between data (mathematical calculations, string concatenation, <etc></etc>), and what they are <em>depends on</em> the data type(s) involved.
+        Nói cách khác, có rất nhiều loại tương tác có thể xảy ra giữa dữ liệu (phép toán, phép nối chuỗi, v.v.), và chúng thay đổi <em>dựa vào</em> kiểu dữ liệu.
       </p>
     </statement>
   </definition>
 
   <p>
-    For example:
+    Ví dụ:
   </p>
 
   <sage language="python">
@@ -230,21 +230,21 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>data interactions</h></idx>
+    <idx><h>Ví dụ code</h><h>tương tác giữa dữ liệu</h></idx>
     <p></p>
     <p>
-      We know both <c>a</c> and <c>b</c> are of type <c>int</c>. So, adding them together makes sense and is allowed.
+      Ta biết cả <c>a</c> và <c>b</c> đều có kiểu <c>int</c>. Vì vậy, cộng chúng lại là có lý và được phép.
     </p>
     <p>
-      Similarly, <c>c</c> and <c>d</c> are both <c>float</c>, so addition is valid.
+      Tương tự, <c>c</c> và <c>d</c> đều là <c>float</c>, vì vậy phép cộng là hợp lệ.
     </p>
     <p>
-      The last line is a bit more interesting since we can still perform an addition between <c>int</c> and <c>float</c>.
+      Dòng cuối cùng thú vị hơn một chút, vì ta vẫn có thể thực hiện phép cộng giữa <c>int</c> và <c>float</c>.
     </p>
   </investigation>
 
   <p>
-    We can also <q>add</q> two or more strings together, resulting in a new string that is the concatenation of the component strings. For example:
+    Ta cũng có thể cộng hai hay nhiều <c>str</c> với nhau. Việc này ghép chúng lại thành một chuỗi mới. Ví dụ:
   </p>  
 
   <sage language="python">
@@ -264,27 +264,27 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>string concatenation</h></idx>
+    <idx><h>Ví dụ code</h><h>phép nối chuỗi</h></idx>
     <p></p>
     <p>
-      <c>s1 + s2</c> is valid and concatenates the strings, same with <c>s1 + s3</c>.
+      <c>s1 + s2</c> là một tương tác hợp lệ và sẽ ghép chúng lại thành một chuỗi mới. Tương tự với <c>s1 + s3</c>.
     </p>
     <p>
-      Notice the difference between <c>s2</c> and <c>s3</c> and how it's reflected in the concatenated strings.
+      Ta thấy chuỗi <c>s2</c> và <c>s3</c> có một chi tiết khác nhau. Sự khác biệt này được làm rõ qua phép nối chuỗi.
     </p>
   </investigation>
   
   <p>
-    However, we <em>cannot</em> add <c>int</c> and <c>str</c> together, which will result in an <term>error</term>:
+    Nhưng ta <em>không thể</em> cộng <c>int</c> với <c>str</c>. Làm vậy sẽ xuất hiện <term>lỗi</term>:
   </p>
 
   <aside>
-    <title>Topic(s) you might be interested in</title>
+    <title>Có thể bạn sẽ hứng thú</title>
     <p>
       <ul>
         <li>
           <p>
-            <idx><h>Links</h><h>Python add int to string</h></idx>
+            <idx><h>Liên kết</h><h>Python nối int với chuỗi</h></idx>
             <url href="https://www.google.com/search?q=Python+how+to+add+int+to+string" visual="google.com/search?q=Python+how+to+add+int+to+string">"Python how to add int to string"</url>
           </p>
         </li>
@@ -310,10 +310,10 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>invalid data interactions</h></idx>
+    <idx><h>Ví dụ code</h><h>tương tác dữ liệu không hợp lệ</h></idx>
     <p></p>
     <p>
-      The operator <c>+</c> is an <em>invalid</em> interaction between <c>int</c> và <c>str</c>.
+      Phép <c>+</c> là một tương tác <em>không hợp lệ</em> cho hai kiểu dữ liệu <c>int</c> và <c>str</c>.
     </p>
   </investigation>
 
@@ -324,7 +324,7 @@ See the file COPYING for copying conditions.
 
   <exploration>
     <title>Basic Programming <mdash /> Part 6: Data Types</title>
-    <idx><h>Videos</h><h>part 06</h></idx>
+    <idx><h>Video</h><h>part 06</h></idx>
     
     <video youtube="iMXToAm9a0c"/>
       

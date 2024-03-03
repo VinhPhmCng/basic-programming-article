@@ -8,33 +8,34 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-pro-environment" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Our Programming Environment</title>
-  <idx><h>Programming environment</h></idx>
+  <title>Môi Trường Lập Trình</title>
+  <idx><h>Môi trường lập trình</h></idx>
 
   <objectives>
     <ul>
-      <li>Learn to use the basic components of our programming environment.</li>
+      <li>Tìm hiểu cách sử dụng những thành phần cơ bản của môi trường lập trình.</li>
     </ul>
   </objectives>
   
   <p>
-    To code, you need a suitable working environment. You would most likely not code in Word the text editor, would you? Instead, you would use a <term>code editor and compiler</term>.
+    Để viết code, bạn cần một môi trường làm việc phù hợp. Chắc chắn là bạn sẽ không mở trình soạn thảo Word để lập trình rồi, phải không nào? Thay vào đó, ta sẽ sử dụng một <term>trình soạn thảo và biên dịch code</term>.
   </p>
 
   <p>
-    <idx><h>Programming environment</h><h>version 1</h></idx>
-    In the online version of the article, our code editor and compiler is as follows:
+    <idx><h>Môi trường lập trình</h><h>phiên bản 1</h></idx>
+    Trong bản online của quyển sách này, trình soạn thảo và biên dịch của chúng ta nhìn như sau:
   </p>
 
   <aside>
-    <title>Try It Out</title>
+    <title>Thí Nghiệm Vui</title>
+    
     <p>
       <ol>
         <li>
-          Run the code.
+          Chạy đoạn code.
         </li>
         <li>
-          Change the code however you'd like and run it again.
+          Thay đổi code tùy ý và chạy lại.
         </li>
       </ol>
     </p>
@@ -53,50 +54,50 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>programming environment 1</h></idx>
-    <idx><h>Functions</h><h>print()</h></idx>
+    <idx><h>Ví dụ code</h><h>phiên bản 1</h></idx>
+    <idx><h>Hàm</h><h>print()</h></idx>
     <p></p>
     <p>
-      The command <c>print()</c> has a simple job<mdash></mdash>putting data, which is located in between the parentheses, into the terminal. Here, that data is the outcome of <c>a + b</c>.
+      Lệnh <c>print()</c> có nhiệm vụ rất đơn giản là đưa dữ liệu ở bên trong hai dấu ngoặc đơn ra terminal. Ở đây, dữ liệu đó là kết quả của phép toán <c>a + b</c>.
     </p>
   </investigation>
 
   <p>
-    The environment above has these components:
-    <idx><h>Overviews</h><h>of programming environment</h></idx>
+    <idx><h>Khái quát</h><h>môi trường lập trình</h></idx>
+    Môi trường trên có những thành phần sau:
 
     <ol>
       <li>
         <p>
-          <term>Cell / Editor</term><mdash />Where code is written. In the online version, you can modify and experiment with the code.
+          <term>Ô soạn thảo</term><mdash />Nơi viết code. Trên bản Online, bạn có thể chỉnh sửa và thí nghiệm với code.
         </p>
       </li>
       <li>
         <p>
-          <term><q>Run Code</q> Button</term> (Online)<mdash />Press to execute the code.
+          <term>Nút <q>Chạy Code</q></term> (Online)<mdash />Ấn để chạy chương trình.
         </p>
       </li>
       <li>
         <p>
-          <term>Terminal</term> (Online)<mdash />Where output and errors, if any, are shown when running the code.
+          <term>Terminal</term> (Online)<mdash />Nơi hiển thị kết quả hoặc lỗi, nếu có, khi chạy đoạn code.
         </p>
       </li>
       <li>
         <p>
-          <term>Output</term><mdash />Where <term>static</term> output is shown. It's mostly intended for the hard copy or PDF, but online users can also benefit, for example, when code servers are down for some reason.
+          <term>Output</term><mdash />Nơi hiển thị kết quả <term>tĩnh</term>. Được thiết kế cho bản cứng hoặc PDF, nhưng cũng có thể giúp người dùng bản Online, trong trường hợp trình biên dịch có vấn đề.
         </p>
       </li>
       <li>
         <p>
-          <term>Explanation</term><mdash />Where an explanation for the code example is given.
+          <term>Giải Thích</term><mdash />Nơi đưa ra lời giải thích cho ví dụ code.
         </p>
       </li>
     </ol>
   </p>
 
   <p>
-    <idx><h>Programming environment</h><h>version 2</h></idx>
-    A slightly different version of the code cell is as follows:
+    <idx><h>Môi trường lập trình</h><h>phiên bản 2</h></idx>
+    Một phiên bản khác của ô code nhìn như sau:
   </p>
 
   <program language="python" interactive="activecode">
@@ -112,28 +113,28 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>programming environment 2</h></idx>
-    <p>Same as above.</p>
+    <idx><h>Ví dụ code</h><h>phiên bản 2</h></idx>
+    <p>Giống như trên.</p>
   </investigation>
 
   <p>
-    This runs similarly, but it also provides additional functionality. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a <q>CodeLens</q> button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).
+    Môi trường này chạy tương tự, nhưng nó bổ sung thêm hai chức năng. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút <q>CodeLens</q> kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.
   </p>
 
   <insight>
-    <idx><h>Insights</h><h>which programming environment</h></idx>
+    <idx><h>Lưu ý</h><h>chọn môi trường lập trình</h></idx>
     <p>
-      Depending on the concept, the better-suited version to demonstrate it is chosen.
+      Tùy vào khái niệm đang nói đến, môi trường phù hợp hơn để trình bày nó sẽ được sử dụng.
     </p>
   </insight>
 
   <aside>
-    <title>Topic(s) you might be interested in:</title>
+    <title>Có thể bạn sẽ hứng thú:</title>
     <p>
       <ul>
         <li>
           <p>
-            <idx><h>Links</h><h>2023 survey on popular IDEs</h></idx>
+            <idx><h>Liên kết</h><h>khảo sát IDEs phổ biến năm 2023</h></idx>
             <url href="https://survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment" visual="survey.stackoverflow.co/2023/#section-most-popular-technologies-integrated-development-environment">stackoverflow's 2023 survey on the most popular IDEs</url>
           </p>
         </li>
@@ -142,31 +143,31 @@ See the file COPYING for copying conditions.
   </aside>
 
   <note>
-    <idx><h>Notes</h><h>on updating code</h></idx>
+    <idx><h>Chú ý</h><h>thay đổi code</h></idx>
     <p>
-      If you update the code in a cell and re-run it, new output will be shown only in the terminal. The static output section retains the outcomes of the original code.
+      Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal mới được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.
     </p>
   </note>
 
   <p>
-    In this article, our environment is limited to those components for the sake of <term>simplicity</term>. Sophisticated environments have many more features helping experienced programmers to create, but for beginners they are unnecessary. Besides, their installation can be quite complicated, thus discouraging you from actually learning programming.
+    Trong quyển sách này, để đảm bảo <term>sự đơn giản</term>, môi trường lập trình của chúng ta được hạn chế xuống những thành phần đó. Những môi trường lập trình phức tạp hơn sẽ có rất nhiều chức năng giúp các lập trình viên sáng tạo, nhưng đối với người mới bắt đầu, chúng là không cần thiết. Ngoài ra, cài đặt những công cụ nâng cao thường rất phức tạp, vì thế dễ làm bạn nản lòng.
   </p>
 
   <p>
-    All provided code examples can be run directly or copy-pasted and run in code cells provided in the <xref ref="appendix-playground" text="title"/>. They can also be compiled and run in external coding environments, but this article will not instruct you in that.
+    Những đoạn code ví dụ được cung cấp có thể được chạy trực tiếp hoặc cắt, dán, và chạy ở các ô code trong <xref ref="appendix-playground" text="title"/>. Chúng cũng có thể được biên dịch và chạy ở những mỗi trường bên ngoài, nhưng quyển sách này sẽ không hướng dẫn việc đó.
   </p>
 
   <note>
-    <idx><h>Notes</h><h>on continuation code</h></idx>
+    <idx><h>Chú ý</h><h>ô code nối tiếp</h></idx>
     <p>
-      Code cells can be a <term>continuation</term> of previous cell(s). This feature helps make some examples shorter and their explanations easier to follow. 
+      Những ô code trong quyển sách này có thể nối tiếp những ô code ngay trước nó. Việc này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.
     </p>
   </note>
 
   <convention>
-    <idx><h>Conventions</h><h>of continuation code</h></idx>
+    <idx><h>Quy ước</h><h>ô code nối tiếp</h></idx>
     <p>
-      If a code cell extends another, its first line is as follows:
+      Nếu một ô code là phần nối tiếp thì nó có dòng đầu tiên như sau:
     </p>
   </convention>
 
@@ -184,17 +185,17 @@ See the file COPYING for copying conditions.
   </problem>
 
   <investigation>
-    <idx><h>Code examples</h><h>continuation code</h></idx>
+    <idx><h>Ví dụ code</h><h>ô code nối tiếp</h></idx>
     <p></p>
     <p>
-      Why does <c>a - b</c> result in <c>-2</c>? If you take another look at the first cell, you can see that <c>a = 3</c> and <c>b = 5</c>. So, this cell is a continuation of the first one.
+      Tại sao <c>a - b</c> lại có kết quả bằng <c>-2</c>? Nếu bạn nhìn lên ô code đầu tiên, bạn sẽ thấy <c>a = 3</c> và <c>b = 5</c>. Vậy ô code này đang nối tiếp ô code phía trên.
     </p>
   </investigation>
     
   <note>
-    <idx><h>Notes</h><h>on unexpected results</h></idx>
+    <idx><h>Chú ý</h><h>đầu ra không mong muốn</h></idx>
     <p>
-      If you run a cell starting with <c># ...</c> and unexpected results or errors show up, then it's likely you haven't run the preceding cell(s).
+      Vậy, khi bạn chạy một ô code bắt đầu với <c># ...</c> mà xuất hiện lỗi hoặc kết quả ngoài ý muốn, thì khả năng cao là do bạn chưa chạy những ô code trước nó.
     </p>
   </note>
 
@@ -205,7 +206,7 @@ See the file COPYING for copying conditions.
 
   <exploration>
     <title>Basic Programming <mdash /> Part 2: Our Programming Environment</title>
-    <idx><h>Videos</h><h>part 02</h></idx>
+    <idx><h>Video</h><h>part 02</h></idx>
     
     <video youtube="iMXToAm9a0c"/>
       

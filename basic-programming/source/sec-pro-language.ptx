@@ -8,34 +8,34 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-pro-language" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Programming Languages</title>
+  <title>Ngôn Ngữ Lập Trình</title>
 
   <objectives>
     <ul>
-      <li>See some examples of different programming languages.</li>
-      <li>Learn about <term>high-level</term> and <term>low-level</term> languages.</li>
+      <li>Quan sát một vài ví dụ về các ngôn ngữ lập trình.</li>
+      <li>Tìm hiểu ngôn ngữ lập trình <term>bậc cao</term> và <term>bậc thấp</term>.</li>
     </ul>
   </objectives>
 
   <definition xml:id="def-">
-    <idx><h>Definitions</h><h>of programming languages</h></idx>
+    <idx><h>Khái niệm</h><h>ngôn ngữ lập trình</h></idx>
     <statement>
       <p>
-        <term>A programming language</term> is a system of notation that helps humans create computer programs or, in other words, give instructions to computers.
+        <term>Ngôn ngữ lập trình</term> là một hệ thống các ký hiệu giúp con người tạo ra các chương trình máy tính, cũng chính là đưa ra chỉ dẫn cho máy tính.
       </p>
 
       <p>
-        Each programming language has its own set of <term>syntax</term>.
+        Mỗi ngôn ngữ lập trình có bộ <term>cú pháp</term> của riêng nó.
       </p>
 
       <p>
-        <term>Syntax</term> is simply the <q>grammar</q> of a programming language, which is crucial for the computer to understand and execute code.
+        <term>Cú pháp</term> đơn giản là <q>ngữ pháp</q> của một ngôn ngữ lập trình. Nó đóng vai trò thiết yếu trong quá trình máy tính dịch và chạy code.
       </p>
     </statement>
   </definition>
 
   <p>
-    The code cell below is written in <term>Python</term><mdash></mdash>one of the most popular programming languages in recent years. You can run the code and see the results.
+    Dưới đây là một đoạn code được viết bằng <term>Python</term><mdash />một trong những ngôn ngữ lập trình phổ biến nhất trong những năm gần đây. Hãy chạy dòng code sau và xem kết quả nhé.
   </p>
 
   <sage language="python">
@@ -50,24 +50,24 @@ See the file COPYING for copying conditions.
   </problem>
   
   <investigation>
-    <idx><h>Code examples</h><h>high-level</h></idx>
-    <idx><h>Functions</h><h>print()</h></idx>
+    <idx><h>Ví dụ code</h><h>bậc cao</h></idx>
+    <idx><h>Hàm</h><h>print()</h></idx>
     <p></p>
     <p>
-      The command <c>print()</c> simply puts data into the terminal. In this case, it's the words <q>Hello World!</q>.
+      Lệnh <c>print()</c> có nhiệm vụ rất đơn giản là đưa dữ liệu ra terminal. Ở đây, dữ liệu đó là dòng chữ <q>Hello World!</q>.
     </p>
   </investigation>
 
   <p>
-    <idx><h>Code examples</h><h>high-level</h></idx>
-    Here is another code block written in Python. (You don't have to understand what the code is doing, though it's easy to guess.)
+    <idx><h>Ví dụ code</h><h>bậc cao</h></idx>
+    Đây là một đoạn code nữa được viết bằng Python (Bạn chưa cần phải hiểu đoạn code này, nhưng bạn có thể đoán xem nó đang làm gì không?)
   </p>
 
   <aside>
-    <title>Try It Out</title>
+    <title>Thí Nghiệm Vui</title>
     
     <p>
-      Copy and paste the code into a code cell and run it.   
+      Sao chép và dán đoạn code bên vào một ô code và chạy nó.
     </p>
   </aside>
 
@@ -85,32 +85,32 @@ See the file COPYING for copying conditions.
   </program>
 
   <p>
-    You can easily see that there are <term>keywords</term> such as <c>while</c>, <c>print</c> <c>end</c>, <c>if</c>, and <c>else</c>. Besides those, Python's syntax includes many keywords and features that closely resemble the English language.
+    Dễ thấy, có những <term>từ khóa</term> như <c>while</c>, <c>print</c> <c>end</c>, <c>if</c>, và <c>else</c>. Ngoài chúng ra, cú pháp của Python có rất nhiều từ khóa và đặc điểm gần gũi với ngôn ngữ tiếng Anh.
   </p>
 
   <definition xml:id="def-prolang-high-level">
-    <idx><h>Definitions</h><h>of high-level languages</h></idx>
+    <idx><h>Khái niệm</h><h>ngôn ngữ bậc cao</h></idx>
     <statement>
       <p>
-        Python is considered a <term>high-level</term> programming language because its <term>syntax</term> closely resembles English.
+        Python được coi là một ngôn ngữ lập trình <term>bậc cao</term> vì cú pháp của nó gần gũi với tiếng Anh.
       </p>
     </statement>
   </definition>
 
   <p>
-    Therefore, Python is usually recommended to beginners, which is also why it is one of the most well-known programming languages.
+    Vì vậy, Python thường được đề xuất tới người mới học lập trình, và cũng chính là một trong những lí do nó là một trong những ngôn ngữ lập trình phổ biến nhất.
   </p>
 
   <p>
-    <idx><h>Code examples</h><h>low-level</h></idx>
-    The following example is written in <term>Assembly</term>. When compiled it also outputs the words <q>Hello World!</q>. (Again, don't try to understand the code. This one is beyond even me.)
+    <idx><h>Ví dụ code</h><h>bậc thấp</h></idx>
+    Tiếp theo, ta có một đoạn code được viết bằng <term>Assembly</term>. Khi chạy, ta cũng thu được dòng chữ <q>Hello World!</q>. (Một lần nữa, đừng cố hiểu đoạn code này. Cái này tôi cũng chịu.)
   </p>
 
   <aside>
-    <title>Try It Out</title>
+    <title>Thí Nghiệm Vui</title>
     
     <p>
-      Here's an <url href="https://onecompiler.com/assembly" visual="onecompiler.com/assembly">Assembly compiler</url> if you want to see it run.  
+      Đây là một <url href="https://onecompiler.com/assembly" visual="onecompiler.com/assembly">trình biên dịch Assembly</url> nếu bạn muốn thử chạy nó.  
     </p>
   </aside>
 
@@ -137,60 +137,60 @@ See the file COPYING for copying conditions.
   </program>
 
   <p>
-    As you can see, this is very close to computer language. And Assembly needs 14 lines of code to do what Python can do with one.
+    Như bạn có thể thấy, đây gần như là ngôn ngữ máy tính. Assembly cần đến 14 dòng code để làm điều mà Python có thể thực hiện với một dòng.
   </p>
 
   <definition xml:id="def-prolang-low-level">
-    <idx><h>Definitions</h><h>of low-level languages</h></idx>
+    <idx><h>Khái niệm</h><h>ngôn ngữ bậc thấp</h></idx>
     <statement>
       <p>
-        Assembly is considered a <term>low-level</term> programming language since its syntax is closer to machine code.
+        Assembly được coi là một ngôn ngữ lập trình <term>bậc thấp</term> vì cú pháp của nó gần với ngôn ngữ máy tính.
       </p>
     </statement>
   </definition>
 
   <p>
-    In conclusion, the syntax of high-level languages is easier to understand than that of low-level ones. Maybe you'd ask <q>Then why should we use low-level languages?</q>
+    Vậy, ngôn ngữ bậc cao có cú pháp ngắn gọn và thân thiện hơn ngôn ngữ bậc thấp. Có thể bạn sẽ hỏi <q>Vậy khi nào thì ta dùng ngôn ngữ bậc thấp?</q>
   </p>
 
   <p>
-    There're many reasons for that, and among them, speed is the most obvious. Basically, code written in high-level languages has to go through more intermediate steps to be translated into machine code (binary) than low-level ones, thus it's obvious that the latter often have a speed advantage.
+    Có nhiều lý do, và trong đó tốc độ là đương nhiên nhất. Về cơ bản, code được viết với ngôn ngữ bậc cao phải đi qua nhiều bước trung gian hơn trước khi được dịch thành ngôn ngữ máy tính (nhị phân). Vì vậy, ngôn ngữ bậc thấp có lợi thế về tốc độ.
   </p>
   <p>
-    Some other reasons are specialization, precise data manipulation, legacy code, <etc />
+    Một vài lý do khác là chuyên môn, thao tác dữ liệu chính xác, hệ thống kế thừa, v.v.
   </p>
   
   <insight>
-    <idx><h>Insights</h><h>high- versus low-level</h></idx>
+    <idx><h>Lưu ý</h><h>bậc cao vs bậc thấp</h></idx>
     <p>
-      You can imagine a high-level programming language as a 4-seat family car, which is user-friendly and can be driven by most people. Then, a low-level one would be an F1 racing car that only the most skillful professionals can drive.
+      Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển được.
     </p>
     <p>
-      And in return, the <q>low-level</q> F1 racing car will be significantly faster than the <q>high-level</q> family car.
+      Và hiển nhiên rồi, đổi lại chiếc xe đua F1 <q>bậc thấp</q> sẽ có tốc độ vượt xa chiếc xe ô tô <q>bậc cao</q>.
     </p>
   </insight>
 
   <p>
-    However, for <term>beginner-level</term> usage, this speed advantage doesn't really matter. So, for you, high-level languages are definitely the way to go.
+    Nhưng, đối với người mới học, lợi thế tốc độ này không thực sự quan trọng lắm. Vì vậy, các ngôn ngữ bậc cao là nơi để bạn bắt đầu. 
   </p>
 
   <note>
-    <idx><h>Notes</h><h>on code examples</h></idx>
+    <idx><h>Chú ý</h><h>ví dụ code</h></idx>
     <p>
-      In this article, code examples are written in <term>Python</term>, making it easier for you to follow and experiment.
+      Trong bài viết này, các ví dụ code được viết bằng Python, giúp bạn theo dõi và thí nghiệm dễ dàng hơn.
     </p>
     <p>
-      But you can also play with other programming languages in the <xref ref="appendix-playground" text="title"></xref>.
+      Nhưng bạn cũng có thể thử các ngôn ngữ khác trong <xref ref="appendix-playground" text="title"></xref>.
     </p>
   </note>
 
   <aside>
-    <title>Topic(s) you might be interested in:</title>
+    <title>Có thể bạn sẽ hứng thú:</title>
     <p>
       <ul>
         <li>
           <p>
-            <idx><h>Links</h><h>2023 survey on popular languages</h></idx>
+            <idx><h>Liên kết</h><h>khảo sát ngôn ngữ phổ biến năm 2023</h></idx>
             <url href="https://survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages" visual="survey.stackoverflow.co/2023/#section-most-popular-technologies-programming-scripting-and-markup-languages">stackoverflow's 2023 survey on the most popular languages</url>
           </p>
         </li>
@@ -199,63 +199,47 @@ See the file COPYING for copying conditions.
   </aside>
 
   <p>
-    A language's syntax is developed in consideration of its purpose(s). For instance, Guido van Rossum greatly prioritized readability and ease of use when he created Python. Therefore, its syntax aims to enable developers to write clear and expressive code.
+    Thiết kế của một ngôn ngữ phụ thuộc vào mục đích của nó. Ví dụ như Guido van Rossum, ông đã ưu tiên sự dễ hiểu và dễ sử dụng khi ông tạo ra Python. Vì vậy, cú pháp của nó giúp lập trình viên viết code một cách sáng suốt.
   </p>
 
   <insight xml:id="insight-choose-pro-language">
-    <title>Choosing A Programming Language</title>
-    <idx><h>Insights</h><h>choosing a language</h></idx>
+    <title>Chọn Một Ngôn Ngữ Lập Trình</title>
+    <idx><h>Lưu ý</h><h>chọn một ngôn ngữ</h></idx>
     <p>
-      When getting started with programming, a beginner often comes across certain topics on the Internet:
+      Khi một người mới bắt đầu học lập trình, họ thường xuyên gặp phải những câu hỏi hay chủ đề như:
       <ul>
         <li>
-          <p>
-            <q>Which programming language should I start with?</q>
-          </p>
+          <q>Nên bắt đầu với ngôn ngữ lập trình nào?</q>
         </li>
         <li>
-          <p>
-            <q>Which programming language should I learn in 2024?</q>
-          </p>
+          <q>Ngôn ngữ lập trình nào nên học trong năm 2024?</q>
         </li>
         <li>
-          <p>
-            <q>Which programming language to learn for high-paying jobs?</q>
-          </p>
+          <q>Ngôn ngữ lập trình nào nên học để có việc lương cao?</q>
         </li>
         <li>
-          <p>
-            <etc></etc>
-          </p>
+          v.v.
         </li>
       </ul>
 
-      I think these are impractical questions, and I would advise you against that mindset. Instead, you should ask questions such as:
+      Theo tôi, đây là những câu hỏi không mấy thiết thực, và tôi khuyên bạn không nên có lối suy nghĩ như vậy. Thay vào đó, những câu hỏi bạn nên hỏi là:
 
       <ul>
         <li>
-          <p>
-            <q>What is my purpose in learning a new programming language?</q>
-          </p>
+          <q>Mục đích của mình khi học một ngôn ngữ lập trình mới là gì?</q>
         </li>
         <li>
-          <p>
-            <q>For that purpose, which programming language is suitable?</q>
-          </p>
+          <q>Với mục đích đó thì ngôn ngữ lập trình nào là phù hợp?</q>
         </li>
         <li>
-          <p>
-            <q>For that purpose and considering my current level, do I want to learn a high-level or low-level language?</q>
-          </p>
+          <q>Mình muốn ngôn ngữ lập trình ấy là bậc cao hay bậc thấp?</q>
         </li>
         <li>
-          <p>
-            <etc></etc>
-          </p>
+          v.v.
         </li>
       </ul>
 
-      Currently there are an ever-growing number of programming languages, and each of them has its own <em>purposes, pros, and cons</em>.
+      Số lượng ngôn ngữ lập trình ngày càng tăng, và mỗi một trong số đó đều có <em>mục đích, điểm mạnh và điểm yếu riêng biệt</em>.
     </p>
   </insight>
 
@@ -266,7 +250,7 @@ See the file COPYING for copying conditions.
 
   <exploration>
     <title>Basic Programming <mdash /> Part 3: Programming Languages</title>
-    <idx><h>Videos</h><h>part 03</h></idx>
+    <idx><h>Video</h><h>part 03</h></idx>
     
     <video youtube="iMXToAm9a0c"/>
       

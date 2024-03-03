@@ -8,58 +8,60 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-attribute" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Attributes</title>
+  <title>Thuộc Tính</title>
 
   <objectives>
     <ul>
-      <li>Learn about attributes and how to access them.</li>
+      <li>Tìm hiểu thuộc tính và cách truy cập chúng.</li>
     </ul>
   </objectives>
   
   <definition xml:id="def-attribute">
-    <idx><h>Definitions</h><h>of attributes</h></idx>
+    <idx><h>Khái niệm</h><h>thuộc tính</h></idx>
     <statement>
       <p>
-        An <term>attribute</term> is a built-in variable storing <em>descriptive information</em> regarding another piece of data. In other words, it's metadata.
+        <term>Thuộc tính</term> là một biến có sẵn chứa <em>thông tin miêu tả</em> về một dữ liệu khác. Nói cách khác, nó là siêu dữ liệu.
       </p>
       <p>
-        Every data type has its own set of attributes.
+        Mỗi kiểu dữ liệu đều có một bộ thuộc tính của riêng nó.
       </p>
       <p>
-        The attributes of a piece of data are <em>automatically updated</em> when said data is updated.
+        Các thuộc tính của một dữ liệu sẽ <em>tự động cập nhật</em> khi dữ liệu đó được cập nhật.
       </p>
     </statement>
   </definition>
 
   <technology>
-    <title>Accessing an attribute</title>
-    <idx><h>Syntax</h><h>of accessing attributes</h></idx>
+    <title>Truy cập thuộc tính</title>
+    <idx><h>Cú pháp</h><h>truy cập thuộc tính</h></idx>
     <p>
-      <me>\text{data} . \! {\color{blue} \text{attribute's name}}</me>
+      <me>\text{dữ liệu.} {\color{blue} \text{tên thuộc tính}}</me>
     </p>
   </technology>
 
-  <p>To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the external library Numpy (which you don't have to fully understand):</p>
+  <p>
+    Để trình bày thuộc tính, ví dụ sau sử dụng một cấu trúc dữ liệu bên ngoài<mdash />ma trận, được nhập vào từ thư viện Numpy (Bạn không cần hiểu rõ ví dụ này đâu.):
+  </p>
 
   <aside>
-    <title>Topic(s) you might be interested in</title>
+    <title>Có thể bạn sẽ hứng thú</title>
     <p>
       <ul>
         <li>
           <p>
-            <idx><h>Links</h><h>Python libraries</h></idx>
+            <idx><h>Liên kết</h><h>thư viện Python</h></idx>
             <url href="https://www.google.com/search?q=what+is+a+Python+library" visual="google.com/search?q=what+is+a+Python+library">"what is a Python library"</url>
           </p>
         </li>
         <li>
           <p>
-            <idx><h>Links</h><h>Numpy</h></idx>
+            <idx><h>Liên kết</h><h>Numpy</h></idx>
             <url href="https://www.google.com/search?q=what+is+Numpy" visual="google.com/search?q=what+is+Numpy">"what is Numpy"</url>
           </p>
         </li>
         <li>
           <p>
-            <idx><h>Links</h><h>matrices</h></idx>
+            <idx><h>Liên kết</h><h>ma trận</h></idx>
             <url href="https://www.google.com/search?q=what+is+a+matrix" visual="google.com/search?q=what+is+a+matrix">"what is a matrix"</url>
           </p>
         </li>
@@ -87,19 +89,19 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>accessing attributes</h></idx>
-    <idx><h>Functions</h><h>np.matrix()</h></idx>
+    <idx><h>Ví dụ code</h><h>truy cập thuộc tính</h></idx>
+    <idx><h>Hàm</h><h>np.matrix()</h></idx>
     <p></p>
     <p>
-      <c>mat.size</c> returns the total number of elements of the matrix named <c>mat</c>.
+      <c>mat.size</c> trả lại tổng số phần tử của ma trận mang tên <c>mat</c>.
     </p>
     <p>
-      <c>mat.shape</c> returns the number of rows and columns of the matrix respectively.
+      <c>mat.shape</c> trả lại số hàng và số cột của ma trận.
     </p>
   </investigation>
 
   <p>
-    However, the data type <c>int</c>, for example, does not have such attributes:
+    Nhưng kiểu dữ liệu <c>int</c> không có các thuộc tính trên:
   </p>
 
   <sage language="python">
@@ -119,10 +121,10 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>accessing invalid attribute</h></idx>
+    <idx><h>Ví dụ code</h><h>thuộc tính không hợp lệ</h></idx>
     <p></p>
     <p>
-      As the error states.
+      Lỗi xuất hiện ở dòng 2, dịch nôm na ta được <q>int không có thuộc tính size</q>.
     </p>
   </investigation>
   
@@ -133,7 +135,7 @@ See the file COPYING for copying conditions.
 
   <exploration>
     <title>Basic Programming <mdash /> Part 9: Attributes</title>
-    <idx><h>Videos</h><h>part 09</h></idx>
+    <idx><h>Video</h><h>part 09</h></idx>
   
     <video youtube="iMXToAm9a0c"/>
     

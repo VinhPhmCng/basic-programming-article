@@ -16,7 +16,7 @@ See the file COPYING for copying conditions.
     </p>
     
     <p>
-      <idx><h>Links</h><h>Youtube series</h></idx>
+      <idx><h>Liên kết</h><h>series Youtube</h></idx>
       This article is also adapted into videos, which are <url href="https://www.youtube.com/" visual="youtube.com">available on Youtube</url> and also embedded into the corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial. (P.S. The videos are short and quite silly because I'm new to editing.)
     </p>
 
@@ -28,10 +28,10 @@ See the file COPYING for copying conditions.
 
   <subsection xml:id="subsec-how-to-follow-along">
     <title>How To Follow Along</title>
-    <idx><h>Overviews</h></idx>
+    <idx><h>Khái quát</h></idx>
 
     <p>
-      <idx><h>Overviews</h><h>of contents</h></idx>
+      <idx><h>Khái quát</h><h>nội dung</h></idx>
       An overview of the contents:
 
       <ul>
@@ -59,7 +59,7 @@ See the file COPYING for copying conditions.
           Definition
         </li>
         <li>
-          Code examples
+          Ví dụ code
         </li>
         <li>
           Explanations for examples
@@ -75,33 +75,33 @@ See the file COPYING for copying conditions.
   </subsection>
 
   <subsection xml:id="subsec-support">
-    <title>Support This Project</title>
-    <idx><h>Support</h></idx>
+    <title>Ủng hộ This Project</title>
+    <idx><h>Ủng hộ</h></idx>
     <p>
-      <idx><h>Links</h><h>source code</h></idx>
+      <idx><h>Liên kết</h><h>mã nguồn</h></idx>
       This is an open-source project, meaning its source code is available on Github<mdash /><url href="https://github.com/VinhPhmCng/basic-programming-article" visual="github.com/VinhPhmCng/basic-programming-article">here</url>.
     </p>
 
     <p>
-      <idx><h>Support</h><h>directly</h></idx>
-      <idx><h>Links</h><h>contributing</h></idx>
+      <idx><h>Ủng hộ</h><h>trực tiếp</h></idx>
+      <idx><h>Liên kết</h><h>đóng góp</h></idx>
       Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details.
     </p>
 
     <p>
-      <idx><h>Support</h><h>the tools used</h></idx>
+      <idx><h>Ủng hộ</h><h>công cụ</h></idx>
       This page is built with <pretext />, which features built-in interactive code cells, enhancing your experience. Please support them as well!
     </p>
 
     <p>
-      <idx><h>Support</h><h>the videos</h></idx>
-      <idx><h>Links</h><h>tools used</h></idx>
+      <idx><h>Ủng hộ</h><h>các video</h></idx>
+      <idx><h>Liên kết</h><h>công cụ</h></idx>
       Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project. More details on the tools and resources used to create the videos can be found <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos">here</url>.
     </p>
 
     <p>
-      <idx><h>Support</h><h>by donating</h></idx>
-      <idx><h>Links</h><h>donation</h></idx>
+      <idx><h>Ủng hộ</h><h></h></idx>
+      <idx><h>Liên kết</h><h>ủng hộ</h></idx>
       And if you really appreciate the contents, consider leaving a donation <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq">here</url>. Thanks a bunch!
     </p>
 
@@ -112,7 +112,7 @@ See the file COPYING for copying conditions.
 
   <subsection xml:id="subsec-what-is-programming">
     <title>What Is Programming?</title>
-    <idx><h>Definitions</h><h>of programming</h></idx>
+    <idx><h>Khái niệm</h><h>lập trình</h></idx>
 
     <p>
       <cd>
@@ -121,7 +121,7 @@ See the file COPYING for copying conditions.
     
     <exploration>
       <title>Basic Programming <mdash /> Part 1: Introduction</title>
-      <idx><h>Videos</h><h>part 01</h></idx>
+      <idx><h>Video</h><h>part 01</h></idx>
       
       <video youtube="iMXToAm9a0c"/>
        

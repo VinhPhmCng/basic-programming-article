@@ -8,43 +8,43 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-comment" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Comments</title>
+  <title>Ghi Chú</title>
 
   <objectives>
     <ul>
-      <li>Learn to recognize and use <term>comments</term> in code.</li>
+      <li>Nhận biết và sử dụng <term>ghi chú</term> trong code.</li>
     </ul>
   </objectives>
   
   <p>
-    When coding, sometimes you want to write <term>plain text</term> instead of code. It can be notes, explanations for algorithms, or your stream of thoughts at that moment, <etc /> As the code expands and gets more complicated, these <q>comments</q> provide you with sufficient context.
+    Khi viết code, có những lúc bạn muốn sử dụng văn bản thường, thay vì code. Có thể bạn muốn để lại ghi chú hay giải thích cho một thuật toán nào đó, hay ghi chép lại luồng suy nghĩ bản thân khi đó. Khi code của bạn ngày càng dài và phức tạp hơn, những <q>ghi chú</q> này bổ sung ngữ cảnh cần thiết.
   </p>
 
   <definition xml:id="def-comment">
-    <idx><h>Definitions</h><h>of comments</h></idx>
+    <idx><h>Khái niệm</h><h>ghi chú</h></idx>
     <statement>
       <p>
-        <term>Comments</term> are pieces of plain text that will not be executed.
+        <term>Ghi chú</term> là những mẩu văn bản thường, không được chạy bởi trình biên dịch.
       </p>
       <p>
-        To write a comment in Python, use the number sign (hash) <c>#</c>. What follows it (on the same line) will be regarded as plain text by the compiler.
+        Để viết một ghi chú trong Python, sử dụng dấu thăng <c>#</c>. Những gì ở sau nó (trên cùng dòng) sẽ được coi là văn bản thô.
       </p>
     </statement>
   </definition>
 
   <aside>
-    <title>Topic(s) you might be interested in:</title>
+    <title>Có thể bạn sẽ hứng thú:</title>
     <p>
       <ul>
         <li>
           <p>
-            <idx><h>Links</h><h>different comment syntax</h></idx>
+            <idx><h>Liên kết</h><h>các cú pháp ghi chú</h></idx>
             <url href="https://www.google.com/search?q=comments+in+different+programming+language" visual="google.com/search?q=comments+in+different+programming+language">"comments in different programming languages"</url>
           </p>
         </li>
         <li>
           <p>
-            <idx><h>Links</h><h>multiline comments</h></idx>
+            <idx><h>Liên kết</h><h>ghi chú nhiều dòng</h></idx>
             <url href="https://www.google.com/search?q=multiline+comments" visual="google.com/search?q=multiline+comments">"multiline comments"</url>
           </p>
         </li>
@@ -53,14 +53,14 @@ See the file COPYING for copying conditions.
   </aside>
 
   <insight>
-    <idx><h>Insights</h><h>disabling code</h></idx>
+    <idx><h>Lưu ý</h><h>tắt code</h></idx>
     <p>
-      Comments are also used to temporarily <term>disable</term> lines of code.
+      Ghi chú cũng được sử dụng để tạm thời <term>vô hiệu hóa</term> một dòng code.
     </p>
   </insight>
 
   <p>
-    For example:
+    Ví dụ:
   </p>
 
   <sage language="python">
@@ -76,10 +76,10 @@ See the file COPYING for copying conditions.
   </sage>
 
   <aside>
-    <title>Try It Out</title>
+    <title>Thí Nghiệm Vui</title>
     
     <p>
-      Try removing the <c>#</c> in line 5 and re-run the code.
+      Xóa dấu <c>#</c> ở dòng 5 và chạy lại đoạn code.
     </p>
   </aside>
 
@@ -91,16 +91,16 @@ See the file COPYING for copying conditions.
   </problem>
 
   <investigation>
-    <idx><h>Code examples</h><h>comments</h></idx>
+    <idx><h>Ví dụ code</h><h>ghi chú</h></idx>
     <p></p>
     <p>
-      Line 1 is a comment used to leave notes.
+      Dòng 1 là một ghi chú dùng để chú thích.
     </p>
     <p>
-      Lines 3 and 7 are normal code.
+      Dòng 3 và 7 là code bình thường.
     </p>
     <p>
-      Line 5 is a comment used to <q>disable</q> code.
+      Dòng 5 là một ghi chú dùng để <q>tắt</q> code.
     </p>
   </investigation>
 
@@ -111,7 +111,7 @@ See the file COPYING for copying conditions.
 
   <exploration>
     <title>Basic Programming <mdash /> Part 4: Comments</title>
-    <idx><h>Videos</h><h>part 04</h></idx>
+    <idx><h>Video</h><h>part 04</h></idx>
     
     <video youtube="iMXToAm9a0c"/>
       

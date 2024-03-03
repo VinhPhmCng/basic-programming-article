@@ -3,14 +3,21 @@
   <docinfo>
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
 
-    <!-- Renaming elements -->
-    <rename element='abstract'>License</rename> <!-- (tentative) -->
-    <rename element='warning'>TL;DR</rename> <!-- (tentative) -->
-    <rename element='problem'>Output</rename> <!-- (tentative) -->
-    <rename element='technology'>Syntax</rename> <!-- (tentative) -->
-    <rename element='investigation'>Explanation</rename> <!-- (tentative) --> 
-    <rename element='exploration'>Video</rename> <!-- (tentative) --> 
-    <rename element='evaluate'>Run Code</rename>
+    <!-- Renaming elements (tentative) -->
+    <rename element='abstract'>Bản Quyền</rename>
+    <rename element='warning'>TL;DR</rename>
+    <rename element='problem'>Output</rename>
+    <rename element='technology'>Cú Pháp</rename>
+    <rename element='investigation'>Giải Thích</rename>
+    <rename element='exploration'>Video</rename>
+    <rename element='evaluate'>Chạy Code</rename>
+    <rename element='objectives'>Mục Tiêu</rename>
+    <rename element='note'>Chú Ý</rename>
+    <rename element='insight'>Lưu Ý</rename>
+    <rename element='definition'>Khái Niệm</rename>
+    <rename element='convention'>Quy Ước</rename>
+    <rename element='section'>Phần</rename>
+    <rename element='subsection'>Mục</rename>
   </docinfo>
 
   <article xml:id="basic-programming">

@@ -8,20 +8,20 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-function" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Functions</title>
+  <title>Hàm</title>
 
   <objectives>
     <ul>
-      <li>Learn about functions and how to use them.</li>
+      <li>Tìm hiểu hàm và cách sử dụng chúng.</li>
     </ul>
   </objectives>
   
   <p>
-    Again we are met with a familiar concept in mathematics<mdash /><term>functions</term>, which also play a big role in programming.
+    Ta lại gặp một khái niệm nữa rất thân thuộc trong toán học<mdash /><term>hàm</term>. Và nó cũng đóng vai trò thiết yếu trong lập trình.
   </p>
 
   <p>
-    Suppose we have 100 mathematical expressions:
+    Giả sử ta có 100 biểu thức toán:
 
     <md>
       <mrow>1^2 + 2 \cdot 1 + 1</mrow>
@@ -30,7 +30,7 @@ See the file COPYING for copying conditions.
       <mrow>100^2 + 2 \cdot 100 + 1</mrow>
     </md>
 
-    We realize they are all quadratics; therefore, we can shorten our representation using a function as follows:
+    Ta nhận ra chúng đều có dạng là đa thức bậc hai. Vậy, ta có thể rút gọn cách trình bày bằng hàm số như sau:
 
     <md>
       <mrow>f(x) = x^2 + 2 \cdot x + 1</mrow>
@@ -43,50 +43,50 @@ See the file COPYING for copying conditions.
   </p>
 
   <p>
-    That is also the essence of <term>functions</term> in programming.
+    Đó cũng là cốt lõi của <term>hàm</term> trong lập trình.
   </p>
 
   <definition xml:id="def-function">
-    <idx><h>Definitions</h><h>of functions</h></idx>
+    <idx><h>Khái niệm</h><h>hàm</h></idx>
     <statement>
       <p>
-        A <term>function</term> is a reusable block of code designed to perform a specific task.
+        <term>Hàm</term> là một đoạn code có thể tái sử dụng được dùng để thực hiện một tác vụ nào đó.
       </p>
       <p>
-        A function can accept zero, one, or more <term>inputs</term>, which are also called <term>parameters</term>.
+        Hàm có thể nhận không, một, hay nhiều hơn dữ liệu <term>đầu vào</term>, còn được gọi là <term>tham số</term>.
       </p>
       <p>
-        A function can return zero, one, or more <term>outputs</term>, which are also called <term>return values</term>.
+        Hàm có thể trả lại không, một, hay nhiều hơn dữ liệu <term>đầu ra</term>, còn được gọi là <term>giá trị trả lại</term>.
       </p>
       <p>
-        To <term>declare</term> a function is to create a new one.
+        Thuật ngữ cho việc tạo ra một hàm mới là <term>khai báo hàm</term>.
       </p>
       <p>
-        To <term>call</term> a function is to use an existing one.
+        Thuật ngữ cho việc sử dụng một hàm là <term>gọi hàm</term>.
       </p>
     </statement>
   </definition>
 
   <note>
-    <idx><h>Notes</h><h>on using functions</h></idx> 
+    <idx><h>Chú ý</h><h>dùng hàm</h></idx> 
     <p>
-      In this section, we will not go into function declaration. Instead, we'll focus on using functions that are built-in or provided by libraries.
+      Ở phần này, ta sẽ không đi sâu vào cú pháp khai báo hàm, mà chỉ tập trung vào việc sử dụng những hàm có sẵn hoặc được cung cấp bởi thư viện.
     </p>
     <p>
-      To read more about function declaration, refer to <xref ref="sec-declare-function" text="type-local"/>.
+      Để biết thêm về cú pháp khai báo hàm, tham khảo <xref ref="sec-declare-function" text="type-local"/>.
     </p>
   </note>
 
   <technology xml:id="syntax-call-function">
-    <title>Calling a function</title>
-    <idx><h>Syntax</h><h>of calling functions</h></idx>
+    <title>Gọi hàm</title>
+    <idx><h>Cú pháp</h><h>gọi hàm</h></idx>
     <p>
-      <em>Depending on how a function is declared</em>, we have two ways to call it: <me>{\color{blue} \text{function's name}} \, \text{(input 1, input 2, ...)}</me> or <me>\text{input 1} . \! {\color{blue} \text{function's name}} \, \text{(input 2, input 3, ...)}</me>
+      <em>Tùy vào cách một hàm được khai báo</em>, ta có hai cách để gọi nó: <me>{\color{blue} \text{tên hàm}} \, \text{(đầu vào 1, đầu vào 2, ...)}</me> hoặc <me>\text{đầu vào 1.} {\color{blue} \text{tên hàm}} \, \text{(đầu vào 2, đầu vào 3, ...)}</me>
     </p>
   </technology>
   
   <p>
-    A familiar example is the function <c>print()</c>, which can be called anywhere in the code and with any number of inputs. And it shows them in the terminal.
+    Một ví dụ thân thuộc là hàm <c>print()</c>. Nó có thể được gọi ở bất cứ nơi nào, và với một tập hợp các dữ liệu đầu vào bất kỳ. Và nó đưa dữ liệu ra terminal.
   </p>
 
   <sage language="python">
@@ -106,32 +106,33 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>function print()</h></idx>
-    <idx><h>Functions</h><h>print()</h></idx>
+    <idx><h>Ví dụ code</h><h>hàm print()</h></idx>
+    <idx><h>Hàm</h><h>print()</h></idx>
     <p></p>
     <p>
-      Line 1: We call the function <c>print()</c> with one input <c>5</c>.
+      Dòng 1: Ta gọi hàm <c>print()</c> với một dữ liệu đầu vào là <c>5</c>.
     </p>
     <p>
-      Line 2: We provide no inputs, so <c>print()</c> outputs an empty line into the terminal.
+      Dòng 2: Ta không truyền dữ liệu đầu vào, nên <c>print()</c> xuất ra terminal một dòng trắng.
     </p>
     <p>
-      Line 3: We give it two integer inputs <c>2</c> and <c>-2</c>.
+      Dòng 3: Ta cho nó hai dữ liệu đầu vào là <c>2</c> và <c>-2</c>.
     </p>
     <p>
-      Line 4: We give it multiple inputs of different data types.
+      Dòng 4: Ta truyền cho nó nhiều dữ liệu đầu vào thuộc các kiểu dữ liệu khác nhau.
     </p>
   </investigation>
 
   <p>
-    Another example is <c>len()</c>, which accepts exactly one input that is a data structure, and it returns the number of elements.
+    Một ví dụ nữa là hàm <c>len()</c>. Nó chấp nhận duy nhất một đầu vào là một cấu trúc dữ liệu và trả lại số phần tử.
   </p>
 
   <aside>
-    <title>Try It Out</title>
+    <title>Thí Nghiệm Vui</title>
     
     <p>
       Does <c>len()</c> work with a string?
+      <c>len()</c> có hoạt động với <c>str</c> không?
     </p> 
   </aside>
 
@@ -147,22 +148,22 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>function len()</h></idx>
-    <idx><h>Functions</h><h>len()</h></idx>
+    <idx><h>Ví dụ code</h><h>hàm len()</h></idx>
+    <idx><h>Hàm</h><h>len()</h></idx>
     <p>
-      The function <c>len()</c> receives one input and returns the number of elements.
+      Hàm <c>len()</c> nhận một cấu trúc dữ liệu và trả lại số phần tử.
     </p>
   </investigation>
   
   <p>
-    So, <c>len()</c> has more specifications than <c>print()</c>. You have to call it with exactly one input, which must be a <em>data structure</em>. The following examples will return errors:
+    Vậy, hàm <c>len()</c> có nhiều yêu cầu hơn <c>print()</c>. Bạn phải gọi hàm này với duy nhất một giá trị đầu vào, và giá trị đó phải là một cấu trúc dữ liệu. Hai ví dụ sau sẽ xuất hiện lỗi:
   </p>
 
   <aside>
-    <title>Try It Out</title>
+    <title>Thí Nghiệm Vui</title>
     
     <p>
-      Can you fix this example?
+      Sửa lỗi.
     </p>
   </aside>
 
@@ -184,14 +185,14 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>function len()</h></idx>
-    <idx><h>Functions</h><h>len()</h></idx>
+    <idx><h>Ví dụ code</h><h>hàm len()</h></idx>
+    <idx><h>Hàm</h><h>len()</h></idx>
     <p></p>
-    <p>The function <c>len()</c> accepts exactly one input, but two parameters were given.</p>
+    <p>Hàm <c>len()</c> nhận chính xác một giá trị đầu vào, nhưng lại nhận được hai.</p>
   </investigation>
 
   <p>
-    Another example:
+    Ví dụ tiếp theo:
   </p>
 
   <sage language="python">
@@ -211,23 +212,23 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>function len()</h></idx>
-    <idx><h>Functions</h><h>len()</h></idx>
+    <idx><h>Ví dụ code</h><h>hàm len()</h></idx>
+    <idx><h>Hàm</h><h>len()</h></idx>
     <p></p>
     <p>
-      The input of <c>len()</c> must be a data structure, but we are calling it with an <c>int</c>.
+      Đầu vào của <c>len()</c> phải là một cấu trúc dữ liệu, nhưng nó lại dược gọi với một <c>int</c>.
     </p>
   </investigation>
 
   <p>
-    Our final example is <c>upper()</c>, which follows the second <xref ref="syntax-call-function" text="custom">syntax</xref> for calling a function. In this case, <q>input 1</q> must be a string. And the function returns a new string with every character in uppercase.
+    Ví dụ cuối cùng của ta là hàm <c>upper()</c>. Nó tuân theo <xref ref="syntax-call-function" text="custom">cú pháp gọi hàm</xref> thứ hai, với <q>đầu vào 1</q> là một chuỗi ký tự. Và nó trả lại một chuỗi mới với mọi ký tự được viết hoa.
   </p>
 
   <aside>
-    <title>Try It Out</title>
+    <title>Thí Nghiệm Vui</title>
     
     <p>
-      Guess the function used to turn a string to all lowercase.   
+      Đoán hàm có chức năng biến một chuỗi thành viết thường hết.
     </p>
   </aside>
 
@@ -244,13 +245,13 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>function upper()</h></idx>
-    <idx><h>Functions</h><h>upper()</h></idx>
-    <p>The function <c>upper()</c> returns a new all-caps string.</p>
+    <idx><h>Ví dụ code</h><h>hàm upper()</h></idx>
+    <idx><h>Hàm</h><h>upper()</h></idx>
+    <p>Hàm <c>upper()</c> trả lại một chuỗi viết hoa mới.</p>
   </investigation>
  
   <p>
-    The following produces an error:
+    Ví dụ xuất hiện lỗi:
   </p>
 
   <sage language="python">
@@ -270,11 +271,14 @@ See the file COPYING for copying conditions.
     </pre>
   </problem>
   <investigation>
-    <idx><h>Code examples</h><h>function upper()</h></idx>
-    <idx><h>Functions</h><h>upper()</h></idx>
+    <idx><h>Ví dụ code</h><h>hàm upper()</h></idx>
+    <idx><h>Hàm</h><h>upper()</h></idx>
     <p></p>
     <p>
-      The function <c>upper()</c> accepts exactly one input of type <c>str</c>, but we are giving it an <c>int</c>.
+      Hàm <c>upper()</c> chỉ nhận duy nhất một dữ liệu đầu vào có kiểu <c>str</c>, nhưng lại nhận được kiểu <c>int</c>.
+    </p>
+    <p>
+      Dịch nôm na miêu tả lỗi, ta được <q>int không có thuộc tính upper</q>.
     </p>
   </investigation>
 
@@ -285,7 +289,7 @@ See the file COPYING for copying conditions.
 
   <exploration>
     <title>Basic Programming <mdash /> Part 10: Functions</title>
-    <idx><h>Videos</h><h>part 10</h></idx>
+    <idx><h>Video</h><h>part 10</h></idx>
   
     <video youtube="iMXToAm9a0c"/>
     

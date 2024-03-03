@@ -8,20 +8,20 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-data-structure" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Data Structures</title>
+  <title>Cấu Trúc Dữ Liệu</title>
 
   <objectives>
     <ul>
-      <li>Learn about data structures.</li>
-      <li>See two examples<mdash /><term>lists</term> and <term>dictionaries</term>.</li>
+      <li>Tìm hiểu các cấu trúc dữ liệu.</li>
+      <li>Quan sát hai ví dụ<mdash /><term>danh sách</term> và <term>từ điển</term>.</li>
     </ul>
   </objectives>
 
   <introduction>
 
     <p>
-      <idx><h>Code examples</h><h>without list</h></idx>
-      Up until now, variables have been storing one singular value. Suppose we have a program that stores 100 perfect square numbers. It might look like this:
+      <idx><h>Ví dụ code</h><h>không dùng danh sách</h></idx>
+      Cho đến nay, biến luôn chứa một giá trị duy nhất. Giả sử ta có một chương trình để chứa 100 số chính phương. Nó có thể trông như sau:
     </p>
 
     <program language="python">
@@ -36,27 +36,27 @@ See the file COPYING for copying conditions.
     </program>
 
     <p>
-      This is highly impractical. So, to reduce the number of variables, we can make use of a new object<mdash></mdash><term>a data structure</term>.
+      Đoạn code trên không thực tế cho lắm. Để giảm số lượng biến, ta có thể sử dụng một đối tượng mới<mdash /><term>cấu trúc dữ liệu</term>.
     </p>
 
     <definition xml:id="def-data-structure">
-      <idx><h>Definitions</h><h>of data structures</h></idx>
+      <idx><h>Khái niệm</h><h>cấu trúc dữ liệu</h></idx>
       <statement>
         <p>
-          <term>A data structure</term> is a special data that acts as a storage for multiple other pieces of data.
+          <term>Cấu trúc dữ liệu</term> là một dữ liệu có khả năng chứa cùng một lúc nhiều dữ liệu khác.
         </p>
         <p>
-          Each piece of <q>sub-data</q> stored by a data structure is called an <term>element</term>.
+          Các dữ liệu <q>con</q> của một cấu trúc dữ liệu được gọi là <term>phần tử</term>.
         </p>
         <p>
-          Data structures are <em>built on top of</em> data types, meaning concepts in <xref ref="sec-data-type"/> can be applied to them.
+          Cấu trúc dữ liệu được xây dựng <em>dựa trên</em> kiểu dữ liệu, vì vậy những kiến thức ở <xref ref="sec-data-type"/> có thể được áp dụng.
         </p>
       </statement>
     </definition>
     
     <p>
-      <idx><h>Code examples</h><h>with list</h></idx>
-      Then, we can re-implement our program as follows:
+      <idx><h>Ví dụ code</h><h>dùng danh sách</h></idx>
+      Từ đó, ta có thể cải thiện chương trình trên như sau:
     </p>
     
     <program language="python">
@@ -66,47 +66,47 @@ See the file COPYING for copying conditions.
     </program>
 
     <p>
-      Even though this is still impractical (you're typing 100 numbers), it's significantly better than before. Instead of creating 100 different variables, we create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
+      Mặc dù vẫn không mấy thực tế (ta vẫn phải gõ 100 số), phiên bản này tốt hơn trước rất nhiều. Thay vì tạo ra 100 biến khác nhau, ta chỉ cần một biến có khả năng chứa 100 giá trị. (Đây là một <term>danh sách</term>, sẽ được bàn tới dưới đây.)
     </p>
 
     <p>
-      Every programming language has its own set of built-in data structures, all of which are different in some way and have their pros and cons.
+      Mỗi ngôn ngữ lập trình đều có tập hợp các cấu trúc dữ liệu của riêng mình. Mỗi cấu trúc dữ liệu đều có điểm mạnh và điểm yếu của mình.
     </p>
 
     <p>
-      For now, we will take a look at two of the most used data structures<mdash /><term>lists (arrays)</term> and <term>dictionaries</term>.
+      Bây giờ ta sẽ tìm hiểu hai cấu trúc dữ liệu phổ biến nhất<mdash /><term>danh sách (mảng)</term> và <term>từ điển</term>.
     </p>
 
     <note>
-      <idx><h>Notes</h><h>on learning data structures</h></idx>
+      <idx><h>Chú ý</h><h>tìm hiểu cấu trúc dữ liệu</h></idx>
       <p>
-        The following sub-sections will only <em>briefly introduce</em> these two objects. <!-- If you are interested in their syntax or how to work with them, please refer to <xref ref="appendix-whats-next" text="title"/>. -->
+        Hai tiểu mục sắp tới sẽ chỉ <em>giới thiệu sơ bộ</em> hai đối tượng trên. <!-- If you are interested in their syntax or how to work with them, please refer to <xref ref="appendix-whats-next" text="title"/>. -->
       </p>
     </note>
   </introduction>
 
   <subsection xml:id="subsec-list">
-    <title>Lists (Arrays)</title>
+    <title>Danh Sách (Mảng)</title>
 
     <definition xml:id="def-list">
-      <idx><h>Definitions</h><h>of lists</h></idx>
+      <idx><h>Khái niệm</h><h>danh sách</h></idx>
       <statement>
         <p>
-          A <term>list</term> can store multiple values at once.
+          <term>Danh sách</term> có thể chứa nhiều giá trị cùng một lúc.
         </p>
         <p>
-          Elements of a Pythonic list can be of <em>different</em> data types.
+          Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu <em>khác nhau</em>.
         </p>
       </statement>
     </definition>
 
     <aside>
-      <title>Topic(s) you might be interested in</title>
+      <title>Có thể bạn sẽ hứng thú</title>
       <p>
         <ul>
           <li>
             <p>
-              <idx><h>Links</h><h>Python lists vs arrays</h></idx>
+              <idx><h>Liên kết</h><h>Python danh sách vs mảng</h></idx>
               <url href="https://www.google.com/search?q=Python+lists+vs+arrays" visual="google.com/search?q=Python+lists+vs+arrays">"Python lists vs arrays"</url>
             </p>
           </li>
@@ -115,29 +115,29 @@ See the file COPYING for copying conditions.
     </aside>
 
     <note>
-      <idx><h>Notes</h><h>on lists versus arrays</h></idx>
+      <idx><h>Chú ý</h><h>danh sách vs mảng</h></idx>
       <p>
-        In some other programming languages, there's a data structure called <term>array</term>, which works the same as a list in Python.
+        Trong một vài ngôn ngữ lập trình khác, có một kiểu dữ liệu tên là <term>mảng</term>. Nó hoạt động tương tự một danh sách trong Python.
       </p>
 
       <p>
-        Python also has arrays, though with a different implementation from some others'. This goes to show that in different languages, data structures can have the same name but different implementations, and vice versa.
+        Python cũng có mảng, nhưng với một cách hoạt động hơi khác so với mảng trong các ngôn ngữ khác. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.
       </p>
 
       <p>
-        Generally, the term <q>array</q> is more well-known than <q>list</q>.
+        Thông thường thì cái tên <q>mảng</q> được biết đến nhiều hơn <q>danh sách</q>.
       </p>
     </note>
 
     <p>
-      For example:
+      Ví dụ:
     </p>
 
     <aside>
-      <title>Try It Out</title>
+      <title>Thí Nghiệm Vui</title>
       
       <p>
-        Try adding more elements to the lists.
+        Thêm phần tử vào danh sách.
       </p> 
     </aside>
 
@@ -160,56 +160,56 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
-      <idx><h>Code examples</h><h>using lists</h></idx>
+      <idx><h>Ví dụ code</h><h>dùng danh sách</h></idx>
       <p></p>
       <p>
-        We declare three lists, each of which has 3 elements.
+        Ta khai báo 3 danh sách. Mỗi danh sách có 3 phần tử.
       </p>
       <p>
-        The elements of <c>l1</c> are all integers.
+        Các phần tử của <c>l1</c> đều là số nguyên.
       </p>
       <p>
-        The list <c>l2</c> stores two integers and a float.
+        Danh sách <c>l2</c> chứa hai <c>int</c> và một <c>float</c>.
       </p>
       <p>
-        The list <c>l3</c> has two integers and a string.
+        Danh sách <c>l3</c> có hai <c>int</c> và một <c>str</c>.
       </p>
       <p>
-        The command <c>type()</c> lets us know their data type is <c>list</c>.
+        Lệnh <c>type()</c> cho ta biết kiểu dữ liệu của chúng là <c>list</c>.
       </p>
     </investigation>
 
     <note>
-      <idx><h>Notes</h><h>on using lists</h></idx>
+      <idx><h>Chú ý</h><h>dùng danh sách</h></idx>
       <p>
-        As you can already see, lists have yet another distinct syntax. But we won't go into their syntax and usage yet. Refer to <xref ref="sec-using-list" text="type-local"/> for further discussion about lists.
+        Có thể thấy, danh sách có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo <xref ref="sec-using-list" text="type-local"/> để tìm hiểu thêm về danh sách.
       </p>
     </note>
     
   </subsection>
 
   <subsection xml:id="subsec-dictionary">
-    <title>Dictionaries</title>
+    <title>Từ Điển</title>
 
     <definition xml:id="def-dictionary">
-      <idx><h>Definitions</h><h>of dictionaries</h></idx>
+      <idx><h>Khái niệm</h><h>từ điển</h></idx>
       <statement>
         <p>
-          A <term>dictionary</term> can store multiple pairs of <term>key:value</term>.
+          <term>Từ điển</term> có thể chứa nhiều cặp <term>từ khóa:giá trị (key:value</term>).
         </p>
         <p>
-          It's often used to store descriptive information.
+          Nó thường được dùng để lưu trữ thông tin miêu tả.
         </p>
       </statement>
     </definition>
 
-    <p>For example:</p>
+    <p>Ví dụ:</p>
 
     <aside>
-      <title>Try It Out</title>
+      <title>Thí Nghiệm Vui</title>
       
       <p>
-        Try adding more information about Steve.
+        Thêm thông tin miêu tả Steve.
       </p> 
     </aside>
 
@@ -234,23 +234,23 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
-      <idx><h>Code examples</h><h>using a dictionary</h></idx>
+      <idx><h>Ví dụ code</h><h>dùng từ điển</h></idx>
       <p></p>
       <p>
-        We declare a dictionary with 5 elements which are pairs of key:value.
+        Ta khai báo một từ điển với 5 phần tử là các cặp key:value.
       </p>
       <p>
-        As you can see, the keys and values can have different data types.
+        Có thể thấy, các từ khóa và giá trị có thể thuộc các kiểu dữ liệu khác nhau.
       </p>
       <p>
-        The command <c>type()</c> lets us know its data type is <c>dict</c>.
+        Lệnh <c>type()</c> cho ta biết kiểu dữ liệu của nó là <c>dict</c>.
       </p>
     </investigation>
     
     <note>
-      <idx><h>Notes</h><h>on using dictionaries</h></idx>
+      <idx><h>Chú ý</h><h>dùng từ điển</h></idx>
       <p>
-        Dictionaries have yet another distinct syntax. Again, we won't go into their syntax and usage yet. Refer to <xref ref="sec-using-dictionary" text="type-local"/> for further discussion about dictionaries.
+        Một lần nữa, từ điển có một cú pháp riêng biệt. Nhưng ta sẽ chưa đi sâu vào cú pháp và cách sử dụng của nó. Tham khảo <xref ref="sec-using-dictionary" text="type-local"/> để tìm hiểu thêm về từ điển.
       </p>
     </note>
     
@@ -264,7 +264,7 @@ See the file COPYING for copying conditions.
 
     <exploration>
       <title>Basic Programming <mdash /> Part 7: Data Structures</title>
-      <idx><h>Videos</h><h>part 07</h></idx>
+      <idx><h>Video</h><h>part 07</h></idx>
     
       <video youtube="iMXToAm9a0c"/>
       

@@ -27,7 +27,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <note>
-      <idx><h>Overviews</h><h>of errors</h></idx>
+      <idx><h>Khái quát</h><h>lỗi</h></idx>
       <p>
         Errors, if any, will be shown in the <term>terminal</term>. Some additional pieces of information about an error are:
 
@@ -73,7 +73,7 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
-      <idx><h>Code examples</h><h>syntax error</h></idx>
+      <idx><h>Ví dụ code</h><h>lỗi cú pháp</h></idx>
       <p></p>
       <p>
         An error is spotted in line 3, which is of type <c>SyntaxError</c>.
@@ -105,7 +105,7 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
-      <idx><h>Code examples</h><h>type error</h></idx>
+      <idx><h>Ví dụ code</h><h>lỗi kiểu dữ liệu</h></idx>
       <p></p>
       <p>
         An error of type <c>TypeError</c> is spotted at line 3.
@@ -136,7 +136,7 @@ See the file COPYING for copying conditions.
       </pre>
     </problem>
     <investigation>
-      <idx><h>Code examples</h><h>type error</h></idx>
+      <idx><h>Ví dụ code</h><h>lỗi kiểu dữ liệu</h></idx>
       <p></p>
       <p>
         An error of type <c>TypeError</c> is spotted at line 2.
@@ -175,14 +175,14 @@ See the file COPYING for copying conditions.
           </p>
 
           <note>
-            <idx><h>Notes</h><h>on searching</h></idx>
+            <idx><h>Chú ý</h><h>tra cứu mạng</h></idx>
             <p>
               You should include the programming language being used as a keyword to increase efficiency, for instance, <q>python unterminated string literal...</q>.
             </p>
           </note>
 
           <insight>
-            <idx><h>Insights</h><h>documentation</h></idx>
+            <idx><h>Lưu ý</h><h>tài liệu</h></idx>
             <p>
               You can refer to documentation in your language of choice. But it is commonly the case that English resources are the best in terms of availability and being up-to-date.
             </p>
@@ -210,7 +210,7 @@ See the file COPYING for copying conditions.
             <term>Make a post</term><mdash></mdash>When all other means have failed, it's time for you to request help from other human programmers. You can ask people you know or go onto online programming forums and compose a post detailing your problem.
           </p>
           <p>
-            <idx><h>Notes</h><h>on online etiquette</h></idx>
+            <idx><h>Chú ý</h><h>văn hóa mạng</h></idx>
             Make sure to study online <term>etiquette</term> to know how to behave appropriately when using such forums. Because you are looking for others' help, being respectful is vital.
           </p>
         </li>
@@ -227,7 +227,7 @@ See the file COPYING for copying conditions.
 
     <exploration>
       <title>Basic Programming <mdash /> Part 11: Errors &amp; How To Fix Them</title>
-      <idx><h>Videos</h><h>part 11</h></idx>
+      <idx><h>Video</h><h>part 11</h></idx>
     
       <video youtube="iMXToAm9a0c"/>
       
