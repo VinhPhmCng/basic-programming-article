@@ -19,8 +19,22 @@ See the file COPYING for copying conditions.
     <index-list /> 
   </index>
 
-  <colophon>
-    <p> This article was authored in <pretext />. </p>
+  <colophon xml:id="colophon">
+    <p>
+      This article was authored in <pretext /> and deployed to Github Pages.
+    </p>
+
+    <p>
+      Languages:
+      <ol>
+        <li>
+          English
+        </li>
+        <li>
+          <url href="https://vinhphmcng.github.io/lap-trinh-co-ban-article/" visual="vinhphmcng.github.io/lap-trinh-co-ban-article">Tiếng Việt</url>
+        </li>
+      </ol>
+    </p>
   </colophon>
 </backmatter>
 

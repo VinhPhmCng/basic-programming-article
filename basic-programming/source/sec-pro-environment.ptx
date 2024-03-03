@@ -9,7 +9,7 @@ See the file COPYING for copying conditions.
 
 <section xml:id="sec-pro-environment" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Our Programming Environment</title>
-  <idx><h>Programming environment</h></idx>
+  <idx><h>Programming environments</h></idx>
 
   <objectives>
     <ul>
@@ -22,7 +22,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <p>
-    <idx><h>Programming environment</h><h>version 1</h></idx>
+    <idx><h>Programming environments</h><h>version 1</h></idx>
     In the online version of the article, our code editor and compiler is as follows:
   </p>
 
@@ -62,8 +62,8 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <p>
-    The environment above has these components:
     <idx><h>Overviews</h><h>of programming environment</h></idx>
+    The environment above has these components:
 
     <ol>
       <li>
@@ -95,7 +95,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <p>
-    <idx><h>Programming environment</h><h>version 2</h></idx>
+    <idx><h>Programming environments</h><h>version 2</h></idx>
     A slightly different version of the code cell is as follows:
   </p>
 

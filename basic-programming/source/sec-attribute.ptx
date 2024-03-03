@@ -39,7 +39,9 @@ See the file COPYING for copying conditions.
     </p>
   </technology>
 
-  <p>To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the external library Numpy (which you don't have to fully understand):</p>
+  <p>
+    To demonstrate attributes, the following example makes use of an external data structure<mdash />a matrix imported from the external library Numpy (which you don't have to fully understand):
+  </p>
 
   <aside>
     <title>Topic(s) you might be interested in</title>

@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <docinfo>
-    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
-
-    <!-- Renaming elements -->
-    <rename element='abstract'>License</rename> <!-- (tentative) -->
-    <rename element='warning'>TL;DR</rename> <!-- (tentative) -->
-    <rename element='problem'>Output</rename> <!-- (tentative) -->
-    <rename element='technology'>Syntax</rename> <!-- (tentative) -->
-    <rename element='investigation'>Explanation</rename> <!-- (tentative) --> 
-    <rename element='exploration'>Video</rename> <!-- (tentative) --> 
+    <!-- Renaming elements (tentative) -->
+    <rename element='abstract'>License</rename>
+    <rename element='warning'>TL;DR</rename>
+    <rename element='problem'>Output</rename>
+    <rename element='technology'>Syntax</rename>
+    <rename element='investigation'>Explanation</rename>
+    <rename element='exploration'>Video</rename>
     <rename element='evaluate'>Run Code</rename>
   </docinfo>
 

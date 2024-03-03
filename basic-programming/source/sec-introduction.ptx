@@ -72,6 +72,10 @@ See the file COPYING for copying conditions.
     <p>
       You can also watch the videos, before or after reading each section. They have cool visuals and present ideas in a different way.
     </p>
+
+    <p>
+      Available languages can be found in <xref ref="colophon" text="title"/>.
+    </p>
   </subsection>
 
   <subsection xml:id="subsec-support">

@@ -47,7 +47,7 @@ See the file COPYING for copying conditions.
       <title>Try It Out</title>
       
       <p>
-        Of these four operators, which do you think work with a <xref ref="subsec-list" text="custom">list</xref>?
+        Of these four operators, which do you think work with <xref ref="subsec-list" text="title" />?
       </p> 
     </aside>
 

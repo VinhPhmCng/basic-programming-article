@@ -89,8 +89,17 @@ See the file COPYING for copying conditions.
     <title>HTML</title>
 
     <p>
-      Technically speaking, HTML (HyperText Markup Language) is <em>not</em> a programming language, but instead a <term>markup language</term>. Despite that, playing around with HTML can be very beneficial, especially for beginners, for many reasons.
+      Technically speaking, HTML (HyperText Markup Language) is <em>not</em> a programming language, but instead a <term>markup language</term>. However, playing around with HTML, or other markup languages, can be very beneficial, especially for beginners. (P.S. This article is authored in <pretext />, a markup language.)
     </p>
+
+    <aside>
+      <title>Topic(s) you might be interested in</title>
+      
+      <p>
+        <idx><h>Links</h><h>markup languages</h></idx>
+        <url href="https://www.google.com/search?q=what+is+a+markup+language" visual="google.com/search?q=what+is+a+markup+language">"what is a markup language"</url>
+      </p> 
+    </aside>
 
     <p>
       <idx><h>Links</h><h>HTML examples</h></idx>

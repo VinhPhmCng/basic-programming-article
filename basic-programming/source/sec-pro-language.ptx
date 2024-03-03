@@ -157,11 +157,11 @@ See the file COPYING for copying conditions.
     There're many reasons for that, and among them, speed is the most obvious. Basically, code written in high-level languages has to go through more intermediate steps to be translated into machine code (binary) than low-level ones, thus it's obvious that the latter often have a speed advantage.
   </p>
   <p>
-    Some other reasons are specialization, precise data manipulation, legacy code, <etc />
+    Some other reasons are specialization, precise data manipulation, legacy systems, <etc />
   </p>
   
   <insight>
-    <idx><h>Insights</h><h>high- versus low-level</h></idx>
+    <idx><h>Insights</h><h>high- vs low-level</h></idx>
     <p>
       You can imagine a high-level programming language as a 4-seat family car, which is user-friendly and can be driven by most people. Then, a low-level one would be an F1 racing car that only the most skillful professionals can drive.
     </p>
@@ -209,24 +209,16 @@ See the file COPYING for copying conditions.
       When getting started with programming, a beginner often comes across certain topics on the Internet:
       <ul>
         <li>
-          <p>
-            <q>Which programming language should I start with?</q>
-          </p>
+          <q>Which programming language should I start with?</q>
         </li>
         <li>
-          <p>
-            <q>Which programming language should I learn in 2024?</q>
-          </p>
+          <q>Which programming language should I learn in 2024?</q>
         </li>
         <li>
-          <p>
-            <q>Which programming language to learn for high-paying jobs?</q>
-          </p>
+          <q>Which programming language to learn for high-paying jobs?</q>
         </li>
         <li>
-          <p>
-            <etc></etc>
-          </p>
+          <etc></etc>
         </li>
       </ul>
 
@@ -234,28 +226,20 @@ See the file COPYING for copying conditions.
 
       <ul>
         <li>
-          <p>
-            <q>What is my purpose in learning a new programming language?</q>
-          </p>
+          <q>What is my purpose in learning a new programming language?</q>
         </li>
         <li>
-          <p>
-            <q>For that purpose, which programming language is suitable?</q>
-          </p>
+          <q>For that purpose, which programming language is suitable?</q>
         </li>
         <li>
-          <p>
-            <q>For that purpose and considering my current level, do I want to learn a high-level or low-level language?</q>
-          </p>
+          <q>For that purpose and considering my current level, do I want to learn a high-level or low-level language?</q>
         </li>
         <li>
-          <p>
-            <etc></etc>
-          </p>
+          <etc></etc>
         </li>
       </ul>
 
-      Currently there are an ever-growing number of programming languages, and each of them has its own <em>purposes, pros, and cons</em>.
+      There are an ever-growing number of programming languages, and each of them has its own <em>purposes, pros, and cons</em>.
     </p>
   </insight>
 

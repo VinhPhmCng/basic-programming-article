@@ -66,7 +66,7 @@ See the file COPYING for copying conditions.
     </program>
 
     <p>
-      Even though this is still impractical (you're typing 100 numbers), it's significantly better than before. Instead of creating 100 different variables, we create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
+      Even though this is still impractical (we're typing 100 numbers), it's significantly better than before. Instead of creating 100 different variables, we create just one that holds 100 values. (This is a <term>list</term>, which is discussed below.)
     </p>
 
     <p>
@@ -115,7 +115,7 @@ See the file COPYING for copying conditions.
     </aside>
 
     <note>
-      <idx><h>Notes</h><h>on lists versus arrays</h></idx>
+      <idx><h>Notes</h><h>on lists vs arrays</h></idx>
       <p>
         In some other programming languages, there's a data structure called <term>array</term>, which works the same as a list in Python.
       </p>
@@ -163,7 +163,7 @@ See the file COPYING for copying conditions.
       <idx><h>Code examples</h><h>using lists</h></idx>
       <p></p>
       <p>
-        We declare three lists, each of which has 3 elements.
+        We declare 3 lists, each of which has 3 elements.
       </p>
       <p>
         The elements of <c>l1</c> are all integers.

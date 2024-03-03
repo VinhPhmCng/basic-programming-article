@@ -86,7 +86,7 @@ See the file COPYING for copying conditions.
   </technology>
   
   <p>
-    A familiar example is the function <c>print()</c>, which can be called anywhere in the code and with any number of inputs. And it shows them in the terminal.
+    A familiar example is the function <c>print()</c>, which can be called anywhere and with any number of inputs. It then shows them in the terminal.
   </p>
 
   <sage language="python">
@@ -155,7 +155,7 @@ See the file COPYING for copying conditions.
   </investigation>
   
   <p>
-    So, <c>len()</c> has more specifications than <c>print()</c>. You have to call it with exactly one input, which must be a <em>data structure</em>. The following examples will return errors:
+    So, <c>len()</c> has more specifications than <c>print()</c>. You have to call it with exactly one input, which must be a data structure. The following examples will return errors:
   </p>
 
   <aside>
@@ -227,7 +227,7 @@ See the file COPYING for copying conditions.
     <title>Try It Out</title>
     
     <p>
-      Guess the function used to turn a string to all lowercase.   
+      Guess the function that turns a string to all lowercase.   
     </p>
   </aside>
 

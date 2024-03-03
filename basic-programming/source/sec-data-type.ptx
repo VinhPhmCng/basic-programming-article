@@ -18,7 +18,7 @@ See the file COPYING for copying conditions.
   </objectives>
   
   <p>
-    Pretty much everything in existence can be stored as data<mdash></mdash>from numbers and letters to information about a student or a car model.
+    Pretty much everything in existence can be stored as data<mdash></mdash>from numbers and letters to information about a car model.
   </p>
 
   <definition xml:id="def-data-type">
