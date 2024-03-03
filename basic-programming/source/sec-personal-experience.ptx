@@ -8,7 +8,7 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-personal-experience" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Personal Experiences</title>
+  <title>Kinh Nghiệm Cá Nhân</title>
 
   <objectives>
     <ul>
@@ -266,7 +266,7 @@ See the file COPYING for copying conditions.
 
     <exploration>
       <title>Basic Programming <mdash /> Part 12: My Experiences</title>
-      <idx><h>Video</h><h>part 12</h></idx>
+      <idx><h>Video</h><h>phần 12</h></idx>
     
       <video youtube="iMXToAm9a0c"/>
       

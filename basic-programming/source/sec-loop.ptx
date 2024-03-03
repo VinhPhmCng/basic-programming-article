@@ -8,7 +8,7 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-loop" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Loops</title>
+  <title>Vòng Lặp</title>
 
   <objectives>
     <ul>

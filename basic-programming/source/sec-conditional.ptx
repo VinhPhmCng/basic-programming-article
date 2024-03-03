@@ -8,7 +8,7 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-conditional" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Conditional Statements</title>
+  <title>Câu Lệnh Điều Kiện</title>
 
   <objectives>
     <ul>

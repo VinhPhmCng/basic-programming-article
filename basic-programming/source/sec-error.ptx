@@ -8,7 +8,7 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-error" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Errors And How To Fix Them</title>
+  <title>Lỗi</title>
 
   <objectives>
     <ul>
@@ -153,7 +153,7 @@ See the file COPYING for copying conditions.
   </introduction>
 
   <subsection xml:id="subsec-fix-error">
-    <title>How To Fix Errors</title>
+    <title>Cách Sửa Lỗi</title>
 
     <p>
       There is no programmer, however skilled, who is able to memorize every potential error. It's totally normal for a senior programmer to look up errors on the Internet, even ones they've fixed before. Of course, the more errors they deal with, the more experience they accumulate.
@@ -227,7 +227,7 @@ See the file COPYING for copying conditions.
 
     <exploration>
       <title>Basic Programming <mdash /> Part 11: Errors &amp; How To Fix Them</title>
-      <idx><h>Video</h><h>part 11</h></idx>
+      <idx><h>Video</h><h>phần 11</h></idx>
     
       <video youtube="iMXToAm9a0c"/>
       

@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
   <docinfo>
-    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
-
     <!-- Renaming elements (tentative) -->
     <rename element='abstract'>Bản Quyền</rename>
     <rename element='warning'>TL;DR</rename>
@@ -16,13 +14,14 @@
     <rename element='insight'>Lưu Ý</rename>
     <rename element='definition'>Khái Niệm</rename>
     <rename element='convention'>Quy Ước</rename>
+    <rename element='appendix'>Phụ Lục</rename>
     <rename element='section'>Phần</rename>
     <rename element='subsection'>Mục</rename>
   </docinfo>
 
   <article xml:id="basic-programming">
-    <title>Basic Programming</title>
-    <subtitle>For Complete Beginners</subtitle>
+    <title>Lập Trình Cơ Bản</title>
+    <subtitle>Dành Cho Người Mới Bắt Đầu</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />

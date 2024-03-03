@@ -8,15 +8,15 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <appendix xml:id="appendix-playground" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Playground</title>
+  <title>Sân Chơi</title>
 
   <introduction>
     <p>
-      This appendix provides you with some code cells in different programming languages, made possible by <pretext />. By playing around with them, you can have a better understanding of the idea that <q>though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there</q>.
+      Nhờ <pretext />, phụ lục này giúp bạn thử nghiệm với một vài ngôn ngữ lập trình. Qua đó, bạn sẽ có một cái nhìn tốt hơn về ý tưởng rằng <q>dù cú pháp của các ngôn ngữ có thể hơi, hoặc rất, khác nhau, thì các khái niệm cốt lõi vẫn luôn hiện hữu</q>.
     </p>
 
     <p>
-      A fun way to try a language out is by looking up its code examples. For instance, you can search for <q>python code examples</q> on Google. Nowadays most programming sites have their own coding environments, so you can just use theirs, or you can copy-paste and run the examples here.
+      Một cách thú vị để thử một ngôn ngữ là tra mạng những ví dụ code, ví dụ như <q>python code examples</q>. Ngày nay, có rất nhiều trang web tích hợp môi trường lập trình và biên dịch. Bạn có thể dùng chúng, hoặc bạn cũng có thể sao chép và dán chúng vào đây để chạy.
     </p>
   </introduction>
 
@@ -24,7 +24,7 @@ See the file COPYING for copying conditions.
     <title>Python</title>
 
     <p>
-      Python is one of the most popular modern programming languages right now. It's high-level and multi-purpose.
+      Python là một trong những ngôn ngữ lập trình hiện đại phổ biến nhất. Nó là một ngôn ngữ bậc cao và đa mục đích.
     </p>
 
     <p>
@@ -42,7 +42,7 @@ See the file COPYING for copying conditions.
     </sage>
 
     <p>
-      Below is a more complex Python environment. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a <q>CodeLens</q> button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).
+      Dưới đây là một môi trường Python phức tạp hơn một tí. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút <q>CodeLens</q> kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.
     </p>
 
     <program language="python" interactive="activecode">
@@ -60,7 +60,7 @@ See the file COPYING for copying conditions.
     <title>Javascript</title>
 
     <p>
-      Virtually every modern web page has Javascript running under the hood. Its main use case is to provide interactivity to websites.
+      Hầu hết mọi trang web hiện đại đều có mã Javascript. Tác dụng chính của nó là cung cấp tính tương tác cho trang web.
     </p>
 
     <p>
@@ -79,7 +79,7 @@ See the file COPYING for copying conditions.
 
     <note>
       <p>
-        Output of Javascript code might not appear right below. Instead, open the <q>Element Inspect</q> panel by right-clicking on the page and select <q>Inspect</q>. Then, go to the <q>Console</q> tab. Run the code and you should see the output appear there.
+        Output của code Javascript có thể sẽ không xuất hiện ở dưới. Thay vào đó, hãy mở bảng <q>Element Inspect</q> bằng cách chuột phải trên trang web và chọn <q>Inspect</q>. Sau đó, mở tab <q>Console</q>. Khi chạy Javascript thì output sẽ xuất hiện ở đó.
       </p>
     </note>
     
@@ -89,8 +89,17 @@ See the file COPYING for copying conditions.
     <title>HTML</title>
 
     <p>
-      Technically speaking, HTML (HyperText Markup Language) is <em>not</em> a programming language, but instead a <term>markup language</term>. Despite that, playing around with HTML can be very beneficial, especially for beginners, for many reasons.
+      Về mặt kỹ thuật, HTML (HyperText Markup Language) <em>không</em> phải là một ngôn ngữ lập trình, mà là một <term>ngôn ngữ đánh dấu</term>. Mặc vậy, việc thí nghiệm với HTML, hoặc các ngôn ngữ đánh dấu khác, có nhiều lợi ích, đặc biệt đối với người mới bắt đầu. (P.S. Article này được viết bằng <pretext />, một ngôn ngữ đánh dấu.)
     </p>
+
+    <aside>
+      <title>Có thể bạn sẽ hứng thú</title>
+      
+      <p>
+        <idx><h>Liên kết</h><h>ngôn ngữ đánh dấu</h></idx>
+        <url href="https://www.google.com/search?q=what+is+a+markup+language" visual="google.com/search?q=what+is+a+markup+language">"what is a markup language"</url>
+      </p>
+    </aside>
 
     <p>
       <idx><h>Liên kết</h><h>ví dụ HTML</h></idx>
@@ -117,7 +126,7 @@ See the file COPYING for copying conditions.
     <title>Sage</title>
 
     <p>
-      Sage is part of SageMath, an open-source mathematics software system. It's based on Python, so their syntax is mostly similar.
+      Sage là một phần của SageMath, một hệ thống phần mềm toán học mã nguồn mở. Nó được phát triển dựa trên Python, nên phần lớn cú pháp của chúng giống nhau.
     </p>
     
     <p>

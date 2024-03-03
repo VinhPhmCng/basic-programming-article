@@ -8,7 +8,7 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-declare-function" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Declaring Hàm</title>
+  <title>Khai Báo Hàm</title>
 
   <objectives>
     <ul>

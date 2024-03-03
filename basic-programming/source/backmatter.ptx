@@ -8,19 +8,33 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
-  <title>Appendices</title>
+  <title>Phụ Lục</title>
 
   <xi:include href="./appendix-playground.ptx"/>
   <xi:include href="./appendix-whats-next.ptx" />
   <xi:include href="./appendix-gfdl.ptx"/>
   
   <index>
-    <title>Index</title>
-    <index-list /> 
+    <title>Đề Mục</title>
+    <index-list />
   </index>
 
-  <colophon>
-    <p> This article was authored in <pretext />. </p>
+  <colophon xml:id="colophon">
+    <p>
+      Được viết bằng <pretext />. Được triển khai bằng Github Pages.
+    </p>
+
+    <p>
+      Ngôn ngữ:
+      <ol>
+        <li>
+          <url href="https://vinhphmcng.github.io/basic-programming-article/" visual="vinhphmcng.github.io/basic-programming-article">English</url>
+        </li>
+        <li>
+          Tiếng Việt
+        </li>
+      </ol>
+    </p>
   </colophon>
 </backmatter>
 

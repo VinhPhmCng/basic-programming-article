@@ -8,7 +8,7 @@ See the file COPYING for copying conditions.
 ******************************************-->
 
 <section xml:id="sec-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Introduction</title>
+  <title>Lời Mở Đầu</title>
 
   <introduction>
     <p>
@@ -27,7 +27,7 @@ See the file COPYING for copying conditions.
   </introduction>
 
   <subsection xml:id="subsec-how-to-follow-along">
-    <title>How To Follow Along</title>
+    <title>Hướng Dẫn Sử Dụng</title>
     <idx><h>Khái quát</h></idx>
 
     <p>
@@ -72,10 +72,14 @@ See the file COPYING for copying conditions.
     <p>
       You can also watch the videos, before or after reading each section. They have cool visuals and present ideas in a different way.
     </p>
+
+    <p>
+      Bạn có thể tìm thấy các ngôn ngữ khả dụng trong <xref ref="colophon" text="title"/>.
+    </p>
   </subsection>
 
   <subsection xml:id="subsec-support">
-    <title>Ủng hộ This Project</title>
+    <title>Ủng Hộ Dự Án</title>
     <idx><h>Ủng hộ</h></idx>
     <p>
       <idx><h>Liên kết</h><h>mã nguồn</h></idx>
@@ -111,7 +115,7 @@ See the file COPYING for copying conditions.
   </subsection>
 
   <subsection xml:id="subsec-what-is-programming">
-    <title>What Is Programming?</title>
+    <title>Lập Trình Là Gì?</title>
     <idx><h>Khái niệm</h><h>lập trình</h></idx>
 
     <p>
@@ -121,7 +125,7 @@ See the file COPYING for copying conditions.
     
     <exploration>
       <title>Basic Programming <mdash /> Part 1: Introduction</title>
-      <idx><h>Video</h><h>part 01</h></idx>
+      <idx><h>Video</h><h>phần 01</h></idx>
       
       <video youtube="iMXToAm9a0c"/>
        
