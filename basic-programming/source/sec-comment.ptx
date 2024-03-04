@@ -12,12 +12,15 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ul>
-      <li>Nhận biết và sử dụng <term>ghi chú</term> trong code.</li>
+      <li>Nhận biết và sử dụng ghi chú trong code.</li>
     </ul>
   </objectives>
   
   <p>
-    Khi viết code, có những lúc bạn muốn sử dụng văn bản thường, thay vì code. Có thể bạn muốn để lại ghi chú hay giải thích cho một thuật toán nào đó, hay ghi chép lại luồng suy nghĩ bản thân khi đó. Khi code của bạn ngày càng dài và phức tạp hơn, những <q>ghi chú</q> này bổ sung ngữ cảnh cần thiết.
+    Khi viết code, có những lúc bạn muốn sử dụng văn bản thường, thay vì code. Có thể bạn muốn để lại ghi chú hay giải thích cho một thuật toán nào đó, hay ghi chép lại luồng suy nghĩ của bản thân khi đó.
+  </p>
+  <p>
+    Khi code ngày càng dài và phức tạp hơn, những <q>ghi chú</q> này bổ sung ngữ cảnh cần thiết cho bạn, hoặc cho người khác đang đọc code của bạn.
   </p>
 
   <definition xml:id="def-comment">

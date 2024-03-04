@@ -12,39 +12,39 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ul>
-      <li>Learn about errors and ways to deal with them.</li>
+      <li>Tìm hiểu lỗi và cách giải quyết chúng.</li>
     </ul>
   </objectives>
 
   <introduction>
     
     <p>
-      Congratulations! You have equipped yourself with quite a few programming fundamentals.
+      Xin chúc mừng! Bạn đã trang bị cho bản thân kha khá kiến thức cốt lõi về lập trình rồi đó.
     </p>
 
     <p>
-      Before we continue, to improve your learning journey and experience, you should know how to deal with <term>errors</term>.
+      Trước khi tiếp tục với những khái niệm khó hơn, bạn nên học cách giải quyết <term>lỗi</term>. Việc này giúp cải thiện quá trình và trải nghiệm của bạn. 
     </p>
 
     <note>
       <idx><h>Khái quát</h><h>lỗi</h></idx>
       <p>
-        Errors, if any, will be shown in the <term>terminal</term>. Some additional pieces of information about an error are:
+        Lỗi, nếu có, sẽ xuất hiện ở <term>terminal</term>. Một vài thông tin bổ sung đi kèm với lỗi bao gồm:
 
         <ul>
           <li>
             <p>
-              The line on which the error is spotted
+              Dòng phát hiện lỗi
             </p>
           </li>
           <li>
             <p>
-              The type of error
+              Kiểu của lỗi
             </p>
           </li>
           <li>
             <p>
-              A description of the error
+              Miêu tả về lỗi
             </p>
           </li>
           <li>
@@ -53,9 +53,23 @@ See the file COPYING for copying conditions.
             </p>
           </li>
         </ul>
-        Below are some examples:
       </p>
     </note>
+
+    <p>
+      Dưới đây là một vài ví dụ:
+    </p>
+    
+    <aside>
+      <title>Thí Nghiệm Vui</title>
+      
+      <p>
+        Chạy các ví dụ và đọc lỗi.
+      </p> 
+      <p>
+        Sau đó, bạn thử sửa chúng nhé.
+      </p>
+    </aside>
 
     <sage>
       <input>
@@ -76,15 +90,15 @@ See the file COPYING for copying conditions.
       <idx><h>Ví dụ code</h><h>lỗi cú pháp</h></idx>
       <p></p>
       <p>
-        An error is spotted in line 3, which is of type <c>SyntaxError</c>.
+        Lỗi được phát hiện ở dòng 3, có kiểu <c>SyntaxError</c> (lỗi cú pháp).
       </p>
       <p>
-        Reading the description and taking another look at line 3, we can easily see that we are missing a quotation mark.
+        Đọc miêu tả và nhìn lại dòng 3, ta dễ dàng thấy rằng ta đang thiếu mất một dấu ngoặc kép.
       </p>
     </investigation>
 
     <p>
-      Another example:
+      Ví dụ tiếp theo:
     </p>
 
     <sage language="python">
@@ -108,15 +122,15 @@ See the file COPYING for copying conditions.
       <idx><h>Ví dụ code</h><h>lỗi kiểu dữ liệu</h></idx>
       <p></p>
       <p>
-        An error of type <c>TypeError</c> is spotted at line 3.
+        Một lỗi kiểu <c>TypeError</c> (lỗi về kiểu dữ liệu) được phát hiện ở dòng 3.
       </p>
       <p>
-        The description simply means that addition between an integer and a string is unsupported.
+        Dễ thấy miêu tả của lỗi nghĩa là phép cộng giữa số nguyên và chuỗi ký tự không được hỗ trợ. 
       </p>
     </investigation>
 
     <p>
-      The final example uses an external function from the library Numpy that simply calculates the square root.
+      Ví dụ cuối cùng sử dụng hàm <c>sqrt()</c> được nhập từ thư viện ngoài Numpy. Nó tính toán và trả lại căn bậc hai. 
     </p>
 
     <sage language="python">
@@ -139,15 +153,15 @@ See the file COPYING for copying conditions.
       <idx><h>Ví dụ code</h><h>lỗi kiểu dữ liệu</h></idx>
       <p></p>
       <p>
-        An error of type <c>TypeError</c> is spotted at line 2.
+        Lỗi kiểu <c>TypeError</c> được phát hiện ở dòng 2.
       </p>
       <p>
-        The description might be long, but essentially it reads <q>a string cannot be passed into the function sqrt</q>.
+        Miêu tả có thể hơi dài dòng, nhưng về cơ bản nó đang nói rằng <q>một chuỗi ký tự không thể được truyền vào hàm sqrt</q>.
       </p>
     </investigation>
 
     <p>
-      But what should you do if you are even more confused after reading the terminal?
+      Vậy nếu bạn đọc lỗi nhưng vẫn cảm thấy khó hiểu và không biết cách sửa, thì bạn nên làm gì?
     </p>
 
   </introduction>
@@ -156,62 +170,61 @@ See the file COPYING for copying conditions.
     <title>Cách Sửa Lỗi</title>
 
     <p>
-      There is no programmer, however skilled, who is able to memorize every potential error. It's totally normal for a senior programmer to look up errors on the Internet, even ones they've fixed before. Of course, the more errors they deal with, the more experience they accumulate.
+      Không một lập trình viên nào, kỳ cựu đến mấy, có khả năng nhớ mọi lỗi có thể xảy ra. Có những lỗi họ đã gặp và sửa vài lần rồi, nhưng vẫn không thể nhớ hoàn toàn cách sửa nó. Nhưng, một điều chắc chắn là kinh nghiệm của họ ngày càng tăng, và khả năng giải quyết lỗi ngày càng nhanh nhẹn và hiệu quả.
     </p>
 
     <p>
-      Coming up are some of my personal experiences in fixing errors. You can try them out one after another:
+      Tiếp đến là một vài những kinh nghiệm cá nhân của tôi khi gặp lỗi. Bạn có thể thử các cách tiếp cận sau:
 
       <ol>
         <li>
           <p>
-            <!--  -->
-            <term>Fix it</term><mdash />In the case the error is easily understood, you can just fix it. Otherwise, we continue with the next step.
+            <term>Sửa lỗi</term><mdash />Trường hợp gặp lỗi dễ hiểu, bạn chỉ việc sửa nó. Nếu không, chuyển sang bước tiếp theo.
           </p>
         </li>
         <li>
           <p>
-            <term>Search it on the Internet</term><mdash />You can look it up by copy-pasting its description onto Google.
+            <term>Tra trên mạng</term><mdash />Sao chép và dán miêu tả của lỗi lên Google.
           </p>
 
-          <note>
-            <idx><h>Chú ý</h><h>tra cứu mạng</h></idx>
+          <insight>
+            <idx><h>Chia sẻ</h><h>tra cứu mạng</h></idx>
             <p>
-              You should include the programming language being used as a keyword to increase efficiency, for instance, <q>python unterminated string literal...</q>.
+              Bạn nên kèm theo từ khóa là tên ngôn ngữ lập trình đang sử dụng để tăng hiệu quả. Ví dụ như <q>python unterminated string literal...</q>.
             </p>
-          </note>
+          </insight>
 
           <insight>
-            <idx><h>Lưu ý</h><h>tài liệu</h></idx>
+            <idx><h>Chia sẻ</h><h>tài liệu</h></idx>
             <p>
-              You can refer to documentation in your language of choice. But it is commonly the case that English resources are the best in terms of availability and being up-to-date.
+              Bạn có thể tham khảo tài liệu bằng tiếng Việt hoặc bất kì ngôn ngữ nào bạn muốn. Nhưng thông thường thì các tài liệu tiếng Anh có độ có sẵn và tính cập nhật cao nhất. 
             </p>
           </insight>
 
           <p>
-            The majority of errors you might run into have already been solved by others. Thus, we can quickly read online posts and discussions and learn their solutions. Some of the most popular forums are <term>Stack Overflow</term>, <term>Github</term>, <term>Stack Exchange</term>, <term>Reddit</term>.
+            Phần lớn các lỗi mà bạn có thể gặp phải đều đã có người trải qua trước đó rồi. Bạn có thể nhanh chóng đọc những bài đăng bàn luận về và tham khảo cách giải quyết của họ. Một vài diễn đàn phổ biến nhất là <term>Stack Overflow</term>, <term>Github</term>, <term>Stack Exchange</term>, <term>Reddit</term>. 
           </p>
           <p>
-            Here, if you run into another one, or if you are still unable to fix it, you can repeat the process, or proceed to step 3 respectively.
-          </p>
-        </li>
-        <li>
-          <p>
-            <term>Describe it yourself</term><mdash />It seems others' solutions don't apply to you when using the provided description. In that case, why don't you try to detail it using your own words? Describe what you are trying to achieve, with which data types, with which language, and maybe your suspicion of why the error occurs, <etc /> Not working? Let's move to the next approach.
+            Đến đây, nếu bạn vẫn chưa giải quyết được, hoặc nếu lỗi mới xuất hiện, bạn có thể lặp lại quá trình, hoặc chuyển sang bước 3.
           </p>
         </li>
         <li>
           <p>
-            <term>Use artificial intelligence (AI)</term><mdash />If possible, you should try taking advantage of coding AIs such as <term>ChatGPT</term> or <term>Github Copilot</term> to fix errors. This is becoming an increasingly popular and effective approach.
+            <term>Tự miêu tả lỗi khi tra</term><mdash />Có vẻ nếu sử dụng miêu tả chi tiết của lỗi, những cách giải của người khác không có hiệu quả với bạn. Vậy thì ta thử tự mình miêu tả lỗi xem sao. Ta miêu tả mình đang làm gì, với kiểu dữ liệu nào, lỗi gặp khi nào, với ngôn ngữ lập trình nào, v.v. Nếu vẫn chưa được, ta lại chuyển sang bước tiếp theo.
           </p>
         </li>
         <li>
           <p>
-            <term>Make a post</term><mdash></mdash>When all other means have failed, it's time for you to request help from other human programmers. You can ask people you know or go onto online programming forums and compose a post detailing your problem.
+            <term>Sử dụng trí tuệ nhân tạo (AI)</term><mdash />Nếu có thể, bạn nên thử tận dụng trí tuệ nhân tạo như <term>ChatGPT</term> hoặc <term>Github Copilot</term>. Đây là một phương pháp phổ biến gần đây, mang tính hiệu quả cao.
+          </p>
+        </li>
+        <li>
+          <p>
+            <term>Đăng bài về lỗi</term><mdash />Khi mọi phương pháp trên đều đã thất bại, thì đã đến lúc bạn tìm kiếm sự giúp đỡ trực tiếp từ mọi người. Bạn có thể hỏi người quen, hoặc lên những diễn đàn công nghệ và đăng bài viết về vấn đề mình đang gặp phải.
           </p>
           <p>
-            <idx><h>Chú ý</h><h>văn hóa mạng</h></idx>
-            Make sure to study online <term>etiquette</term> to know how to behave appropriately when using such forums. Because you are looking for others' help, being respectful is vital.
+            <idx><h>Chia sẻ</h><h>văn hóa mạng</h></idx>
+            Hãy chắc chắn rằng bạn biết về các <term>văn hóa ứng xử trên mạng</term>. Vì bạn đang mong muốn sự giúp đỡ của người khác, một thái độ tôn trọng và văn minh là quan trọng thiết yếu.
           </p>
         </li>
       </ol>
@@ -227,7 +240,7 @@ See the file COPYING for copying conditions.
 
     <exploration>
       <title>Basic Programming <mdash /> Part 11: Errors &amp; How To Fix Them</title>
-      <idx><h>Video</h><h>phần 11</h></idx>
+      
     
       <video youtube="iMXToAm9a0c"/>
       

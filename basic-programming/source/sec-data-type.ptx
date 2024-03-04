@@ -90,7 +90,7 @@ See the file COPYING for copying conditions.
   <note>
     <idx><h>Chú ý</h><h>xác định kiểu dữ liệu</h></idx>
     <p>
-      Python là một ngôn ngữ dynamically typed. Điều này nghĩa là khi một biết được khai báo hoặc cập nhật, kiểu dữ liệu của nó được xác định, hoặc tái xác định, một cách <em>tự động</em>.
+      Python là một ngôn ngữ dynamically typed. Điều này nghĩa là khi một biến được khai báo hoặc cập nhật, kiểu dữ liệu của nó được xác định, hoặc tái xác định, một cách <em>tự động</em>.
     </p>
   </note>
 

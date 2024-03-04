@@ -21,7 +21,7 @@ See the file COPYING for copying conditions.
     <idx><h>Khái niệm</h><h>ngôn ngữ lập trình</h></idx>
     <statement>
       <p>
-        <term>Ngôn ngữ lập trình</term> là một hệ thống các ký hiệu giúp con người tạo ra các chương trình máy tính, cũng chính là đưa ra chỉ dẫn cho máy tính.
+        <term>Ngôn ngữ lập trình</term> là một hệ thống ký hiệu giúp con người tạo ra các chương trình máy tính.
       </p>
 
       <p>
@@ -154,7 +154,7 @@ See the file COPYING for copying conditions.
   </p>
 
   <p>
-    Có nhiều lý do, và trong đó tốc độ là đương nhiên nhất. Về cơ bản, code được viết với ngôn ngữ bậc cao phải đi qua nhiều bước trung gian hơn trước khi được dịch thành ngôn ngữ máy tính (nhị phân). Vì vậy, ngôn ngữ bậc thấp có lợi thế về tốc độ.
+    Có nhiều lý do, và trong đó tốc độ là đương nhiên nhất. Về cơ bản, code được viết bằng ngôn ngữ bậc cao phải đi qua nhiều bước trung gian hơn trước khi được dịch thành ngôn ngữ máy tính (nhị phân). Vì vậy, ngôn ngữ bậc thấp có lợi thế về tốc độ.
   </p>
   <p>
     Một vài lý do khác là chuyên môn, thao tác dữ liệu chính xác, hệ thống kế thừa, v.v.
@@ -163,7 +163,7 @@ See the file COPYING for copying conditions.
   <insight>
     <idx><h>Lưu ý</h><h>bậc cao vs bậc thấp</h></idx>
     <p>
-      Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển được.
+      Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển.
     </p>
     <p>
       Và hiển nhiên rồi, đổi lại chiếc xe đua F1 <q>bậc thấp</q> sẽ có tốc độ vượt xa chiếc xe ô tô <q>bậc cao</q>.
@@ -171,7 +171,7 @@ See the file COPYING for copying conditions.
   </insight>
 
   <p>
-    Nhưng, đối với người mới học, lợi thế tốc độ này không thực sự quan trọng lắm. Vì vậy, các ngôn ngữ bậc cao là nơi để bạn bắt đầu. 
+    Nhưng, đối với người mới học, lợi thế tốc độ này không thực sự quan trọng lắm. Vì vậy, các ngôn ngữ bậc cao là hoàn hảo dành cho bạn. 
   </p>
 
   <note>

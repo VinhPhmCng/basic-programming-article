@@ -39,10 +39,6 @@ See the file COPYING for copying conditions.
     </p>
   </technology>
 
-  <p>
-    Để trình bày thuộc tính, ví dụ sau sử dụng một cấu trúc dữ liệu bên ngoài<mdash />ma trận, được nhập vào từ thư viện Numpy (Bạn không cần hiểu rõ ví dụ này đâu.):
-  </p>
-
   <aside>
     <title>Có thể bạn sẽ hứng thú</title>
     <p>
@@ -69,6 +65,10 @@ See the file COPYING for copying conditions.
     </p> 
   </aside>
 
+  <p>
+    Để trình bày thuộc tính, ví dụ sau sử dụng một cấu trúc dữ liệu bên ngoài<mdash />ma trận, được nhập vào từ thư viện Numpy (Bạn không cần hiểu rõ ví dụ này đâu.):
+  </p>
+
   <sage language="python">
     <input>
       import numpy as np # Use library Numpy
@@ -88,6 +88,15 @@ See the file COPYING for copying conditions.
       (2, 3)
     </pre>
   </problem>
+
+  <aside>
+    <title>Thí Nghiệm Vui</title>
+
+    <p>
+      Thêm phần tử, hàng, hoặc cột vào ma trận và xem thuộc tính được cập nhật.
+    </p> 
+  </aside>
+
   <investigation>
     <idx><h>Ví dụ code</h><h>truy cập thuộc tính</h></idx>
     <idx><h>Hàm</h><h>np.matrix()</h></idx>

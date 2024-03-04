@@ -145,22 +145,22 @@ See the file COPYING for copying conditions.
   <note>
     <idx><h>Chú ý</h><h>thay đổi code</h></idx>
     <p>
-      Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal mới được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.
+      Nếu bạn cập nhật code trong ô soạn thảo và chạy lại code, chỉ có kết quả trong terminal được cập nhật. Còn output tĩnh sẽ luôn giữ kết quả của đoạn code nguyên bản.
     </p>
   </note>
 
   <p>
-    Trong quyển sách này, để đảm bảo <term>sự đơn giản</term>, môi trường lập trình của chúng ta được hạn chế xuống những thành phần đó. Những môi trường lập trình phức tạp hơn sẽ có rất nhiều chức năng giúp các lập trình viên sáng tạo, nhưng đối với người mới bắt đầu, chúng là không cần thiết. Ngoài ra, cài đặt những công cụ nâng cao thường rất phức tạp, vì thế dễ làm bạn nản lòng.
+    Trong quyển sách này, để đảm bảo <term>sự đơn giản</term>, môi trường lập trình của chúng ta được hạn chế xuống những thành phần đó. Những môi trường lập trình phức tạp hơn có rất nhiều chức năng giúp các lập trình viên sáng tạo, nhưng đối với người mới bắt đầu, chúng là không cần thiết. Ngoài ra, cài đặt những công cụ nâng cao thường rất phức tạp, vì thế dễ làm bạn nản lòng.
   </p>
 
   <p>
-    Những đoạn code ví dụ được cung cấp có thể được chạy trực tiếp hoặc cắt, dán, và chạy ở các ô code trong <xref ref="appendix-playground" text="title"/>. Chúng cũng có thể được biên dịch và chạy ở những mỗi trường bên ngoài, nhưng quyển sách này sẽ không hướng dẫn việc đó.
+    Những đoạn code ví dụ được cung cấp có thể được chạy trực tiếp. Hoặc bạn có thể cắt, dán, và chạy chúng ở các ô code trong <xref ref="appendix-playground" text="title"/>. Chúng cũng có thể được biên dịch và chạy ở những môi trường bên ngoài, nhưng quyển sách này sẽ không hướng dẫn việc đó.
   </p>
 
   <note>
     <idx><h>Chú ý</h><h>ô code nối tiếp</h></idx>
     <p>
-      Những ô code trong quyển sách này có thể nối tiếp những ô code ngay trước nó. Việc này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.
+      Một ô code có thể nối tiếp những ô code ở trước nó. Chức năng này giúp một vài ví dụ trở nên ngắn gọn và việc giải thích thuận lợi hơn.
     </p>
   </note>
 

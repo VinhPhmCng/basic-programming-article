@@ -14,9 +14,27 @@
     <rename element='insight'>Lưu Ý</rename>
     <rename element='definition'>Khái Niệm</rename>
     <rename element='convention'>Quy Ước</rename>
+
     <rename element='appendix'>Phụ Lục</rename>
     <rename element='section'>Phần</rename>
     <rename element='subsection'>Mục</rename>
+
+    <rename element='toc'>Mục Lục</rename>
+    <rename element='index-part'>Tra Cứu</rename>
+    <rename element='jump-to'>Đi đến:</rename>
+    <rename element='index'>Tra Cứu</rename>
+    <rename element='see'>Xem</rename>
+    <rename element='also'>Xem Thêm</rename>
+
+    <rename element='skip-to-content'>Đi đến nội dung chính</rename>
+    <rename element='previous'>Trước</rename>
+    <rename element='up'>Lên</rename>
+    <rename element='next'>Tiếp</rename>
+    <rename element='previous-short'>Trc</rename>
+    <rename element='up-short'>Lên</rename>
+    <rename element='next-short'>Tiếp</rename>
+
+    <rename element='incontext'>đầy đủ</rename>
   </docinfo>
 
   <article xml:id="basic-programming">

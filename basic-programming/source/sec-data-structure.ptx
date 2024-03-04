@@ -66,11 +66,11 @@ See the file COPYING for copying conditions.
     </program>
 
     <p>
-      Mặc dù vẫn không mấy thực tế (ta vẫn phải gõ 100 số), phiên bản này tốt hơn trước rất nhiều. Thay vì tạo ra 100 biến khác nhau, ta chỉ cần một biến có khả năng chứa 100 giá trị. (Đây là một <term>danh sách</term>, sẽ được bàn tới dưới đây.)
+      Mặc dù vẫn không mấy thực tế (ta vẫn phải gõ 100 số), phiên bản này tốt hơn trước rất nhiều. Thay vì tạo ra 100 biến khác nhau, ta chỉ cần một biến có khả năng chứa 100 phần tử. (Đây là một <term>danh sách</term>, sẽ được bàn tới dưới đây.)
     </p>
 
     <p>
-      Mỗi ngôn ngữ lập trình đều có tập hợp các cấu trúc dữ liệu của riêng mình. Mỗi cấu trúc dữ liệu đều có điểm mạnh và điểm yếu của mình.
+      Mỗi ngôn ngữ lập trình đều có tập hợp các cấu trúc dữ liệu của riêng mình. Mỗi cấu trúc dữ liệu đều có những điểm mạnh và điểm yếu.
     </p>
 
     <p>
@@ -92,7 +92,7 @@ See the file COPYING for copying conditions.
       <idx><h>Khái niệm</h><h>danh sách</h></idx>
       <statement>
         <p>
-          <term>Danh sách</term> có thể chứa nhiều giá trị cùng một lúc.
+          <term>Danh sách</term> có thể chứa nhiều phần tử cùng một lúc.
         </p>
         <p>
           Các phần tử của một danh sách trong Python có thể thuộc các kiểu dữ liệu <em>khác nhau</em>.
@@ -117,15 +117,15 @@ See the file COPYING for copying conditions.
     <note>
       <idx><h>Chú ý</h><h>danh sách vs mảng</h></idx>
       <p>
-        Trong một vài ngôn ngữ lập trình khác, có một kiểu dữ liệu tên là <term>mảng</term>. Nó hoạt động tương tự một danh sách trong Python.
+        Trong một vài ngôn ngữ lập trình khác, có một cấu trúc dữ liệu tên là <term>mảng</term>. Nó hoạt động tương tự một danh sách trong Python.
       </p>
 
       <p>
-        Python cũng có mảng, nhưng với một cách hoạt động hơi khác so với mảng trong các ngôn ngữ khác. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.
+        Python cũng có mảng, nhưng nó lại khác so với danh sách. Điều này cho thấy trong các ngôn ngữ, các kiểu dữ liệu có thể có cùng tên, nhưng khác cách hoạt động, hoặc ngược lại.
       </p>
 
       <p>
-        Thông thường thì cái tên <q>mảng</q> được biết đến nhiều hơn <q>danh sách</q>.
+        Thông thường thì cái tên <q>mảng</q> được biết đến nhiều hơn là <q>danh sách</q>.
       </p>
     </note>
 
