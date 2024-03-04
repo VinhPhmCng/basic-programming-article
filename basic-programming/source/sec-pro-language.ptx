@@ -161,7 +161,7 @@ See the file COPYING for copying conditions.
   </p>
   
   <insight>
-    <idx><h>Lưu ý</h><h>bậc cao vs bậc thấp</h></idx>
+    <idx><h>Chia sẻ</h><h>bậc cao vs bậc thấp</h></idx>
     <p>
       Để hình dung, bạn hãy tưởng tượng ngôn ngữ lập trình bậc cao là chiếc xe ô tô gia đình rất thân thiện với người dùng, ai cũng có thể học và lái được. Khi đó, bậc thấp sẽ là chiếc xe đua F1 mà chỉ những tay đua kỳ cựu nhất mới có thể điều khiển.
     </p>
@@ -204,7 +204,7 @@ See the file COPYING for copying conditions.
 
   <insight xml:id="insight-choose-pro-language">
     <title>Chọn Một Ngôn Ngữ Lập Trình</title>
-    <idx><h>Lưu ý</h><h>chọn một ngôn ngữ</h></idx>
+    <idx><h>Chia sẻ</h><h>chọn một ngôn ngữ</h></idx>
     <p>
       Khi một người mới bắt đầu học lập trình, họ thường xuyên gặp phải những câu hỏi hay chủ đề như:
       <ul>

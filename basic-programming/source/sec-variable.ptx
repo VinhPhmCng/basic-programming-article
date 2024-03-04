@@ -119,7 +119,7 @@ See the file COPYING for copying conditions.
   </investigation>
 
   <insight>
-    <idx><h>Lưu ý</h><h>đẳng thức</h></idx>
+    <idx><h>Chia sẻ</h><h>đẳng thức</h></idx>
     <p>
       Ví dụ trên về biến, dù đơn giản, đã làm rối não nhiều người mới bắt đầu, đặc biệt là những ai có bộ não toán học. Vì họ thấy <c>b = a</c> nên họ nghĩ đây là một đẳng thức luôn đúng trong suốt vòng đời của chương trình. Nhưng lối suy nghĩ đó là <em>sai</em> đối với lập trình.
     </p>
