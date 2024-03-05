@@ -222,10 +222,13 @@ See the file COPYING for copying conditions.
           <p>
             <term>Đăng bài về lỗi</term><mdash />Khi mọi phương pháp trên đều đã thất bại, thì đã đến lúc bạn tìm kiếm sự giúp đỡ trực tiếp từ mọi người. Bạn có thể hỏi người quen, hoặc lên những diễn đàn công nghệ và đăng bài viết về vấn đề mình đang gặp phải.
           </p>
-          <p>
+
+          <insight>
             <idx><h>Chia sẻ</h><h>văn hóa mạng</h></idx>
-            Hãy chắc chắn rằng bạn biết về các <term>văn hóa ứng xử trên mạng</term>. Vì bạn đang mong muốn sự giúp đỡ của người khác, một thái độ tôn trọng và văn minh là quan trọng thiết yếu.
-          </p>
+            <p>
+              Hãy chắc chắn rằng bạn biết về các <term>văn hóa ứng xử trên mạng</term>. Vì bạn đang mong muốn sự giúp đỡ của người khác, một thái độ tôn trọng và văn minh là quan trọng thiết yếu.
+            </p>
+          </insight>
         </li>
       </ol>
     </p>

@@ -12,36 +12,40 @@ See the file COPYING for copying conditions.
 
   <objectives>
     <ul>
-      <li>I'll bring up some insights and interesting topics that are worth knowing before you go into more advanced fundamentals.</li>
-      <li>This section is a bit longer than usual, so you don't have to read it all in one go. You can even skip the text and just watch the video.</li>
+      <li>
+        Tôi muốn chia sẻ với bạn một vài chủ đề thú vị và đáng biết trước khi bạn tiếp tục với những khái niệm phức tạp hơn.
+      </li>
+      <li>
+        Phần này có chút dài dòng, nên bạn có thể chọn ra những gì bạn thấy thú vị để đọc. Hoặc bạn cũng có thể chỉ xem video và bỏ qua văn bản. 
+      </li>
     </ul>
   </objectives>
 
   <introduction>
     <p>
-      Coming up are some of the many lessons I've learned throughout my journey as a programmer. Before we start, I'd like to have some words with you.
+      Tiếp đến là một số trong rất nhiều bài học tôi đã học được trong sự nghiệp của mình. Trước khi ta bắt đầu, tôi có vài lời muốn nói với bạn.
     </p>
 
     <p>
-      Honestly, if I could restart my journey as a programmer, I'd still do things all the same. It is thanks to the lessons I've learned from being inexperienced that I am who I am today. Others I learned by reading about people's mistakes on the Internet and avoiding making them, which is why I thought this section's a good idea.
+      Thật sự mà nói thì, nếu có thể bắt đầu lại hành trình học code, tôi vẫn sẽ làm mọi thứ đúng như vậy. Chính là nhờ những bài học rút ra từ sự thiếu kinh nghiệm mà tôi được như ngày hôm nay. Ngoài ra, tôi cũng thường hay tham khảo những sai lầm được đăng trên Internet và từ đó tránh mắc phải chúng. Chính vì thế mà tôi nghĩ phần này là một ý tưởng hay.
     </p>
 
     <p>
-      If your first exposure to programming is this article, then it's likely that your starting mindset will be very different from mine, in a good way of course.
+      Nếu bài viết này là nơi bạn tiếp xúc với lập trình lần đầu tiên, thì khả năng cao là bạn sẽ có một cách tiếp cận rất khác tôi, tất nhiên là theo hướng tốt.
     </p>
 
     <p>
-      Truthfully though, I'd like you to make a lot of mistakes still, which is why I won't write about step-by-step guides on how to avoid them, but instead my personal opinions. This is actually how my parents raised me, for which I'm extremely grateful. Basically, they didn't keep me away from making mistakes, which would mean I wasn't learning anything. Instead, they taught me about self-reflection and how to get the most learning out of mistakes. 
+      Thú thật, tôi muốn bạn mắc thật nhiều lỗi, nên bài viết này không phải là một hướng dẫn về cách tránh sai lầm, mà chỉ là ý kiến cá nhân của tôi. Đây chính là cách bố mẹ đã dạy dỗ tôi, và tôi rất biết ơn họ. Về cơ bản, họ không giúp tôi tránh xa lỗi lầm, vì điều đó có nghĩa là tôi không học được gì cả. Thay vào đó, họ dạy tôi học hỏi từ những sai lầm một cách hiệu quả nhất.
     </p>
 
     <p>
-      Okay then, I hope this section will be useful for you!
+      Được rồi, tôi hy vọng bạn sẽ thấy phần này hữu ích.
     </p>
 
   </introduction>
 
   <subsection xml:id="subsec-pe-start-simple">
-    <title>Start Simple</title>
+    <title>Khởi Đầu Đơn Giản</title>
 
     <p>
       I think when I first got into programming, I cared too much about choosing a programming language to learn. My Youtube feed and recommendations always had those topics mentioned in <xref ref="insight-choose-pro-language" text="global"/>. My inexperienced self would think those were important things to consider, and I'd watch every video that showed up to see people's opinions. But doing all that only made me scared of actually learning to code because I'd start asking myself questions like: 
@@ -108,7 +112,7 @@ See the file COPYING for copying conditions.
   </subsection>
 
   <subsection xml:id="subsec-pe-tutorial-hell">
-    <title>The Tutorial Hell</title>
+    <title>Tutorial Hell</title>
 
     <p>
       The tutorial hell is something every programmer has experienced at least once in their life. It's when you are constantly watching videos and reading articles teaching you to do something, but you never actually sit down and type away at a computer.
@@ -160,7 +164,7 @@ See the file COPYING for copying conditions.
   </subsection>
 
   <subsection xml:id="subsec-pe-open-minded">
-    <title>Be Open-Minded</title>
+    <title>Cởi Mở?</title>
     
     <p>
       There are always gonna be new interesting things to learn. So keep an open mind and be eager to learn them.
@@ -190,7 +194,7 @@ See the file COPYING for copying conditions.
   </subsection>
   
   <subsection xml:id="subsec-pe-tech-pointer">
-    <title>Some Technical Pointers</title>
+    <title>Một Số Gợi Ý Chuyên Môn</title>
     
     <introduction>
       <p>
@@ -199,7 +203,7 @@ See the file COPYING for copying conditions.
     </introduction>
 
     <subsubsection xml:id="subsubsec-pe-virtual-environment">
-      <title>Use A Simple Virtual Environment</title>
+      <title>Dùng Một Môi Trường Ảo Cơ Bản</title>
       
       <p>
         Let's say you decide to install Python on your machine to make a game. So you do just that<mdash />you download and install Python version 3.11.6 and Pygame (the Python library for making games). And everything works just fine.
@@ -230,7 +234,7 @@ See the file COPYING for copying conditions.
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-pe-cli">
-      <title>Learn To Use Command-Line Interfaces</title>
+      <title>Biết Một Ít Giao Diện Dòng Lệnh</title>
       
       <p>
         When the time comes for you to explore different languages and tools on your own, you will have to use command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the <sq>lower-level</sq> counterparts of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
