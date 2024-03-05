@@ -13,11 +13,29 @@ See the file COPYING for copying conditions.
   <objectives>
     <ul>
       <li>I'll bring up some insights and interesting topics that are worth knowing before you go into more advanced fundamentals.</li>
-      <li>This section is a bit longer than usual, so you don't have to read it all in one go. You can even skip the text and just watch the video.</li>
+      <li>This section is a bit wordy, so you can pick out topics that interest you, or you can even skip the text and just watch the video.</li>
     </ul>
   </objectives>
 
   <introduction>
+    <p>
+      <cd>
+      </cd>
+    </p>
+
+    <exploration>
+      <title>Basic Programming <mdash /> Part 12: My Experiences</title>
+      <idx><h>Videos</h><h>part 12</h></idx>
+    
+      <video youtube="iMXToAm9a0c"/>
+      
+    </exploration>
+
+    <p>
+      <cd>
+      </cd>
+    </p>
+
     <p>
       Coming up are some of the many lessons I've learned throughout my journey as a programmer. Before we start, I'd like to have some words with you.
     </p>
@@ -31,7 +49,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Truthfully though, I'd like you to make a lot of mistakes still, which is why I won't write about step-by-step guides on how to avoid them, but instead my personal opinions. This is actually how my parents raised me, for which I'm extremely grateful. Basically, they didn't keep me away from making mistakes, which would mean I wasn't learning anything. Instead, they taught me about self-reflection and how to get the most learning out of mistakes. 
+      Truthfully though, I'd like you to make a lot of mistakes still, which is why I won't write step-by-step guides on how to avoid them, but instead my personal opinions. This is actually how my parents raised me, for which I'm extremely grateful. Basically, they didn't keep me away from making mistakes, which would mean I wasn't learning anything. Instead, they taught me about self-reflection and how to get the most learning out of mistakes. 
     </p>
 
     <p>
@@ -51,10 +69,10 @@ See the file COPYING for copying conditions.
           <q>What if I learn the <sq>wrong</sq> language and it gets obsolete in the future?</q>
         </li>
         <li>
-          <q>What if language A is a better choice than language B a few years from now?</q>
+          <q>What if A becomes a better choice than B a few years from now?</q>
         </li>
         <li>
-          <q>How long would it take me to master this language?</q>
+          <q>How long would it take me to <sq>master</sq> this language?</q>
         </li>
         <li>
           <etc />
@@ -63,20 +81,20 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      At one point, I learned to think in a different way. For instance, there's a period when I was very into game development, and it kinda went like this:
+      At some point, I learned to think in a different way. For instance, there's a time when I was very into game development, and it kinda went like this:
 
       <ul>
         <li>
-          <q>Okay. I wanna make a game, so I'm gonna look up <sq>game engines for beginners</sq> on Google.</q>
+          <q>Okay. I wanna make a game, so let's look up <sq>game engines for beginners</sq> on Google.</q>
         </li>
         <li>
           After a few articles and videos, I ended up with Godot<mdash />an open-source game engine that's been gaining popularity, has a big and supportive community, and sufficient documentation.
         </li>
         <li>
-          <q>Okay, now do I wanna use GDScript (Godot's built-in language which has beginner-friendly syntax), or C# (supported by Godot for advanced customization which requires more skill).</q>
+          <q>Okay, now do I wanna use GDScript (Godot's built-in language which has beginner-friendly syntax), or C# (a popular language which is lower-level).</q>
         </li>
         <li>
-          Well, that question only took me 10 seconds to answer. I ain't about to learn C# to make no games.
+          Well, that question took me just 10 seconds to answer. <q>I ain't about to learn C# to make no games.</q>
         </li>
       </ul>
 
@@ -84,7 +102,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Because I already had some ideas in mind, I got straight into making them and learning necessary concepts as I went, but never more than I needed. If I got stuck, it'd mean I had some online research to do. Otherwise, I was doing just fine with whatever knowledge I had, even if my solutions weren't the most effective or beautiful.
+      Because I already had some ideas in mind, I got straight into making them and learning necessary concepts along the way, but never more than I needed. If I got stuck, it'd mean I had some online research to do. Otherwise, I was doing just fine with whatever knowledge I had, even if my solutions weren't the most effective or beautiful.
     </p>
 
     <p>
@@ -92,7 +110,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      <sq>Starting simple</sq> can also be applied to choosing a code editor or IDE (integrated development environment). I chose the Godot engine also because it comes with a built-in coding environment. Until now, I think I've tried 5 IDEs at most, and I've been sticking with VSCode for a while because, again, it's beginner-friendly.
+      <sq>Starting simple</sq> can also be applied to choosing a code editor or IDE (integrated development environment). I chose the Godot engine also because it comes with a built-in coding environment. Until now, I think I've tried 5 IDEs at most, and I've stuck with VSCode for a while because, again, it's beginner-friendly.
     </p>
 
     <p>
@@ -101,7 +119,7 @@ See the file COPYING for copying conditions.
 
     <warning>
       <p>
-        You can choose a programming language and a code editor/IDE by thinking simply. Start by coming up with a small and achievable idea and then look for suitable tools by asking the Internet.
+        You can choose a programming language and a code editor/IDE by thinking simply. Start by coming up with a small and achievable idea. Then, look for suitable tools by asking the Internet.
       </p>  
     </warning>
     
@@ -230,7 +248,7 @@ See the file COPYING for copying conditions.
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-pe-cli">
-      <title>Learn To Use Command-Line Interfaces</title>
+      <title>Know A Bit About Command-Line Interfaces</title>
       
       <p>
         When the time comes for you to explore different languages and tools on your own, you will have to use command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the <sq>lower-level</sq> counterparts of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
@@ -257,21 +275,5 @@ See the file COPYING for copying conditions.
     </subsubsection>
 
   </subsection>
-
-  <conclusion>
-    <p>
-      <cd>
-      </cd>
-    </p>
-
-    <exploration>
-      <title>Basic Programming <mdash /> Part 12: My Experiences</title>
-      <idx><h>Videos</h><h>part 12</h></idx>
-    
-      <video youtube="iMXToAm9a0c"/>
-      
-    </exploration>
-
-  </conclusion>
 
 </section>
