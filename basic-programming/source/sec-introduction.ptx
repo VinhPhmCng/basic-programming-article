@@ -12,16 +12,16 @@ See the file COPYING for copying conditions.
 
   <introduction>
     <p>
-      Welcome my friend! This is an article on <term>programming</term> and its most <term>fundamental concepts</term>, as you can see in the Table of Contents to your left. The knowledge is designed to be as beginner-friendly as possible, making each section a 5 to 10-minute read.
+      Welcome my friend! Đây là một bài viết về <term>lập trình</term> và các <term>khái niệm cơ bản</term> nhất của nó, như bạn có thể thấy ở bảng Mục lục phía bên trái. Các kiến thức được thiết kế sao cho thân thiện với người mới bắt đầu nhất có thể. Vì vậy, mỗi phần có thời lượng đọc từ 5 đến 10 phút.
     </p>
     
     <p>
       <idx><h>Liên kết</h><h>series Youtube</h></idx>
-      This article is also adapted into videos, which are <url href="https://www.youtube.com/" visual="youtube.com">available on Youtube</url> and also embedded into the corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial. (P.S. The videos are short and quite silly because I'm new to editing.)
+      Bài viết cũng được chuyển thể thành các <url href="https://www.youtube.com/" visual="youtube.com">video trên Youtube</url>, và chúng cũng được nhúng vào từng phần tương ứng. Bằng cách này, dù bạn là visual learner hay auditory learner, hay cả hai, bạn có thể tìm ra cách học tập thoải mái nhất. (P.S. Các video khá ngắn và ngớ ngẩn, vì tôi mới bắt đầu tập tành editing.)
     </p>
 
     <p>
-      That's it! Going forward I hope I can give you a good first impression of the wonderful world of programming. Despite the title, I hope this article will be useful and entertaining to both complete novices and those who've had minimal contact with programming.
+      OK! Trong các phần tiếp theo, tôi mong tôi có thể mang lại cho bạn một ấn tượng đầu tốt về thế giới của lập trình. Dù tiêu đề là <sq>cho người mới</sq>, tôi mong bài viết này sẽ thật hữu ích và giải trí cho mọi đối tượng độc giả<mdash />người mới hoàn toàn hay người đã có tiếp xúc với lập trình.
     </p>
 
   </introduction>
@@ -32,49 +32,49 @@ See the file COPYING for copying conditions.
 
     <p>
       <idx><h>Khái quát</h><h>nội dung</h></idx>
-      An overview of the contents:
+      Khái quát nội dung:
 
       <ul>
         <li>
-          <term>Sections 1 and 2</term>: An introduction to the article.
+          <term>Phần 1 và 2</term>: Giới thiệu.
         </li>
         <li>
-          <term>Sections 3 to 10</term>: Fundamental concepts of programming.
+          <term>Phần 3 đến 10</term>: Các khái niệm lập trình cơ bản.
         </li>
         <li>
-          <term>Sections 11 and 12</term>: My personal experiences.
+          <term>Phần 11 và 12</term>: Kinh nghiệm cá nhân.
         </li>
         <li>
           <p>
-            <term>Sections 13 to 19 (under development, tentative)</term>: Slightly more advanced fundamental concepts.
+            <term>Phần 13 đến 19 (đang phát triển)</term>: Các khái niệm lập trình cơ bản khó hơn một chút.
           </p>
         </li>
       </ul>
     </p>
 
     <p>
-      New concepts will be introduced with the following structure:
+      Các khái niệm mới sẽ được trình bày với cấu trúc sau:
       <ol>
         <li>
-          Definition
+          Định nghĩa
         </li>
         <li>
           Ví dụ code
         </li>
         <li>
-          Explanations for examples
+          Lời giải thích cho ví dụ
         </li>
       </ol>
 
-      When running <em>code examples</em>, you should <term>simultaneously</term> read the corresponding explanations for the best learning experience.
+      Khi chạy các <em>ví dụ code</em>, bạn nên <term>song song</term> đọc lời giải thích để dễ dàng tiếp thu vấn đề.
     </p>
 
     <p>
-      You can also watch the videos, before or after reading each section. They have cool visuals and present ideas in a different way.
+      Bạn cũng có thể xem bản video trước hoặc sau khi đọc mỗi phần. Chúng có nhiều hiệu ứng thú vị và trình bày ý tưởng theo một hướng khác. 
     </p>
 
     <p>
-      Bạn có thể tìm thấy các ngôn ngữ khả dụng trong <xref ref="colophon" text="title"/>.
+      Bạn có thể tìm thấy các ngôn ngữ khả dụng ở <xref ref="colophon" text="title"/>.
     </p>
   </subsection>
 
@@ -83,34 +83,34 @@ See the file COPYING for copying conditions.
     <idx><h>Ủng hộ</h></idx>
     <p>
       <idx><h>Liên kết</h><h>mã nguồn</h></idx>
-      This is an open-source project, meaning its source code is available on Github<mdash /><url href="https://github.com/VinhPhmCng/basic-programming-article" visual="github.com/VinhPhmCng/basic-programming-article">here</url>.
+      Đây là dự án mã nguồn mở, được lưu trữ trên Github<mdash /><url href="https://github.com/VinhPhmCng/lap-trinh-co-ban-article" visual="github.com/VinhPhmCng/lap-trinh-co-ban-article">ở đây</url>.
     </p>
 
     <p>
       <idx><h>Ủng hộ</h><h>trực tiếp</h></idx>
       <idx><h>Liên kết</h><h>đóng góp</h></idx>
-      Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details.
+      Độc giả có thể tạo một tài khoản Github miễn phí và trực tiếp đưa ra phản hồi hay đề xuất. Nếu bạn là một lập trình viên, bạn có thể đóng góp bằng cách dịch bài viết này sang ngôn ngữ của bạn. Tham khảo <url href="https://github.com/VinhPhmCng/lap-trinh-co-ban-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/lap-trinh-co-ban-article?tab=readme-ov-file#contribute">Đóng Góp</url> để biết thêm thông tin chi tiết. (P.S. Ước gì ai đó sẽ cải thiện văn phong của article này. Tôi viết văn tệ vl.)
     </p>
 
     <p>
       <idx><h>Ủng hộ</h><h>công cụ</h></idx>
-      This page is built with <pretext />, which features built-in interactive code cells, enhancing your experience. Please support them as well!
+      Trang web này được phát triển bằng <pretext />. Bạn hãy ủng hộ cho họ nữa nhé!
     </p>
 
     <p>
       <idx><h>Ủng hộ</h><h>các video</h></idx>
       <idx><h>Liên kết</h><h>công cụ</h></idx>
-      Enjoying the Youtube series is not only an effective way to learn, but also a great way of supporting the project. More details on the tools and resources used to create the videos can be found <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#tools-and-resources-used-for-videos">here</url>.
+      Thưởng thức Youtube series của dự án không chỉ là một cách học hiệu quả, mà còn là một cách tuyệt vời để hỗ trợ dự án. Bạn có thể tìm hiểu thêm thông tin về các công cụ và tài nguyên được sử dụng để làm video <url href="https://github.com/VinhPhmCng/lap-trinh-co-ban-article?tab=readme-ov-file#tools-and-resources-used-for-videos" visual="github.com/VinhPhmCng/lap-trinh-co-ban-article?tab=readme-ov-file#tools-and-resources-used-for-videos">ở đây</url>.
     </p>
 
     <p>
       <idx><h>Ủng hộ</h><h></h></idx>
       <idx><h>Liên kết</h><h>ủng hộ</h></idx>
-      And if you really appreciate the contents, consider leaving a donation <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq">here</url>. Thanks a bunch!
+      Và nếu bạn thực sự đánh giá cao content, bạn có thể cân nhắc donate <url href="https://www.buymeacoffee.com/vinhpcdevq" visual="buymeacoffee.com/vinhpcdevq">tại đây</url>. Xin chân thành cảm ơn!
     </p>
 
     <p>
-      Now then, let's get started, shall we?
+      OK then, let's gooo!
     </p>
   </subsection>
 

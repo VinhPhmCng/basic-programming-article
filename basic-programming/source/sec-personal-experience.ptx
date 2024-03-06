@@ -23,247 +23,6 @@ See the file COPYING for copying conditions.
 
   <introduction>
     <p>
-      Tiếp đến là một số trong rất nhiều bài học tôi đã học được trong sự nghiệp của mình. Trước khi ta bắt đầu, tôi có vài lời muốn nói với bạn.
-    </p>
-
-    <p>
-      Thật sự mà nói thì, nếu có thể bắt đầu lại hành trình học code, tôi vẫn sẽ làm mọi thứ đúng như vậy. Chính là nhờ những bài học rút ra từ sự thiếu kinh nghiệm mà tôi được như ngày hôm nay. Ngoài ra, tôi cũng thường hay tham khảo những sai lầm được đăng trên Internet và từ đó tránh mắc phải chúng. Chính vì thế mà tôi nghĩ phần này là một ý tưởng hay.
-    </p>
-
-    <p>
-      Nếu bài viết này là nơi bạn tiếp xúc với lập trình lần đầu tiên, thì khả năng cao là bạn sẽ có một cách tiếp cận rất khác tôi, tất nhiên là theo hướng tốt.
-    </p>
-
-    <p>
-      Thú thật, tôi muốn bạn mắc thật nhiều lỗi, nên bài viết này không phải là một hướng dẫn về cách tránh sai lầm, mà chỉ là ý kiến cá nhân của tôi. Đây chính là cách bố mẹ đã dạy dỗ tôi, và tôi rất biết ơn họ. Về cơ bản, họ không giúp tôi tránh xa lỗi lầm, vì điều đó có nghĩa là tôi không học được gì cả. Thay vào đó, họ dạy tôi học hỏi từ những sai lầm một cách hiệu quả nhất.
-    </p>
-
-    <p>
-      Được rồi, tôi hy vọng bạn sẽ thấy phần này hữu ích.
-    </p>
-
-  </introduction>
-
-  <subsection xml:id="subsec-pe-start-simple">
-    <title>Khởi Đầu Đơn Giản</title>
-
-    <p>
-      I think when I first got into programming, I cared too much about choosing a programming language to learn. My Youtube feed and recommendations always had those topics mentioned in <xref ref="insight-choose-pro-language" text="global"/>. My inexperienced self would think those were important things to consider, and I'd watch every video that showed up to see people's opinions. But doing all that only made me scared of actually learning to code because I'd start asking myself questions like: 
-
-      <ul>
-        <li>
-          <q>What if I learn the <sq>wrong</sq> language and it gets obsolete in the future?</q>
-        </li>
-        <li>
-          <q>What if language A is a better choice than language B a few years from now?</q>
-        </li>
-        <li>
-          <q>How long would it take me to master this language?</q>
-        </li>
-        <li>
-          <etc />
-        </li>
-      </ul>
-    </p>
-
-    <p>
-      At one point, I learned to think in a different way. For instance, there's a period when I was very into game development, and it kinda went like this:
-
-      <ul>
-        <li>
-          <q>Okay. I wanna make a game, so I'm gonna look up <sq>game engines for beginners</sq> on Google.</q>
-        </li>
-        <li>
-          After a few articles and videos, I ended up with Godot<mdash />an open-source game engine that's been gaining popularity, has a big and supportive community, and sufficient documentation.
-        </li>
-        <li>
-          <q>Okay, now do I wanna use GDScript (Godot's built-in language which has beginner-friendly syntax), or C# (supported by Godot for advanced customization which requires more skill).</q>
-        </li>
-        <li>
-          Well, that question only took me 10 seconds to answer. I ain't about to learn C# to make no games.
-        </li>
-      </ul>
-
-      After that, it was really just a constant cycle of studying online materials and experimenting with stuff.
-    </p>
-
-    <p>
-      Because I already had some ideas in mind, I got straight into making them and learning necessary concepts as I went, but never more than I needed. If I got stuck, it'd mean I had some online research to do. Otherwise, I was doing just fine with whatever knowledge I had, even if my solutions weren't the most effective or beautiful.
-    </p>
-
-    <p>
-      Personally, I think it's good that I did that instead of watching a 12-hour course covering every little thing about game development and making somebody else's idea.
-    </p>
-
-    <p>
-      <sq>Starting simple</sq> can also be applied to choosing a code editor or IDE (integrated development environment). I chose the Godot engine also because it comes with a built-in coding environment. Until now, I think I've tried 5 IDEs at most, and I've been sticking with VSCode for a while because, again, it's beginner-friendly.
-    </p>
-
-    <p>
-      The code cells provided in this article are very minimal and might be slightly inconvenient, but they're everything you need to start, aren't they?
-    </p>
-
-    <warning>
-      <p>
-        You can choose a programming language and a code editor/IDE by thinking simply. Start by coming up with a small and achievable idea and then look for suitable tools by asking the Internet.
-      </p>  
-    </warning>
-    
-  </subsection>
-
-  <subsection xml:id="subsec-pe-tutorial-hell">
-    <title>Tutorial Hell</title>
-
-    <p>
-      The tutorial hell is something every programmer has experienced at least once in their life. It's when you are constantly watching videos and reading articles teaching you to do something, but you never actually sit down and type away at a computer.
-    </p>
-
-    <p>
-      The reason for this phenomenon could be a lack of motivation or ideas, procrastination, poor social media management, <etc /> It's also because there's an abundance of online resources and contents about coding, which can be excessive sometimes.
-    </p>
-
-    <p>
-      Whenever this happens to me, I'd force myself to put down the phone and turn on my computer. Then I'd open up the browser and code editor and start looking for something very easy to do and also interesting enough. This whole process takes at most 5 minutes, but it always gets me to begin writing some code, whatever it may be about.
-    </p>
-
-    <warning>
-      <p>
-        Just do something. You learn by doing, not by mindlessly consuming content.
-      </p>
-    </warning>
-    
-  </subsection>
-
-  <subsection xml:id="subsec-pe-have-fun">
-    <title>Have Fun</title>
-    <p>
-      Since stress and burn-outs are gonna be unavoidable sometimes, I think it's incredibly important to always have fun with the process. There are always annoying error messages showing up one after another, getting stuck while following step-by-step installation guides, understanding nothing about a new concept, and so on. And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not for you.
-    </p>
-
-    <p>
-      Honestly, these kinds of stress occur in every creative discipline and to everybody. Some days are good, some days are bad. So, why not just enjoy the process and have fun along the way?
-    </p>
-
-    <p>
-      Know that even if you think you're not making any progress, you definitely are. The author of <sq>Atomic Habits</sq><mdash />James Clear<mdash />associates this feeling with the <term>Value of Disappointment</term>. Basically, your progress is <em>not</em> a linear line always going up that you can feel every day. Instead, it's more of an exponential curve that starts slow and gradually picks up the speed. Though there are days when you feel like it's not going anywhere, there are also days when something just clicks, and you're on a roll.
-    </p>
-
-    <p>
-      If you get stuck, maybe find a new simple goal and learn a new language? You've learned the fundamentals, which are applicable to most modern programming languages. So as you learn the 2nd, the 3rd language, and so on, you're discovering new possibilities, and your potential is only ever going up.
-    </p>
-
-    <warning>
-      <p>
-        So long as you find joy in the process, you can always get back to it and do better than ever before.
-      </p>
-      <p>
-        If you keep learning and doing, you will improve without a doubt.
-      </p>
-    </warning>
-    
-  </subsection>
-
-  <subsection xml:id="subsec-pe-open-minded">
-    <title>Cởi Mở?</title>
-    
-    <p>
-      There are always gonna be new interesting things to learn. So keep an open mind and be eager to learn them.
-    </p>
-    
-    <p>
-      In coding communities, there are often these conventions and rules of thumb such as how to name variables, how to format code, how to organize files, <etc /> So people learn them to improve efficiency and cooperation. And depending on the community, purpose, and choice of programming language, standards are gonna vary. Thus, you should be objective and neutral when entering new environments and meeting new people, since you have to learn their game.
-    </p>
-
-    <p>
-      As a beginner, only you will ever read your own code. So, it's good to create a good balance between learning good habits and having freedom. Basically, you should always try to improve your code, but also take it easy. There's no need to be able to produce beautiful or efficient code right off the bat, cause that'd be super stressful.
-    </p>
-
-    <p>
-      Experienced programmers often share best practices. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to different situations, not make you a close-minded coder who always does things the same way.
-    </p>
-
-    <warning>
-      <p>
-        You should always be open to new ideas.
-      </p>
-      <p>
-        You should keep a balance between building good habits and trying new things.
-      </p>
-    </warning>
-    
-  </subsection>
-  
-  <subsection xml:id="subsec-pe-tech-pointer">
-    <title>Một Số Gợi Ý Chuyên Môn</title>
-    
-    <introduction>
-      <p>
-        I'll try my best to make this short and easy to understand.
-      </p>
-    </introduction>
-
-    <subsubsection xml:id="subsubsec-pe-virtual-environment">
-      <title>Dùng Một Môi Trường Ảo Cơ Bản</title>
-      
-      <p>
-        Let's say you decide to install Python on your machine to make a game. So you do just that<mdash />you download and install Python version 3.11.6 and Pygame (the Python library for making games). And everything works just fine.
-      </p>
-
-      <p>
-        Fast forward, now you wanna make some cool animations with Python. So you ask the Internet and Manim shows up. And you follow its installation guide and are very eager to get started. At one point, it says something along the lines of <q>Manim needs Python version 3.12.1 to work...</q> Not a problem? All you have to do is update Python and everything's good to go again.
-      </p>
-
-      <p>
-        However, when you go back to your Pygame projects, which were running just fine before, there are errors. Looking them up, you find out that Pygame doesn't work with Python version 3.12.1 yet. So do you downgrade Python to continue developing games at the expense of Manim, or do you forsake the games you've been so passionate about?
-      </p>
-
-      <p>
-        A worse case is when you accidentally install both versions of Python on your machine and have them run simultaneously. Now this is really gonna mess you and your PC up as conflicts upon conflicts show up.
-      </p>
-
-      <p>
-        So, a straightforward solution is to use a virtual environment, which prevents the not-so-hypothetical predicament above. It helps manage programming packages and dependencies on a per-environment basis, meaning you can have multiple environments unrelated to one another. Maybe one for game development, and one for animating?
-      </p>
-
-      <warning>
-        <p>
-          Look for and use a simple virtual environment, which helps prevent conflicts between incompatible programming packages and dependencies.
-        </p>
-      </warning>
-      
-    </subsubsection>
-
-    <subsubsection xml:id="subsubsec-pe-cli">
-      <title>Biết Một Ít Giao Diện Dòng Lệnh</title>
-      
-      <p>
-        When the time comes for you to explore different languages and tools on your own, you will have to use command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the <sq>lower-level</sq> counterparts of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
-      </p>
-
-      <p>
-        But don't worry, you don't have to take a course on this. You will gradually learn the common commands as you go. Detailed guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key anyways.
-      </p>
-
-      <p>
-        Honestly, when I use PyPI (or PIP, which is a package manager for Python) all I know is how to install, update, and uninstall stuff. And I use the CMD for navigating files, switching between administration modes, and using virtual environments. That's it, nothing else really.
-      </p>
-      
-      <p>
-        Finally, if errors show up when using CLIs, you just need to apply exactly what you've learned in the previous section.
-      </p>
-
-      <warning>
-        <p>
-          As you explore on your own, you will naturally learn to use command-line interfaces.
-        </p>
-      </warning>
-
-    </subsubsection>
-
-  </subsection>
-
-  <conclusion>
-    <p>
       <cd>
       </cd>
     </p>
@@ -276,6 +35,296 @@ See the file COPYING for copying conditions.
       
     </exploration>
 
-  </conclusion>
+    <p>
+      <cd>
+      </cd>
+    </p>
+
+    <p>
+      Tiếp đến là một số trong rất nhiều bài học tôi đã học được trong sự nghiệp của mình. Trước khi ta bắt đầu, tôi có vài lời muốn nói với bạn.
+    </p>
+
+    <p>
+      Thật sự mà nói thì, nếu có thể bắt đầu lại hành trình học code, tôi vẫn sẽ làm mọi thứ đúng như vậy. Chính là nhờ những bài học rút ra từ sự thiếu kinh nghiệm mà tôi được như ngày hôm nay. Ngoài ra, tôi cũng thường hay tham khảo những sai lầm được đăng trên Internet và từ đó tránh mắc phải chúng. Chính vì thế mà tôi nghĩ đề mục này là một ý tưởng hay.
+    </p>
+
+    <p>
+      Nếu bài viết này là nơi bạn tiếp xúc với lập trình lần đầu tiên, thì khả năng cao là bạn sẽ có một cách tiếp cận rất khác tôi, tất nhiên là theo hướng tốt.
+    </p>
+
+    <p>
+      Thú thật, tôi muốn bạn mắc thật nhiều lỗi, nên bài viết này không phải là một hướng dẫn về cách tránh sai lầm, mà chỉ là ý kiến cá nhân của tôi. Đây chính là cách bố mẹ đã dạy dỗ tôi, và tôi rất biết ơn họ. Về cơ bản, họ không giúp tôi tránh xa lỗi lầm, vì điều đó có nghĩa là tôi không học được gì cả. Thay vào đó, họ dạy tôi học hỏi từ những sai lầm một cách hiệu quả nhất.
+    </p>
+
+    <p>
+      Được rồi, tôi hy vọng bạn sẽ thấy bài viết này hữu ích.
+    </p>
+
+  </introduction>
+
+  <subsection xml:id="subsec-pe-start-simple">
+    <title>Khởi Đầu Đơn Giản</title>
+
+    <warning>
+      <p>
+        Bạn có thể chọn một ngôn ngữ lập trình, trình soạn thảo, hay IDE bằng cách suy nghĩ đơn giản.
+      </p>  
+      <p>
+        Hãy bắt đầu bằng việc nảy ra một ý tưởng nhỏ và có thể thực hiện được. Sau đó, hỏi Internet và tìm kiếm các công cụ và tài liệu học tập phù hợp.
+      </p>
+    </warning>
+    
+    <p>
+      Khi tôi mới bước chân vào lập trình, tôi đã quan tâm quá nhiều đến việc chọn một ngôn ngữ lập trình để học. Youtube hay đề xuất cho tôi những chủ đề được nhắc đến trong <xref ref="insight-choose-pro-language" text="global"/>. Vì thiếu kinh nghiệm, tôi luôn nghĩ chúng là những điều quan trọng cần được cân nhắc, và tôi sẽ cày mọi video để xem ý kiến của mọi người. Nhưng, việc này chỉ khiến tôi ngày càng sợ việc học code, vì tôi sẽ thường xuyên hỏi bản thân những câu hỏi như:
+
+      <ul>
+        <li>
+          <q>Nếu như mình học <sq>sai</sq> ngôn ngữ và nó trở nên lỗi thời trong tương lai thì sao?</q>
+        </li>
+        <li>
+          <q>Nếu như A trở thành lựa chọn tốt hơn B vài năm kể từ bây giờ thì sao?</q>
+        </li>
+        <li>
+          <q>Mình sẽ mất bao lâu để <sq>làm chủ</sq> ngôn ngữ này?</q>
+        </li>
+        <li>
+          v.v.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      Đến một lúc nào đó, tôi đã học suy nghĩ theo một hướng khác. Để ví dụ, có một khoảng thời gian tôi rất hứng thú với game development, và nó diễn ra như thế này: 
+
+      <ul>
+        <li>
+          <q>OK, mình muốn làm game. Thế thì tra Google <sq>game engines for beginners</sq> nào.</q>
+        </li>
+        <li>
+          Sau một vài bài viết và video, tôi tìm thấy Godot<mdash />một game engine mã nguồn mở đang ngày càng phổ biến, có cộng đồng lớn ủng hộ, và đầy đủ tài liệu.
+        </li>
+        <li>
+          <q>OK, bây giờ thì mình muốn dùng GDScript (ngôn ngữ có sẵn của Godot, có cú pháp thân thiện người dùng), hay là C# (một ngôn ngữ phổ biến hơn, có cú pháp bậc thấp hơn)?</q>
+        </li>
+        <li>
+          Chà, tôi chỉ mất 10 giây để trả lời câu hỏi đó. <q>Có c*t bố mày mới học C# để làm game.</q>
+        </li>
+      </ul>
+
+      Sau đó, nó thực sự chỉ là tham khảo tài liệu trên mạng và thử nghiệm nhiều thứ, lặp đi lặp lại.
+    </p>
+
+    <p>
+      Có sẵn ý tưởng trong đầu, tôi chỉ việc bắt tay vào thực hiện và học những khái niệm cần thiết trong quá trình, nhưng không bao giờ hơn mức cần thiết. Nếu gặp khó khăn có nghĩa là tôi phải học thêm cái gì đó. Còn không thì tôi cứ tiếp tục với lượng kiến thức mình có, ngay cả khi cách làm của tôi không quá đẹp đẽ hay hiệu quả.
+    </p>
+
+    <p>
+      Cá nhân tôi nghĩ phong cách đó hợp với mình. Tôi không muốn ngồi xem một video dài 12 tiếng bao gồm mọi chi tiết nhỏ nhặt về phát triển game, để rồi cuối cùng làm một trò chơi là ý tưởng của người khác.
+    </p>
+
+    <p>
+      <sq>Bắt đầu đơn giản</sq> cũng có thể được áp dụng để chọn một trình soạn thảo và biên dịch code. Cho đến nay, chắc tôi đã thử cùng lắm là 5 IDE (integrated development environments), và tôi gắn bó với VSCode nhiều nhất vì, một lần nữa, nó thân thiện người dùng.
+    </p>
+
+    <p>
+      Các ô code được cung cấp ở đây có thể rất khiêm tốn và hơi bất tiện, nhưng chúng là tất cả những gì bạn cần để bắt đầu, phải không nào?
+    </p>
+
+  </subsection>
+
+  <subsection xml:id="subsec-pe-tutorial-hell">
+    <title>Tutorial Hell</title>
+
+    <warning>
+      <p>
+        Làm gì cũng được, miễn là làm gì đó. Bạn học bằng cách thực hành, chứ không phải tiêu thụ mạng xã hội.
+      </p>
+    </warning>
+    
+    <p>
+      Mọi lập trình viên đều đã từng trải qua <sq>tutorial hell</sq>. Đó là khi bạn liên tục xem video và đọc các bài viết hướng dẫn bạn làm gì đó, nhưng bạn không bao giờ thực sự ngồi xuống và code.
+    </p>
+
+    <p>
+      Nguyên nhân của hiện tượng này có thể là sự thiếu động lực, thiếu ý tưởng, sự trì hoãn, kỹ năng quản lý sử dụng mạng xã hội kém, v.v. Một phần là do có rất nhiều nội dung về code trên mạng, đôi khi nhiều hơn cần thiết.
+    </p>
+
+    <p>
+      Khi cảm thấy mình đang trải nghiệm <sq>turoial hell</sq>, tôi sẽ buộc mình phải đặt điện thoại xuống và bật máy tính lên. Rồi tôi mở Google và VSCode và bắt đầu tìm kiếm thứ gì đó thật dễ làm mà cũng đủ thú vị. Toàn bộ quá trình này tốn cùng lắm là 5 phút, nhưng nó luôn thành công khiến tôi viết code, bất kể là về cái gì.
+    </p>
+
+  </subsection>
+
+  <subsection xml:id="subsec-pe-have-fun">
+    <title>Tận Hưởng</title>
+
+    <warning>
+      <p>
+        Miễn là bạn tìm thấy niềm vui trong quá trình, bạn luôn có thể quay lại và làm tốt hơn bao giờ hết.
+      </p>
+      <p>
+        Nếu bạn tiếp tục học và làm, bạn chắc chắn sẽ tiến bộ.
+      </p>
+    </warning>
+    
+    <p>
+      Đôi khi, bị căng thẳng hay kiệt sức là điều không thể tránh khỏi. Vì vậy, tôi nghĩ việc tận hưởng quá trình là vô cùng quan trọng.
+    </p>
+
+    <p>
+      Đừng lo, chắc chắn bạn sẽ phải trải qua:
+      <ul>
+        <li>
+          lỗi, lỗi, và lỗi
+        </li>
+        <li>
+          bị kẹt khi làm theo hướng dẫn từng bước
+        </li>
+        <li>
+          không hiểu gì cả khi học khái niệm mới
+        </li>
+        <li>
+          v.v.
+        </li>
+      </ul>
+      Và sẽ có những lúc bạn cảm thấy mình đang chả tiến bộ gì cả, rồi bạn nghi ngờ bản thân và tự hỏi liệu lập trình phải chăng là một ý tưởng tồi.
+    </p>
+
+    <p>
+      Thành thật mà nói, những kiểu căng thẳng này xảy ra trong mọi lĩnh vực sáng tạo và đối với tất cả mọi người. Có ngày bạn cảm thấy tốt, có ngày thì không. Thế thì, thà cứ tận hưởng và vui chơi trong suốt quá trình, phải không nào?
+    </p>
+
+    <p>
+      Hãy hiểu rằng, ngay cả khi bản thân nghĩ mình đang không tiến bộ, thì bạn đang luôn luôn tiến bộ. Tác giả của quyển <sq>Atomic Habits</sq><mdash />James Clear<mdash />liên kết cảm giác này với <term>Thung lũng Thất vọng</term>. Về cơ bản, sự tiến bộ <em>không</em> phải là một đường thẳng tuyến tính luôn đi lên mà bạn có thể cảm thấy mỗi ngày. Thay vào đó, nó giống như một đường cong lũy tiến. Nó bắt đầu chậm, nhưng dần dần sẽ tăng tốc độ. Mặc dù có những ngày bạn cảm thấy không đâu vào đâu cả, cũng có những ngày mọi thứ lại đâu vào đó, và bạn cảm giác mình đang phát triển rất nhanh.
+    </p>
+
+    <p>
+      Nếu bạn bị kẹt, sao không thử tìm một mục tiêu mới đơn giản và học một ngôn ngữ mới? Bạn đã học hết những kiến thức cốt lõi, có thể được áp dụng cho hầu hết các ngôn ngữ lập trình hiện đại. Vì vậy, khi bạn học ngôn ngữ thứ hai, thứ ba, v.v., bạn đang khám phá những khả năng mới và tăng tiềm năng bản thân. 
+    </p>
+
+  </subsection>
+
+  <subsection xml:id="subsec-pe-open-minded">
+    <title>Khách Quan</title>
+    
+    <warning>
+      <p>
+        Hãy luôn cởi mở với những ý tưởng mới.
+      </p>
+      <p>
+        Bạn nên giữ cân bằng giữa việc xây dựng thói quen tốt và thử những thứ mới.
+      </p>
+    </warning>
+    
+    <p>
+      Luôn có những thứ mới mẻ và thú vị để học hỏi. Vì vậy, hãy giữ một tâm trí cởi mở và ham học.
+    </p>
+    
+    <p>
+      Trong các cộng đồng lập trình, ta thường hay thấy những quy ước hay quy tắc ngón tay cái như:
+      <ul>
+        <li>
+          cách đặt tên biến
+        </li>
+        <li>
+          cách định dạng code
+        </li>
+        <li>
+          cách sắp xếp thư mục
+        </li>
+        <li>
+          v.v.
+        </li>
+      </ul>
+      Mọi người tuân theo chúng để nâng cao hiệu quả và hợp tác. Và tùy thuộc vào cộng đồng, mục đích, hay ngôn ngữ lập trình, các tiêu chuẩn sẽ thay đổi. Vì vậy, bạn nên giữ một thái độ khách quan và trung lập khi bước vào một môi trường mới và gặp gỡ mọi người, vì bạn làm quen với <sq>trò chơi</sq> của họ.
+    </p>
+
+    <p>
+      Đối với người mới, sẽ chẳng có ai khác ngoài bạn đọc code mà bạn viết. Vì vậy, việc cân bằng thói quen và sự tự do là một ý tưởng tốt. Bạn nên cố gắng cải thiện cách viết code của mình, nhưng cũng nên từ từ và không cố quá. Việc viết code một cách đẹp đẽ hay hiệu quả ngay lập tức là không cần thiết, và cũng sẽ cực kỳ căng thẳng.
+    </p>
+
+    <p>
+      Các lập trình viên kỳ cựu thường hay chia sẻ thói quen tốt của họ. Những chia sẻ này có thể rất có ích, nhưng cũng có thể gây hại nếu bạn lạm dụng chúng mà không thực sự hiểu biết. Mục đích của việc học thói quen của người khác là giúp bạn phân tích và thích nghi với tình huống mới, chứ không phải biến bạn thành một coder bảo thủ, luôn làm mọi thứ theo một cách.
+    </p>
+
+  </subsection>
+  
+  <subsection xml:id="subsec-pe-tech-pointer">
+    <title>Một Số Gợi Ý Chuyên Môn</title>
+    
+    <introduction>
+      <p>
+      </p>
+    </introduction>
+
+    <subsubsection xml:id="subsubsec-pe-virtual-environment">
+      <title>Dùng Một Môi Trường Ảo Cơ Bản</title>
+      
+      <warning>
+        <p>
+          Tìm hiểu và sử dụng một môi trường ảo đơn giản. Nó giúp phòng ngừa sự không thích giữa các thư viện và gói phụ thuộc.  
+        </p>
+      </warning>
+      
+      <p>
+        Giả sử bạn muốn làm game với Python. Nên bạn tải và cài đặt Python bản 3.11.6 và Pygame (thư viện để làm game của Python). Và có vẻ mọi thứ đều hoạt động tốt.
+      </p>
+
+      <p>
+        Một thời gian sau... Tự nhiên bạn muốn làm animation với Python. Nên bạn hỏi Internet, và Manim xuất hiện. Bạn hào hứng làm theo hướng dẫn cài đặt của nó và rất háo hức để bắt đầu. Nhưng, tại một lúc nào đó, CLI thông báo dòng chữ <q>Manim cần Python phiên bản 3.12.1 để hoạt động...</q> Không thành vấn đề? Bạn chỉ việc cập nhật Python và mọi thứ lại hoạt động ngon lành.
+      </p>
+
+      <p>
+        However, when you go back to your Pygame projects, which were running just fine before, there are errors. Looking them up, you find out that Pygame doesn't work with Python version 3.12.1 yet. So do you downgrade Python to continue developing games at the expense of Manim, or do you forsake the games you've been so passionate about?
+
+        Tuy nhiên, khi bạn muốn quay trở lại với các dự án Pygame vốn đang chạy bình thường trước đó, thì bạn thấy lỗi xuất hiện. Lên mạng tìm kiếm lý do, bạn nhận ra Pygame chưa tương thích với Python bản 3.12.1.
+      </p>
+
+      <p>
+        Vậy, bạn sẽ làm gì? Liệu bạn có hạ cấp Python để có thể tiếp tục làm game và sẽ từ bỏ Manim? Hay bạn sẽ từ bỏ những dự án game tâm huyết của mình?
+      </p>
+
+      <p>
+        Tệ hơn nữa là trường hợp bạn vô tình cài đặt cả hai phiên bản của Python và để chúng chạy đồng thời. Lúc này, chúng sẽ xung đột với nhau và làm rối tung máy tính của bạn.
+      </p>
+
+      <p>
+        Vậy, một giải pháp đơn giản là sử dụng môi trường ảo, thứ sẽ giúp phòng ngừa tình huống trên. Nhiệm vụ của nó là quản lý các tập tin và gói phụ thuộc và sắp xếp chúng vào những môi trường riêng biệt. Điều này nghĩa là bạn có thể có nhiều môi trường phát triển không liên quan đến nhau.
+      </p>
+
+      <p>
+        Bây giờ, bạn có thể thiết lập hai môi trường riêng biệt<mdash />một cái cài đặt Python 3.11.6 và Pygame, và cái còn lại sử dụng Python 3.12.1 và Manim. Vấn đề đã được giải quyết! 
+      </p>
+
+    </subsubsection>
+
+    <subsubsection xml:id="subsubsec-pe-cli">
+      <title>Biết Một Ít Giao Diện Dòng Lệnh (CLI)</title>
+      
+      <warning>
+        <p>
+          Khi tự mình khám phá thế giới của lập trình, bạn sẽ dần dần học cách sử dụng giao diện dòng lệnh.
+        </p>
+      </warning>
+
+      <p>
+        Khi bạn tự mình khám phá các ngôn ngữ và công cụ khác, bạn sẽ phải thường xuyên sử dụng giao diện dòng lệnh (CLI). Về cơ bản, CLI là phiên bản <sq>bậc thấp</sq> hơn của giao diện người dùng (UI). Trên Windows, hai CLI có sẵn là Command Prompt (CMD) và Windows PowerShell.
+      </p>
+
+      <p>
+        Nhưng đừng lo, bạn không cần phải tìm một khóa học về CLI đâu. Bạn sẽ dần dần học được những câu lệnh thường dùng xuyên suốt quá trình. Đằng nào các hướng dẫn trên mạng cũng luôn có sẵn các câu lệnh, và bạn chỉ việc sao chép, dán, và chạy chúng bằng CLI.
+      </p>
+
+      <p>
+        Thú thực, khi tôi dùng PyPI (hoặc PIP, một trình quản lý thư viện cho Python), tất cả những gì tôi biết là cách cài đặt, cập nhật, và gỡ cài đặt. Ngoài ra, tôi sử dụng CMD để điều hướng thư mục, chuyển đổi chế độ quản trị, và sử dụng môi trường ảo. Tất cả chỉ có vậy thôi.
+      </p>
+      
+      <p>
+        Cuối cùng, nếu có lỗi xuất hiện khi sử dụng CLI, bạn chỉ việc áp dụng chính xác những gì được học ở phần trước.
+      </p>
+
+    </subsubsection>
+
+  </subsection>
 
 </section>

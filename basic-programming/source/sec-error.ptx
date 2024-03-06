@@ -175,63 +175,56 @@ See the file COPYING for copying conditions.
 
     <p>
       Tiếp đến là một vài những kinh nghiệm cá nhân của tôi khi gặp lỗi. Bạn có thể thử các cách tiếp cận sau:
-
-      <ol>
-        <li>
-          <p>
-            <term>Sửa lỗi</term><mdash />Trường hợp gặp lỗi dễ hiểu, bạn chỉ việc sửa nó. Nếu không, chuyển sang bước tiếp theo.
-          </p>
-        </li>
-        <li>
-          <p>
-            <term>Tra trên mạng</term><mdash />Sao chép và dán miêu tả của lỗi lên Google.
-          </p>
-
-          <insight>
-            <idx><h>Chia sẻ</h><h>tra cứu mạng</h></idx>
-            <p>
-              Bạn nên kèm theo từ khóa là tên ngôn ngữ lập trình đang sử dụng để tăng hiệu quả. Ví dụ như <q>python unterminated string literal...</q>.
-            </p>
-          </insight>
-
-          <insight>
-            <idx><h>Chia sẻ</h><h>tài liệu</h></idx>
-            <p>
-              Bạn có thể tham khảo tài liệu bằng tiếng Việt hoặc bất kì ngôn ngữ nào bạn muốn. Nhưng thông thường thì các tài liệu tiếng Anh có độ có sẵn và tính cập nhật cao nhất. 
-            </p>
-          </insight>
-
-          <p>
-            Phần lớn các lỗi mà bạn có thể gặp phải đều đã có người trải qua trước đó rồi. Bạn có thể nhanh chóng đọc những bài đăng bàn luận về và tham khảo cách giải quyết của họ. Một vài diễn đàn phổ biến nhất là <term>Stack Overflow</term>, <term>Github</term>, <term>Stack Exchange</term>, <term>Reddit</term>. 
-          </p>
-          <p>
-            Đến đây, nếu bạn vẫn chưa giải quyết được, hoặc nếu lỗi mới xuất hiện, bạn có thể lặp lại quá trình, hoặc chuyển sang bước 3.
-          </p>
-        </li>
-        <li>
-          <p>
-            <term>Tự miêu tả lỗi khi tra</term><mdash />Có vẻ nếu sử dụng miêu tả chi tiết của lỗi, những cách giải của người khác không có hiệu quả với bạn. Vậy thì ta thử tự mình miêu tả lỗi xem sao. Ta miêu tả mình đang làm gì, với kiểu dữ liệu nào, lỗi gặp khi nào, với ngôn ngữ lập trình nào, v.v. Nếu vẫn chưa được, ta lại chuyển sang bước tiếp theo.
-          </p>
-        </li>
-        <li>
-          <p>
-            <term>Sử dụng trí tuệ nhân tạo (AI)</term><mdash />Nếu có thể, bạn nên thử tận dụng trí tuệ nhân tạo như <term>ChatGPT</term> hoặc <term>Github Copilot</term>. Đây là một phương pháp phổ biến gần đây, mang tính hiệu quả cao.
-          </p>
-        </li>
-        <li>
-          <p>
-            <term>Đăng bài về lỗi</term><mdash />Khi mọi phương pháp trên đều đã thất bại, thì đã đến lúc bạn tìm kiếm sự giúp đỡ trực tiếp từ mọi người. Bạn có thể hỏi người quen, hoặc lên những diễn đàn công nghệ và đăng bài viết về vấn đề mình đang gặp phải.
-          </p>
-
-          <insight>
-            <idx><h>Chia sẻ</h><h>văn hóa mạng</h></idx>
-            <p>
-              Hãy chắc chắn rằng bạn biết về các <term>văn hóa ứng xử trên mạng</term>. Vì bạn đang mong muốn sự giúp đỡ của người khác, một thái độ tôn trọng và văn minh là quan trọng thiết yếu.
-            </p>
-          </insight>
-        </li>
-      </ol>
     </p>
+
+    <p>
+      <term>1. Sửa lỗi</term><mdash />Trường hợp gặp lỗi dễ hiểu, bạn chỉ việc sửa nó. Nếu không, chuyển sang bước tiếp theo.
+    </p>
+
+    <p>
+      <term>2. Tra trên mạng</term><mdash />Sao chép và dán miêu tả của lỗi lên Google.
+    </p>
+
+    <insight>
+      <idx><h>Chia sẻ</h><h>tra cứu mạng</h></idx>
+      <p>
+        Bạn nên kèm theo từ khóa là tên ngôn ngữ lập trình đang sử dụng để tăng hiệu quả. Ví dụ như <q>python unterminated string literal...</q>.
+      </p>
+    </insight>
+
+    <insight>
+      <idx><h>Chia sẻ</h><h>tài liệu</h></idx>
+      <p>
+        Bạn có thể tham khảo tài liệu bằng tiếng Việt hoặc bất kì ngôn ngữ nào bạn muốn. Nhưng thông thường thì các tài liệu tiếng Anh có độ có sẵn và tính cập nhật cao nhất. 
+      </p>
+    </insight>
+
+    <p>
+      Phần lớn các lỗi mà bạn có thể gặp phải đều đã có người trải qua trước đó rồi. Bạn có thể nhanh chóng đọc những bài đăng bàn luận về và tham khảo cách giải quyết của họ. Một vài diễn đàn phổ biến nhất là <term>Stack Overflow</term>, <term>Github</term>, <term>Stack Exchange</term>, <term>Reddit</term>. 
+    </p>
+
+    <p>
+      Đến đây, nếu bạn vẫn chưa giải quyết được, hoặc nếu lỗi mới xuất hiện, bạn có thể lặp lại quá trình, hoặc chuyển sang bước 3.
+    </p>
+
+    <p>
+      <term>3. Tự miêu tả lỗi khi tra</term><mdash />Có vẻ nếu sử dụng miêu tả chi tiết của lỗi, những cách giải của người khác không có hiệu quả với bạn. Vậy thì ta thử tự mình miêu tả lỗi xem sao. Ta miêu tả mình đang làm gì, với kiểu dữ liệu nào, lỗi gặp khi nào, với ngôn ngữ lập trình nào, v.v. Nếu vẫn chưa được, ta lại chuyển sang bước tiếp theo.
+    </p>
+
+    <p>
+      <term>4. Sử dụng trí tuệ nhân tạo (AI)</term><mdash />Nếu có thể, bạn nên thử tận dụng trí tuệ nhân tạo như <term>ChatGPT</term> hoặc <term>Github Copilot</term>. Đây là một phương pháp phổ biến gần đây, mang tính hiệu quả cao.
+    </p>
+
+    <p>
+      <term>5. Đăng bài về lỗi</term><mdash />Khi mọi phương pháp trên đều đã thất bại, thì đã đến lúc bạn tìm kiếm sự giúp đỡ trực tiếp từ mọi người. Bạn có thể hỏi người quen, hoặc lên những diễn đàn công nghệ và đăng bài viết về vấn đề mình đang gặp phải.
+    </p>
+
+    <insight>
+      <idx><h>Chia sẻ</h><h>văn hóa mạng</h></idx>
+      <p>
+        Hãy chắc chắn rằng bạn biết về các <term>văn hóa ứng xử trên mạng</term>. Vì bạn đang mong muốn sự giúp đỡ của người khác, một thái độ tôn trọng và văn minh là quan trọng thiết yếu.
+      </p>
+    </insight>
     
   </subsection>
 

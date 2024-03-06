@@ -18,6 +18,8 @@
     <rename element='appendix'>Phụ Lục</rename>
     <rename element='section'>Phần</rename>
     <rename element='subsection'>Mục</rename>
+    <rename element='frontmatter'>Mặt Trước</rename>
+    <rename element='colophon'>Mặt Sau</rename>
 
     <rename element='toc'>Mục Lục</rename>
     <rename element='index-part'>Tra Cứu</rename>
