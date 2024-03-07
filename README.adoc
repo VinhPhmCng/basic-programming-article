@@ -1,24 +1,38 @@
-= Basic Programming: For complete beginners
+= Lập Trình Cơ Bản: Cho Người Mới Bắt Đầu
 Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
 :toc: auto
+:toc-title: Mục Lục
 :hide-uri-scheme:
 
-== About the Project
+== Thông tin Dự án ✨
 
-An article produced with the amazing authoring system https://pretextbook.org/index.html[PreTeXt].
+Article được viết với hệ thống soạn thảo https://pretextbook.org/index.html[PreTeXt].
 
-Introduces you to fundamentals concepts of programming without going into all the details.
+Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trình mà không đi sâu vào chi tiết.
 
 
-=== Current deployment: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
+=== Ngôn ngữ khả dụng
+
+.Ấn để mở rộng
+[%collapsible]
+====
+* Tiếng Việt
+* https://github.com/VinhPhmCng/basic-programming-article[English]
+====
+
+
+=== Triển khai hiện tại: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
 
 
 === Youtube series:
 
-Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article/[Here]
+Content cũng được chuyển thể thành video:
+
+.Placeholder playlist
+video::RlNhD0oS5pk[youtube, list=PLGRecdYLYDNdX5NEkS3KH-ZtCqc2f8lJ_]
 
 
-== Tools and resources used for videos
+== Công cụ và tài nguyên để làm video 🔨
 
 (Under development)
 
@@ -36,11 +50,11 @@ Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article
 * https://elevenlabs.io/[ElevenLabs]
 
 
-== Contribute
+== Đóng góp 🤝
 
 The project is currently not open to PR.
 
 
-== License
+== License 🔑
 
 link:COPYING[GNU Free Documentation License] © VPC
