@@ -26,14 +26,17 @@ Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trìn
 
 === Youtube series:
 
+ifdef::env-github[]
 .Placeholder playlist
-//video::RlNhD0oS5pk[youtube, list=PLGRecdYLYDNdX5NEkS3KH-ZtCqc2f8lJ_]
-image:https://i.ytimg.com/vi/RlNhD0oS5pk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLA7GdiMsQ3Mb7rcHxwyN-E27h2Tcw[link=https://www.youtube.com/playlist?list=PLGRecdYLYDNdX5NEkS3KH-ZtCqc2f8lJ_]
+image:https://i.ytimg.com/vi/PnUhHqTnYjY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLBwy1sGoxPpnuqSKjUntmHO0rMwsA[link=https://www.youtube.com/playlist?list=PLQkOPY1XWnRxhakBgVujJvsCPNhfe4krq]
+endif::[]
+
+ifndef::env-github[]
+video::PnUhHqTnYjY[youtube, link=PLQkOPY1XWnRxhakBgVujJvsCPNhfe4krq]
+endif::[]
 
 
 == Công cụ và tài nguyên để làm video 🔨
-
-(Under development)
 
 . Video editing 🎞️
 * https://kdenlive.org/en/[Kdenlive]
@@ -43,7 +46,9 @@ image:https://i.ytimg.com/vi/RlNhD0oS5pk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKri
 * https://motioncanvas.io/[Motion Canvas]
 
 . Media 👀
-
+* https://www.manim.community/[Manim CE]
+* https://www.manim.community/[Manim CE]
+* https://www.manim.community/[Manim CE]
 
 . Voice-overs 🎤
 * https://elevenlabs.io/[ElevenLabs]
