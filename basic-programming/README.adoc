@@ -1,0 +1,46 @@
+= Basic Programming: For complete beginners
+Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
+:toc: auto
+:hide-uri-scheme:
+
+== About the Project
+
+An article produced with the amazing authoring system https://pretextbook.org/index.html[PreTeXt].
+
+Introduces you to fundamentals concepts of programming without going into all the details.
+
+
+=== Current deployment: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
+
+
+=== Youtube series:
+
+Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article/[Here]
+
+
+== Tools and resources used for videos
+
+(Under development)
+
+. Video editing 🎞️
+* https://kdenlive.org/en/[Kdenlive]
+
+. Animation ✨
+* https://www.manim.community/[Manim CE]
+* https://motioncanvas.io/[Motion Canvas]
+
+. Media 👀
+
+
+. Voice-overs 🎤
+* https://elevenlabs.io/[ElevenLabs]
+
+
+== Contribute
+
+The project is currently not open to PR.
+
+
+== License
+
+link:COPYING[GNU Free Documentation License] © VPC
