@@ -46,9 +46,13 @@ endif::[]
 * https://motioncanvas.io/[Motion Canvas]
 
 . Media 👀
-* https://www.manim.community/[Manim CE]
-* https://www.manim.community/[Manim CE]
-* https://www.manim.community/[Manim CE]
+* https://playground.com/[Playground]
+* https://giphy.com/[Giphy]
+* https://getyarn.io/[Yarn]
+* https://devicon.dev/[Devicon]
+* https://fontawesome.com/[Fontawesome]
+* https://www.bensound.com/[Bensound]
+* https://pixabay.com/[Pixabay]
 
 . Voice-overs 🎤
 * https://elevenlabs.io/[ElevenLabs]
