@@ -61,8 +61,17 @@ See the file COPYING for copying conditions.
   <subsection xml:id="subsec-pe-start-simple">
     <title>Start Simple</title>
 
+    <warning>
+      <p>
+        You can choose a programming language and a code editor/IDE by thinking simply.
+      </p>  
+      <p>
+        Start by coming up with a small and achievable idea. Then, look for suitable tools and learning resources by asking the Internet.
+      </p>
+    </warning>
+    
     <p>
-      I think when I first got into programming, I cared too much about choosing a programming language to learn. My Youtube feed and recommendations always had those topics mentioned in <xref ref="insight-choose-pro-language" text="global"/>. My inexperienced self would think those were important things to consider, and I'd watch every video that showed up to see people's opinions. But doing all that only made me scared of actually learning to code because I'd start asking myself questions like: 
+      I think when I first got into programming, I cared too much about choosing a programming language to learn. My Youtube feed always had those topics mentioned in <xref ref="insight-choose-pro-language" text="global"/>. My inexperienced self would think those were important things to consider, and I'd watch every video that showed up to see people's opinions. But doing all that only made me scared of actually learning to code because I'd start asking myself questions like: 
 
       <ul>
         <li>
@@ -91,7 +100,7 @@ See the file COPYING for copying conditions.
           After a few articles and videos, I ended up with Godot<mdash />an open-source game engine that's been gaining popularity, has a big and supportive community, and sufficient documentation.
         </li>
         <li>
-          <q>Okay, now do I wanna use GDScript (Godot's built-in language which has beginner-friendly syntax), or C# (a popular language which is lower-level).</q>
+          <q>Okay, now do I wanna use GDScript (Godot's built-in language which has beginner-friendly syntax), or C# (a popular language which is lower-level)?</q>
         </li>
         <li>
           Well, that question took me just 10 seconds to answer. <q>I ain't about to learn C# to make no games.</q>
@@ -106,39 +115,21 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Personally, I think it's good that I did that instead of watching a 12-hour course covering every little thing about game development and making somebody else's idea.
+      Personally, I think it's good that I did that instead of watching a 12-hour course covering every little thing about game development and then making somebody else's idea.
     </p>
 
     <p>
-      <sq>Starting simple</sq> can also be applied to choosing a code editor or IDE (integrated development environment). I chose the Godot engine also because it comes with a built-in coding environment. Until now, I think I've tried 5 IDEs at most, and I've stuck with VSCode for a while because, again, it's beginner-friendly.
+      <sq>Starting simple</sq> can also be applied to choosing a code editor or IDE (integrated development environment). Until now, I think I've tried 5 IDE at most, and I've stuck with VSCode for a while because, again, it's user-friendly.
     </p>
 
     <p>
       The code cells provided in this article are very minimal and might be slightly inconvenient, but they're everything you need to start, aren't they?
     </p>
 
-    <warning>
-      <p>
-        You can choose a programming language and a code editor/IDE by thinking simply. Start by coming up with a small and achievable idea. Then, look for suitable tools by asking the Internet.
-      </p>  
-    </warning>
-    
   </subsection>
 
   <subsection xml:id="subsec-pe-tutorial-hell">
     <title>The Tutorial Hell</title>
-
-    <p>
-      The tutorial hell is something every programmer has experienced at least once in their life. It's when you are constantly watching videos and reading articles teaching you to do something, but you never actually sit down and type away at a computer.
-    </p>
-
-    <p>
-      The reason for this phenomenon could be a lack of motivation or ideas, procrastination, poor social media management, <etc /> It's also because there's an abundance of online resources and contents about coding, which can be excessive sometimes.
-    </p>
-
-    <p>
-      Whenever this happens to me, I'd force myself to put down the phone and turn on my computer. Then I'd open up the browser and code editor and start looking for something very easy to do and also interesting enough. This whole process takes at most 5 minutes, but it always gets me to begin writing some code, whatever it may be about.
-    </p>
 
     <warning>
       <p>
@@ -146,12 +137,53 @@ See the file COPYING for copying conditions.
       </p>
     </warning>
     
+    <p>
+      The tutorial hell is something every programmer has experienced. It's when you are constantly watching videos and reading articles teaching you to do something, but you never actually sit down and type away at a computer.
+    </p>
+
+    <p>
+      The reason for this phenomenon could be a lack of motivation or ideas, procrastination, poor social media management, <etc /> It's also because there's an abundance of online contents about coding, which can be excessive sometimes.
+    </p>
+
+    <p>
+      Whenever this happens to me, I'd force myself to put down the phone and turn on my computer. Then I'd open up Google and VSCode and start looking for something very easy to do and also interesting enough. This whole process takes at most 5 minutes, but it always gets me to begin writing some code, whatever it may be about.
+    </p>
+
   </subsection>
 
   <subsection xml:id="subsec-pe-have-fun">
     <title>Have Fun</title>
+
+    <warning>
+      <p>
+        So long as you find joy in the process, you can always get back to it and do better than ever before.
+      </p>
+      <p>
+        If you keep learning and doing, you will improve without a doubt.
+      </p>
+    </warning>
+    
     <p>
-      Since stress and burn-outs are gonna be unavoidable sometimes, I think it's incredibly important to always have fun with the process. There are always annoying error messages showing up one after another, getting stuck while following step-by-step installation guides, understanding nothing about a new concept, and so on. And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not for you.
+      Since stress and burn-outs are gonna be unavoidable sometimes, I think it's incredibly important to always have fun with the process.
+    </p>
+
+    <p>
+      Don't worry, you're definitely gonna experience stuff like:
+      <ul>
+        <li>
+          error messages showing up one after another
+        </li>
+        <li>
+          getting stuck when following step-by-step installation guides
+        </li>
+        <li>
+          understanding nothing about a new concept
+        </li>
+        <li>
+          <etc />
+        </li>
+      </ul>
+      And sometimes you're gonna feel as though you're not making any progress, so you doubt yourself and wonder if programming is not the way to go.
     </p>
 
     <p>
@@ -166,36 +198,11 @@ See the file COPYING for copying conditions.
       If you get stuck, maybe find a new simple goal and learn a new language? You've learned the fundamentals, which are applicable to most modern programming languages. So as you learn the 2nd, the 3rd language, and so on, you're discovering new possibilities, and your potential is only ever going up.
     </p>
 
-    <warning>
-      <p>
-        So long as you find joy in the process, you can always get back to it and do better than ever before.
-      </p>
-      <p>
-        If you keep learning and doing, you will improve without a doubt.
-      </p>
-    </warning>
-    
   </subsection>
 
   <subsection xml:id="subsec-pe-open-minded">
     <title>Be Open-Minded</title>
     
-    <p>
-      There are always gonna be new interesting things to learn. So keep an open mind and be eager to learn them.
-    </p>
-    
-    <p>
-      In coding communities, there are often these conventions and rules of thumb such as how to name variables, how to format code, how to organize files, <etc /> So people learn them to improve efficiency and cooperation. And depending on the community, purpose, and choice of programming language, standards are gonna vary. Thus, you should be objective and neutral when entering new environments and meeting new people, since you have to learn their game.
-    </p>
-
-    <p>
-      As a beginner, only you will ever read your own code. So, it's good to create a good balance between learning good habits and having freedom. Basically, you should always try to improve your code, but also take it easy. There's no need to be able to produce beautiful or efficient code right off the bat, cause that'd be super stressful.
-    </p>
-
-    <p>
-      Experienced programmers often share best practices. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to different situations, not make you a close-minded coder who always does things the same way.
-    </p>
-
     <warning>
       <p>
         You should always be open to new ideas.
@@ -205,6 +212,37 @@ See the file COPYING for copying conditions.
       </p>
     </warning>
     
+    <p>
+      There are always gonna be new interesting things to learn. So, keep an open mind and be eager to learn them.
+    </p>
+    
+    <p>
+      In coding communities, there are often conventions and rules of thumb such as:
+      <ul>
+        <li>
+          how to name variables
+        </li>
+        <li>
+          how to format code
+        </li>
+        <li>
+          how to organize files
+        </li>
+        <li>
+          <etc />
+        </li>
+      </ul>
+      People learn them to improve efficiency and cooperation. And depending on the community, purpose, or programming language, standards are gonna vary. Thus, you should be objective and neutral when entering new environments and meeting new people, since you have to learn their game.
+    </p>
+
+    <p>
+      As a beginner, nobody but you will read your code. So, it's good to create a good balance between learning good habits and having freedom. Basically, you should always try to improve your code, but also take it easy. There's no need to be able to produce beautiful or efficient code right off the bat, cause that'd be super stressful.
+    </p>
+
+    <p>
+      Experienced programmers often share best practices. These can be extremely beneficial to know about, but also harmful if overused without a good understanding. They are supposed to help you think critically and adapt quickly to new situations, not make you a close-minded coder who always does things the same way.
+    </p>
+
   </subsection>
   
   <subsection xml:id="subsec-pe-tech-pointer">
@@ -212,50 +250,63 @@ See the file COPYING for copying conditions.
     
     <introduction>
       <p>
-        I'll try my best to make this short and easy to understand.
       </p>
     </introduction>
 
     <subsubsection xml:id="subsubsec-pe-virtual-environment">
       <title>Use A Simple Virtual Environment</title>
       
-      <p>
-        Let's say you decide to install Python on your machine to make a game. So you do just that<mdash />you download and install Python version 3.11.6 and Pygame (the Python library for making games). And everything works just fine.
-      </p>
-
-      <p>
-        Fast forward, now you wanna make some cool animations with Python. So you ask the Internet and Manim shows up. And you follow its installation guide and are very eager to get started. At one point, it says something along the lines of <q>Manim needs Python version 3.12.1 to work...</q> Not a problem? All you have to do is update Python and everything's good to go again.
-      </p>
-
-      <p>
-        However, when you go back to your Pygame projects, which were running just fine before, there are errors. Looking them up, you find out that Pygame doesn't work with Python version 3.12.1 yet. So do you downgrade Python to continue developing games at the expense of Manim, or do you forsake the games you've been so passionate about?
-      </p>
-
-      <p>
-        A worse case is when you accidentally install both versions of Python on your machine and have them run simultaneously. Now this is really gonna mess you and your PC up as conflicts upon conflicts show up.
-      </p>
-
-      <p>
-        So, a straightforward solution is to use a virtual environment, which prevents the not-so-hypothetical predicament above. It helps manage programming packages and dependencies on a per-environment basis, meaning you can have multiple environments unrelated to one another. Maybe one for game development, and one for animating?
-      </p>
-
       <warning>
         <p>
           Look for and use a simple virtual environment, which helps prevent conflicts between incompatible programming packages and dependencies.
         </p>
       </warning>
       
+      <p>
+        Let's say you wanna make a game with Python. So you do just that<mdash />you download and install Python version 3.11.6 and Pygame (the Python library for making games). And everything works just fine.
+      </p>
+
+      <p>
+        Fast forward... You suddenly have the urge to make some cool animations with Python. So you ask the Internet and Manim shows up. You excitedly follow its installation guide and are eager to get started. At one point, it says something along the lines of <q>Manim needs Python version 3.12.1 to work...</q> Not a problem? All you have to do is update Python and everything's good to go again.
+      </p>
+
+      <p>
+        However, when you go back to your Pygame projects, which were running just fine before, there are errors. Looking into those, you find out that Pygame doesn't work with Python version 3.12.1 yet.
+      </p>
+
+      <p>
+        So do you downgrade Python to continue developing games at the expense of Manim, or do you forsake the games you've been so passionate about?
+      </p>
+
+      <p>
+        A worse case is when you accidentally install both versions of Python and have them run simultaneously. Now this can really mess your PC up as conflicts upon conflicts show up.
+      </p>
+
+      <p>
+        So, a straightforward solution is to use a virtual environment, which prevents the not-so-hypothetical predicament above. It helps manage programming packages and dependencies on a per-environment basis, meaning you can have multiple environments unrelated to one another.
+      </p>
+
+      <p>
+        Now, you can set up two separate environments<mdash />one with Python 3.11.6 and Pygame installed, and the other with Python 3.12.1 and Manim. Problem's solved!
+      </p>
+
     </subsubsection>
 
     <subsubsection xml:id="subsubsec-pe-cli">
       <title>Know A Bit About Command-Line Interfaces</title>
       
+      <warning>
+        <p>
+          As you explore the world of programming on your own, you will naturally learn to use command-line interfaces.
+        </p>
+      </warning>
+
       <p>
-        When the time comes for you to explore different languages and tools on your own, you will have to use command-line interfaces (CLIs) frequently. For the sake of simplicity, CLIs are just the <sq>lower-level</sq> counterparts of user interfaces (UI). On Windows, the two built-in CLIs are Command Prompt (CMD) and Windows PowerShell.
+        When the time comes for you to explore different languages and tools on your own, you will have to use command-line interfaces (CLI) frequently. For the sake of simplicity, CLI are just the <sq>lower-level</sq> counterparts of user interfaces (UI). On Windows, the two built-in CLI are Command Prompt (CMD) and Windows PowerShell.
       </p>
 
       <p>
-        But don't worry, you don't have to take a course on this. You will gradually learn the common commands as you go. Detailed guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key anyways.
+        But don't worry, you don't have to take a course on this. You will gradually learn the common commands as you go. Detailed guides always have commands ready to be copy-pasted into your CLI and run with a press of the Enter key anyway.
       </p>
 
       <p>
@@ -263,14 +314,8 @@ See the file COPYING for copying conditions.
       </p>
       
       <p>
-        Finally, if errors show up when using CLIs, you just need to apply exactly what you've learned in the previous section.
+        Finally, if errors show up when using a CLI, you just need to apply exactly what you've learned in the previous section.
       </p>
-
-      <warning>
-        <p>
-          As you explore on your own, you will naturally learn to use command-line interfaces.
-        </p>
-      </warning>
 
     </subsubsection>
 

@@ -89,12 +89,12 @@ See the file COPYING for copying conditions.
     <p>
       <idx><h>Support</h><h>directly</h></idx>
       <idx><h>Links</h><h>contributing</h></idx>
-      Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details.
+      Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details. (P.S. I'd really appreciate it if someone could improve my writing. It sucks ass.)
     </p>
 
     <p>
       <idx><h>Support</h><h>the tools used</h></idx>
-      This page is built with <pretext />, which features built-in interactive code cells, enhancing your experience. Please support them as well!
+      This page is built with <pretext />. Please support them as well!
     </p>
 
     <p>
@@ -110,7 +110,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      Now then, let's get started, shall we?
+      OK then, let's gooo!
     </p>
   </subsection>
 
