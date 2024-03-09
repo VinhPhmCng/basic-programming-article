@@ -3,24 +3,27 @@ Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
 :toc: auto
 :hide-uri-scheme:
 
-== About the Project
+== About the Project ✨
 
 An article produced with the amazing authoring system https://pretextbook.org/index.html[PreTeXt].
 
 Introduces you to fundamentals concepts of programming without going into all the details.
 
 
+=== Available languages
+
+.Click to expand
+[%collapsible]
+====
+* English
+* https://github.com/VinhPhmCng/lap-trinh-co-ban-article[Tiếng Việt]
+====
+
+
 === Current deployment: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
 
 
-=== Youtube series:
-
-Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article/[Here]
-
-
-== Tools and resources used for videos
-
-(Under development)
+== Tools and resources used for videos 🔨
 
 . Video editing 🎞️
 * https://kdenlive.org/en/[Kdenlive]
@@ -30,17 +33,23 @@ Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article
 * https://motioncanvas.io/[Motion Canvas]
 
 . Media 👀
-
+* https://playground.com/[Playground]
+* https://giphy.com/[Giphy]
+* https://getyarn.io/[Yarn]
+* https://devicon.dev/[Devicon]
+* https://fontawesome.com/[Fontawesome]
+* https://www.bensound.com/[Bensound]
+* https://pixabay.com/[Pixabay]
 
 . Voice-overs 🎤
 * https://elevenlabs.io/[ElevenLabs]
 
 
-== Contribute
+== Contribute 🤝
 
 The project is currently not open to PR.
 
 
-== License
+== License 🔑
 
 link:COPYING[GNU Free Documentation License] © VPC
