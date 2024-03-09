@@ -120,6 +120,10 @@ See the file COPYING for copying conditions.
     This runs similarly, but it also provides additional functionality. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a <q>CodeLens</q> button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).
   </p>
 
+  <p>
+    Actually, it has another minor advantage. Refer to <xref ref="appendix-playground" text="title"/> if you're interested.
+  </p>
+
   <insight>
     <idx><h>Insights</h><h>which programming environment</h></idx>
     <p>

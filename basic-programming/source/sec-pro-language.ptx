@@ -21,7 +21,7 @@ See the file COPYING for copying conditions.
     <idx><h>Definitions</h><h>of programming languages</h></idx>
     <statement>
       <p>
-        <term>A programming language</term> is a system of notation that helps humans create computer programs or, in other words, give instructions to computers.
+        <term>A programming language</term> is a system of notation that helps humans create computer programs.
       </p>
 
       <p>
@@ -199,7 +199,7 @@ See the file COPYING for copying conditions.
   </aside>
 
   <p>
-    A language's syntax is developed in consideration of its purpose(s). For instance, Guido van Rossum greatly prioritized readability and ease of use when he created Python. Therefore, its syntax aims to enable developers to write clear and expressive code.
+    A language's syntax is developed in consideration of its <term>purpose(s)</term>. For instance, Guido van Rossum greatly prioritized readability and ease of use when he created Python. Therefore, its syntax aims to enable developers to write clear and expressive code.
   </p>
 
   <insight xml:id="insight-choose-pro-language">
@@ -239,7 +239,7 @@ See the file COPYING for copying conditions.
         </li>
       </ul>
 
-      There are an ever-growing number of programming languages, and each of them has its own <em>purposes, pros, and cons</em>.
+      There's an ever-growing number of programming languages, and each of them has its own <em>purposes, pros, and cons</em>.
     </p>
   </insight>
 

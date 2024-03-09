@@ -17,7 +17,7 @@ See the file COPYING for copying conditions.
     
     <p>
       <idx><h>Links</h><h>Youtube series</h></idx>
-      This article is also adapted into videos, which are <url href="https://www.youtube.com/" visual="youtube.com">available on Youtube</url> and also embedded into the corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial. (P.S. The videos are short and quite silly because I'm new to editing.)
+      This article is also adapted into videos, which are available on Youtube and also embedded into the corresponding section. This way, whether you are a visual or auditory learner, or both, you can find the most comfortable way to enjoy this tutorial. (P.S. The videos are short and quite silly because I'm new to editing.)
     </p>
 
     <p>
@@ -127,7 +127,7 @@ See the file COPYING for copying conditions.
       <title>Basic Programming <mdash /> Part 1: Introduction</title>
       <idx><h>Videos</h><h>part 01</h></idx>
       
-      <video youtube="iMXToAm9a0c"/>
+      <video youtubeplaylist="PLQkOPY1XWnRxhakBgVujJvsCPNhfe4krq" />
        
     </exploration>
   </subsection>

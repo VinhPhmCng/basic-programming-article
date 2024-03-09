@@ -53,7 +53,23 @@ See the file COPYING for copying conditions.
         print("Hello world!")
       </input>
     </program>
+
+    <p>
+      <cd>
+      </cd>
+      Actually, this version has another advantage. It accepts user input, as opposed to the simpler version.
+    </p>
     
+    <program language="python" interactive="activecode">
+      <input>
+        # This is a Python cell
+        # Write and run your Python code here
+
+        s = input("Your input:")
+        print(s)
+      </input>
+    </program>
+
   </subsection>
 
   <subsection xml:id="subsec-javascript-play">
