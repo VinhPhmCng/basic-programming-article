@@ -1,26 +1,30 @@
-= Basic Programming: For complete beginners
+= Lập Trình Cơ Bản: Cho Người Mới Bắt Đầu
 Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
 :toc: auto
+:toc-title: Mục Lục
 :hide-uri-scheme:
 
-== About the Project
+== Thông tin Dự án ✨
 
-An article produced with the amazing authoring system https://pretextbook.org/index.html[PreTeXt].
+Article được viết với hệ thống soạn thảo https://pretextbook.org/index.html[PreTeXt].
 
-Introduces you to fundamentals concepts of programming without going into all the details.
-
-
-=== Current deployment: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
+Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trình mà không đi sâu vào chi tiết.
 
 
-=== Youtube series:
+=== Ngôn ngữ khả dụng
 
-Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article/[Here]
+.Ấn để mở rộng
+[%collapsible]
+====
+* Tiếng Việt
+* https://github.com/VinhPhmCng/basic-programming-article[English]
+====
 
 
-== Tools and resources used for videos
+=== Triển khai hiện tại: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
 
-(Under development)
+
+== Công cụ và tài nguyên để làm video 🔨
 
 . Video editing 🎞️
 * https://kdenlive.org/en/[Kdenlive]
@@ -30,17 +34,23 @@ Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article
 * https://motioncanvas.io/[Motion Canvas]
 
 . Media 👀
-
+* https://playground.com/[Playground]
+* https://giphy.com/[Giphy]
+* https://getyarn.io/[Yarn]
+* https://devicon.dev/[Devicon]
+* https://fontawesome.com/[Fontawesome]
+* https://www.bensound.com/[Bensound]
+* https://pixabay.com/[Pixabay]
 
 . Voice-overs 🎤
 * https://elevenlabs.io/[ElevenLabs]
 
 
-== Contribute
+== Đóng góp 🤝
 
 The project is currently not open to PR.
 
 
-== License
+== License 🔑
 
 link:COPYING[GNU Free Documentation License] © VPC
