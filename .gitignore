@@ -53,7 +53,7 @@ ehthumbs_vista.db
 .nfs*
 
 # Don't include VSCode generated files
-.vscode/**/*
+.vscode
 *.code-workspace
 
 # Don't inlucde SublimeText files
