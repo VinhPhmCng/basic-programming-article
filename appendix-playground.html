@@ -72,7 +72,7 @@ window.MathJax = {
       "[pretext]/mathjaxknowl3.js"
     ],
     "paths": {
-      "pretext": "https://pretextbook.org/js/lib"
+      "pretext": "_static/pretext/js/lib"
     }
   },
   "startup": {
@@ -96,6 +96,18 @@ sagecell.makeSagecell({
   ],
   "evalButtonText": "Run Code (Sage)"
 });
+</script><script>// Make *any* pre with class 'sagecell-html' an executable Sage cell
+// Their results will be linked, only within language type
+sagecell.makeSagecell({
+  "inputLocation": "pre.sagecell-html",
+  "linked": true,
+  "linkKey": "linked-html",
+  "autoeval": false,
+  "languages": [
+    "html"
+  ],
+  "evalButtonText": "Run Code (HTML)"
+});
 </script><script>// Make *any* pre with class 'sagecell-python' an executable Sage cell
 // Their results will be linked, only within language type
 sagecell.makeSagecell({
@@ -111,8 +123,8 @@ sagecell.makeSagecell({
 </script><link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/themes/prism.css" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.js" integrity="sha512-dubtf8xMHSQlExGRQ5R7toxHLgSDZ0K7AunqPWHXmJQ8XyVIG19S1T95gBxlAeGOK02P4Da2RTnQz0Za0H0ebQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.css" integrity="sha512-cbQXwDFK7lj2Fqfkuxbo5iD1dSbLlJGXGpfTDqbggqjHJeyzx88I3rfwjS38WJag/ihH7lzuGlGHpDBymLirZQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.css" integrity="sha512-nXlJLUeqPMp1Q3+Bd8Qds8tXeRVQscMscwysJm821C++9w6WtsFbJjPenZ8cQVMXyqSAismveQJc0C1splFDCA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.js" integrity="sha512-93uCmm0q+qO5Lb1huDqr7tywS8A2TFA+1/WHvyiWaK6/pvsFl6USnILagntBx8JnVbQH5s3n0vQZY6xNthNfKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="https://pretextbook.org/js/0.33/pretext_search.js"></script><link href="https://pretextbook.org/css/0.83/pretext_search.css" rel="stylesheet" type="text/css">
-<script>js_version = 0.33</script><script src="https://pretextbook.org/js/lib/jquery.min.js"></script><script src="https://pretextbook.org/js/lib/jquery.sticky.js"></script><script src="https://pretextbook.org/js/lib/jquery.espy.min.js"></script><script src="https://pretextbook.org/js/0.33/pretext.js"></script><script>miniversion=0.1</script><script src="https://pretextbook.org/js/0.33/pretext_add_on.js?x=1"></script><script src="https://pretextbook.org/js/0.33/user_preferences.js"></script><script src="https://pretextbook.org/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Run Code (Sage)';
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.js" integrity="sha512-93uCmm0q+qO5Lb1huDqr7tywS8A2TFA+1/WHvyiWaK6/pvsFl6USnILagntBx8JnVbQH5s3n0vQZY6xNthNfKA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><link href="_static/pretext/css/pretext_search.css" rel="stylesheet" type="text/css">
+<script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Run Code (Sage)';
 </script><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&amp;family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&amp;family=Tinos:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap" rel="stylesheet">
@@ -120,16 +132,16 @@ sagecell.makeSagecell({
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wdth,wght@8..144,50..150,100..900&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
-<link href="https://pretextbook.org/css/0.83/pretext.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/pretext_add_on.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/shell_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/banner_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/navbar_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/toc_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/knowls_default.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/style_oscarlevin.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/colors_ruby_emerald.css" rel="stylesheet" type="text/css">
-<link href="https://pretextbook.org/css/0.83/setcolors.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/pretext_add_on.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/shell_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/banner_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/navbar_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/toc_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/knowls_default.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/style_oscarlevin.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/colors_ruby_emerald.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 <!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -152,15 +164,15 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.2.11';
+eBookConfig.runestone_version = '7.2.14';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.2.11/prefix-runtime.2438a8bdd6d43b5c.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.2.11/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.2.11/prefix-runestone.aeac7cf9ad5c07ef.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.2.11/prefix-347.f9add1ca35d5ad93.css">
-<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.2.11/prefix-runestone.f64dcc3632d7a0c3.css">
+<script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.2.14/prefix-runtime.d30f9fb21d6c7b70.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.2.14/prefix-347.8328b60515045466.bundle.js"></script><script type="text/javascript" src="https://runestone.academy/cdn/runestone/7.2.14/prefix-runestone.aeac7cf9ad5c07ef.bundle.js"></script><link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.2.14/prefix-347.f9add1ca35d5ad93.css">
+<link rel="stylesheet" type="text/css" href="https://runestone.academy/cdn/runestone/7.2.14/prefix-runestone.f64dcc3632d7a0c3.css">
 </head>
 <body class="pretext article ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner">
@@ -197,6 +209,7 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-how-to-follow-along" class="internal"><span class="codenumber">1.1</span> <span class="title">How To Follow Along</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-support" class="internal"><span class="codenumber">1.2</span> <span class="title">Support This Project</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-introduction.html#subsec-what-is-programming" class="internal"><span class="codenumber">1.3</span> <span class="title">What Is Programming?</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-pro-environment.html" class="internal"><span class="codenumber">2</span> <span class="title">Our Programming Environment</span></a></div></li>
@@ -223,7 +236,7 @@ eBookConfig.enable_chatcodes =  false;
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-attribute.html" class="internal"><span class="codenumber">9</span> <span class="title">Attributes</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-function.html" class="internal"><span class="codenumber">10</span> <span class="title">Functions</span></a></div></li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="sec-error.html" class="internal"><span class="codenumber">11</span> <span class="title">Errors And How To Fix Them</span></a></div>
+<div class="toc-title-box"><a href="sec-error.html" class="internal"><span class="codenumber">11</span> <span class="title">Errors</span></a></div>
 <ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-error.html#subsec-fix-error" class="internal"><span class="codenumber">11.1</span> <span class="title">How To Fix Errors</span></a></div></li></ul>
 </li>
 <li class="toc-item toc-section">
@@ -237,16 +250,18 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="sec-personal-experience.html#subsec-pe-tech-pointer" class="internal"><span class="codenumber">12.5</span> <span class="title">Some Technical Pointers</span></a></div>
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-virtual-environment" class="internal"><span class="codenumber">12.5.1</span> <span class="title">Use A Simple Virtual Environment</span></a></div></li>
-<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-cli" class="internal"><span class="codenumber">12.5.2</span> <span class="title">Learn To Use Command-Line Interfaces</span></a></div></li>
+<li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-personal-experience.html#subsubsec-pe-cli" class="internal"><span class="codenumber">12.5.2</span> <span class="title">Know A Bit About Command-Line Interfaces</span></a></div></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-conditional.html" class="internal"><span class="codenumber">13</span> <span class="title">Conditional Statements</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-loop.html" class="internal"><span class="codenumber">14</span> <span class="title">Loops</span></a></div></li>
-<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scope.html" class="internal"><span class="codenumber">15</span> <span class="title">Scope</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-scope.html" class="internal"><span class="codenumber">15</span> <span class="title">Scopes</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-declare-function.html" class="internal"><span class="codenumber">16</span> <span class="title">Declaring Functions</span></a></div></li>
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-class.html" class="internal"><span class="codenumber">17</span> <span class="title">Classes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-list.html" class="internal"><span class="codenumber">18</span> <span class="title">Using Lists</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-using-dictionary.html" class="internal"><span class="codenumber">19</span> <span class="title">Using Dictionaries</span></a></div></li>
 <li class="toc-item toc-backmatter contains-active">
 <div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Appendices</span></a></div>
 <ul class="structural toc-item-list contains-active">
@@ -255,53 +270,88 @@ eBookConfig.enable_chatcodes =  false;
 <ul class="structural toc-item-list">
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-python-play" class="internal"><span class="codenumber">A.1</span> <span class="title">Python</span></a></div></li>
 <li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-javascript-play" class="internal"><span class="codenumber">A.2</span> <span class="title">Javascript</span></a></div></li>
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-sage-play" class="internal"><span class="codenumber">A.3</span> <span class="title">Sage</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-html-play" class="internal"><span class="codenumber">A.3</span> <span class="title">HTML</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="appendix-playground.html#subsec-sage-play" class="internal"><span class="codenumber">A.4</span> <span class="title">Sage</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-whats-next.html" class="internal"><span class="codenumber">B</span> <span class="title">What’s Next?</span></a></div></li>
 <li class="toc-item toc-appendix"><div class="toc-title-box"><a href="appendix-gfdl.html" class="internal"><span class="codenumber">C</span> <span class="title">GNU Free Documentation License</span></a></div></li>
 <li class="toc-item toc-index"><div class="toc-title-box"><a href="backmatter-5.html" class="internal"><span class="title">Index</span></a></div></li>
-<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="backmatter-6.html" class="internal"><span class="title">Colophon</span></a></div></li>
+<li class="toc-item toc-colophon"><div class="toc-title-box"><a href="colophon.html" class="internal"><span class="title">Colophon</span></a></div></li>
 </ul>
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="appendix" id="appendix-playground"><h2 class="heading">
 <span class="type">Appendix</span><span class="space"> </span><span class="codenumber">A</span><span class="space"> </span><span class="title">Playground</span>
 </h2>
-<section class="introduction" id="appendix-playground-2"><div class="para" id="appendix-playground-2-1">This appendix provides you with some code cells in different programming languages, made possible by PreTeXt. By playing around with them, you can have a better understanding of the idea that <em class="emphasis">though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there</em>.</div> <div class="para" id="appendix-playground-2-2">A good way to do so is by looking up code examples. For instance, you can search for “javascript code examples” on Google.</div></section><section class="subsection" id="subsec-python-play"><h3 class="heading hide-type">
+<section class="introduction" id="appendix-playground-2"><div class="para" id="appendix-playground-2-1">This appendix provides you with some code cells in different programming languages, made possible by PreTeXt. By playing around with them, you can have a better understanding of the idea that “though their syntax might be slightly, or hugely, dissimilar, the fundamental concepts are always there”.</div> <div class="para" id="appendix-playground-2-2">A fun way to try a language out is by looking up its code examples. For instance, you can search for “python code examples” on Google. Nowadays most programming sites have their own coding environments, so you can just use theirs, or you can copy-paste and run the examples here.</div></section><section class="subsection" id="subsec-python-play"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">A.1</span><span class="space"> </span><span class="title">Python</span>
 </h3>
 <div class="para" id="subsec-python-play-2">Python is one of the most popular modern programming languages right now. It’s high-level and multi-purpose.</div>
-<pre id="subsec-python-play-3" class="ptx-sagecell sagecell-python"><script type="text/x-sage"># This is a Python cell
+<div class="para" id="subsec-python-play-3"> <a class="external" href="https://www.google.com/search?q=Python+code+examples" target="_blank">Search for Python code examples.</a><details class="ptx-footnote" aria-live="polite" id="subsec-python-play-3-3"><summary class="ptx-footnote__number" title="Footnote A.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="subsec-python-play-3-3"><code class="code-inline tex2jax_ignore">google.com/search?q=Python+code+examples</code></div></details>
+</div>
+<pre id="subsec-python-play-4" class="ptx-sagecell sagecell-python"><script type="text/x-sage"># This is a Python cell
 # Write and run your Python code here
 
 print("Hello world!")
 </script></pre>
-<div class="para" id="subsec-python-play-4">Below is a more complex Python environment. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a “CodeLens” button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).</div>
+<div class="para" id="subsec-python-play-5">Below is a more complex Python environment. The slider allows you to work on code through repeated edit-compile-test cycles. There is also a “CodeLens” button, which activates a steppable program similar to a debugger, meaning you can watch output, variables, and other data change line by line (or statement by statement).</div>
 <div class="ptx-runestone-container"><div class="runestone explainer ac_section "><div data-component="activecode" id=""><textarea data-lang="python" data-timelimit="25000" data-audio="" data-coach="true" style="visibility: hidden;" id="_editor" data-question_label="" data-codelens="true"># This is a Python cell
 # Write and run your Python code here
 
 print("Hello world!")
+</textarea></div></div></div>
+<div class="para logical" id="subsec-python-play-7">
+<pre class="code-display tex2jax_ignore">
+      </pre>
+<div class="para">Actually, this version has another advantage. It accepts user input, as opposed to the simpler version.</div>
+</div>
+<div class="ptx-runestone-container"><div class="runestone explainer ac_section "><div data-component="activecode" id=""><textarea data-lang="python" data-timelimit="25000" data-audio="" data-coach="true" style="visibility: hidden;" id="_editor" data-question_label="" data-codelens="true"># This is a Python cell
+# Write and run your Python code here
+
+s = input("Your input:")
+print(s)
 </textarea></div></div></div></section><section class="subsection" id="subsec-javascript-play"><h3 class="heading hide-type">
 <span class="type">Subsection</span><span class="space"> </span><span class="codenumber">A.2</span><span class="space"> </span><span class="title">Javascript</span>
 </h3>
-<div class="para" id="subsec-javascript-play-2">Virtually every modern web page has Javascript running under the hood.</div>
+<div class="para" id="subsec-javascript-play-2">Virtually every modern web page has Javascript running under the hood. Its main use case is to provide interactivity to websites.</div>
+<div class="para" id="subsec-javascript-play-3"> <a class="external" href="https://www.google.com/search?q=Javascript+code+examples" target="_blank">Search for Javascript code examples.</a><details class="ptx-footnote" aria-live="polite" id="subsec-javascript-play-3-3"><summary class="ptx-footnote__number" title="Footnote A.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="subsec-javascript-play-3-3"><code class="code-inline tex2jax_ignore">google.com/search?q=Javascript+code+examples</code></div></details>
+</div>
 <div class="ptx-runestone-container"><div class="runestone explainer ac_section "><div data-component="activecode" id=""><textarea data-lang="javascript" data-timelimit="25000" data-audio="" data-coach="true" style="visibility: hidden;" id="_editor" data-question_label="" data-codelens="false">// This is a Javascript cell
 // Write and run your Javascript code here
 
 alert("Hello world!");
 </textarea></div></div></div>
-<article class="note remark-like" id="subsec-javascript-play-4"><h4 class="heading">
+<article class="note remark-like" id="subsec-javascript-play-5"><h4 class="heading">
 <span class="type">Note</span><span class="space"> </span><span class="codenumber">A.1</span><span class="period">.</span>
 </h4>
-<div class="para" id="subsec-javascript-play-4-1">Output of Javascript code might not appear right below. To see them, open the “Element Inspect” panel by right-clicking on the page and select “Inspect”. Then, go to the “Console” tab. Run the code and you should see the output appear there.</div></article></section><section class="subsection" id="subsec-sage-play"><h3 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">A.3</span><span class="space"> </span><span class="title">Sage</span>
+<div class="para" id="subsec-javascript-play-5-1">Output of Javascript code might not appear right below. Instead, open the “Element Inspect” panel by right-clicking on the page and select “Inspect”. Then, go to the “Console” tab. Run the code and you should see the output appear there.</div></article></section><section class="subsection" id="subsec-html-play"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">A.3</span><span class="space"> </span><span class="title">HTML</span>
+</h3>
+<div class="para" id="subsec-html-play-2">Technically speaking, HTML (HyperText Markup Language) is <em class="emphasis">not</em> a programming language, but instead a <dfn class="terminology">markup language</dfn>. However, playing around with HTML, or other markup languages, can be very beneficial, especially for beginners. (P.S. This article is authored in PreTeXt, a markup language.)</div>
+<aside class="aside aside-like" id="subsec-html-play-3"><h4 class="heading"><span class="title">Topic(s) you might be interested in.</span></h4>
+<div class="para" id="subsec-html-play-3-2"> <a class="external" href="https://www.google.com/search?q=what+is+a+markup+language" target="_blank">"what is a markup language"</a><details class="ptx-footnote" aria-live="polite" id="subsec-html-play-3-2-3"><summary class="ptx-footnote__number" title="Footnote A.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="subsec-html-play-3-2-3"><code class="code-inline tex2jax_ignore">google.com/search?q=what+is+a+markup+language</code></div></details>
+</div></aside><div class="para" id="subsec-html-play-4"> <a class="external" href="https://www.google.com/search?q=html+code+examples" target="_blank">Search for HTML code examples.</a><details class="ptx-footnote" aria-live="polite" id="subsec-html-play-4-3"><summary class="ptx-footnote__number" title="Footnote A.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="subsec-html-play-4-3"><code class="code-inline tex2jax_ignore">google.com/search?q=html+code+examples</code></div></details>
+</div>
+<pre id="subsec-html-play-5" class="ptx-sagecell sagecell-html"><script type="text/x-sage"><!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+</body>
+</html>
+</script></pre></section><section class="subsection" id="subsec-sage-play"><h3 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">A.4</span><span class="space"> </span><span class="title">Sage</span>
 </h3>
 <div class="para" id="subsec-sage-play-2">Sage is part of SageMath, an open-source mathematics software system. It’s based on Python, so their syntax is mostly similar.</div>
-<pre id="subsec-sage-play-3" class="ptx-sagecell sagecell-sage"><script type="text/x-sage"># This is a Sage cell
+<div class="para" id="subsec-sage-play-3"> <a class="external" href="https://www.google.com/search?q=SageMath+code+examples" target="_blank">Search for SageMath code examples.</a><details class="ptx-footnote" aria-live="polite" id="subsec-sage-play-3-3"><summary class="ptx-footnote__number" title="Footnote A.5"><sup> 5 </sup></summary><div class="ptx-footnote__contents" id="subsec-sage-play-3-3"><code class="code-inline tex2jax_ignore">google.com/search?q=SageMath+code+examples</code></div></details>
+</div>
+<pre id="subsec-sage-play-4" class="ptx-sagecell sagecell-sage"><script type="text/x-sage"># This is a Sage cell
 # Write and run your Sage code here
 
-show("Hello world!")
+show(sqrt(2))
 </script></pre></section></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="backmatter.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="appendix-whats-next.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
