@@ -53,6 +53,22 @@ See the file COPYING for copying conditions.
         print("Hello world!")
       </input>
     </program>
+
+    <p>
+      <cd>
+      </cd>
+      Thật ra, phiên bản này còn có một lợi ích nữa. Nó chấp nhận user input, không như phiên bản đơn giản hơn.
+    </p>
+
+    <program language="python" interactive="activecode">
+      <input>
+        # This is a Python cell
+        # Write and run your Python code here
+
+        s = input("Your input:")
+        print(s)
+      </input>
+    </program>
     
   </subsection>
 

@@ -121,6 +121,10 @@ See the file COPYING for copying conditions.
     Môi trường này chạy tương tự, nhưng nó bổ sung thêm hai chức năng. Thanh kéo cho phép bạn làm việc với các phiên bản khác nhau của code qua những lần chỉnh sửa. Và nút <q>CodeLens</q> kích hoạt một phần mềm cho phép bạn chạy code từng bước một, giúp bạn theo dõi các dữ liệu thay đổi.
   </p>
 
+  <p>
+    Thật ra, nó còn một lợi ích nhỏ nữa. Tham khảo <xref ref="appendix-playground" text="title"/> nếu bạn có hứng thú.
+  </p>
+
   <insight>
     <idx><h>Chia sẻ</h><h>chọn môi trường lập trình</h></idx>
     <p>

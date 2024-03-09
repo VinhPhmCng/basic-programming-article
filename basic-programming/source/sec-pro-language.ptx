@@ -199,7 +199,7 @@ See the file COPYING for copying conditions.
   </aside>
 
   <p>
-    Thiết kế của một ngôn ngữ phụ thuộc vào mục đích của nó. Ví dụ như Guido van Rossum, ông đã ưu tiên sự dễ hiểu và dễ sử dụng khi ông tạo ra Python. Vì vậy, cú pháp của nó giúp lập trình viên viết code một cách sáng suốt.
+    Thiết kế của một ngôn ngữ phụ thuộc vào <term>mục đích</term> của nó. Ví dụ như Guido van Rossum, ông đã ưu tiên sự dễ hiểu và dễ sử dụng khi ông tạo ra Python. Vì vậy, cú pháp của nó giúp lập trình viên viết code một cách sáng suốt.
   </p>
 
   <insight xml:id="insight-choose-pro-language">
