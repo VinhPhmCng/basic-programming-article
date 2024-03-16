@@ -18,23 +18,13 @@ See the file COPYING for copying conditions.
   </objectives>
 
   <introduction>
-    <p>
-      <cd>
-      </cd>
-    </p>
-
-    <exploration>
-      <title>Basic Programming <mdash /> Part 12: My Experiences</title>
+    <figure>
+      <caption>Basic Programming <mdash /> Part 12: My Experiences</caption>
       <idx><h>Videos</h><h>part 12</h></idx>
     
-      <video youtube="iMXToAm9a0c"/>
+      <video youtube="iMXToAm9a0c" label="sec-personal-experience-3-2-3"/>
       
-    </exploration>
-
-    <p>
-      <cd>
-      </cd>
-    </p>
+    </figure>
 
     <p>
       Coming up are some of the many lessons I've learned throughout my journey as a programmer. Before we start, I'd like to have some words with you.

@@ -202,17 +202,12 @@ See the file COPYING for copying conditions.
     </p>
   </note>
 
-  <p>
-    <cd>
-    </cd>
-  </p>
-
-  <exploration>
-    <title>Basic Programming <mdash /> Part 2: Our Programming Environment</title>
+  <figure>
+    <caption>Basic Programming <mdash /> Part 2: Our Programming Environment</caption>
     <idx><h>Videos</h><h>part 02</h></idx>
     
-    <video youtube="iMXToAm9a0c"/>
+    <video youtube="iMXToAm9a0c" label="sec-pro-environment-29-3"/>
       
-  </exploration>
+  </figure>
 
 </section>

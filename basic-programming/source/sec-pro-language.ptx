@@ -243,17 +243,12 @@ See the file COPYING for copying conditions.
     </p>
   </insight>
 
-  <p>
-    <cd>
-    </cd>
-  </p>
-
-  <exploration>
-    <title>Basic Programming <mdash /> Part 3: Programming Languages</title>
+  <figure>
+    <caption>Basic Programming <mdash /> Part 3: Programming Languages</caption>
     <idx><h>Videos</h><h>part 03</h></idx>
     
-    <video youtube="iMXToAm9a0c"/>
+    <video youtube="iMXToAm9a0c" label="sec-pro-language-29-3"/>
       
-  </exploration>
+  </figure>
 
 </section>

@@ -278,17 +278,12 @@ See the file COPYING for copying conditions.
     </p>
   </investigation>
 
-  <p>
-    <cd>
-    </cd>
-  </p>
-
-  <exploration>
-    <title>Basic Programming <mdash /> Part 10: Functions</title>
+  <figure>
+    <caption>Basic Programming <mdash /> Part 10: Functions</caption>
     <idx><h>Videos</h><h>part 10</h></idx>
   
-    <video youtube="iMXToAm9a0c"/>
+    <video youtube="iMXToAm9a0c" label="sec-function-37-3"/>
     
-  </exploration>
+  </figure>
 
 </section>

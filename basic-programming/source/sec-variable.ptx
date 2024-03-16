@@ -203,17 +203,12 @@ See the file COPYING for copying conditions.
     </p>
   </note>
 
-  <p>
-    <cd>
-    </cd>
-  </p>
-
-  <exploration>
-    <title>Basic Programming <mdash /> Part 5: Variables</title>
+  <figure>
+    <caption>Basic Programming <mdash /> Part 5: Variables</caption>
     <idx><h>Videos</h><h>part 05</h></idx>
     
-    <video youtube="iMXToAm9a0c"/>
+    <video youtube="iMXToAm9a0c" label="sec-variable-14-3"/>
       
-  </exploration>
+  </figure>
 
 </section>

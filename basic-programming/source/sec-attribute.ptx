@@ -128,17 +128,12 @@ See the file COPYING for copying conditions.
     </p>
   </investigation>
   
-  <p>
-    <cd>
-    </cd>
-  </p>
-
-  <exploration>
-    <title>Basic Programming <mdash /> Part 9: Attributes</title>
+  <figure>
+    <caption>Basic Programming <mdash /> Part 9: Attributes</caption>
     <idx><h>Videos</h><h>part 09</h></idx>
   
-    <video youtube="iMXToAm9a0c"/>
+    <video youtube="iMXToAm9a0c" label="sec-attribute-15-3" />
     
-  </exploration>
+  </figure>
 
 </section>
