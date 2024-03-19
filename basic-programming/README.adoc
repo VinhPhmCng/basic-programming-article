@@ -1,26 +1,30 @@
-= Basic Programming: For complete beginners
+= Lập Trình Cơ Bản: Cho Người Mới Bắt Đầu
 Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
 :toc: auto
+:toc-title: Mục Lục
 :hide-uri-scheme:
 
-== About the Project
+== Thông tin Dự án ✨
 
-An article produced with the amazing authoring system https://pretextbook.org/index.html[PreTeXt].
+Article được viết với hệ thống soạn thảo https://pretextbook.org/index.html[PreTeXt].
 
-Introduces you to fundamentals concepts of programming without going into all the details.
-
-
-=== Current deployment: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
+Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trình mà không đi sâu vào chi tiết.
 
 
-=== Youtube series:
+=== Ngôn ngữ khả dụng
 
-Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article/[Here]
+.Ấn để mở rộng
+[%collapsible]
+====
+* Tiếng Việt
+* https://github.com/VinhPhmCng/basic-programming-article[English]
+====
 
 
-== Tools and resources used for videos
+=== Triển khai hiện tại: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
 
-(Under development)
+
+== Công cụ và tài nguyên để làm video 🔨
 
 . Video editing 🎞️
 * https://kdenlive.org/en/[Kdenlive]
@@ -30,17 +34,86 @@ Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article
 * https://motioncanvas.io/[Motion Canvas]
 
 . Media 👀
-
+* https://playground.com/[Playground]
+* https://giphy.com/[Giphy]
+* https://getyarn.io/[Yarn]
+* https://unsplash.com/[Unsplash]
+* https://pexels.com/[Pexels]
+* https://devicon.dev/[Devicon]
+* https://fontawesome.com/[Fontawesome]
+* https://www.bensound.com/[Bensound]
+* https://pixabay.com/[Pixabay]
 
 . Voice-overs 🎤
 * https://elevenlabs.io/[ElevenLabs]
 
 
-== Contribute
+== Đóng góp 🤝
 
-The project is currently not open to PR.
+NOTE: Mục này sẽ không được dịch sang Tiếng Việt.
+
+=== Install PreTeXt
+
+Using https://pypi.org/[pip]:
+
+[source]
+----
+pip install pretext
+----
+
+=== Install a TeX distribution
+
+I prefer https://miktex.org/download[MiKTeX] over https://www.tug.org/texlive/[TeX Live] and other options.
+
+If you use MiKTeX, when you first build a PreTeXt project, it will ask for permission to install the requisite packages.
+
+=== Use VSCode and PreTeXt-tools (Optional)
+
+https://marketplace.visualstudio.com/items?itemName=oscarlevin.pretext-tools[PreTeXt-tools] is an official extension for VSCode, which offers language support and more for PreTeXt projects.
+
+=== Clone the repo
+
+Navigate to a suitable directory and clone the repository:
+
+[source]
+----
+git clone https://github.com/VinhPhmCng/basic-programming-article.git
+----
+
+=== Edit the source files
+
+They are located in link:basic-programming/source/[basic-programming/source/].
+
+=== Build and view the project locally
+
+* Build HTML:
+
+[source]
+----
+pretext build web
+----
+
+OR
+
+[source]
+----
+python -m pretext build web
+----
+
+* View HTML:
+
+[source]
+----
+pretext view web
+----
+
+=== More details
+
+https://pretextbook.org/documentation.html[PreTeXt's official documentation]
+
+https://pretextbook.org/doc/quickref/quickref-cli.pdf[PreTeXt-CLI quick reference]
 
 
-== License
+== License 🔑
 
 link:COPYING[GNU Free Documentation License] © VPC
