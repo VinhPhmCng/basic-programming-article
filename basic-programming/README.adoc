@@ -3,24 +3,27 @@ Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
 :toc: auto
 :hide-uri-scheme:
 
-== About the Project
+== About the Project ✨
 
 An article produced with the amazing authoring system https://pretextbook.org/index.html[PreTeXt].
 
 Introduces you to fundamentals concepts of programming without going into all the details.
 
 
+=== Available languages
+
+.Click to expand
+[%collapsible]
+====
+* English
+* https://github.com/VinhPhmCng/lap-trinh-co-ban-article[Tiếng Việt]
+====
+
+
 === Current deployment: https://vinhphmcng.github.io/basic-programming-article/[Github Pages]
 
 
-=== Youtube series:
-
-Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article/[Here]
-
-
-== Tools and resources used for videos
-
-(Under development)
+== Tools and resources used for videos 🔨
 
 . Video editing 🎞️
 * https://kdenlive.org/en/[Kdenlive]
@@ -30,17 +33,84 @@ Also adapted into videos: https://vinhphmcng.github.io/basic-programming-article
 * https://motioncanvas.io/[Motion Canvas]
 
 . Media 👀
-
+* https://playground.com/[Playground]
+* https://giphy.com/[Giphy]
+* https://getyarn.io/[Yarn]
+* https://unsplash.com/[Unsplash]
+* https://pexels.com/[Pexels]
+* https://devicon.dev/[Devicon]
+* https://fontawesome.com/[Fontawesome]
+* https://www.bensound.com/[Bensound]
+* https://pixabay.com/[Pixabay]
 
 . Voice-overs 🎤
 * https://elevenlabs.io/[ElevenLabs]
 
 
-== Contribute
+== Contribute 🤝
 
-The project is currently not open to PR.
+=== Install PreTeXt
+
+Using https://pypi.org/[pip]:
+
+[source]
+----
+pip install pretext
+----
+
+=== Install a TeX distribution
+
+I prefer https://miktex.org/download[MiKTeX] over https://www.tug.org/texlive/[TeX Live] and other options.
+
+If you use MiKTeX, when you first build a PreTeXt project, it will ask for permission to install the requisite packages.
+
+=== Use VSCode and PreTeXt-tools (Optional)
+
+https://marketplace.visualstudio.com/items?itemName=oscarlevin.pretext-tools[PreTeXt-tools] is an official extension for VSCode, which offers language support and more for PreTeXt projects.
+
+=== Clone the repo
+
+Navigate to a suitable directory and clone the repository:
+
+[source]
+----
+git clone https://github.com/VinhPhmCng/basic-programming-article.git
+----
+
+=== Edit the source files
+
+They are located in link:basic-programming/source/[basic-programming/source/].
+
+=== Build and view the project locally
+
+* Build HTML:
+
+[source]
+----
+pretext build web
+----
+
+OR
+
+[source]
+----
+python -m pretext build web
+----
+
+* View HTML:
+
+[source]
+----
+pretext view web
+----
+
+=== More details
+
+https://pretextbook.org/documentation.html[PreTeXt's official documentation]
+
+https://pretextbook.org/doc/quickref/quickref-cli.pdf[PreTeXt-CLI quick reference]
 
 
-== License
+== License 🔑
 
 link:COPYING[GNU Free Documentation License] © VPC
