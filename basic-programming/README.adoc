@@ -37,6 +37,8 @@ Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trìn
 * https://playground.com/[Playground]
 * https://giphy.com/[Giphy]
 * https://getyarn.io/[Yarn]
+* https://unsplash.com/[Unsplash]
+* https://pexels.com/[Pexels]
 * https://devicon.dev/[Devicon]
 * https://fontawesome.com/[Fontawesome]
 * https://www.bensound.com/[Bensound]
@@ -48,7 +50,68 @@ Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trìn
 
 == Đóng góp 🤝
 
-The project is currently not open to PR.
+NOTE: Mục này sẽ không được dịch sang Tiếng Việt.
+
+=== Install PreTeXt
+
+Using https://pypi.org/[pip]:
+
+[source]
+----
+pip install pretext
+----
+
+=== Install a TeX distribution
+
+I prefer https://miktex.org/download[MiKTeX] over https://www.tug.org/texlive/[TeX Live] and other options.
+
+If you use MiKTeX, when you first build a PreTeXt project, it will ask for permission to install the requisite packages.
+
+=== Use VSCode and PreTeXt-tools (Optional)
+
+https://marketplace.visualstudio.com/items?itemName=oscarlevin.pretext-tools[PreTeXt-tools] is an official extension for VSCode, which offers language support and more for PreTeXt projects.
+
+=== Clone the repo
+
+Navigate to a suitable directory and clone the repository:
+
+[source]
+----
+git clone https://github.com/VinhPhmCng/basic-programming-article.git
+----
+
+=== Edit the source files
+
+They are located in link:basic-programming/source/[basic-programming/source/].
+
+=== Build and view the project locally
+
+* Build HTML:
+
+[source]
+----
+pretext build web
+----
+
+OR
+
+[source]
+----
+python -m pretext build web
+----
+
+* View HTML:
+
+[source]
+----
+pretext view web
+----
+
+=== More details
+
+https://pretextbook.org/documentation.html[PreTeXt's official documentation]
+
+https://pretextbook.org/doc/quickref/quickref-cli.pdf[PreTeXt-CLI quick reference]
 
 
 == License 🔑
