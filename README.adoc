@@ -46,6 +46,9 @@ Introduces you to fundamentals concepts of programming without going into all th
 . Voice-overs 🎤
 * https://elevenlabs.io/[ElevenLabs]
 
+. Subtitles generation 🌎
+* https://streamlabs.com/podcast-editor[Streamlabs Podcast Editor]
+
 
 == Contribute 🤝
 
