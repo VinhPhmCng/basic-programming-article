@@ -26,10 +26,10 @@ Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trìn
 
 == Công cụ và tài nguyên để làm video 🔨
 
-. Video editing 🎞️
+. Edit video 🎞️
 * https://kdenlive.org/en/[Kdenlive]
 
-. Animation ✨
+. Hoạt hình ✨
 * https://www.manim.community/[Manim CE]
 * https://motioncanvas.io/[Motion Canvas]
 
@@ -44,8 +44,11 @@ Giới thiệu cho bạn những khái niệm cơ bản nhất của lập trìn
 * https://www.bensound.com/[Bensound]
 * https://pixabay.com/[Pixabay]
 
-. Voice-overs 🎤
+. Thuyết minh 🎤
 * https://elevenlabs.io/[ElevenLabs]
+
+. Tạo phụ đề 🌎
+* https://streamlabs.com/podcast-editor[Streamlabs Podcast Editor]
 
 
 == Đóng góp 🤝
