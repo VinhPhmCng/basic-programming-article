@@ -358,7 +358,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "4",
   "title": "Comments",
-  "body": " Comments    Learn to recognize and use comments in code.    When coding, sometimes you want to write plain text instead of code. It can be notes, explanations for algorithms, or your stream of thoughts at that moment, As the code expands and gets more complicated, these comments provide you with sufficient context.   Definitions of comments    Comments are pieces of plain text that will not be executed.  To write a comment in Python, use the number sign (hash) # . What follows it (on the same line) will be regarded as plain text by the compiler.     Topic(s) you might be interested in:      Links different comment syntax  \"comments in different programming languages\"      Links multiline comments  \"multiline comments\"        Insights disabling code  Comments are also used to temporarily disable lines of code.   For example:    Try It Out  Try removing the # in line 5 and re-run the code.    This is code More code    Code examples comments   Line 1 is a comment used to leave notes.  Lines 3 and 7 are normal code.  Line 5 is a comment used to disable code.        Basic Programming Part 4: Comments  Videos part 04  Coming soon.    "
+  "body": " Comments    Learn to recognize and use comments in code.    When coding, sometimes you want to write plain text instead of code. It can be notes, explanations for algorithms, or your stream of thoughts at that moment, As the code expands and gets more complicated, these comments provide you with sufficient context.   Definitions of comments    Comments are pieces of plain text that will not be executed.  To write a comment in Python, use the number sign (hash) # . What follows it (on the same line) will be regarded as plain text by the compiler.     Topic(s) you might be interested in:      Links different comment syntax  \"comments in different programming languages\"      Links multiline comments  \"multiline comments\"        Insights disabling code  Comments are also used to temporarily disable lines of code.   For example:    Try It Out  Try removing the # in line 5 and re-run the code.    This is code More code    Code examples comments   Line 1 is a comment used to leave notes.  Lines 3 and 7 are normal code.  Line 5 is a comment used to disable code.        Basic Programming Part 4: Comments  Videos part 04    "
 },
 {
   "id": "sec-comment-2",
@@ -421,7 +421,7 @@ var ptx_lunr_docs = [
   "type": "Video",
   "number": "4.2",
   "title": "Basic Programming — Part 4: Comments.",
-  "body": " Basic Programming Part 4: Comments  Videos part 04  Coming soon.   "
+  "body": " Basic Programming Part 4: Comments  Videos part 04   "
 },
 {
   "id": "sec-variable",
