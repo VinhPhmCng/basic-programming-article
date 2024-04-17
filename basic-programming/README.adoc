@@ -1,5 +1,5 @@
 = Lập Trình Cơ Bản: Cho Người Mới Bắt Đầu
-Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
+Devinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
 :toc: auto
 :toc-title: Mục Lục
 :hide-uri-scheme:
