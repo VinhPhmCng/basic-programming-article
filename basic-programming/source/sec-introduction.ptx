@@ -89,7 +89,20 @@ See the file COPYING for copying conditions.
     <p>
       <idx><h>Support</h><h>directly</h></idx>
       <idx><h>Links</h><h>contributing</h></idx>
-      Readers can make a free Github account and give feedback and suggestions directly. If you're a programmer and would like to support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details. (P.S. I'd really appreciate it if someone could improve my writing. It sucks ass.)
+      Readers can make a free Github account and give feedback and suggestions directly. Or, if you're not familiar with GitHub and its workflow, then you can use these Google Forms instead.
+
+      <ul>
+        <li>
+          <url href="https://forms.gle/8nunvk918W8TfAtAA" visual="forms.gle/8nunvk918W8TfAtAA">Suggestion Form</url>
+        </li>
+        <li>
+          <url href="https://forms.gle/EsiFz1yGpwsF8KKZ7" visual="forms.gle/EsiFz1yGpwsF8KKZ7">Feedback Form (once per email)</url>
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      If you're a programmer and would like to, for example, support your community by translating this article into your language, then that's possible as well. Refer to <url href="https://github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute" visual="github.com/VinhPhmCng/basic-programming-article?tab=readme-ov-file#contribute">Contributing</url> for more details. (P.S. I'd really appreciate it if someone could improve my writing. It sucks ass.)
     </p>
 
     <p>
@@ -110,7 +123,7 @@ See the file COPYING for copying conditions.
     </p>
 
     <p>
-      OK then, let's gooo!
+      OK then, let's get started, shall we?
     </p>
   </subsection>
 
