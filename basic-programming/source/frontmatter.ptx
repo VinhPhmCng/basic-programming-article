@@ -10,7 +10,7 @@ See the file COPYING for copying conditions.
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>Phạm Công Vinh</personname>
+      <personname>Devinh</personname>
       <department>github.com/VinhPhmCng</department>
 <!--       <institution>Your institution</institution> -->
       <email>vinhpcdev@gmail.com</email>

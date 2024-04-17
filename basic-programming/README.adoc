@@ -1,5 +1,5 @@
 = Basic Programming: For complete beginners
-Phạm Công Vinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
+Devinh <https://github.com/VinhPhmCng[@VinhPhmCng]>
 :toc: auto
 :hide-uri-scheme:
 
